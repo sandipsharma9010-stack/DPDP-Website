@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Terms & Conditions | DPDP Consultants</title>
+    <meta name="description"
+        content="Read terms for DPDP Consultants site, products and services including privacy, acceptable use and legal compliance.">
+    <meta name="keywords"
+        content="Digital Personal Data Protection consultants, DPDP Act compliance, online privacy compliance tools, consent management platform, data privacy consulting, risk assessment tools, compliance management solutions">
+    <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+    <?php include_once('cookie_consent.php'); ?>
+    <?php include_once('nav.php'); ?>
+    <section>
+        <div class="text-center my-5">
+            <h2>Terms & Conditions for DPDP Act Foundation Course </h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>By accessing or using any of the online platforms operated by DPDP Consultants including but not
+                        limited to our website, mobile applications, social media channels, or any other digital
+                        services provided by DPDP Consultants (collectively referred to as the “Platforms”), you
+                        acknowledge and agree to be bound by these Terms of Use. We encourage you to read these Terms of
+                        Use carefully, along with our Privacy Policy. If you do not agree with these Terms of Use or the
+                        Privacy Policy, please refrain from using our Platforms. </p>
+                    <p>Subject to these Terms of Use, DPDP Consultants grants you a limited, non-exclusive,
+                        non-transferable right to access and make personal, non-commercial use of its Platforms. These
+                        Terms of Use constitute an electronic contract between DPDP Consultants, a company incorporated
+                        in India with its registered office at Privacyium Tech, GM IT Park, 4th Floor, Plot No. 32–33,
+                        Sector 142, Noida – 201305, Uttar Pradesh, and you, the user of the Platforms (hereinafter
+                        referred to as “you” or “your”). </p>
+                    <p>DPDP Consultants reserves the right to modify or update these Terms of Use at its sole discretion
+                        by posting the revised version on the Platforms. Your continued use of the Platforms following
+                        any such changes signifies your acceptance of the updated Terms. It is your responsibility to
+                        review the Terms of Use periodically to stay informed of any updates. </p>
+                    <p>DPDP Consultants reserves the right to modify or update these Terms of Use at its sole discretion
+                        by posting the revised version on the Platforms. Your continued use of the Platforms following
+                        any such changes signifies your acceptance of the updated Terms. It is your responsibility to
+                        review the Terms of Use periodically to stay informed of any updates. </p>
+                    <p>1. Fees and Subscription Terms </p>
+                    <ul>
+                        <li>DPDP Consultants reserves the right to introduce or revise fees for access to any part of
+                            its Platforms or services at its sole discretion. Currently, access to the DPDP Act
+                            Foundation Course is available upon payment of a one-time Enrollment Fee of ₹1599 (Indian
+                            Rupees One Thousand Five Hundred Ninety-Nine only) exclusive of all taxes. This fee is
+                            non-refundable, regardless of course progress, completion, or user withdrawal. </li>
+                        <li>By enrolling on the course, you agree to pay the Enrollment Fee as specified at the time of
+                            registration. No additional charges are applicable during the subscription period, unless
+                            there is a change in applicable taxes as per prevailing laws. </li>
+                        <li>Payment of the Enrollment Fee can be made through the payment methods listed on our
+                            Platforms. Please note that payment alone does not confirm your enrollment. DPDP Consultants
+                            reserves the right to decline or cancel any enrollment request at its discretion, without
+                            assigning any reason. In such cases, the Enrollment Fee will be refunded in full, without
+                            any interest. </li>
+                        <li>DPDP Consultants also reserves the right to revise the fee structure or payment terms at any
+                            time. Any such changes will be communicated clearly on the Platforms. </li>
+
+                    </ul>
+                    <p>2. Account Registration and Security </p>
+                    <ul>
+                        <li>To access the DPDP Act Foundation Course, you may be required to create an account as part
+                            of the registration process. During this process, you will be asked to provide certain
+                            information and create login credentials by setting a password and supplying a valid email
+                            address, or by linking to</li>
+                        <li>an existing third-party account (such as Google or Facebook). </li>
+                        <li>By registering, you warrant that all information provided by you is true, accurate, current,
+                            and complete. You also agree to promptly update any changes to this information to ensure
+                            its continued accuracy. </li>
+                        <li>Unless explicitly permitted by DPDP Consultants, each registration is intended for
+                            individual use only. Sharing your login credentials or account access with others is
+                            strictly prohibited. Doing so may result in the immediate suspension or termination of your
+                            account, without any refund of the non-refundable Enrollment Fee. </li>
+                        <li>You are solely responsible for maintaining the confidentiality of your account and password.
+                            You must not use another person's login credentials without proper authorization. Any
+                            unauthorized access, suspected breach, or misuse of your account must be reported to DPDP
+                            Consultants immediately. </li>
+                    </ul>
+                    <p>3. Intellectual Property and Content Usage </p>
+                    <ol style="list-style-type: upper-roman;" class="c">
+                        <p>All content made available through the Platforms of DPDP Consultants including, but not
+                            limited to:</p>
+                        <li>our trademarks, service marks, logos, brand names, trade names, and other distinctive
+                            identifiers;</li>
+                        <li>information, text, data, course materials, documents, presentations, downloadable resources,
+                            videos, images, graphics, software, tools, and other multimedia content; and
+                        </li>
+                        <li>the overall design, layout, user interface, structure, coordination, and arrangement of the
+                            aforementioned content (collectively referred to as the “Content”) is the exclusive property
+                            of DPDP Consultants or its licensors and is protected under applicable Indian intellectual
+                            property laws, including copyright and trademark laws.<br>
+
+                            You are granted a limited, non-transferable, non-exclusive right to access and use the
+                            Content solely for your personal, non-commercial learning purposes in connection with the
+                            DPDP Act Foundation Course.
+
+                        </li>
+                    </ol>
+                    <ul>
+                        <p>You shall not, under any circumstances:</p>
+                        <li>Reproduce, modify, adapt, publish, republish, post, transmit, sell, distribute, perform,
+                            display (including via framing or inline linking), or otherwise exploit the Content in any
+                            form. </li>
+                        <li>Use the Content for commercial gain, training others, or creating derivative works. </li>
+                        <li>Share, transfer, or sublicense your access to the Content with others. </li>
+                        <li>Where certain Content consists of publicly available material (such as laws, rules, or
+                            regulations), you may download and retain copies strictly for personal reference, provided
+                            all copyright and proprietary notices remain intact. </li>
+                        <li>Unauthorized use of the Content may result in suspension or termination of your access
+                            without a refund and may also lead to legal action under applicable law. </li>
+                    </ul>
+                    <p>4. User Conduct and Responsibilities </p>
+                    <ul>
+                        <p>By accessing and using the Platforms of DPDP Consultants, you expressly agree to use them in
+                            a lawful and responsible manner. You warrant and undertake that you shall not: </p>
+                        <li>Violate any applicable local, state, or central laws or regulations while using the
+                            Platforms. </li>
+                        <li>Provide incomplete, inaccurate, false, or unauthorized information during registration or at
+                            any point of interaction with the Platforms. </li>
+                        <li>Impersonate any individual or entity, whether real or fictitious. </li>
+                        <li>Interfere with or disrupt the experience of other users or the normal functioning of the
+                            Platforms. </li>
+                        <li>Use the Platforms to engage in any activity that is unlawful, harmful, threatening, abusive,
+                            harassing, defamatory, obscene, vulgar, libelous, hateful, racially or ethnically offensive,
+                            or otherwise objectionable. </li>
+                        <li>Upload, post, or share any content that infringes upon the intellectual property rights or
+                            proprietary rights of any third party. </li>
+                        <li>Use the Platforms for advertising, promotional purposes, or to transmit unsolicited
+                            communications, including spam, bulk emails, or messages, unless explicitly permitted by
+                            DPDP Consultants. </li>
+                        <li>Upload, post, transmit, or otherwise make available any content or files that contain
+                            viruses, malicious code, or any other software or programs designed to disrupt, damage, or
+                            limit the functionality of any software, hardware, or telecommunications equipment. </li>
+                    </ul>
+                    <p>Any violation of the above terms may result in immediate suspension or termination of your access
+                        to the Course, without any refund, and may also lead to legal consequences under applicable
+                        laws. </p>
+                    <p>5. Disclaimer and Limitation of Liability </p>
+                    <ul>
+                        <li>The DPDP Act Foundation Course and all related content made available on the Platforms of
+                            DPDP Consultants are provided on an "as is" and "as available" basis for informational and
+                            educational purposes only. The content does not constitute legal or professional advice and
+                            should not be relied upon for making decisions of any kind. </li>
+                        <li>DPDP Consultants does not represent or guarantee the accuracy, reliability, or completeness
+                            of any opinion, advice, statement, or other information made available on the Platforms. You
+                            acknowledge and agree that any reliance you place on such content is at your own risk. </li>
+                        <li>The Platforms may contain links to external websites, resources, or third-party content
+                            ("Third-Party Content"). DPDP Consultants do not control, endorse, sponsor, or assume
+                            responsibility for any such Third-Party Content. We are not liable for the accuracy,
+                            legality, or content of any material submitted by users or accessible through external
+                            links. </li>
+                        <li>DPDP Consultants makes no express or implied warranties regarding the quality, availability,
+                            accuracy, or suitability of the course content or the overall user experience. </li>
+                        <li>DPDP Consultants will offer up to 100 internship opportunities to professionals enrolled in
+                            the course. These internships will be provided based on the discretion and availability of
+                            the DPDP Consultants. There is no fixed time for the commencement or duration of the
+                            internships. Selection criteria and timelines will be determined independently by DPDP
+                            Consultants and may vary accordingly.</li>
+                        <p>Without limiting the generality of the foregoing, we do not warrant that: </p>
+                        <li>The Platforms or course materials will be free from errors, interruptions, or security
+                            breaches. </li>
+                        <li>The course content will be up-to-date, accurate, or meet your expectations. </li>
+                        <li>Any issues with access or course delivery will be resolved without delay.</li>
+                        <li>All warranties, whether express or implied, but not limited to warranties of
+                            merchantability, fitness for a particular purpose, non-infringement, and uninterrupted
+                            service are hereby disclaimed to the maximum extent permitted by law. </li>
+                        <li>DPDP Consultants reserves the right to update, modify, remove, or discontinue any part of
+                            the course or its content at any time without prior notice. </li>
+                    </ul>
+                    <p>6. Communication and Privacy </p>
+                    <ul>
+                        <li>From time to time, DPDP Consultants may send you updates, course-related information, and
+                            promotional offers regarding our products and services, including the DPDP Act Foundation
+                            Course. </li>
+                        <li>For details on how we collect, use, and protect your personal data, please refer to our
+                            Privacy Policy, which forms an integral part of these Terms of Use. </li>
+                        <li>By using our Platform and submitting your personal information such as your name, email
+                            address, and phone number, you consent to our collection and use of this data for the
+                            purposes of registration, communication, and service delivery. </li>
+                        <li>You also expressly agree that DPDP Consultants may contact you via phone call, SMS, email,
+                            or WhatsApp to provide course updates, reminders, support, or promotional information. </li>
+                        <li>Please note that DPDP Consultants reserves the right to disclose personal information
+                            provided by you if required under applicable laws, or in compliance with any judicial,
+                            regulatory, governmental, or administrative request. </li>
+                        <li>We maintain a record of all electronic communications you send us to ensure appropriate
+                            follow-up and customer service. </li>
+                    </ul>
+                    <p>7. Termination of Access </p>
+                    <p>DPDP Consultants reserves the right, at its sole discretion, to suspend or terminate your access
+                        to the DPDP Act Foundation Course or any part of its Platforms at any time and for any reason,
+                        including but not limited to a breach of these Terms of Use. </p>
+                    <p>Such termination may occur without prior notice, and in such cases, you shall not be entitled to
+                        any refund </p>
+                    <p>8. Governing Law and Dispute Resolution </p>
+                    <p>This Agreement shall be governed by and interpreted in accordance with the laws of India, without
+                        regard to any conflict of law principles. </p>
+                    <p>In the event of any dispute or difference arising out of or in connection with these Terms of
+                        Use, including any question regarding its existence, validity, or termination, such dispute
+                        shall be resolved through arbitration in accordance with the provisions of the Arbitration and
+                        Conciliation Act, 1996, as amended or replaced from time to time. </p>
+                    <p>The arbitration shall be conducted by a sole arbitrator, appointed by DPDP Consultants. The seat
+                        and venue of arbitration shall be New Delhi, and the proceedings shall be conducted in English.
+                        The arbitral award shall be final and binding on the parties and shall be enforceable in
+                        accordance with applicable laws. </p>
+
+                    <p>9. Miscellaneous </p>
+                    <ul>
+                        <li>The failure of DPDP Consultants to enforce any provision of these Terms of Use or to act
+                            upon any breach by you shall not be construed as a waiver of its right to enforce such
+                            provisions later, nor shall it limit its rights in connection with similar breaches. </li>
+                        <li>Nothing contained in these Terms of Use shall be deemed to create any partnership, joint
+                            venture, or agency relationship between you and DPDP Consultants. </li>
+                        <li>If any provision of these Terms of Use is found to be invalid or unenforceable by a court,
+                            arbitrator, or applicable government regulation, such provision shall be deemed severable,
+                            and the remaining provisions shall remain in full force and effect. </li>
+                        <li>DPDP Consultants shall not be liable for any interruption, delay, or inability to access the
+                            Platform or the DPDP Act Foundation Course, regardless of the cause. </li>
+                        <li>We make no representation that the content or services offered through our Platforms are
+                            appropriate or available for use in locations outside India. If you access or use the
+                            Platform from outside India, you do so at your own risk and are solely responsible for
+                            compliance with applicable local laws. </li>
+                    </ul>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <?php
+    include('footer.php');
+    ?>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
