@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ Page</title>
+    <title>Get answers to your frequently asked questions on DPDP Act</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -15,61 +17,61 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <style>
-    body {
-        /* background-color: #ffffff; */
-    }
+        body {
+            /* background-color: #ffffff; */
+        }
 
-    .faq-header {
-        /* text-align: center; */
-        font-size: 32px;
-        font-weight: bold;
-        margin-bottom: 30px;
-        color: #02092C;
-    }
+        .faq-header {
+            /* text-align: center; */
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #02092C;
+        }
 
-    .accordion-item {
-        background-color: #02092C;
-        border-radius: 8px;
-        margin-bottom: 10px;
-        border: none;
-    }
+        .accordion-item {
+            background-color: #02092C;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border: none;
+        }
 
-    .accordion-button {
-        background-color: #fff;
-        color: #000;
-        font-weight: bold;
-        border-radius: 8px;
-        padding: 15px;
-    }
+        .accordion-button {
+            background-color: #fff;
+            color: #000;
+            font-weight: bold;
+            border-radius: 8px;
+            padding: 15px;
+        }
 
-    .accordion-button:not(.collapsed) {
-        background-color: #fff;
-        color: #000;
-        border-radius: 8px 8px 0 0;
-        box-shadow: none;
-    }
+        .accordion-button:not(.collapsed) {
+            background-color: #fff;
+            color: #000;
+            border-radius: 8px 8px 0 0;
+            box-shadow: none;
+        }
 
-    .accordion-body {
-        background-color: #fff;
-        color: #000;
-        padding: 20px;
-        border-radius: 0 0 8px 8px;
-    }
+        .accordion-body {
+            background-color: #fff;
+            color: #000;
+            padding: 20px;
+            border-radius: 0 0 8px 8px;
+        }
 
-    .accordion-button.collapsed {
-        background-color: #02092C;
-        color: #fff;
-    }
+        .accordion-button.collapsed {
+            background-color: #02092C;
+            color: #fff;
+        }
 
-    .accordion-item .accordion-header button {
-        width: 100%;
-        text-align: left;
-    }
+        .accordion-item .accordion-header button {
+            width: 100%;
+            text-align: left;
+        }
 
-    .accordion-item:first-child .accordion-button {
-        border: 1px solid #000;
-        font-weight: bold;
-    }
+        .accordion-item:first-child .accordion-button {
+            border: 1px solid #000;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -155,6 +157,24 @@
                     </div>
                 </div>
             </div>
+
+            <!-- <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                        How can I contact DPDP Consultants for expert guidance on data privacy?
+                    </button>
+                </h2>
+                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        You can connect with DPDP Consultants through multiple channels. Visit our office in Noida,
+                        Uttar Pradesh, call us at 0120-6930999, or email us at info@dpdpconsultants.com. Our team of
+                        experts is ready to assist you with your data privacy and compliance needs.
+
+                    </div>
+                </div>
+            </div> -->
+
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -266,6 +286,24 @@
                 </div>
             </div>
 
+            <!-- <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#faq13" aria-expanded="false" aria-controls="faq13">
+                        How does DPDP Consultants ensure data security in compliance projects?
+                    </button>
+                </h2>
+                <div id="faq13" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        DPDP Consultants employs a combination of advanced data security measures, robust risk
+                        assessment methodologies, and tailored compliance strategies to ensure your organization’s data
+                        remains secure. We integrate encryption practices, access control mechanisms, and regular audits
+                        to protect sensitive information in line with the DPDP Act 2023 and other privacy standards.
+
+                    </div>
+                </div>
+            </div> -->
+
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -340,7 +378,7 @@
             </div>
         </div>
     </div>
-    <?php include 'footer.php';?>
+    <?php include 'footer.php'; ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

@@ -505,7 +505,7 @@
                 <a href="contact.php" class="btn-custom">Get Compliant Today</a>
             </div>
             <div class="col-md-6 quote-container">
-                <p class="whoarewe-p">DPDP Consultants (A Privacyium Tech Pvt. Ltd. Company)<br>
+                <p class="whoarewe-p">
                     We understand that Data Protection and Data Privacy regulations can be complex and
                     time-consuming for
                     businesses. That’s why we empower our clients with the skills, tools, and knowledge needed to

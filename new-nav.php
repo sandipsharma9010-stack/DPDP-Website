@@ -230,7 +230,7 @@
 
             <!-- Desktop Nav -->
             <ul class="navbar-nav mx-auto d-none d-lg-flex">
-                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li> -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="about-us.php" role="button">About us
                     </a>
@@ -308,8 +308,10 @@
                         <li><a class="dropdown-item" href="dpdp-act-foundation-course.php">DPDP Act Foundation
                                 Course</a></li>
                 </li>
+                
             </ul>
             </li>
+             <li class="nav-item"><a class="nav-link" href="partner.php">Partner with us</a></li>
             </ul>
             <!-- Mobile Bottom Follow Us -->
             <div class="mobile-follow-bar">
@@ -408,6 +410,10 @@
                     <a href="career.php">Join our Team</a>
                     <a href="dpdp-act-foundation-course.php">DPDP Act Foundation Course</a></a>
                 </div>
+
+                <button class="mobile-menu-item" type="button">
+                    <a href="partner.php">Partner with us</a> <span class="toggle-icon">+</span>
+                </button>
 
 
             </div>

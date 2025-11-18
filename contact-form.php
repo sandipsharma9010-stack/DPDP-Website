@@ -112,7 +112,18 @@ if($_POST) {
     //print_r($_POST);
     //exit(0);
 
+    $response = '';
     include_once('contact-api-3.php');
+    //print_r($response);
+
+    $decodedArray = json_decode($response, true);
+    //print_r($decodedArray);
+    //exit(0);
+
+    $taken = $decodedArray['otp'];
+    //echo " --- $taken --- ";
+
+    //die();
 
     if($otp) {
 
@@ -154,10 +165,10 @@ if($_POST) {
 
             <div class="contact-box">
                 <h4>Contacts us</h4>
-                <p>DPDP Consultants (A Privacyium Tech Pvt. Ltd. Company)</p>
+                <p>DPDP Consultants (A Privacyium Tech Pvt. Ltd.)</p>
                 <p>Have a query? Feel free to contact our privacy experts</p>
                 <p>
-                    <img src="./assets/images/call-contact.png" alt="Phone" width="30" class="my-2"> 1800-5311-777<br>
+                    <img src="./assets/images/call-contact.png" alt="Phone" width="30" class="my-2"> 1800-5711-333<br>
                     <img src="./assets/images/email.png" alt="Email" width="20"> <a class="text-decoration-none"
                         href="mailto:info@dpdpconsultants.com">info@dpdpconsultants.com</a>
                 </p>
@@ -204,13 +215,13 @@ if($_POST) {
                 <h4><strong><?=$hdtext; ?></strong></h4>
                 <div class="row mt-3">
                     <div class="col-12 col-md-12 mb-3">
-                        <label for="name" class="form-label">Full Name</label>
-                        <input type="text" class="form-control" placeholder="Full Name" name="fullname" value="<?php echo $fullname; ?>" required />
+                        <label for="name" class="form-label">Enter Your Name</label>
+                        <input type="text" class="form-control" placeholder="Enter Your Name" name="fullname" value="<?php echo $fullname; ?>" required />
                     </div>
 
                     <div class="col-md-6 mb-3">
-                        <label for="phone" class="form-label">Contact.</label>
-                        <input type="text" maxlength="10" inputmode="numeric" pattern="\d{10}" class="form-control" placeholder="Contact" onchange="this.value=this.value.replace(/\D/g,'').slice(0,10)" name="phoneno" value="<?php echo $phoneno; ?>" required />
+                        <label for="phone" class="form-label">Enter your phone number</label>
+                        <input type="text" maxlength="10" class="form-control" placeholder="Enter your phone number" oninput="this.value=this.value.replace(/\D/g,'').slice(0,10)" name="phoneno" value="<?php echo $phoneno; ?>" required />
                     </div>
                 
                     <div class="col-md-6 mb-3">
@@ -224,7 +235,7 @@ if($_POST) {
 
                     <div class="col-12 mb-3 input-group">
                         <div class="col-12">
-                            <label for="contact_topic" class="form-label w-100">Select a Topic:</label>
+                            <label for="contact_topic" class="form-label w-100">Select the purpose of reaching out:</label>
                             <select id="contact_topic" name="contact_topic" class="form-control form-select">
                                 <option value="compliance_evaluation">Compliance Evaluation & Risk Assessment</option>
                                 <option value="policy_development">Assist in Policy Development</option>
@@ -247,8 +258,8 @@ if($_POST) {
 
                         <div class="col-12 mb-3 input-group">
                         <div class="col-12">
-                            <label for="message" class= form-label w-100">Your Message:</label>
-                            <textarea class="form-control" name="message" novalidate="" rows="8" style="height: 100px;"> <?php echo $message; ?> </textarea>
+                            <label for="message" class= form-label w-100">Enter your Message</label>
+                            <textarea class="form-control" name="message" placeholder="Enter your Message" novalidate="" rows="8" style="height: 100px;"> <?php echo $message; ?> </textarea>
                         </div>
                         
                     </div>
@@ -305,6 +316,10 @@ if($_POST) {
 
                     <?php if($_POST) { ?>
 
+<input type="hidden" id="taken" name="taken" value="<?php echo $taken; ?>" />
+<style>
+.invalid-border { border: 2px solid red !important; background-color: #ffe6e6; }
+</style>
 
                     <div class="col-12">
                         <div class="col-md-6 mb-3">
@@ -312,6 +327,7 @@ if($_POST) {
                             <input type="text" class="form-control" placeholder="OTP" name="otp" id="totp"
                                 style="border: 2px solid #2196F3;background-color: #E3F2FD;transition: 0.3s;"
                                 value="<?php echo $totp; ?>" maxlength="6" required />
+                                <span id="otperror" style="color: red; display: none;">Invalid OTP</span>
                         </div>
 
                         <div class="captcha-wrapper my-3">
@@ -368,15 +384,16 @@ if($_POST) {
     $('#submitFormBtn').click(function() {
 
         $('#submitbtn').click();
+        $('#submitFormBtn').prop("disabled", true);
 
         if (!recaptchaValid) {
             //alert("Please complete the reCAPTCHA verification.");
             return false;
         }
 
-        $('#submitbtn').click();
     });
 
+/* 
     $(document).ready(function() {
         var selectedLanguage = $("#languageSelect").val();
         $('#hiddenLanguage').val(selectedLanguage);
@@ -395,6 +412,64 @@ if($_POST) {
 
                 $("#consentModal").modal("show");
 
+            }
+
+        });
+
+    });
+ */
+
+    $(document).ready(function() {
+        var selectedLanguage = $("#languageSelect").val();
+        $('#hiddenLanguage').val(selectedLanguage);
+
+        $('#languageSelect').on('change', function() {
+            var selectedLanguage = $(this).val();
+            $('#hiddenLanguage').val(selectedLanguage);
+        });
+
+        $('#btnproceed').click(function() {
+
+            // document.getElementById('mainForm').checkValidity();
+
+            let form = document.getElementById("mainForm");
+            let isValid = true;
+
+            const requiredFields = form.querySelectorAll("[required]");
+
+            requiredFields.forEach(field => {
+
+                field.classList.remove("invalid-border");
+
+                if (!field.value.trim()) {
+                field.classList.add("invalid-border");
+                isValid = false;
+                }
+            });
+
+            if ($("#totp").val().trim() == "") {
+                //$("#lotp").css("color", "red");
+                //$("#totp").css("border", "2px solid red");
+            }
+
+            if ($("#totp").val().trim() == $("#taken").val().trim()) {
+                //console.log("OTP matched");
+                $("#otperror").css("display", "none");
+                $("#lotp").css("color", "green");
+                $("#totp").css("border", "2px solid green");
+                isValid = true;
+            } else {
+                // console.log("OTP not matched");
+                $("#otperror").css("display", "block");
+                $("#lotp").css("color", "red");
+                $("#totp").css("border", "2px solid red");
+                isValid = false;
+            }
+
+            if(isValid) {
+                if ($("#totp").val().trim() !== "") {
+                    $("#consentModal").modal("show");
+                }
             }
 
         });

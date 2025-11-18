@@ -1,14 +1,13 @@
 <?php session_start();
 date_default_timezone_set('Asia/Kolkata');
 include('contact-referer.php');
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Contact DPDP Act Consultants India</title>
-    <meta name="description"
-        content="Connect with our DPDP Act compliance management techno-legal experts to explore tailored data protection solutions.">
+    
     <meta name="keywords"
         content="DPDP Act compliance services, contact data privacy experts, DPDP Act consulting solutions, compliance audit assistance, policy development support, data privacy training, regulatory help">
 
@@ -263,9 +262,17 @@ $act = $_REQUEST["act"];
 
 $hdtext = "Contact Us for DPDPA Compliance Services | Data Privacy Experts | DPDP Consultants";
 
-if($act=='contact') { $hdtext = "Contact Us"; }
+$metatitle = "Contact us for DPDP Compliance Services and CMP Tools";
+$metadesc = "Connect with our DPDPA compliance experts to explore tailored data privacy solutions. Get assistance with audits, consulting, policy development, and training.";
+$metakeyw = "Contact";
+
 if($act=='schedule') { $hdtext = "Schedule a call"; }
-if($act=='newsletter') { $hdtext = "Sign up for Newsletter"; }
+if($act=='newsletter') {
+    $hdtext = "Sign up for Newsletter";
+    $metatitle = "Subscribe to our newsletter for DPDP Act News";
+    // $metadesc = "description Newsletter";
+    // $metakeyw = "keywords Newsletter";
+}
 if($act=='careers') { $hdtext = "Careers"; $hdtext = $_GET['job']; }
 if($act=='visitor') { $hdtext = "Visitor Desk"; }
 
@@ -276,14 +283,21 @@ if($act=='inthenews') { $hdtext = "In The News"; }
 if($act=='events') { $hdtext = "Events"; }
 if($act=='webinars') { $hdtext = "Webinars"; }
 
+if($act=='Partnerwithus') { 
+    $hdtext = "Partner";
+    $metatitle = "Partner with DPDP Consultants";
+    // $metadesc = "description Partner";
+    // $metakeyw = "keywords Partner";
+}
 
 
 ?>
 
-    <title><?=$hdtext; ?></title>
+    <title><?=$metatitle; ?></title>
 
-    <meta name="description"
-        content="Connect with our DPDPA compliance experts to explore tailored data privacy solutions. Get assistance with audits, consulting, policy development, and training." />
+    <meta name="description" content="<?=$metadesc; ?>" />
+
+    <meta name="keywords" content="<?=$metakeyw; ?>" />
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"

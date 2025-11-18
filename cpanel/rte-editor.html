@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Rich Text Editor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .toolbar {
+      margin-bottom: 10px;
+    }
+    .toolbar button {
+      margin-right: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .editor {
+      border: 1px solid #ccc;
+      padding: 10px;
+      min-height: 200px;
+      overflow-y: auto;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rich Text Editor</h1>
+  <div class="toolbar">
+    <button onclick="execCommand('bold')">Bold</button>
+    <button onclick="execCommand('italic')">Italic</button>
+    <button onclick="execCommand('underline')">Underline</button>
+    <button onclick="execCommand('insertOrderedList')">Ordered List</button>
+    <button onclick="execCommand('insertUnorderedList')">Unordered List</button>
+    <button onclick="execCommand('createLink', prompt('Enter URL:'))">Insert Link</button>
+    <button onclick="execCommand('unlink')">Remove Link</button>
+    <button onclick="execCommand('formatBlock', '<h1>')">H1</button>
+    <button onclick="execCommand('formatBlock', '<h2>')">H2</button>
+    <button onclick="execCommand('formatBlock', '<p>')">Paragraph</button>
+    <button onclick="execCommand('removeFormat')">Clear Formatting</button>
+  </div>
+  <div class="editor" contenteditable="true">
+    Start typing here...
+  </div>
+
+  <script>
+    function execCommand(command, value = null) {
+      document.execCommand(command, false, value);
+    }
+  </script>
+</body>
+</html>

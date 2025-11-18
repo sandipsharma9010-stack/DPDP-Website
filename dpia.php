@@ -180,10 +180,10 @@
 
                     Your browser does not support the video tag.
                 </video>
-                <p class="mt-2 text-center tools-clr">Data Protection Impact<br> Assessment</p>
+                <!-- <p class="mt-2 text-center tools-clr">Data Protection Impact<br> Assessment</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Secure, Compliant, and User-Friendly Impact Assessment Platform</h6>
+                <h6 class="dpcm-heading">Data Protection Impact Assessment Tool</h6>
                 <p class="card-text dpcm-para">Our advanced, highly customizable DPIA platform simplifies and automates the entire
                     Data Protection Impact Assessment (DPIA) process across various processing activities and functions.
                     It enables organizations handling sensitive, large, and high-risk data to proactively identify,

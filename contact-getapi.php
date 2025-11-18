@@ -19,8 +19,16 @@ require 'vendor/autoload.php';
 
 use \Firebase\JWT\JWT;
 
+
+
+$req_url = $_SERVER['REQUEST_URI'];
+if(strpos($req_url, 'education-program')) { $department = 'Training'; }
+if(strpos($req_url, 'dpdp-act-foundation-course')) { $department = 'Training'; }
+
 $secret_key = '031950e5-cc58-4e34-b442-70136a791c80'; // tech
 // $secret_key = '0689009f-8eeb-45fc-8694-700256da5f23'; // dpdp
+
+if($department==='Training') { $secret_key = '1f6d7001-7205-40b2-b3a1-92ae30307d7e'; }
 
 $now = time();
 $expiry = 1767205799;
@@ -36,6 +44,22 @@ $jwt_payload = array(
     'expiry' => $expiry
 );
 
+$API_URL = 'https://tech.portal-uat.dpdpconsultants.com/api/v2/get/template_details?';
+
+if($department==='Training') {
+
+    $jwt_payload = array(
+        'iss' => 'https://lmsportal.dpdpconsultants.com', // tech
+        'aud' => 'https://learn.lmsportal.dpdpconsultants.com', //tech
+        'email' => 'jaspal.singh@dpdpconsultants.com', // tech
+        'expiry' => $expiry
+    );
+
+    $API_URL = 'https://learn.lmsportal.dpdpconsultants.com/api/v2/get/template_details?';
+
+}
+
+
 $token = JWT::encode($jwt_payload, $secret_key, 'HS256');
 
 // print_r($jwt_payload);
@@ -43,16 +67,35 @@ $token = JWT::encode($jwt_payload, $secret_key, 'HS256');
 
 /* * */
 
+$act = $_REQUEST["act"];
+
 $ipAddress = $_SERVER['REMOTE_ADDR'];
+
 
 $department = 'Contact Us';
 if($_REQUEST["act"]==='schedule') {
     $department = 'Sales Enquiry';
+} elseif( ($_REQUEST["act"]==='blog') || ($_REQUEST["act"]==='blogs') ) {
+    $department = 'Blogs';
 } elseif( ($_REQUEST["act"]==='career') || ($_REQUEST["act"]==='careers') ) {
     $department = 'Careers';
 } elseif( ($_REQUEST["act"]==='newsletter') || ($_REQUEST["act"]==='newsletters') ) {
     $department = 'Newsletters';
+} elseif( ($_REQUEST["act"]==='whitepaper') || ($_REQUEST["act"]==='whitepapers') ) {
+  $department = 'Whitepapers';
+} elseif($_REQUEST["act"]==='research') {
+  $department = 'Research';
+} elseif( ($_REQUEST["act"]==='webinar') || ($_REQUEST["act"]==='webinars') ) {
+  $department = 'Webinars';
+} elseif( ($_REQUEST["act"]==='event') || ($_REQUEST["act"]==='events') ) {
+  $department = 'Events';
+} elseif( ($_REQUEST["act"]==='course') || ($_REQUEST["act"]==='courses') ) {
+  $department = 'Training';
 }
+
+$req_url = $_SERVER['REQUEST_URI'];
+if(strpos($req_url, 'education-program')) { $department = 'Training'; }
+if(strpos($req_url, 'dpdp-act-foundation-course')) { $department = 'Training'; }
 
 $getData = [
     'department_name' => $department
@@ -63,7 +106,7 @@ $getData = [
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'https://tech.portal-uat.dpdpconsultants.com/api/v2/get/template_details?'.http_build_query($getData),
+  CURLOPT_URL => $API_URL.http_build_query($getData),
 //  CURLOPT_URL => 'http://dpdp.portal.dpdp-uat.dpdpconsultants.com/api/v2/get/template_details?'.http_build_query($getData),
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',

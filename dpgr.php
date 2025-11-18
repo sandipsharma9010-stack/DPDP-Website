@@ -202,10 +202,10 @@
 
                     Your browser does not support the video tag.
                 </video>
-                <p class="mt-2 text-center fw-bold tools-clr">Data Principal Rights<br> and Grievance<br> Management</p>
+                <!-- <p class="mt-2 text-center fw-bold tools-clr">Data Principal Rights<br> and Grievance<br> Management</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Efficient, Compliant, and Customizable Grievance Redressal Tool
+                <h6 class="dpcm-heading">Data Principal Rights and Grievance Management Tool
                 </h6>
                 <p class="dpcm-para card-text">Our Grievance Redressal Management (DPGR) Tool simplifies grievance
                     handling by providing a user-friendly, automated platform that ensures compliance with the Digital

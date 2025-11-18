@@ -4,352 +4,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Join our partner</title>
-    <meta name="description"
-        content="Streamline compliance handling with a top grievance redressal tool. Explore our secure grievance redressal portal for efficient dispute resolution and compliance">
-    <meta name="keywords" content="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
+    <link rel="stylesheet" href="./assets/css/partner.css">
+     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
+
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="canonical" href="https://www.dpdpconsultants.com/partner.php">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <style>
-    .blog {
-        /* text-align: center; */
-        color: white;
-        /* position: relative; */
-    }
 
-    .hero-section {
-        padding: 171px 5px 6px;
-    }
-
-    .hero-section h1 {
-        font-size: 2.5rem;
-        font-weight: bold;
-        text-align: left;
-    }
-
-    .hero-section span {
-        color: #3CA6E0;
-    }
-
-
-    .btns-primary {
-        background-color: #3CA6E0;
-        border: none;
-        padding: 7px 92px;
-        font-size: 1rem;
-        border-radius: 20px;
-    }
-
-    .card-custom-data {
-        border: none;
-        border-radius: 15px;
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 1.1);
-        padding: 100px;
-        background-color: white;
-        height: 100%;
-        text-align: center;
-
-    }
-
-    @media (max-width: 768px) {
-        .hero-section br {
-            display: none;
-        }
-
-        .hero-section {
-            br {
-                display: none;
-            }
-
-            padding: 30px 16px 0px;
-        }
-
-        .hero-section h1 {
-            font-size: 1.2rem;
-            line-height: 30px;
-        }
-
-        .hero-section p {
-            font-size: 12px;
-            text-align: left;
-        }
-    }
-
-    .partner-accordion .accordion-item {
-        background-color: transparent;
-        border: none;
-        margin-bottom: 1rem;
-    }
-
-    .partner-accordion .accordion-button {
-        background-color: #ffffff;
-        color: #0c1c3c;
-        font-weight: 600;
-        padding: 1.2rem 1.5rem;
-        border-radius: 12px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-        position: relative;
-    }
-
-    .partner-accordion .accordion-button.collapsed .partner-icon-box {
-        background-color: #0c1c3c;
-        color: white;
-    }
-
-    .partner-accordion .accordion-button:not(.collapsed) {
-        background-color: #0c1c3c;
-        color: #ffffff;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-
-    .partner-icon-box {
-        background: #0c1c3c;
-        color: #ffffff;
-        padding: 6px 8px;
-        border-radius: 8px;
-        font-size: 14px;
-        margin-left: auto;
-        transition: 0.3s;
-    }
-
-    .partner-accordion .accordion-button:not(.collapsed) .partner-icon-box {
-        background-color: #ffffff;
-        color: #0c1c3c;
-    }
-
-    .partner-accordion .accordion-body {
-        background-color: #0c1c3c;
-        color: #ffffff;
-        border-bottom-left-radius: 12px;
-        border-bottom-right-radius: 12px;
-        padding: 1.5rem;
-        font-size: 0.95rem;
-    }
-
-    .partner-accordion .accordion-body ul {
-        padding-left: 1rem;
-        text-align: left;
-    }
-
-    .partner-accordion .accordion-body li {
-        margin-bottom: 0.5rem;
-    }
-
-    .partner-image-container img {
-        width: 250px;
-        max-width: 100%;
-        border-radius: 16px;
-        transition: 0.3s ease-in-out;
-    }
-
-    @media (max-width: 768px) {
-        .partner-flex {
-            flex-direction: column;
-        }
-
-        .partner-image-container {
-            margin-bottom: 20px;
-        }
-
-
-        .m-threesixty-p {
-            br {
-                display: none;
-            }
-
-            font-size: 12px;
-        }
-
-        .unlock-powerful {
-            width: 100px !important;
-            /* padding: 10px; */
-            height: 100px !important;
-        }
-
-        .card-custom-data {
-            display: block !important;
-            flex-direction: column !important;
-            text-align: center !important;
-
-        }
-    }
-
-
-    .accordion-button::after {
-        /* display: none; */
-    }
-
-    .unlock-powerful {
-        width: 100px;
-        padding: 10px;
-    }
-    .unlock{
-        font-size:13px !important;
-    }
     </style>
 </head>
 
 <body>
 
-    <section class="blog" style="background-color: #02092c;">
+    <section class="partner-hero-section" style="background-color: #02092c;">
         <?php include_once('new-nav.php'); ?>
+        <div class="partner-hero-container">
+            <div class="partner-hero-row">
+                <div class="partner-hero-content">
+                    <h1>Let’s Build India’s Most Trusted Data Protection Ecosystem — Together</h1>
+                    <p>
+                        DPDP Consultants is India’s leading expert advisory and automation provider for Digital
+                        Personal Data Protection (DPDP) compliance. As businesses across sectors prepare for full
+                        enforcement of the DPDP Act, we’re enabling them to adopt compliance efficiently, at scale,
+                        and with confidence.<br />
+                        Now, we’re inviting like-minded partners, consultants, and solution providers to join us in
+                        this mission.
+                    </p>
+                    <a href="contact.php?act=Partnerwithus" class="partner-hero-btn">Partner with us</a>
+                </div>
+
+                <div class="partner-hero-image-wrapper">
+                    <img src="assets/images/partner/join-our-partner.png" alt="Join our partner"
+                        class="partner-hero-image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="news-section sec-pad">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-5">
-                    <img src="assets/images/join-our-partner.png" class="img-fluid mt-5" alt="Responsive image">
-                </div>
-                <div class="col-sm-6">
-                    <div class="container hero-section">
+            <div class="sec-title section-title-two2">
+                <h5 class="section-title-two1 text-center">Our <span class="text-trust">Partners</span></h5>
+            </div>
 
-                        <h1 class="text-left">Join our partner ecosystem to unlock new opportunities in <span
-                                class="partner-highlight">compliance
-                                technology</span></h1>
-
-                    </div>
-                    <div class="my-4">
-                        <a href="contact.php?act=schedule" class="btn btn-primary btns-primary">Become a partner</a>
-                    </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="./assets/images/partner/ascent.png"
+                        alt="Our clients: Ascent Industries Limited"></div>
+                <div class="item"><img src="./assets/images/partner/audix.png" alt="Our clients: Audix Limited"></div>
+                <!-- <div class="item"><img src="./assets/images/partner/blackbox.png" alt="Our clients: blackbox Limited">
+                </div> -->
+                <div class="item"><img src="./assets/images/partner/htc-global.png"
+                        alt="Our clients: htc-global Limited">
                 </div>
+                <!-- <div class="item"><img src="./assets/images/partner/htc-nxt.png" alt="Our clients: htc-nxt Limited">
+                </div> -->
+                <div class="item"><img src="./assets/images/partner/lenovo.png" alt="Our clients: Lenovo Limited">
+                </div>
+                <div class="item"><img src="./assets/images/partner/varonis.png" alt="Our clients: Varonis Limited">
+                </div>
+                <div class="item"><img src="./assets/images/partner/vinca.png" alt="Our clients: Vinca Limited"></div>
+
+
             </div>
         </div>
     </section>
-    <section>
 
-        <div class="container py-5">
-            <div class="text-center mb-5">
-                <p class="mb-2">Ideal Partner Profile</p>
-                <h2 class="partner-section-title">
-                    Let’s collaborate to build a <span class="partner-highlight">stronger privacy<br
-                            class="d-none d-md-block"> compliance ecosystem</span>
-                </h2>
-            </div>
-
-            <div class="row g-4">
-                <!-- Technology Partners -->
-                <div class="col-md-6">
-                    <div class="partner-box partner-technology">
-                        <img src="assets/images/technology-partners.png" alt="Technology Partners">
-                        <div class="partner-content">
-                            <div class="partner-title">Technology Partners</div>
-                            <div class="partner-desc">
-                                Consulting firms, law firms, and individual data privacy professionals who wants to
-                                expand their service offerings by integrating our end-to-end DPDP Act Compliance Tool
-                                Suite.
-                            </div>
-                        </div>
+    <section class="my-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-5 d-flex flex-column justify-content-center">
+                    <div class="the-tool-featuresdpcm">
+                        <p>Market Opportunity</p>
+                        <h5 class="dpcm-head heading-clrbs"><span class="highlight-acc">Leverage the DPDP
+                                Opportunity</span>
+                        </h5>
+                        <p class="card-text">The DPDP Act will impact over <strong>1.6 million+</strong> registered
+                            companies in India.
+                            Organizations across IT, BFSI, healthcare, Real Estate, retail, manufacturing, and education
+                            are actively seeking <strong>trusted advisory and automated compliance solutions.</strong>
+                        </p>
+                        <!-- <a href="contact.php?act=schedule" class="btn dpcm-btn">Schedule a demo</a> -->
                     </div>
                 </div>
-
-                <!-- 360° Solution Partners -->
-                <div class="col-md-6">
-                    <div class="partner-box partner-360-solution">
-                        <img src="assets/images/solution-partners.png" alt="360° Solution Partners">
-                        <div class="partner-content">
-                            <div class="partner-title">360° Solution Partners</div>
-                            <div class="partner-desc">
-                                System integrators, IT service providers, and tech firms aiming to deliver comprehensive
-                                compliance solutions that combine compliance tools with advisory and strategic
-                                implementation.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Implementation Partners -->
-                <div class="col-md-6">
-                    <div class="partner-box partner-implementation">
-                        <img src="assets/images/implementation-partners.png" alt="Implementation Partners">
-                        <div class="partner-content">
-                            <div class="partner-title">Implementation Partners</div>
-                            <div class="partner-desc">
-                                Software vendors, cybersecurity firms, and legaltech or GRC providers looking to
-                                complement their services with our expertise in gap assessments, compliance reviews, and
-                                advisory support.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Training/Education Partners -->
-                <div class="col-md-6">
-                    <div class="partner-box partner-education">
-                        <img src="assets/images/trainingEducation-partners.png" alt="Training/Education Partners">
-                        <div class="partner-content">
-                            <div class="partner-title">Training/Education Partners</div>
-                            <div class="partner-desc">
-                                Colleges, training centers, and edtech platforms that wish to raise awareness and build
-                                capacity around the DPDP Act through our DPDP Act Foundation Course and certification
-                                programs.
-                            </div>
-                        </div>
+                <div class="col-sm-7">
+                    <div class="leverage-img mx-auto">
+                        <img src="./assets/images/partner/leverage.png" class="card-img-tops"
+                            alt="Compliance Management Software image of Data Principal Consent Management Tool dashboard ">
                     </div>
                 </div>
             </div>
         </div>
 
     </section>
-
 
     <section class="home-bg">
         <div class="container py-5">
             <div class="row align-items-center">
-                <div class="col-md-6 left-content-one-step">
-                    <p>Why Partner With Us?</p>
-                    <h2 class="m-threesixty">Partner with the Leaders in <span class="highlight-one-step">Techno-Legal
-                            Innovation
+                <div class="col-md-6 ">
+                    <p class="left-content-one-steps">Partnership Opportunity</p>
+                    <h2 class="m-threesixty">Why Partner <span class="highlight-one-step">with Us?
                         </span></h2>
-                    <p class="m-threesixty-p">Join forces with a trusted leader in privacy compliance,<br> combining
-                        decades
-                        of consulting experience,<br> enterprise-ready tools, and a future-forward techno-<br>legal
-                        approach</p>
-                    <a href="contact.php?act=schedule" class="btn btn-custom-one-step">Schedule a call</a>
+                    <p class="">Empower your business to grow, earn, and<br> deliver complete data protection
+                        with DPDP<br> Consultants.</p>
+                    <a href="contact.php?act=Partner with us" class="btn btn-custom-one-step">Become a partner</a>
                 </div>
                 <div class="col-md-6">
                     <div class="section-box-one-step">
-                        <img src="assets/images/techno-legal-expertise.png" class="icon-one-step"
+                        <img src="assets/images/partner/expand.png" class="icon-one-step"
                             alt="Compliance Management & Privacy tools one stop solution benefits icon: Cost-Effectiveness">
                         <div>
-                            <h5 class="fw-bold">Techno-Legal Expertise</h5>
-                            <p class="section-box-p">As pioneers in techno-legal consulting, we offer a unique blend of
-                                legal insight and technical innovation to solve complex compliance challenges.</p>
+                            <h5 class="fw-bold">Expand Your Service Portfolio</h5>
+                            <p class="section-box-p">Add a high-demand DPDP compliance offering to your existing
+                                services and stand out in a growing market.</p>
                         </div>
                     </div>
                     <div class="section-box-one-step">
-                        <img src="assets/images/years-of-experience.png" class="icon-one-step"
+                        <img src="assets/images/partner/boost.png" class="icon-one-step"
                             alt="Compliance Management & Privacy tools one stop solution benefits icon: Optimized Governance ">
                         <div>
-                            <h5 class="fw-bold">30+ Years of Experience</h5>
-                            <p class="section-box-p">Benefit from decades of combined experience in IT, legal, and risk
-                                consulting backed by proven strategies and methodologies </p>
+                            <h5 class="fw-bold">Boost Your Revenue Stream</h5>
+                            <p class="section-box-p">Earn recurring income through consulting engagements and
+                                technology-driven compliance solutions.</p>
                         </div>
                     </div>
                     <div class="section-box-one-step">
-                        <img src="assets/images/industry-leaders.png" class="icon-one-step"
+                        <img src="assets/images/partner/leverage1.png" class="icon-one-step"
                             alt="Compliance Management & Privacy tools one stop solution benefits icon: Faster Delivery ">
                         <div>
-                            <h5 class="fw-bold">Trusted by Industry Leaders</h5>
-                            <p class="section-box-p">Join a network trusted by top enterprises including Ashok Leyland,
-                                Tata Motors, Aditya Birla Group, Bajaj Finserv and many more</p>
+                            <h5 class="fw-bold">Leverage Ready-to-Use Resources</h5>
+                            <p class="section-box-p">Access plug-and-play toolkits, frameworks, and our DPDP automation
+                                suite to deliver faster, more efficient solutions.</p>
                         </div>
                     </div>
                     <div class="section-box-one-step">
-                        <img src="assets/images/enterprise-grade.png" class="icon-one-step"
+                        <img src="assets/images/partner/deliver.png" class="icon-one-step"
                             alt="Compliance Management & Privacy tools one stop solution benefits icon: Greater Visibility & Coverage ">
                         <div class="one-step-h-p">
-                            <h5 class="fw-bold">Enterprise-Grade Solutions</h5>
-                            <p class="section-box-p">Deliver scalable, sector-ready compliance solutions across
-                                manufacturing, BFSI, healthcare, ITES, and more.</p>
+                            <h5 class="fw-bold">Deliver Complete Value to Clients</h5>
+                            <p class="section-box-p">Combine legal expertise with technology-backed automation to offer
+                                end-to-end data protection readiness — without starting from scratch.</p>
                         </div>
                     </div>
 
@@ -358,155 +159,186 @@
         </div>
     </section>
 
-    
 
-    <section class="mt-5">1
-        <div class="container">
-            <div class="container">
-                <div class="text-center">
-                    <p>Strategic Partner Enablement & Sales Support</p>
-                    <h2 class="text-center fw-bold mb-5">Unlock Powerful <span class="text-primary">Compliance
-                            Capabilities</span></h2>
-                    </h3>
+
+
+
+
+
+
+    <section class="dpdp-partner-section container">
+        <div class="dpdp-partner-header">
+            <span class="dpdp-partner-subtitle">Who Can Partner With Us?</span>
+            <h2 class="dpdp-partner-title">
+                We have customized programs for <br>
+                different partner types
+            </h2>
+        </div>
+
+        <div class="dpdp-partner-layout flex-wrap">
+            <!-- Left-side labels -->
+            <!-- <div class="dpdp-partner-labels">
+        <p>Ideal For</p>
+        <p>Key Benefits</p>
+      </div> -->
+
+            <!-- Partner cards -->
+            <div class="row g-4 flex-grow-1 justify-content-center">
+                <!-- Consulting Partners -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="dpdp-partner-card">
+                        <h5 class="dpdp-partner-card-title">Consulting Partners</h5>
+                        <p><strong>Ideal For:</strong> Legal, IT, Cybersecurity & Risk Advisory Firms</p>
+                        <p><strong>Key Benefits:</strong> Co-deliver DPDP consulting projects, leverage our automation
+                            platform</p>
+                    </div>
                 </div>
-                <div class="row g-4 my-5 compl-tools">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card-custom-data p-2">
-                            <img class="unlock-powerful" src="assets/images/brand-forward.png" alt="Unlock Powerful"
-                                class="img-fluid">
-                            <div class="all-tools-features">
-                                <h5 class="card-title-data fw-bold"> Priority Partner Enablement & End-to-End Sales
-                                    Support
-                                </h5>
-                                <p class="unlock">
-                                    Partners receive comprehensive onboarding and continuous enablement that
-                                    empowers team to confidently engage clients, position our solutions
-                                    effectively,
-                                    and close deals faster.
-                                </p>
-                                <strong>Our support includes:</strong>
-                                <ul class="text-start unlock">
-                                    <li>Pre-Sales & Proposal Assistance with templates, pitch decks, RFP
-                                        responses.
-                                    </li>
-                                    <li>Live Demo & Presentation Support to high-value clients.</li>
-                                    <li>Sales Objection Handling & Use Case Mapping.</li>
-                                    <li>Continuous Partner Communication with newsletters and tool updates.
-                                    </li>
-                                </ul>
 
-                            </div>
-                        </div>
+                <!-- Technology Partners -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="dpdp-partner-card">
+                        <h5 class="dpdp-partner-card-title">Technology Partners</h5>
+                        <p><strong>Ideal For:</strong> SaaS, Cloud, and Security Product Companies</p>
+                        <p><strong>Key Benefits:</strong> Integrate or co-sell with DPDP automation modules</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card-custom-data p-2">
-                            <img class="unlock-powerful" src="assets/images/brands.png" alt="Unlock Powerful"
-                                class="img-fluid">
-                            <div class="all-tools-features">
-                                <h5 class="card-title-data fw-bold"><a href="dpia.php">Brand-Forward Representation with
-                                        Co-Branded Authority</a>
-                                </h5>
-                                <p class="card-text unlock">Partners gain the ability to represent our advanced suite of DPDP
-                                    Act compliance solutions through co-branded client engagements.
-                                </p>
-                                <p class="unlock">This model allows partners to maintain brand's visibility while leveraging our
-                                    trusted, high-performance technology in:</p>
-                                <ul class="text-start unlock">
-                                    <li>Demonstrating <strong>Technical Strength</strong> without building
-                                        in-house products</li>
-                                    <li>Offering <strong>Seamless Solutions</strong> under a credible,
-                                        co-endorsed partnership</li>
-                                    <li><strong>Increasing Client Confidence</strong> by aligning with a
-                                        recognized DPDP compliance leader</li>
-                                    <li><strong>Accelerate Sales Cycles</strong> by showcasing
-                                        ready-to-deploy, audit-friendly solutions</li>
-                                </ul>
-                            </div>
-                        </div>
+                </div>
+
+                <!-- Channel Partners -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="dpdp-partner-card">
+                        <h5 class="dpdp-partner-card-title">Channel Partners / Resellers</h5>
+                        <p><strong>Ideal For:</strong> Compliance, IT, or Audit Distributors</p>
+                        <p><strong>Key Benefits:</strong> Earn margins by promoting our compliance suite in your region
+                        </p>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card-custom-data p-2">
-                            <img class="unlock-powerful" src="assets/images/collaborative.png" alt="Unlock Powerful"
-                                class="img-fluid">
-                            <div class="all-tools-features">
-                                <h5 class="card-title-data fw-bold">Collaborative Thought Leadership & Joint Marketing
-                                    Initiatives
-                                </h5>
-                                <p class="unlock">
-                                    Gain access to a powerful co-marketing engine designed to amplify
-                                    partners brand to position the firm as a trusted authority in the data
-                                    privacy space.
-                                </p>
-                                <p class="unlock">We actively collaborate with partners on a range of thought leadership
-                                    and client engagement initiatives, including:</p>
-                                <ul class="text-start unlock">
-                                    <li>Jointly organize in-person or virtual Expert-led <strong>Webinars &
-                                            Panel
-                                            Discussions</strong>.</li>
-                                    <li><strong>Custom Marketing Collaterals</strong> with tailored
-                                        messaging co-branded
-                                        assets</li>
-                                    <li><strong>Content & Resource Sharing</strong> (Like: whitepapers,
-                                        email templates,
-                                        playbooks, explainer videos, compliance tool demos, and more)</li>
+                </div>
 
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card-custom-data p-2">
-                            <img class="unlock-powerful" src="assets/images/sustanible.png" alt="Unlock Powerful"
-                                class="img-fluid">
-                            <div class="all-tools-features">
-                                <h5 class="card-title-data fw-bold">Sustainable Revenue & Exclusive
-                                    Commercial Advantages
-                                </h5>
-                                <p class="unlock">
-                                    Partnership model built to help establish predictable, high-margin
-                                    income streams while maximizing client lifetime value.
-                                </p>
-                                <ul class="text-start unlock">
-                                    <li><strong>Recurring Revenue Opportunities</strong> with
-                                        subscription-based access to
-                                        our compliance tools, including Consent Management, DPIA workflows,
-                                        and Third-Party Assessments.</li>
-                                    <li>Turn one-time projects into <strong>annuity-based
-                                            engagements</strong> with
-                                        DPO-as-a-Service, regular compliance audits, and employee training
-                                        programs.</li>
-                                    <li>Unlock <strong>performance-based incentives</strong> and
-                                        <strong>co-investment</strong> options for
-                                        larger opportunities or multi-client rollouts.
-                                    </li>
-
-
-                                </ul>
-                            </div>
-                        </div>
+                <!-- Training & Knowledge Partners -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="dpdp-partner-card">
+                        <h5 class="dpdp-partner-card-title">Training & Knowledge Partners</h5>
+                        <p><strong>Ideal For:</strong> Educational Institutions & Training Firms</p>
+                        <p><strong>Key Benefits:</strong> Co-create certified DPDP programs and workshops</p>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
 
-    <!-- <script>
-    const partnerImage = document.getElementById("partnerImage");
 
-    document.querySelectorAll(".accordion-button").forEach(button => {
-        button.addEventListener("click", () => {
-            setTimeout(() => {
-                if (!button.classList.contains("collapsed")) {
-                    const imgSrc = button.getAttribute("data-img");
-                    if (imgSrc) partnerImage.src = imgSrc;
-                }
-            }, 100);
-        });
-    });
-    </script> -->
+    <section class="dpdp-benefits-section container-fluid">
+        <div class="dpdp-benefits-header mb-5">
+            <small>What You Get as a Partner</small>
+            <h2>
+                Empowering your success with <span>tools,<br> training,</span> and <span>trusted expertise</span>
+            </h2>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center g-4">
+                <!-- Card 1 -->
+                <div class="col-12 col-sm-6 col-lg-2">
+
+                    <div class="dpdp-benefits-card">
+                        <img src="assets/images/partner/co-branded.png" class="icon-one-step" alt=" ">
+                        <p>Co-branded go-to-market assets</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <div class="dpdp-benefits-card">
+                        <img src="assets/images/partner/partner.png" class="icon-one-step" alt=" ">
+                        <p>Partner onboarding and sales training</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <div class="dpdp-benefits-card">
+                        <img src="assets/images/partner/readiness.png" class="icon-one-step" alt=" ">
+                        <p>DPDP readiness tools & templates access</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <div class="dpdp-benefits-card">
+                        <img src="assets/images/partner/dedicated.png" class="icon-one-step" alt=" ">
+                        <p>Dedicated partner manager</p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <div class="dpdp-benefits-card">
+                        <img src="assets/images/partner/joint.png" class="icon-one-step" alt=" ">
+                        <p> Joint marketing and event participation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="dpdp-partner-section container">
+        <div class="container">
+            <div class="row dpdp-partner-row">
+
+                <!-- ✅ MOBILE IMAGE (hidden on desktop) -->
+                <div class="col-12 dpdp-partner-mobile-img text-center">
+                    <img src="./assets/images/partner/partner-with.png" class="img-fluid" alt="DPDP Partner Mobile" />
+                </div>
+
+                <!-- TEXT CONTENT -->
+                <div class="col-sm-6 dpdp-partner-content">
+                    <div class="the-tool-featuresdpcm">
+                        <p>Collaboration</p>
+                        <h5 class="dpcm-head heading-clrbs">
+                            Partner with Confidence —
+                            <span class="highlight-acc">with India’s DPDP Experts</span>
+                        </h5>
+                        <p>
+                            Our consultants and product teams have worked on many privacy and compliance projects
+                            across industries.
+                        </p>
+                        <p>
+                            We bring deep knowledge of India’s Digital Personal Data Protection Act (DPDPA) and
+                            international frameworks like GDPR, CCPA, ISO 27701, etc.
+                        </p>
+                        <p>
+                            Whether you’re a boutique consultancy or an enterprise IT firm — together, we can help every
+                            Indian organization stay compliant, responsible, and trusted.
+                        </p>
+                        <a href="contact.php?act=Partnerwithus" class="btn dpcm-btn">Become a Partner</a>
+                    </div>
+                </div>
+
+                <!-- DESKTOP IMAGE (hidden on mobile) -->
+                <div class="col-sm-6 dpdp-partner-desktop-img">
+                    <div class="leverage-img mx-auto">
+                        <img src="./assets/images/partner/partner-with.png" class="card-img-tops"
+                            alt="Compliance Management Software image of Data Principal Consent Management Tool dashboard" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
 
     <?php include 'footer.php'; ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/Edu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

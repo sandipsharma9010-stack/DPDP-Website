@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!--
     <title>Data Privacy & Compliance Blogs | Insights & Tips on data protection</title>
     <meta name="description"
         content="Stay informed with expert blogs on data privacy, compliance trends, and best practices about DPDP Act. Get actionable insights to navigate evolving data regulations.">
     <meta name="keywords"
         content="data privacy blogs, compliance insights, DPDP Act updates, data protection tips, privacy compliance trends, expert data regulations advice, best practices for data protection">
+-->    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -209,6 +210,7 @@
         }
         .MsoNormal{
             font-size:12px;
+            text-align: left;
         }
 
         .btns-primary {
@@ -227,7 +229,51 @@
             width: 100%;
             height: auto;
         }
+
+
     }
+
+
+    /* Base table styling */
+.MsoTableGrid {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Table container for scroll */
+.MsoTableGrid {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
+}
+
+/* Optional: keep header and cell styling consistent */
+.MsoTableGrid th,
+.MsoTableGrid td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Make sure no wrapping happens inside cells */
+.MsoTableGrid td,
+.MsoTableGrid th {
+  white-space: nowrap;
+}
+
+/* Optional improvement for better UX on small screens */
+@media (max-width: 768px) {
+  .MsoTableGrid {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+    
     </style>
 
 
@@ -303,21 +349,24 @@ $rectext = $recdesc;
 
 $pattern = '/<a\s+href="([^"]+)">([^<]+)<\/a>/i';
 
-$pattern = '/<a\s+[^>]*href="#([^"]+)"[^>]*>([^<]+)<\/a>/i';
+$pattern = '/<a\s+[^>]*href="*#([^"]+)"[^>]*>([^<]+)<\/a>/i';
+
+$pattern = '/<a\s+[^>]*href="[^"]*#([^"]+)"[^>]*>(.*?)<\/a>/i';
+
 
 preg_match_all($pattern, $rectext, $matches, PREG_SET_ORDER);
 
 ?>
 
-    <section name="blog-content">
+    <section class="mo-justify" name="blog-content">
 
         <div class="container p-4">
             <div class="row">
                 <!-- Table of Content -->
                 <div class="col-md-3">
-                    <div class="p-3  text-black rounded lineheight">
+                    <div class="p-3 text-black rounded lineheight">
                         <p class="dpdp-table">Table of content</p>
-                        <ul class="list-unstyled mt-3 fw-bold">
+                        <ul class="list-unstyled mt-3 fw-bold text-start">
                             <?php foreach ($matches as $match) { ?>
                             <li><a
                                     href="#<?php echo htmlspecialchars($match[1]); ?>"><?php echo htmlspecialchars($match[2]); ?></a>
@@ -368,12 +417,17 @@ $dbrecs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <div class="p-3 bg-light rounded">
                         <p class="dpdp-table">Similar Read</p>
 
-                        <?php foreach ($dbrecs as $dbreci) { ?>
+                        <?php
+                            foreach ($dbrecs as $dbreci) {
+                                $title = $dbreci['rectitle'];
+                                $slug = trim(preg_replace('/[^a-z0-9]+/i', '-', strtolower($title)), '-');
+                            ?>
+
                         <div class="mt-3">
                             <img src="<?php echo $dbreci['recimg']; ?>" alt="<?php echo $dbreci['rectitle']; ?>"
                                 title="<?php echo $dbreci['rectitle']; ?>" class="img-fluid">
-                            <p class="text-dark fw-bold"><a
-                                    href="blog.php?id=<?php echo $dbreci['id']; ?>&title=<?php echo $dbreci['rectitle']; ?>"><?php echo $dbreci['rectitle']; ?></a>
+                            <p class="text-dark fw-bold text-start"><a
+                                    href="blog.php?id=<?php echo $dbreci['id']; ?>&title=<?php echo $slug; ?>"><?php echo $dbreci['rectitle']; ?></a>
                             </p>
                         </div>
                         <?php } ?>

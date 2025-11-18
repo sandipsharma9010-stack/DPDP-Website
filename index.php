@@ -17,9 +17,6 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
     <meta name="keywords"
         content="Digital Personal Data Protection consultants, DPDP Act compliance, online privacy compliance tools, consent management platform, data privacy consulting, risk assessment tools, compliance management solutions">
     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
-        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -292,20 +289,11 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
             </div>
         </div>
     </section>
-
-
-
-
-
     <section class="our-services">
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 align-self-center">
                     <h6 class="service-h">Our Services</h6>
-                    <!-- <h3 class="service-para">Empowering businesses to <br> navigate <span class="data-pr">Data Privacy,
-                            Protection, and Compliance</span> with ease
-                        and
-                        confidence</h3> -->
                     <h3 class="service-para">Helping businesses to<br> navigate <span class="data-pr">Data Privacy
                             and Compliance
                             with</span> ease </h3>
@@ -437,22 +425,9 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 </div>
                 <div class="col-md-8">
                     <div id="content" class="tab-content tab-tools">
-                        <!-- <h4>DPCM</h4>
-                        <p>Pursuant to section 4(1) of the DPDP Act 23, every business needs to ensure that they have a
-                            proper legal basis to process personal data.</p>
-                        <p>Consent is the primary legal basis lying at the core of any lawful data processing (1a).</p>
-                        <h5>Key Benefits:</h5>
-                        <ul>
-                            <li>Acquire Live Consent</li>
-                            <li>Streamlined Consent Collection</li>
-                            <li>Compliance for Historic Data</li>
-                            <li>Fully Customizable</li>
-                            <li>Manage Personal Data Silos</li>
-                        </ul> -->
                         <div class="card-custom-tools">
                             <div class="row">
                                 <div class="col-md-3 text-center">
-                                    <!-- <img class="tools-img" src="./assets/images/dpcm.png" alt="DPCM Icon"> -->
                                     <video width="150" height="150" autoplay muted loop>
                                         <source src="./assets/images/video/DPCM.mp4" type="video/mp4">
 
@@ -552,12 +527,13 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                         alt="Our clients: Zyter Care Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/Griham.jpeg"
                         alt="Our clients: Apna ghar apni pehchan"></div>
-                <div class="item"><img src="./assets/images/client-logo/Tata-Autocomp.png"
+                <div class="item"><img src="./assets/images/client-logo/tat_motors_the.png"
                         alt="Our clients: Tata Autocomp"></div>
-                         <div class="item"><img src="./assets/images/client-logo/tat_motors_the.png"
-                        alt="Our clients: Tata Autocomp"></div>
-                        <div class="item"><img src="./assets/images/client-logo/TBSI.png"
-                        alt="Our clients: Tata Autocomp"></div>
+                <div class="item"><img src="./assets/images/client-logo/TBSI.png" alt="Our clients: Tata Autocomp">
+                </div>
+
+                <div class="item"><img src="./assets/images/client-logo/Emaar-Logo.png" alt="Our clients: Emaar">
+                </div>
             </div>
         </div>
     </section>
@@ -713,11 +689,6 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
             </div>
         </div>
     </section>
-
-
-
-
-
     <section class="home-why mt-5">
         <div class="container why-spa">
             <div class="text-Why text-center">
@@ -846,71 +817,23 @@ Proven Track Record ">
                             class="text-white">on<br>
                             navigating the ever-evolving world of data<br> privacy and compliance</span></h3>
                 </div>
-                <!-- <div class="col-md-4">
-                    <div class="custom-card">
-                        <div class="card-header c-header">
-                            <img src="./assets/images/blogs_29_thumbnail.jpg" alt="Card Image">
-
-                        </div>
-                        <div class="card-body c-body">
-                            <h6><a href="https://www.dpdpconsultants.com/blog.php?id=29&title=">DPDP Act vs ISO
-                                    27001: Key Differences, Compliance Guide & Data Security
-                                    Strategies</a>
-                            </h6>
-                            <p>Explore the key differences between the DPDP Act and ISO 27001. Learn how aligning
-                                compliance strategies can enhance data...</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="custom-card">
-                        <div class="card-header c-header">
-                            <img src="./assets/images/blogs_24_thumbnail.jpg" alt="Card Image">
-
-                        </div>
-                        <div class="card-body c-body">
-                            <h6><a href="https://www.dpdpconsultants.com/blog.php?id=24&title"> How will the
-                                    DPDPA Impact Artificial Intelligence?</a>
-                            </h6>
-                            <p>Explore how the DPDP Act 2023 impacts AI businesses. Learn about compliance requirements,
-                                challenges, and best practices...</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="custom-card">
-                        <div class="card-header c-header">
-                            <img src="./assets/images/blogs_28_thumbnail.jpg" alt="Card Image">
-
-                        </div>
-                        <div class="card-body c-body">
-                            <h6><a href="https://www.dpdpconsultants.com/blog.php?id=28&title">Copy of Data
-                                    Processing Agreement Under The DPDP</a>
-                            </h6>
-                            <p>Understand the importance of a Data Processing Agreement (DPA) under the DPDP Act. Learn
-                                how DPAs protect fiduciaries an...</p>
-
-                        </div>
-                    </div>
-                </div> -->
                 <div class="custom-carousel-wrapper position-relative overflow-hidden">
                     <div class="custom-carousel d-flex transition" id="customCarousel">
                         <div class="col-md-4">
                             <div class="custom-card carousel-img">
                                 <div class="card-header c-header">
-                                    <img src="./assets/images/blogs_37_thumbnail.jpg" alt="Card Image">
+                                    <img src="./assets/images/blogs_46_thumbnail.jpg" alt="Data
+                                            Protection Officer as a Service (DPOaaS): The Complete Guide for Businesses
+                                            in 2025">
 
                                 </div>
                                 <div class="card-body c-body">
-                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=37&title=June">June 2025
-                                            Data Breaches: A Wake-Up Call for DPDPA Enforcement in India</a>
+                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=37&title=June">Data
+                                            Protection Officer as a Service (DPOaaS): The Complete Guide for Businesses
+                                            in 2025</a>
                                     </h6>
-                                    <p>June 2025 saw major data breaches in India, exposing millions. Delayed DPDPA
-                                        enforcement highlights urgent need for the ...</p>
+                                    <p>DPOaaS helps businesses ensure GDPR & DPDP compliance with cost-effective,
+                                        scalable privacy expertise. Gain trusted data...</p>
 
                                 </div>
                             </div>
@@ -918,16 +841,17 @@ Proven Track Record ">
                         <div class="col-md-4">
                             <div class="custom-card carousel-img">
                                 <div class="card-header c-header">
-                                    <img src="./assets/images/blogs_36_thumbnail.jpg" alt="Card Image">
+                                    <img src="./assets/images/blogs_47_thumbnail.jpg" alt="Best
+                                            Practices and Tools for DPDP-Ready Data Handling (2025 Guide)">
 
                                 </div>
                                 <div class="card-body c-body">
-                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=36&title=Cookie"> Cookie
-                                            Management Under the DPDP Act, 2023: A Compliance Imperative for Indian..
+                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=36&title=Cookie"> Best
+                                            Practices and Tools for DPDP-Ready Data Handling (2025 Guide)
                                         </a>
                                     </h6>
-                                    <p>While DPDP Act doesn’t mention cookies, the BRDCMS outlines how cookie consent
-                                        must be managed. Here's how organisatio...</p>
+                                    <p>Get DPDP-ready with best practices & tools. From consent & rights to DPIAs &
+                                        vendor risk, learn how DPCM, DPGR, DPAP, DP...</p>
 
                                 </div>
                             </div>
@@ -935,15 +859,16 @@ Proven Track Record ">
                         <div class="col-md-4">
                             <div class="custom-card carousel-img">
                                 <div class="card-header c-header">
-                                    <img src="./assets/images/blogs_35_thumbnail.jpg" alt="Card Image">
+                                    <img src="./assets/images/blogs_41_thumbnail.jpg" alt="AI and DPDP:
+                                            Ethical and Compliance Concerns Around AI-Driven Data Handling">
 
                                 </div>
                                 <div class="card-body c-body">
-                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=35&title=DPDP"> DPDP Act &
-                                            Secondary Data Use: Rules, Consent, Compliance</a>
+                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=35&title=DPDP">AI and DPDP:
+                                            Ethical and Compliance Concerns Around AI-Driven Data Handling</a>
                                     </h6>
-                                    <p>Understand the legal boundaries of using personal data for secondary purposes
-                                        under India’s DPDP Act, 2023, including ...</p>
+                                    <p>Explore the ethical and compliance challenges AI faces under India's DPDP Act,
+                                        from consent issues to bias risks, and di...</p>
 
                                 </div>
                             </div>
@@ -951,16 +876,16 @@ Proven Track Record ">
                         <div class="col-md-4">
                             <div class="custom-card carousel-img">
                                 <div class="card-header c-header">
-                                    <img src="./assets/images/blogs_34_thumbnail.png" alt="Card Image">
+                                    <img src="./assets/images/blogs_40_thumbnail.jpg" alt="Why Digital
+                                            Consent Management is No Longer Optional in India's DPDP Act Era">
 
                                 </div>
                                 <div class="card-body c-body">
-                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=34&title=Data"> Data
-                                            Minimisation: A Strategic Imperative in the Age of Privacy and
-                                            Compliance</a>
+                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=34&title=Data"> Why Digital
+                                            Consent Management is No Longer Optional in India's DPDP Act Era</a>
                                     </h6>
-                                    <p>Learn how data minimisation enhances compliance with the DPDP Act, reduces risks,
-                                        and strengthens user trust. Explore pr...</p>
+                                    <p>Digital consent management is essential under India's DPDP Act, ensuring
+                                        compliance, trust, and efficiency. Manual metho...</p>
 
                                 </div>
                             </div>
@@ -968,23 +893,20 @@ Proven Track Record ">
                         <div class="col-md-4">
                             <div class="custom-card carousel-img">
                                 <div class="card-header c-header">
-                                    <img src="./assets/images/blogs_33_thumbnail.jpg" alt="Card Image">
+                                    <img src="./assets/images/blogs_39_thumbnail.jpg" alt="Global
+                                            Data Breaches in 2025: Key Lessons for India’s Digital Privacy Ecosystem">
 
                                 </div>
                                 <div class="card-body c-body">
-                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=33&title=Valid"> Valid
-                                            Consent Management Under the DPDP Act, 2023: What Every Organization Needs
-                                            to Know</a>
+                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=33&title=Valid"> Global
+                                            Data Breaches in 2025: Key Lessons for India’s Digital Privacy Ecosystem</a>
                                     </h6>
-                                    <p>Learn how to implement valid, purpose-specific consent under the DPDP Act, 2023.
-                                        This guide covers audits, real-time con...</p>
+                                    <p>Global data breaches in 2025 highlight urgent lessons for India. With DPDPA
+                                        enforcement underway, India must strengthen ...</p>
 
                                 </div>
                             </div>
                         </div>
-                        <!-- <img src="./assets/images/image37.png" class="carousel-img" alt="T6" /> -->
-
-
                     </div>
 
                     <!-- Controls -->
@@ -998,44 +920,6 @@ Proven Track Record ">
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-    <!-- <section class="news-section sec-pad">
-        <div class="container">
-            <div class="sec-title section-title-two2">
-                <h5 class="section-title-two1 text-center">People who <span class="text-trust">Trust</span> us</h5>
-            </div>
-
-            <div class="owl-carousel owl-theme">
-                <div class="item"><img src="./assets/images/client-logo/hindalco.jpg" alt="Event 1"></div>
-                <div class="item"><img src="./assets\images/client-logo/tata-motos.jpg" alt="Event 2"></div>
-                <div class="item"><img src="./assets/images/client-logo/bajaj-finserv.jpg" alt="Event 3"></div>
-                <div class="item"><img src="./assets/images/client-logo/apraava.png" alt="Event 4"></div>
-                <div class="item"><img src="./assets/images/client-logo/art-house-financing.jpg" alt="Event 5"></div>
-                <div class="item"><img src="./assets/images/client-logo/ashok-leyland-vector-logo.png" alt="Event 6">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/eZee.png" alt="Event 6"></div>
-                <div class="item"><img src="./assets/images/client-logo/infinite.png" alt="Event 7"></div>
-                <div class="item"><img src="./assets/images/client-logo/mamenta-logo.png" alt="Event 8"></div>
-                <div class="item"><img src="./assets/images/client-logo/netradyne.png" alt="Event 9"></div>
-                <div class="item"><img src="./assets/images/client-logo/quinnox-logo.jpg" alt="Event 10"></div>
-                <div class="item"><img src="./assets/images/client-logo/retarget-logo.png" alt="Event 11"></div>
-                <div class="item"><img src="./assets/images/client-logo/sk-finance.png" alt="Event 12"></div>
-                <div class="item"><img src="./assets/images/client-logo/trackwizz.png" alt="Event 13"></div>
-                <div class="item"><img src="./assets/images/client-logo/zebpay.jpg" alt="Event 14"></div>
-                <div class="item"><img src="./assets/images/client-logo/zeiss_logo.png" alt="Event 15"></div>
-                <div class="item"><img src="./assets/images/client-logo/zyter-care.jpg" alt="Event 16"></div>
-            </div>
-        </div>
-    </section> -->
     <section>
         <div class="container my-5 testimon">
             <div class="row">
@@ -1049,7 +933,6 @@ Proven Track Record ">
                     <div class="testimonial-card d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start p-3"
                         data-bs-toggle="modal" data-bs-target="#testimonialModal" data-bs-toggle="modal"
                         data-bs-target="#testimonialModal">
-                        <!-- <img class="img-fluid" src="./assets/images/client-logo/zeiss_logo.png" alt="User"> -->
                         <div class="ms-3">
                             <h5>Mahalakshmi.PG, Anil A</h5>
                             <span class="company">Carl Zeiss India Pvt. Ltd.</span>
@@ -1070,7 +953,6 @@ Proven Track Record ">
                     <div class="modal-dialog modal-lg modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <!-- <h5 class="modal-title" id="testimonialModalLabel">Pawan Mishra - Testimonial</h5> -->
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
@@ -1098,7 +980,6 @@ Proven Track Record ">
                 <div class="col-md-4 col-lg-4 my-3">
                     <div class="testimonial-card d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start p-3"
                         data-bs-toggle="modal" data-bs-target="#testimonialModal2">
-                        <!-- <img style="" src="./assets/images/client-logo/mindforce.png" alt="User"> -->
                         <div class="ms-3">
                             <h5>Anupam Srivastav</h5>
                             <span class="company">Mindforce Research</span>
@@ -1118,7 +999,6 @@ Proven Track Record ">
                     <div class="modal-dialog modal-lg modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <!-- <h5 class="modal-title" id="testimonialModalLabel">Pawan Mishra - Testimonial</h5> -->
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
@@ -1150,7 +1030,6 @@ Proven Track Record ">
                 <div class="col-md-4 col-lg-4 my-3">
                     <div class="testimonial-card d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start p-3"
                         data-bs-toggle="modal" data-bs-target="#testimonialModal3">
-                        <!-- <img style="" src="./assets/images/client-logo/mindforce.png" alt="User"> -->
                         <div class="ms-3">
                             <h5>Pawan Rama Rao</h5>
                             <span class="company">Retarget Spark</span>
@@ -1171,7 +1050,6 @@ Proven Track Record ">
                     <div class="modal-dialog modal-lg modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <!-- <h5 class="modal-title" id="testimonialModalLabel">Pawan Mishra - Testimonial</h5> -->
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
@@ -1201,7 +1079,6 @@ Proven Track Record ">
                 <div class="col-md-4 col-lg-4 my-3">
                     <div class="testimonial-card d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start p-3"
                         data-bs-toggle="modal" data-bs-target="#testimonialModal4">
-                        <!-- <img style="" src="./assets/images/client-logo/mindforce.png" alt="User"> -->
                         <div class="ms-3">
                             <h5>Shabbir Badra</h5>
                             <span class="company">Apraava Energy Pvt Ltd.</span>
@@ -1220,7 +1097,6 @@ Proven Track Record ">
                     <div class="modal-dialog modal-lg modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <!-- <h5 class="modal-title" id="testimonialModalLabel">Pawan Mishra - Testimonial</h5> -->
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
@@ -1247,42 +1123,12 @@ Proven Track Record ">
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
-    <!-- <section>
-        <div class="container">
-            <div class="certifications-container">
-                <div class="certifications-text">
-                    <h6>Awards & Certifications</h6>
-                    <h2>Recognized for <span>excellence,</span><br> <span>certified</span> for your<br> trust</h2>
-                    <p>Our team is proud to hold a range of industry-<br>recognized awards and certifications that<br>
-                        demonstrate our commitment to excellence in<br> data privacy and compliance.</p>
-                </div>
-                <div class="certificates">
-                    <img src="./assets/images/image39.png" alt="Certificate" class="large">
-                    <img src="./assets/images/image36.png" alt="Certificate" class="small36">
-                    <img src="./assets/images/image35.png" alt="Certificate" class="large">
-                    <img src="./assets/images/image42.png" alt="Certificate" class="small42">
-                    <img src="./assets/images/image40.png" alt="Certificate" class="large40">
-                    <img src="./assets/images/image37.png" alt="Certificate" class="small37">
-                </div>
-            </div>
-        </div>
-
-    </section> -->
     <section class="newsletters-bg">
 
         <div class="container">
             <div class="row align-items-center">
-                <!-- <div class="text-center my-4">
-                    <h6>Newsletters</h6>
-                    <h3 class="newsletter-title text-center">Stay informed and ahead of the curve – with <span>latest
-                            insights,<br> updates, and expert advice</span> on data privacy and compliance</h3>
-                </div> -->
-
-
                 <div class="col-sm-5">
 
                     <div class="my-4">
@@ -1292,38 +1138,39 @@ Proven Track Record ">
                                 insights, updates, and expert advice</span> on data privacy and compliance
                         </h3>
                     </div>
-                    <a href="contact.php?action=newsletter" class="subscribe-btn my-4">Subscribe</a>
+                    <a href="contact.php?act=newsletter" class="subscribe-btn my-4">Subscribe</a>
 
                 </div>
                 <div class="col-sm-7 text-center">
                     <div id="newsletterCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=30&title=MeitY"><img
-                                        src="./assets/images/newsletters_30_thumbnail.jpg" class="d-block"
-                                        alt="Slide 1"></a>
+                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=50&title=Attorney"><img
+                                        src="./assets/images/newsletters_50_thumbnail.jpg" class="d-block"
+                                        alt="Attorney General Defends DPDP Amid Concerns of Diluted RTI"></a>
                             </div>
                             <div class="carousel-item">
-                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=25&title=Govt"><img
-                                        src="./assets/images/newsletters_29_thumbnail.jpg" class="d-block"
-                                        alt="Slide 2"></a>
+                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=49&title=DPDP"><img
+                                        src="./assets/images/newsletters_49_thumbnail.jpg" class="d-block"
+                                        alt="DPDP Rules to Be Notified Before Winter Session, Confirms IT Minister Ashwini Vaishnaw"></a>
                             </div>
                             <div class="carousel-item">
-                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=28&title=Agarwal"><img
-                                        src="./assets/images/newsletters_28_thumbnail.jpg" class="d-block"
-                                        alt="Slide 3"></a>
-                            </div>
-
-                            <div class="carousel-item">
-                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=27&title=Cyberattack"><img
-                                        src="./assets/images/newsletters_27_thumbnail.jpg" class="d-block"
-                                        alt="Slide 3"></a>
+                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=48&title=Phone"><img
+                                        src="./assets/images/newsletters_48_thumbnail.jpg" class="d-block"
+                                        alt="Phone Numbers at Billing Counter? A Common Practice Now a Compliance Risk Under DPDP Act"></a>
                             </div>
 
                             <div class="carousel-item">
-                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=26&title=Zoomcar"><img
-                                        src="./assets/images/newsletters_26_thumbnail.jpg" class="d-block"
-                                        alt="Slide 3"></a>
+                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=47&title=DPDP"><img
+                                        src="./assets/images/newsletters_47_thumbnail.jpg" class="d-block"
+                                        alt="DPDP Act Strengthens, Not Weakens, Right to Information: IT Ministry
+"></a>
+                            </div>
+
+                            <div class="carousel-item">
+                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=46&title=Punjab"><img
+                                        src="./assets/images/newsletters_46_thumbnail.jpg" class="d-block"
+                                        alt="Punjab Government Terminates BJP's Welfare Outreach Amid Data Security Concerns"></a>
                             </div>
                         </div>
 
@@ -1445,71 +1292,6 @@ Proven Track Record ">
                                 </div>
                             </div>
                         </div>
-                        <!-- <div id="moreFaqs" class="hidden">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq2">
-                                        What is included in a DPDP Act Readiness Review by DPDP Consultants?
-                                    </button>
-                                </h2>
-                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">Our DPDP Act Readiness Review evaluates your
-                                        organization’s current data protection framework. We identify gaps in compliance
-                                        with the Digital Personal Data Protection Act 2023, recommend actionable
-                                        improvements, and help implement changes to meet regulatory standards. This
-                                        service is ideal for businesses seeking a proactive approach to privacy
-                                        compliance.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq3">
-                                        Does DPDP Consultants offer customized training programs on data privacy?
-                                    </button>
-                                </h2>
-                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">Yes, DPDP Consultants provides bespoke training programs
-                                        designed to educate your employees about data privacy laws, including the DPDP
-                                        Act 2023, GDPR, and other international regulations. Our training equips teams
-                                        with practical knowledge to handle personal data responsibly and mitigate
-                                        privacy risks effectively.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq4">
-                                        What is the importance of Contract Review in data protection compliance?
-                                    </button>
-                                </h2>
-                                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">A thorough Contract Review ensures that agreements with
-                                        third parties, vendors, and partners comply with the provisions of the DPDP Act
-                                        2023 and other data privacy regulations. DPDP Consultants helps businesses
-                                        identify and address risks in contracts related to data processing, safeguarding
-                                        your organization from legal liabilities and potential breaches.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq5">
-                                        How does DPDP Consultants tailor its data compliance solutions for different
-                                        industries?
-                                    </button>
-                                </h2>
-                                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">At DPDP Consultants, we recognize that each industry
-                                        faces unique data protection challenges. Our team conducts in-depth assessments
-                                        to design customized compliance solutions that align with industry-specific
-                                        regulations and business objectives. From healthcare and finance to e-commerce
-                                        and IT, we deliver targeted strategies to ensure compliance with the DPDP Act
-                                        2023 and beyond.</div>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                     <div class="view-more">
                         View more <a href="faq.php"><img class="mx-2" src="./assets/images/svg-faq-arrow.png"
@@ -1521,12 +1303,6 @@ Proven Track Record ">
     </section>
 
     <!-- newsletter start -->
-
-
-
-
-
-
 
     <?php include_once('footer.php'); ?>
 
@@ -1752,24 +1528,11 @@ Proven Track Record ">
 
         // swiper js start here
     </script>
-
-
-    <!-- jquery start -->
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-    <!-- bootstrap js -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
-        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/Edu.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./assets/js/script.js"></script>
-
-
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="OYwY+ufg23+xpZwlJFuKdA" async></script>
 </body>
 
 </html>

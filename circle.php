@@ -448,7 +448,7 @@
                         <img src="assets/images/233.1.png" alt="Third-Party Consent Sharing and Rights Fulfilment services icon" class="icon-btns" data-id="11">
                     </div>
                     <div class="circle12">
-                        <img src="assets/images/DPCM.1.png" alt="Consent management platform icon " data-id="12" class="icon-btns dpgr-icon">
+                        <img src="assets/images/DPCM.1.png" alt="Consent management platform icon" data-id="12" class="icon-btns dpgr-icon">
                         <div class="icons-dpcm m-none">DPCM</div>
                     </div>
                     <div class="circle13 icon-wrapper">
@@ -476,7 +476,7 @@
                 <div id="content-1" class="icon-content active">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/224.png" alt="Icon">
+                            <img src="assets/images/224.png" alt="Consent Management Framework Services icon2">
                         </div>
                         <h5>Consent Management Framework</h5>
                         <p>Our data protection experts will develop specific consent templates and policies tailored to
@@ -497,7 +497,7 @@
                 <div id="content-2" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/363.png" alt="Icon">
+                            <img src="assets/images/363.png" alt="DPDP Act compliance Risk and Mitigation Services icon2">
                         </div>
                         <h5>Risk and Mitigation</h5>
                         <p>We assess risks related to DPDPA non-compliance and provide a comprehensive mitigation plan
@@ -537,7 +537,7 @@
                 <div id="content-4" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/364.png" alt="Icon">
+                            <img src="assets/images/364.png" alt="Policy & Privacy Notice Framework services icon2">
                         </div>
                         <h5>Policy & Notice Framework Notice</h5>
                         <p>Our techno-legal consultants create organizational and public-facing notices that comply with
@@ -577,7 +577,7 @@
                 <div id="content-6" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/228.png" alt="Icon">
+                            <img src="assets/images/228.png" alt="Principal Rights Management Procedure icon2">
                         </div>
                         <h5>Principal Rights Management Procedure</h5>
                         <p>We will establish a process for efficiently managing and responding to principal rights
@@ -600,7 +600,7 @@
                 <div id="content-7" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/230.png" alt="Icon">
+                            <img src="assets/images/230.png" alt="DPDPA Employee Awareness Training Icon2">
                         </div>
                         <h5>Employee Awareness</h5>
                         <p>We offer tailored training, assessments, certifications, and compliance agreements on DPDPA
@@ -619,7 +619,7 @@
                 <div id="content-8" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/231.png" alt="Icon">
+                            <img src="assets/images/231.png" alt="Principal Rights Management Forms and Templates Services Icon">
                         </div>
                         <h5>Principal Rights Management Forms and Templates</h5>
                         <p>We will create DPDPA-compliant rights request forms and templates to facilitate easy access
@@ -640,7 +640,7 @@
                 <div id="content-9" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/224.1.png" alt="Icon">
+                            <img src="assets/images/224.1.png" alt="Employee Compliance Agreement Services Icon2">
                         </div>
                         <h5>Employee Compliance Agreement</h5>
                         <p>We educate your workforce to minimize liability in the event of employee non-compliance with
@@ -659,7 +659,7 @@
                 <div id="content-10" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/232.png" alt="Icon">
+                            <img src="assets/images/232.png" alt="Data Processing Agreement services icon2">
                         </div>
                         <h5>Data Processing Agreement</h5>
                         <p>We help manage your compliance obligations with processors through vendor risk assessments
@@ -682,7 +682,7 @@
                 <div id="content-11" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/233.1.png" alt="Icon">
+                            <img src="assets/images/233.1.png" alt="Third-Party Consent Sharing and Rights Fulfilment services icon">
                         </div>
                         <h5>Third-Party Consent Sharing and Rights Fulfilment</h5>
                         <p>We facilitate the sharing of explicit consent and manage rights fulfilment across your
@@ -704,7 +704,7 @@
                 <div id="content-12" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/DPCM.1.png" alt="Icon">
+                            <img src="assets/images/DPCM.1.png" alt="Consent management platform icon2">
                         </div>
                         <h5>Data Principal Consent Management Tool</h5>
                         <p>Our tool facilitates seamless collection, management, and tracking of data principal consents
@@ -726,7 +726,7 @@
                 <div id="content-13" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/DPGR.1.png" alt="Icon">
+                            <img src="assets/images/DPGR.1.png" alt="Data subject rights management tool icon">
                         </div>
                         <h5>Data Principal Grievance Redressal Tool</h5>
                         <p>Our tool streamlines the process of managing and resolving grievances raised by data
@@ -751,7 +751,7 @@
                 <div id="content-14" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/DPAP.1.png" alt="Icon">
+                            <img src="assets/images/DPAP.1.png" alt="DPDPA compliance training platform icon2">
                         </div>
                         <h5>Data Protection Awareness Program Tool</h5>
                         <p>Our tool delivers customized training, assessments, and compliance modules to enhance data
@@ -776,7 +776,7 @@
                 <div id="content-15" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/DPIA.1.png" alt="Icon">
+                            <img src="assets/images/DPIA.1.png" alt="Data protection impact assessment tool icon">
                         </div>
                         <h5>Data Protection Impact Assessment (DPIA) Tool</h5>
                         <p>Our tool streamlines the identification, assessment, and mitigation of data protection risks,
@@ -797,7 +797,7 @@
                 <div id="content-16" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/DPTPA.1.png" alt="Icon">
+                            <img src="assets/images/DPTPA.1.png" alt="DPDPA Third party risk assessment software icon2">
                         </div>
                         <h5>Data Protection Third party Assessment Tool</h5>
                         <p>Our tool evaluates and monitors third party vendors to ensure their data processing

@@ -19,60 +19,60 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/career.php">
     <style>
-    body {
-        background-color: #02092c;
-        color: white;
-    }
+        body {
+            background-color: #02092c;
+            color: white;
+        }
 
-    .job-listing-card {
-        border: 1px solid #00bcd4;
-        border-radius: 10px;
-        padding: 15px;
-        margin-bottom: 20px;
-        cursor: pointer;
-        /* background-color: #0A0F24; */
-        color: white;
-    }
+        .job-listing-card {
+            border: 1px solid #00bcd4;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            /* background-color: #0A0F24; */
+            color: white;
+        }
 
-    .job-listing-header {
-        color: #00bcd4;
-        border-bottom: 1px solid #00bcd4;
-        padding-bottom: 10px;
-        margin-bottom: 15px;
-    }
+        .job-listing-header {
+            color: #00bcd4;
+            border-bottom: 1px solid #00bcd4;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
 
-    .job-listing-details {
-        display: none;
-        /* Initially hidden */
-        padding-top: 15px;
-    }
-
-    .expanded {
-        display: block !important;
-    }
-
-    .job-listing-open-role {
-        color: #00bcd4;
-        font-weight: bold;
-    }
-
-    @media (max-width: 768px) {
         .job-listing-details {
-            flex-direction: column;
-            text-align: center;
+            display: none;
+            /* Initially hidden */
+            padding-top: 15px;
         }
 
-        .carrer-features-hero {
-            padding: 0px 0px !important;
+        .expanded {
+            display: block !important;
         }
 
-        ul,
-        li,
-        p {
-            font-size: 12px;
-            text-align: left;
+        .job-listing-open-role {
+            color: #00bcd4;
+            font-weight: bold;
         }
-    }
+
+        @media (max-width: 768px) {
+            .job-listing-details {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .carrer-features-hero {
+                padding: 0px 0px !important;
+            }
+
+            ul,
+            li,
+            p {
+                font-size: 12px;
+                text-align: left;
+            }
+        }
     </style>
 </head>
 
@@ -84,6 +84,194 @@
             <p>Join us and be part of a supportive community where your talents are nurtured, ideas are celebrated, and
                 success is shared.</p>
         </div>
+        <div class="mt-5">
+            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="job-listing-header">PostgreSQL Database Administrator (On-Premise, Multi–Data Center
+                        Replication)</h5>
+                    <span class="job-listing-open-role">1 Open Role</span>
+                </div>
+                <p><strong>
+                        Team:
+                    </strong> Product</p>
+                <p><strong>
+                        Location:
+                    </strong>Noida</p>
+                <p><strong>Work Schedule:</strong> Full-Time / Contract</p>
+                <p><strong>Work Mode: </strong>On-site</p>
+                <p><strong>Experience: </strong>3 to 5+ years (PostgreSQL Administration & Replication)</p>
+                <div class="job-listing-details">
+
+
+                    <p><strong>Job Description:</strong> We are seeking an experienced PostgreSQL Database Administrator
+                        (DBA) to manage and maintain our on-premise PostgreSQL infrastructure deployed across multiple
+                        data centers. The DBA will be responsible for implementing, monitoring, and optimizing logical
+                        replication between data centers, ensuring high availability, data integrity, and automatic
+                        recovery in case of network or hardware failures.
+                    </p>
+                    <p>The role involves working on a one-master-at-a-time replication model, ensuring seamless master
+                        rotation every six months, and maintaining synchronization between the data centers even during
+                        internet or network interruptions.</p>
+
+                    <h5>Key Responsibilities:
+                    </h5>
+                    <ul>
+                        <li>Design, configure, and maintain PostgreSQL databases for high availability and performance
+                            across multiple on-premise data centers.
+                        </li>
+                        <li>Implement and manage logical replication with one master node active at a time.
+                        </li>
+                        <li>Ensure replication auto-start and auto-sync in case of network or connectivity disruptions.
+                        </li>
+                        <li>Plan and execute scheduled master rotations (every six months) between data centers with
+                            minimal downtime.
+                        </li>
+                        <li>Continuously monitor database health, replication status, and performance metrics.
+                        </li>
+                        <li>Develop and maintain scripts for automated failover, recovery, and sync resumption after
+                            outages.</li>
+                        <li>Perform backup and restore operations ensuring data consistency across environments.</li>
+                        <li>Optimize database performance through indexing, query tuning, and partitioning strategies.
+                        </li>
+                        <li>Collaborate with DevOps, Networking, and Application teams to ensure database reliability
+                            and security.</li>
+
+
+                    </ul>
+                    <h5>Required Skills & Qualifications
+                    </h5>
+                    <ul>
+                        <li>Strong hands-on experience (5+ years) administering PostgreSQL (v12 or higher) in production
+                            environments.
+                        </li>
+                        <li>Proven expertise in setting up and managing logical replication, streaming replication, and
+                            high-availability clusters.
+                        </li>
+                        <li>Experience with multi–data center replication and failover/fallback mechanisms.
+                        </li>
+                        <li>Proficient in designing auto-start and auto-sync replication scripts (using Bash, Python, or
+                            Ansible).</li>
+                        <li>Understanding of network routing, firewall, and latency optimization for database
+                            replication across sites.</li>
+                        <li>Experience with PgBouncer, Patroni, or repmgr for HA management.</li>
+                        <li>Solid understanding of backup and disaster recovery strategies.</li>
+                        <li>Familiarity with monitoring tools (Prometheus, Grafana, pgAdmin, Zabbix, or similar).</li>
+                        <li>Strong problem-solving and analytical skills, with a focus on reliability and fault
+                            tolerance.</li>
+
+                    </ul>
+
+                    <h5>Preferred Qualifications
+                    </h5>
+                    <ul>
+                        <li>Certification in PostgreSQL Administration or Linux Systems.</strong>
+                        </li>
+                        <li>Experience with Docker-based PostgreSQL deployments.</li>
+                        <li>Prior work with Python Flask or web applications connecting to PostgreSQL backends.</li>
+                        <li>Knowledge of PostgreSQL replication conflict resolution and logical decoding.</li>
+                    </ul>
+
+                    <h5>Key Environment Details
+                    </h5>
+                    <ul>
+                        <li>Deployment Model: On-Premise</li>
+                        <li>Data Centers: DC1, DC2 (active replication)</li>
+                        <li>Replication Type: Logical (one master active)</li>
+                        <li>Failover Behavior: Auto start on network recovery, auto sync after downtime</li>
+                        <li>Master Rotation: Scheduled every 6 months</li>
+                    </ul>
+
+                    <a target="_blank" href="contact.php?act=careers&job=PostgreSQL Database Administrator"
+                        class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mt-5">
+            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="job-listing-header">HR & Marketing Executive</h5>
+                    <span class="job-listing-open-role">1 Open Role</span>
+                </div>
+                <p><strong>
+                        Team:
+                    </strong> Management</p>
+                <p><strong>
+                        Location:
+                    </strong>Noida</p>
+                <p><strong>Work Schedule:</strong> Full-time</p>
+                <p><strong>Work Mode: </strong>On-site</p>
+                <div class="job-listing-details">
+
+                    <h5>Key Responsibilities:
+                    </h5>
+                    <ul>
+                        <li>Manage end-to-end recruitment cycle: sourcing, screening, interviewing, and onboarding.
+                        </li>
+                        <li>Build and maintain candidate pipelines through job portals, LinkedIn, referrals, and campus
+                            drives.
+                        </li>
+                        <li>Coordinate with hiring managers to understand manpower requirements and define job
+                            specifications.
+                        </li>
+                        <li>Develop attractive job descriptions and recruitment marketing material.
+                        </li>
+                        <li>Maintain HR records and support employee engagement activities.
+                        </li>
+
+
+                    </ul>
+                    <h5>Marketing Support (Secondary):
+                    </h5>
+                    <ul>
+                        <li>Create impactful PPT presentations, proposals, and pitch decks for internal and external
+                            stakeholders.
+                        </li>
+                        <li>Support employer branding and recruitment marketing campaigns.
+                        </li>
+                        <li>Assist in developing marketing collaterals, digital content, and event coordination.
+                        </li>
+
+                    </ul>
+
+                    <h5>Key Skills & Competencies
+                    </h5>
+                    <ul>
+                        <li>Strong expertise in <strong>Recruitment & Talent Acquisition.</strong>
+                        </li>
+                        <li><strong>Excellent PowerPoint (PPT) skills –</strong> ability to design and deliver
+                            high-quality,
+                            engaging presentations.</li>
+                        <li>Good communication and interpersonal skills.</li>
+                        <li>Ability to multitask and manage deadlines.</li>
+                        <li>Basic understanding of digital marketing / employer branding will be an added advantage.
+                        </li>
+                    </ul>
+
+
+                    <h5>Qualifications:
+                    </h5>
+                    <ul>
+                        <li>Graduate / Postgraduate in HR, Business Administration, or related field.</li>
+                        <li>1–3 years of relevant experience in recruitment and HR operations.</li>
+                        <li>Proficiency in MS Office (especially PowerPoint, Excel, Word).</li>
+                    </ul>
+
+                    <h5>What We Offer:
+                    </h5>
+                    <ul>
+                        <li>Opportunity to work in a dynamic and growing organization.</li>
+                        <li>Exposure to both HR and Marketing domains.</li>
+                        <li>Learning and growth opportunities with direct impact on business success.</li>
+                    </ul>
+                    <a target="_blank" href="contact.php?act=careers&job=HR and Marketing Executive"
+                        class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+
+
 
 
         <div class="mt-5">
@@ -162,15 +350,17 @@
 
                     <h5>Nice to Have:
                     </h5>
-                    <li>Experience in microservices and distributed systems.
-                    </li>
-                    <li>Working knowledge of Linux-based systems and shell scripting.</li>
+                    <ul>
+                        <li>Experience in microservices and distributed systems.
+                        </li>
+                        <li>Working knowledge of Linux-based systems and shell scripting.</li>
 
-                    <h5>What We Offer:</h5>
-                    <li>Opportunity to work on impactful products in the rapidly growing data privacy space.</li>
-                    <li>Collaborative and inclusive work environment.</li>
-                    <li>Modern tech stack and agile development culture.</li>
-                    <li>Competitive compensation and performance incentives.</li>
+                        <h5>What We Offer:</h5>
+                        <li>Opportunity to work on impactful products in the rapidly growing data privacy space.</li>
+                        <li>Collaborative and inclusive work environment.</li>
+                        <li>Modern tech stack and agile development culture.</li>
+                        <li>Competitive compensation and performance incentives.</li>
+                    </ul>
 
                     <h5>Note:
                     </h5>
@@ -185,14 +375,13 @@
                     <p>Bachelor’s degree in Computer Science, Engineering, or a related field is Mandatory.
 
                     </p>
-                    <a target="_blank"
-                        href="contact.php?act=careers&job=Senior Python Engineer"
+                    <a target="_blank" href="contact.php?act=careers&job=Senior Python Engineer"
                         class="btn btn-primary">Apply Now</a>
                 </div>
             </div>
         </div>
 
-        
+
         <div class="mt-5">
             <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
                 <div class="d-flex justify-content-between align-items-center">
@@ -239,11 +428,13 @@
                     </ul>
                     <h5>Training and Communication:
                     </h5>
-                    <li>Design and deliver compliance training programs to educate employees on relevant laws,
-                        regulations, and company policies.
-                    </li>
-                    <li>Foster a culture of compliance through effective communication and awareness campaigns.
-                    </li>
+                    <ul>
+                        <li>Design and deliver compliance training programs to educate employees on relevant laws,
+                            regulations, and company policies.
+                        </li>
+                        <li>Foster a culture of compliance through effective communication and awareness campaigns.
+                        </li>
+                    </ul>
                     <h5>Monitoring and Reporting:
                     </h5>
                     <ul>
@@ -1022,15 +1213,17 @@
 
                     <h5>Nice to Have:
                     </h5>
-                    <li>Experience in microservices and distributed systems.
-                    </li>
-                    <li>Working knowledge of Linux-based systems and shell scripting.</li>
+                    <ul>
+                        <li>Experience in microservices and distributed systems.
+                        </li>
+                        <li>Working knowledge of Linux-based systems and shell scripting.</li>
 
-                    <h5>What We Offer:</h5>
-                    <li>Opportunity to work on impactful products in the rapidly growing data privacy space.</li>
-                    <li>Collaborative and inclusive work environment.</li>
-                    <li>Modern tech stack and agile development culture.</li>
-                    <li>Competitive compensation and performance incentives.</li>
+                        <h5>What We Offer:</h5>
+                        <li>Opportunity to work on impactful products in the rapidly growing data privacy space.</li>
+                        <li>Collaborative and inclusive work environment.</li>
+                        <li>Modern tech stack and agile development culture.</li>
+                        <li>Competitive compensation and performance incentives.</li>
+                    </ul>
 
                     <h5>Note:
                     </h5>
@@ -1045,8 +1238,7 @@
                     <p>Bachelor’s degree in Computer Science, Engineering, or a related field is Mandatory.
 
                     </p>
-                    <a target="_blank"
-                        href="contact.php?act=careers&job=Senior Python Engineer"
+                    <a target="_blank" href="contact.php?act=careers&job=Senior Python Engineer"
                         class="btn btn-primary">Apply Now</a>
                 </div>
             </div>
@@ -1054,10 +1246,10 @@
     </div>
 
     <script>
-    function toggleJobDetails(element) {
-        let details = element.querySelector(".job-listing-details");
-        details.classList.toggle("expanded");
-    }
+        function toggleJobDetails(element) {
+            let details = element.querySelector(".job-listing-details");
+            details.classList.toggle("expanded");
+        }
     </script>
     <?php include('footer.php'); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"

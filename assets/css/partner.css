@@ -1,0 +1,589 @@
+.blog {
+  color: white;
+}
+
+/* ======== Partner Hero Section ======== */
+.partner-hero-section {
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+}
+
+.partner-hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 60px;
+}
+
+.partner-hero-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.partner-hero-content {
+  flex: 1 1 500px;
+}
+
+.partner-hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.partner-hero-content p {
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #dcdcdc;
+}
+
+.partner-hero-btn {
+  display: inline-block;
+  background-color: #3ca6e0;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 50px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.partner-hero-btn:hover {
+  background-color: #2a87b8;
+}
+
+.partner-hero-image-wrapper {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.partner-hero-image {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  margin-top: 30px;
+}
+
+/* ======== Responsive Design ======== */
+@media (max-width: 991px) {
+  .partner-hero-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .partner-hero-content {
+    padding: 0 15px;
+  }
+
+  .partner-hero-content h1 {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .partner-hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .partner-hero-btn {
+    padding: 10px 40px;
+    font-size: 0.95rem;
+  }
+
+  .partner-hero-image {
+    margin-top: 20px;
+    max-width: 350px;
+  }
+}
+
+
+.leverage-img{
+  width:80%;
+}
+.card-img-tops{
+  width:100%;
+  height:auto;
+ 
+
+}
+
+
+@media (max-width: 575px) {
+  .partner-hero-container {
+    padding: 80px 15px 40px;
+  }
+
+  .partner-hero-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .partner-hero-btn {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 30px;
+  }
+}
+
+
+/* slider css start here */
+.news-section {
+  padding: 40px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-title-two1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c4042;
+  margin-bottom: 10px;
+}
+
+/* Item Card Styling */
+.owl-carousel .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  padding: 15px;
+  margin: 10px;
+  height: 110px; /* consistent height */
+}
+
+/* Logo Images Styling */
+.owl-carousel .item img {
+  max-width: 173px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+/* Navigation Button Styling */
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.owl-prev {
+  left: -50px;
+}
+
+.owl-next {
+  right: -50px;
+}
+
+.card-text{
+    text-align: left;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+
+}
+.left-content-one-steps {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.dpdp-partner-section {
+      padding: 70px 0;
+      background-color: #fff;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .dpdp-partner-header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .dpdp-partner-subtitle {
+      display: block;
+      font-weight: 500;
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+    }
+
+    .dpdp-partner-title {
+      font-weight: 700;
+      font-size: 1.9rem;
+      color: #0d0d0d;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+
+    .dpdp-partner-layout {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 25px;
+    }
+
+    .dpdp-partner-labels {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      text-align: right;
+      margin-right: 15px;
+    }
+
+    .dpdp-partner-labels p {
+      font-weight: 600;
+      color: #3a3a3a;
+      font-size: 1rem;
+      margin-bottom: 70px;
+    }
+
+    .dpdp-partner-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      padding: 25px 20px;
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+
+    .dpdp-partner-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    }
+
+    .dpdp-partner-card-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #007bff;
+      margin-bottom: 12px;
+    }
+
+    .dpdp-partner-card p {
+      font-size: 0.95rem;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 991px) {
+      .dpdp-partner-layout {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .dpdp-partner-labels {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+      }
+
+      .dpdp-partner-labels p {
+        margin: 0 25px;
+      }
+
+      .section-title-two1 {
+        font-size: 1.6rem;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .dpdp-benefits-section {
+      background-color: #040b29;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .dpdp-benefits-header small {
+      font-size: 0.85rem;
+      letter-spacing: 0.5px;
+      letter-spacing: 2px;
+    }
+
+    .dpdp-benefits-header h2 {
+      font-weight: 600;
+      font-size: 1.8rem;
+      color: #ffffff;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+
+    .dpdp-benefits-header h2 span {
+      color: #32a3db;
+    }
+
+    .dpdp-benefits-card {
+      background-color: #07103a;
+      border: none;
+      border-radius: 16px;
+      padding: 30px 15px;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 1rem;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+
+    .dpdp-benefits-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(50, 163, 219, 0.3);
+    }
+
+    @media (max-width: 991px) {
+      .dpdp-benefits-card {
+        margin-bottom: 20px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .owl-prev {
+    left: -25px;
+  }
+  .owl-next {
+    right: -25px;
+  }
+  .owl-carousel .item {
+    height: 110px;
+    padding: 10px;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .hero-section br {
+    display: none;
+  }
+
+  .hero-section {
+    br {
+      display: none;
+    }
+
+    padding: 100px 10px 0px;
+  }
+
+  .hero-section h1 {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+
+  .hero-section p {
+    font-size: 12px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-section h1 {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+
+  .hero-section p {
+    font-size: 10px;
+    text-align: left;
+  }
+}
+
+
+
+
+/* ============================
+   DPDP Partner Section
+============================ */
+.dpdp-partner-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  color: #1a1a1a;
+}
+
+.dpdp-partner-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dpdp-partner-desktop-img img {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+}
+
+.dpdp-partner-mobile-img img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  /* margin-bottom: 25px; */
+}
+
+.the-tool-featuresdpcm {
+  max-width: 800px;
+  text-align: left;
+}
+
+.the-tool-featuresdpcm p:first-child {
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.dpcm-head {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0d0d0d;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  letter-spacing: 2px;
+}
+
+.heading-clrbs {
+  color: #0d0d0d;
+}
+
+.highlight-acc {
+  color: #32a3db;
+}
+
+.the-tool-featuresdpcm p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #02092C;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+.dpcm-btn {
+  display: inline-block;
+  background-color: #32a3db;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.dpcm-btn:hover {
+  background-color: #2383b3;
+}
+
+/* ============================
+   RESPONSIVE DESIGN
+============================ */
+
+/* ✅ Hide mobile image by default */
+.dpdp-partner-mobile-img {
+  display: none;
+}
+
+/* ✅ Show/hide image using media queries */
+@media (max-width: 991px) {
+  .dpdp-partner-section {
+    padding: 60px 15px;
+  }
+
+  .dpdp-partner-desktop-img {
+    display: none; /* Hide desktop image on mobile */
+  }
+
+  .dpdp-partner-mobile-img {
+    display: block; /* Show mobile image */
+  }
+
+  .the-tool-featuresdpcm {
+    text-align: center;
+  }
+
+  .dpcm-head {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .the-tool-featuresdpcm p {
+    text-align: center;
+    font-size: 0.95rem;
+  }
+
+  .the-tool-featuresdpcm p:first-child {
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  .dpcm-btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .dpdp-partner-section {
+    padding: 50px 12px;
+  }
+
+  .dpcm-head {
+    font-size: 1.4rem;
+  }
+
+  .the-tool-featuresdpcm p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}

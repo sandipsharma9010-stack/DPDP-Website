@@ -293,8 +293,8 @@ preg_match_all($pattern, $rectext, $matches, PREG_SET_ORDER);
     <div class="container p-4">
         <div class="row">
             <!-- Table of Content -->
-            <!-- <div class="col-md-3">
-                <div class="p-3  text-black rounded lineheight">
+            <!-- <div class="col-md-3"> -->
+                <!-- <div class="p-3  text-black rounded lineheight">
                     <p class="dpdp-table">Table of content</p>
                     <ul class="list-unstyled mt-3 fw-bold">
                         <?php foreach ($matches as $match) { ?>
@@ -303,8 +303,8 @@ preg_match_all($pattern, $rectext, $matches, PREG_SET_ORDER);
                         </li>
                         <?php } ?>
                     </ul>
-                </div>
-            </div> -->
+                </div> -->
+            <!-- </div> -->
 
             <!-- Main Content -->
             <div class="col-md-9">
@@ -345,10 +345,14 @@ $dbrecs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="p-3 bg-light rounded">
                     <p class="dpdp-table">Similar Read</p>
 
-                    <?php foreach ($dbrecs as $dbreci) { ?>
+                    <?php
+                        foreach ($dbrecs as $dbreci) {
+                            $title = $dbreci['rectitle'];
+                            $slug = trim(preg_replace('/[^a-z0-9]+/i', '-', strtolower($title)), '-');
+                        ?>
                     <div class="mt-3">
                         <a
-                            href="newsletter.php?id=<?php echo $dbreci['id']; ?>&title=<?php echo $dbreci['rectitle']; ?>">
+                            href="newsletter.php?id=<?php echo $dbreci['id']; ?>&title=<?php echo $slug; ?>">
                             <img src="<?php echo $dbreci['recimg']; ?>" alt="<?php echo $dbreci['rectitle']; ?>"
                                 title="<?php echo $dbreci['rectitle']; ?>" class="img-fluid">
                         </a>

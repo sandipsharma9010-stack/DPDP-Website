@@ -18,7 +18,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="canonical" href="https://www.dpdpconsultants.com/ccm.php">
+    <link rel="canonical" href="https://www.dpdpconsultants.com/cookie-consent-management.php">
     <style>
     .blog {
         text-align: center;
@@ -222,10 +222,10 @@
 
                     Your browser does not support the video tag.
                 </video> -->
-                <p class="mt-2 text-center tools-clr">Cookie Consent Management (CCM)</p>
+                <!-- <p class="mt-2 text-center tools-clr">Cookie Consent Management (CCM)</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Transparent, Trusted, and Tailored Cookie Consent Management Tool</h6>
+                <h6 class="dpcm-heading">Cookie Consent Management (CCM) Tool</h6>
                 <p class="dpcm-para card-text">Our Cookie Consent Manager (CCM) Tool provides an intuitive, automated
                     solution for capturing and managing user consent for website cookies. Fully
                     compliant with global privacy laws including the GDPR, ePrivacy Directive, CCPA/CPRA, and India’s

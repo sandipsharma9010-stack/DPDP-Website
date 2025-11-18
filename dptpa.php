@@ -175,11 +175,11 @@
 
                     Your browser does not support the video tag.
                 </video>
-                <p class="mt-2 text-center fw-bold tools-clr">Data Protection Third<br> Party Assessment and<br>
-                    Compliance</p>
+                <!-- <p class="mt-2 text-center fw-bold tools-clr">Data Protection Third<br> Party Assessment and<br>
+                    Compliance</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Streamlined, Compliant, and Adaptive Third Party Assessment Tool</h6>
+                <h6 class="dpcm-heading">Data Protection Third Party Assessment and Compliance Tool</h6>
                 <p class="card-text dpcm-para">Our Data Protection and Third Party Assessment (DPTPA) Solution empowers
                     organizations to seamlessly
                     manage vendor compliance by issuing clear instructions, monitoring vendor actions, and receiving

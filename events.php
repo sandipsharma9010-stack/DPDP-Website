@@ -4,13 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <title>DPDP Act Events & Workshops</title>
-    <meta name="description"
-        content="Register for workshops & training on DPDP Act compliance, audits, DPIA, consent & vendor risk management.">
-    <meta name="keywords"
-        content="DPDP Act workshops, data privacy events, DPDP Act compliance training, data governance seminars, privacy awareness sessions, regulatory compliance events, data protection updates">
-
     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
@@ -18,6 +11,8 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+     <link rel="canonical" href="https://www.dpdpconsultants.com/events.php">
     <style>
     .blog {
         text-align: center;
@@ -262,7 +257,7 @@ $recfile = $dbrec['recfile'];
 
 <?php } else { ?>
 
-    <title>Data Privacy Events & DPDP Act Workshops | Stay Informed & Updated</title>
+    <title>Register for upcoming DPDP Act 2023 events </title>
     <meta name="description"
         content="Explore upcoming events and workshops on DPDPA compliance, data privacy, and governance to enhance your organization's knowledge and readiness.">
     <meta name="keywords"

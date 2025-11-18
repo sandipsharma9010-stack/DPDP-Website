@@ -215,10 +215,10 @@
 
                     Your browser does not support the video tag.
                 </video>
-                <p class="mt-2 text-center tools-clr">Data Principal Consent<br> Management</p>
+                <!-- <p class="mt-2 text-center tools-clr">Data Principal Consent<br> Management</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Comprehensive, Compliant, and Customizable Consent Management Tool</h6>
+                <h6 class="dpcm-heading">Data Principal Consent Management Tool</h6>
                 <p class="dpcm-para card-text">Our Consent Manager ensures that consent is specific, freely given,
                     informed, and affirmatively indicated through clear action, as mandated by the Digital Personal Data
                     Protection Act, 2023. Data Principals retain complete control through easily accessible consent

@@ -206,10 +206,10 @@
 
                     Your browser does not support the video tag.
                 </video>
-                <p class="mt-2 text-center fw-bold tools-clr">Data Protection<br> Awareness Program</p>
+                <!-- <p class="mt-2 text-center fw-bold tools-clr">Data Protection<br> Awareness Program</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Engaging, Compliant, and Adaptive Data Protection Awareness Program</h6>
+                <h6 class="dpcm-heading">Data Protection Awareness Program Tool</h6>
                 <p class="dpcm-para card-text">Our Data Protection Awareness Program is a comprehensive Learning Management System
                     (LMS) designed to provide online training on data privacy in line with the Digital Personal Data
                     Protection Act, 2023 (DPDP Act). The training modules are tailored to educate both employees and

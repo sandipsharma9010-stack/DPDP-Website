@@ -1,8 +1,14 @@
-<?php
 
-$act = $_GET['act'];
+<?php session_start();
+date_default_timezone_set('Asia/Kolkata');
+include('contact-referer.php');
+/* * */
 
-if(str_contains($email,"test") || str_contains($email,"dpdp") || str_contains($email,"yopmail") || str_contains($email,"dpdpconsultants")) {
+$act = $_REQUEST["act"];
+/*
+if(str_contains($emailadd,"_test") || str_contains($emailadd,"_dpdp") || str_contains($emailadd,"yopmail") || str_contains($emailadd,"dpdpconsultants")) {
+*/
+if(false) {
 
 } else {
 
@@ -50,31 +56,69 @@ if(str_contains($email,"test") || str_contains($email,"dpdp") || str_contains($e
 
     try {
 
-        /* * */    
+        /* * */
+
+        /* * */
+
+        /* * */
 
         $messagerror = "";
-        $fullname = @trim(stripslashes($_POST['name']));
-        $emailadd = @trim(stripslashes($_POST['email']));
-        $phoneno = @trim(stripslashes($_POST['phone']));
+        $language = @trim(stripslashes($_POST['hiddenLanguage']));
+        $fullname = @trim(stripslashes($_POST['fullname']));
+        $emailadd = @trim(stripslashes($_POST['emailadd']));
+        $phoneno = @trim(stripslashes($_POST['phoneno']));
         $subject = @trim(stripslashes($_POST['subject']));
-        $subject .= ' \n Topic: ' . @trim(stripslashes($_POST['contact_topic']));
         $message = @trim(stripslashes($_POST['message']));
         $reqsrc = @trim(stripslashes($_POST['reqsrc']));
-        
+        $calldt = @trim(stripslashes($_POST['calldt']));
+        $currsalary = @trim(stripslashes($_POST['currsalary']));
+        $expsalary = @trim(stripslashes($_POST['expsalary']));
+        $experience = @trim(stripslashes($_POST['experience']));
+
+        $contact_topic = @trim(stripslashes($_POST['contact_topic']));
+
         $otp = @trim(stripslashes($_POST['otp']));
-        
+
+        $job = $_REQUEST['job'];
+        $act = $_REQUEST["act"];
+        $show = $_REQUEST["show"];
+
         $userAgent = $_SERVER['HTTP_USER_AGENT'];
         $ipAddress = $_SERVER['REMOTE_ADDR'];
         $httpReferer = $_SERVER['HTTP_REFERER'];
-        
-        $message .= " \n IP Address: $ipAddress \n $userAgent \n $reqsrc - $httpReferer \n ";
+        $sessReferer = $_SESSION['SESS_REFERER'];
 
-        if($POST['schedulecall']=='TRUE') { $date = @trim(stripslashes($_POST['date'])); }
         $email_from = $emailadd;
 
-        /* * */    
+        /* * */
 
-        $sql = "INSERT INTO contacts_dpdp (fullname, emailadd, phoneno, ipaddress, message_title, message_body) VALUES (:fullname, :emailadd, :phoneno, :ipaddress, :message_title, :message_body)";
+        /* * */
+
+        /* * */
+
+        $req_url = $_SERVER['REQUEST_URI'];
+        if(strpos($req_url, 'course')) { $act = $contact_topic = 'course'; }
+
+        if($calldt) { $calldt = date('d-m-Y h:i A', strtotime($calldt)); }
+
+        $message = " \n $contact_topic - $calldt - $currsalary - $expsalary - $experience - $job \n - \n $language \n - \n " . $message . " \n - \n ";
+        $message .= " - \n $devicetype - $ipAddress -  $reqsrc - \n $sessReferer - \n $httpReferer - \n ";
+
+        /* * */
+
+        /* * */
+
+        /* * */
+
+        if (str_contains($emailadd, "yopmail") || str_contains($emailadd, "dpdpconsultants")) {
+            return;
+        }
+
+        /* * */
+   
+        if($act=='') { $act='contact'; }
+
+        $sql = "INSERT INTO contacts_dpdp (fullname, emailadd, phoneno, ipaddress, message_title, message_body, recact, rectopic, recjob, reclang) VALUES (:fullname, :emailadd, :phoneno, :ipaddress, :message_title, :message_body, :recact, :rectopic, :recjob, :reclang)";
         $stmt = $pdo->prepare($sql);
         $stmt->execute([
             ":fullname" => $fullname,
@@ -82,7 +126,11 @@ if(str_contains($email,"test") || str_contains($email,"dpdp") || str_contains($e
             ":phoneno" => $phoneno,
             ":ipaddress" => $ipAddress,
             ":message_title" => $subject,
-            ":message_body" => $message
+            ":message_body" => $message,
+            ":recact" => $act,
+            ":rectopic" => $contact_topic,
+            ":recjob" => $job,
+            ":reclang" => $language
         ]);
     } catch (PDOException $e) {
         die('Database connection failed: ' . $e->getMessage());
