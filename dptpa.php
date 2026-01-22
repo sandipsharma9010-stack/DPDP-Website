@@ -18,6 +18,9 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/dptpa.php">
+
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -170,7 +173,7 @@
             <div class="col-sm-2 flex-column align-items-start">
                 <!-- <img src="./assets/images/dptpa.jpg" alt="dpcm" class="img-fluid" style="max-width: 150px;"> -->
                 <video width="200" height="200" autoplay muted loop
-                    aria-label="Compliance Management Tool (CMP) Icon: Data Protection Third Party Assessment Tool">
+                    aria-label="Data Protection Third Party Assessment software - Visual for DPDPA complaint management and third-party assessment resolution.">
                     <source src="./assets/images/video/DPTPA.mp4" type="video/mp4">
 
                     Your browser does not support the video tag.
@@ -227,7 +230,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/179.png"
-                                alt="Key Features of Data Protection Third Party Assessment Tool: Third Party Due Diligence">
+                                alt="Verified Compliance Document - Shield and document checkmarks for DPDPA security validation.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Third Party Due Diligence</h5>
@@ -240,7 +243,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/180.png"
-                                alt="Key Features of Data Protection Third Party Assessment Tool: Configurable Assessments">
+                                alt="Regulatory Compliance Review - Magnifying glass auditing documents for DPDPA data verification.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Configurable Assessments</h5>
@@ -253,7 +256,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/181.png"
-                                alt="Key Features of Data Protection Third Party Assessment Tool: Third Party Risk Evaluation">
+                                alt="Risk Mitigation - Warning triangle with downward arrows for DPDPA threat reduction visualization.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Third Party Risk Evaluation</h5>
@@ -266,7 +269,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/182.png"
-                                alt="Key Features of Data Protection Third Party Assessment Tool: Integrated Data Management Across Third parties">
+                                alt="User Privacy Rating - Person with five stars for DPDPA data principal trust and satisfaction.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Integrated Data Management Across Third parties</h5>
@@ -279,7 +282,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/183.png"
-                                alt="Key Features of Data Protection Third Party Assessment Tool: Third Party Consent Verification">
+                                alt="User Compliance Verification - Person with checklist for DPDPA individual data audit completion.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Third Party Consent Verification</h5>
@@ -316,7 +319,7 @@
                     <div class="feature-box-1">
                         <div class="feature-icon-dptpa">
                             <img src="./assets/images/tools-icon/185.png"
-                                alt="Why Choose Our Data Protection Third Party Assessment Tool icon: Comprehensive Risk Evaluation">
+                                alt="Data Audit Report - Document with diverse charts and pencil for DPDPA compliance record editing.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Comprehensive Risk<br> Evaluation</h5>
@@ -330,7 +333,7 @@
                     <div class="feature-box-2">
                         <div class="feature-icon-dptpa">
                             <img src="./assets/images/tools-icon/186.png"
-                                alt="Why Choose Our Data Protection Third Party Assessment Tool icon: Full Regulatory Compliance">
+                                alt="Sustainable Privacy Practices - DPDPA green data lifecycle and ethical processing visual.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Full Regulatory <br> Compliance</h5>
@@ -343,7 +346,7 @@
                     <div class="feature-box-3">
                         <div class="feature-icon-dptpa">
                             <img src="./assets/images/tools-icon/187.png"
-                                alt="Why Choose Our Data Protection Third Party Assessment Tool icon: Seamless Integration">
+                                alt="Regulatory Search & Discovery - DPDPA document auditing and data discovery visual.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Seamless Integration</h5>
@@ -358,7 +361,7 @@
                     <div class="feature-box-4">
                         <div class="feature-icon-dptpa">
                             <img src="./assets/images/tools-icon/188.png"
-                                alt="Why Choose Our Data Protection Third Party Assessment Tool icon: Automated Workflows">
+                                alt="Automated Data Mapping - DPDPA technical architecture and data categorization visual.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Automated Workflows</h5>
@@ -371,7 +374,7 @@
                     <div class="feature-box-5">
                         <div class="feature-icon-dptpa">
                             <img src="./assets/images/tools-icon/189.png"
-                                alt="Why Choose Our Data Protection Third Party Assessment Tool icon: Customizable Solution">
+                                alt="Automated Data Mapping - DPDPA technical architecture and data categorization visual.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Customizable Solution</h5>
@@ -385,7 +388,7 @@
                     <div class="feature-box-5">
                         <div class="feature-icon-dptpa">
                             <img src="./assets/images/tools-icon/190.png"
-                                alt="Why Choose Our Data Protection Third Party Assessment Tool icon: Actionable Insights">
+                                alt="Regulatory Compliance Review - DPDPA document auditing and data verification visual.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Actionable Insights</h5>

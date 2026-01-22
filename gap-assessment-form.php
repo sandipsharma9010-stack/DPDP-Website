@@ -1,11 +1,299 @@
-
 <?php session_start();
 date_default_timezone_set('Asia/Kolkata');
 include('contact-referer.php');
 include('cpanel/admin.functions.php');
 ?>
 
-    <!-- Button to trigger modal -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="keywords"
+        content="DPDP Act compliance services, contact data privacy experts, DPDP Act consulting solutions, compliance audit assistance, policy development support, data privacy training, regulatory help">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+        integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+     
+    
+    <style>
+        .blog {
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .hero-contact {
+            padding: 120px 20px;
+        }
+
+        .hero-contact h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .hero-contact span {
+            color: #3CA6E0;
+        }
+
+        .hero-contact p {
+            max-width: 936px;
+            margin: 20px auto;
+            font-size: 1rem;
+            color: white;
+        }
+
+        .btns-primary {
+            background-color: #3CA6E0;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 20px;
+        }
+
+        .btn-outline-light {
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+
+
+
+        .servies {
+            letter-spacing: 2px;
+            line-height: 48px;
+        }
+
+
+        .contact-container {
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            gap: 40px;
+            /* 👈 pehle 196px tha */
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 20px;
+            background: white;
+        }
+
+        .contact-box {
+            background-color: #02092c;
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            width: 45%;
+            /* 👈 50% → 45% */
+            max-width: 548px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-box h4 {
+            letter-spacing: 2px;
+            font-size: 20px;
+        }
+
+        .contact-box p {
+            letter-spacing: 2px;
+            font-size: 12px;
+        }
+
+        .contact-box a {
+            color: #FFF;
+            text-decoration: none;
+            /* font-weight: 600; */
+            padding: 5px;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        .form-box {
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            width: 55%;
+            /* 👈 balance */
+            max-width: 686px;
+        }
+
+        .btn-submit {
+            background-color: #3CA6E0;
+            border: none;
+            padding: 9px 25px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            /* width: 100%; */
+        }
+
+        .form-label {
+            color: #6F6969;
+        }
+
+        .btn-submit:hover {
+            background-color: #2a89c0;
+        }
+
+        .contact-box p,
+        .contact-box strong {
+            margin-bottom: 12px;
+            /* font-size: 16px; */
+        }
+
+        .contact-box h6 {
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        .input-group .form-control,
+        .form-control {
+            height: 50px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+            border: none;
+        }
+
+        .input-group-text {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .form-box,
+            .contact-box {
+                width: 90%;
+            }
+
+            .hero-contact h1 {
+                br {
+                    display: none;
+                }
+
+                font-size: 1.2rem;
+            }
+
+            .hero-contact p {
+                font-size: 12px;
+            }
+
+            .hero-contact {
+                padding: 34px 20px;
+            }
+        }
+
+        .modal-header {
+            background-color: #02092c;
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .modal-content {
+            border-radius: 10px;
+            width: 90%;
+            max-width: 1000px;
+            /* Desktop: Wider modal */
+            height: 80vh;
+            max-height: 80vh;
+            /* margin-top: 0 !important; */
+        }
+
+        .modal-body {
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+
+        .modal-footer {
+            justify-content: end;
+        }
+
+        .btn-agree {
+            background-color: #3CA6E0;
+            color: white;
+            border-radius: 5px;
+            padding: 6px 38px;
+        }
+
+        .btn-close-custom {
+            background-color: #6c757d;
+            color: white;
+            border-radius: 5px;
+            padding: 6px 38px;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .modal-content {
+                width: 95%;
+                height: auto;
+                max-height: 85vh;
+            }
+
+            .modal-body {
+                max-height: 55vh;
+            }
+
+            .modal-footer {
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 10px;
+            }
+        }
+
+
+        .language-content {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="blog" style="background-color: #02092c;">
+        <?php include_once('new-nav.php'); ?>
+
+
+        <div class="container hero-contact">
+
+            <h1>Check Your Organisation’s <br><span class="highlight-acc">DPDPA Compliance Readiness</span></h1>
+
+            <p>Assess how prepared your organisation is for India’s Digital Personal Data Protection Act (DPDPA). This
+                quick gap assessment evaluates your current privacy practices across key compliance areas and generates
+                a readiness score highlighting gaps, risks, and priority actions.
+            </p>
+        </div>
+    </section>
+
+<!-- Button to trigger modal -->
 
     <?php include_once('device-type.php'); ?>
     <?php include_once('contact-getapi.php'); ?>
@@ -60,7 +348,7 @@ include('cpanel/admin.functions.php');
 
 
 
-    <?php
+<?php
 
 /* * */
 
@@ -83,6 +371,8 @@ $subject = @trim(stripslashes($_POST['subject']));
 $message = @trim(stripslashes($_POST['message']));
 $reqsrc = @trim(stripslashes($_POST['reqsrc']));
 $calldt = @trim(stripslashes($_POST['calldt']));
+
+$designation = @trim(stripslashes($_POST['designation']));
 
 $contact_topic = @trim(stripslashes($_POST['contact_topic']));
 
@@ -131,7 +421,7 @@ if($_POST) {
 
         include_once('contact-mail.php');
 
-        echo"<script>document.location.href=\"thanks.php?act=$act&proceed=$proceed\";</script>";
+        echo"<script>document.location.href=\"gap-assessment-questions.php?act=$act&proceed=$proceed\";</script>";
 
     }
 
@@ -141,13 +431,18 @@ if($_POST) {
 
 ?>
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <div name="divotp" id="divotp" href="divotp">
         <a id="#ahrefotp" name="#ahrefotp" href="#ahrefotp"> &nbsp; </a>
     </div>
 
-    <form xclass="needs-validation" action="#divotp" method="post" id="mainForm" xnovalidate  enctype="multipart/form-data">
+
+
+
+<form xclass="needs-validation" action="#divotp" method="post" id="mainForm" xnovalidate  enctype="multipart/form-data">
 
         <input type="text" name="hiddenLanguage" id="hiddenLanguage" value="<?php echo $language; ?>" style="display:none" />
         <input type="text" name="reqsrc" id="reqsrc" value="contact" style="display:none" />
@@ -164,7 +459,7 @@ if($_POST) {
             <?php if( (!$act) || ($act=='contact') ) { ?>
 
             <div class="contact-box">
-                <h4>Contacts us</h4>
+                <!-- <h4>Contacts us</h4>
                 <p>DPDP Consultants (Privacyium Tech Pvt. Ltd.)</p>
                 <p>Have a query? Feel free to contact our privacy experts</p>
                 <p>
@@ -182,37 +477,14 @@ if($_POST) {
                     <a href="https://www.youtube.com/@DPDPConsultants" target="_blank"><i
                             class="bi bi-youtube fs-4"></i></a>
                     <a href="https://x.com/socialdpdp43979" target="_blank"><i class="bi bi-twitter-x fs-4"></i></a>
-                </p>
+                </p> -->
             </div>
 
             <?php } ?>
 
-            <?php if($act=='newsletter') { ?>
-
-            <div class="contact-box">
-                <img src="./assets/images/contact-newsletter.png" alt="Newsletter" width="220">
-            </div>
-
-            <?php } ?>
-
-            <?php if($act=='schedule') { ?>
-
-            <div class="contact-box">
-                <img src="./assets/images/contact-schedule.png" alt="Schedule" width="220">
-            </div>
-
-            <?php } ?>
-
-            <?php if($act=='careers') { ?>
-
-            <div class="contact-box">
-                <img class="career-img" src="./assets/images/contact-career1.svg" alt="Career" width="450">
-            </div>
-
-            <?php } ?>
 
             <div class="form-box p-3">
-                <h4><strong><?=$hdtext; ?></strong></h4>
+                <h4><strong>DPDPA Gap Assessment Form</strong></h4>
                 <div class="row mt-3">
                     <div class="col-12 col-md-12 mb-3">
                         <label for="name" class="form-label">Enter Your Name</label>
@@ -231,88 +503,19 @@ if($_POST) {
                             required>
                     </div>
 
-                    <?php if( (!$act) || ($act=='contact') ) { ?>
 
-                    <div class="col-12 mb-3 input-group">
-                        <div class="col-12">
-                            <label for="contact_topic" class="form-label w-100">Select the purpose of reaching out:</label>
-                            <select id="contact_topic" name="contact_topic" class="form-control form-select">
-                                <option value="compliance_evaluation">Compliance Evaluation & Risk Assessment</option>
-                                <option value="policy_development">Assist in Policy Development</option>
-                                <option value="training_education">Training & Education Programs for DPDPA Compliance</option>
-                                <option value="data_audit_analysis">Comprehensive Data Audit & Analysis</option>
-                                <option value="incident_response">Incident Response Planning</option>
-                                <option value="live_demos">Live Demonstrations of Compliance Tools</option>
-                                <option value="gap_assessment">Gap Assessment Review & Remediation Planning</option>
-                                <option value="dpo_service">Data Protection Officer as a Service</option>
-                                <option value="contract_review">Contract Review & Data Processing Agreements</option>
-                                <option value="consulting_advisory">Consulting, Advisory, and Audit</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <?php } ?>
-
-                    <?php if($_POST) { ?>
-                    <?php if( (!$act) || ($act=='contact') || ($act=='careers') ) { ?>
-
-                        <div class="col-12 mb-3 input-group">
-                        <div class="col-12">
-                            <label for="message" class= form-label w-100">Enter your Message</label>
-                            <textarea class="form-control" name="message" placeholder="Enter your Message" novalidate="" rows="8" style="height: 100px;"> <?php echo $message; ?> </textarea>
-                        </div>
-                        
-                    </div>
-
-                    <?php } else { ?> <input type="hidden" name="message" value="<?php echo $message; ?>" /> <?php } ?>
-
-                    <?php } ?>
-
-                    <?php if($act=='newsletter') { ?> <input type="hidden" name="contact_topic" value="newsletter" /> <?php } ?>
-                    <?php if($act=='whitepaper') { ?> <input type="hidden" name="contact_topic" value="whitepaper" /> <?php } ?>
-                    <?php if($act=='research') { ?> <input type="hidden" name="contact_topic" value="research" /> <?php } ?>
-                    <?php if($act=='webinar') { ?> <input type="hidden" name="contact_topic" value="webinar" /> <?php } ?>
-                    <?php if($act=='event') { ?> <input type="hidden" name="contact_topic" value="event" /> <?php } ?>
-
-                    <?php if( ($_POST) && ($act=='careers') ) { ?> <input type="hidden" name="contact_topic" value="careers" />
-
-                    <input type="hidden" name="job" value="<?php echo $job; ?>" />
-
-                    <div class="row col-12 col-md-12 mb-3 input-group">
-                        <div class="col-10 col-md-10">
-                            <label for="resumefile" class="form-label">Upload Resume File</label>
-                            <input type="file" class="form-control" name="resumefile" accept=".pdf, .doc, .docx" placeholder="Upload Resume File" required />
-                        </div>
-                        <div class="col-2 col-md-2">
-                            <label for="experience" class="form-label">Experience</label>
-                            <input type="number" class="form-control" name="experience" placeholder="Year" length="2" min="0" max="49"  />
-                        </div>
-                    </div>
-
-                    <div class="row col-12 col-md-12 mb-3 input-group">
-                        <div class="col-md-6 mt-3">
-                            <label for="currsalary" class="form-label">Current CTC</label>
-                            <input type="text" class="form-control" name="currsalary" placeholder="Current CTC"  />
-                        </div>
-                        <div class="col-md-6 mt-3">
-                            <label for="expsalary" class="form-label">Expected CTC</label>
-                            <input type="text" class="form-control" name="expsalary" placeholder="Expected CTC"  />
-                        </div>
-                    </div>
-
-                    <?php } ?>
-
-                    <?php if( ($_POST) && ($act=='schedule') ) { ?> <input type="hidden" name="contact_topic" value="schedule" />
 
                     <div class="col-12 mb-3">
-
-                        <input type="datetime-local" class="form-control" name="calldt" id="calldt"
-                            value="<?php echo date('Y-m-d\TH:i', strtotime('1 day')); ?>"
-                            min="<?php echo date('Y-m-d\TH:i', strtotime('1 day')); ?>"
-                            max="<?php echo date('Y-m-d\TH:i', strtotime('1 month')); ?>" />
+                        <label for="email" class="form-label">Designation</label>
+                        <input type="text" class="form-control" placeholder="Designation" name="designation"
+                            value="<?php echo strtolower($designation); ?>" oninput="this.value = this.value.toLowerCase()"
+                            required>
                     </div>
+    
 
-                    <?php } ?>
+
+                    <input type="hidden" name="message" value="<?php echo $message; ?>" />
+                    
 
                     <?php if($_POST) { ?>
 
@@ -362,6 +565,11 @@ if($_POST) {
         </div>
 
     </form>
+
+
+    <?php include 'footer.php'; ?>
+
+
 
     <script>
     let recaptchaValid = false;
@@ -484,3 +692,13 @@ if($_POST) {
 
     // document.getElementById("datetime").value = new Date();
     </script>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+
+</html>

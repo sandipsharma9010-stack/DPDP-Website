@@ -17,7 +17,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
     <meta name="keywords"
         content="Digital Personal Data Protection consultants, DPDP Act compliance, online privacy compliance tools, consent management platform, data privacy consulting, risk assessment tools, compliance management solutions">
 
-    <meta name="google-site-verification" content="ZAgBDVQa20oYWErpuKYK79QXq7auh8we0eRUyuLxV8E" />
+        <meta name="google-site-verification" content="ZAgBDVQa20oYWErpuKYK79QXq7auh8we0eRUyuLxV8E" />
     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
@@ -30,12 +30,9 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
-
-    <?php include_once('google-tag-manager.php'); ?>
     <style>
         .hero-section {
-            padding: 162px 36px 160px;
+            padding: 110px 36px 160px;
         }
 
 
@@ -234,11 +231,14 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
         <div class="container hero-section text-white">
             <div class="row">
                 <div class="col-md-6 order-md-1 text-center text-md-start">
-                    <h1 class="servies empowering">Empowering organisations with <span class="data-pr">DPDPA compliance
-                            solutions</span>
+                    <h1 class="servies empowering">Ensuring compliance with expert <span class="data-pr">consulting
+                            and
+                            privacy tools designed for
+                            empowering organizations</span>
                     </h1>
-                    <p class="m-data-home">End-to-end data protection consulting with automated compliance tools for
-                        proactive risk management
+                    <p class="m-data-home">Tailored Data Privacy compliance solutions to empower organizations in
+                        understanding,
+                        managing, and mitigating data privacy risks.
                     </p>
                     <div class="mt-4 d-flex flex-column flex-sm-row justify-content-center justify-content-md-start">
                         <a href="contact.php?act=newsletter"
@@ -265,25 +265,24 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     <div class="row text-center">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6 compliance-item">
                             <img src="assets/images/svg_381153.png"
-                                alt="100+ Privacy Compliance Globally - DPDP Consultants global data protection projects">
+                                alt="Achievement icon: 100+ Privacy Compliance Globally ">
                             <span class="we-font d-block">100+</span>
                             <p>Privacy Compliance Globally</p>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6 compliance-item">
-                            <img src="assets/images/svg_453458.png"
-                                alt="Icon representing 100 plus global privacy compliance projects by DPDP Consultants, featuring a bar graph">
+                            <img src="assets/images/svg_453458.png" alt="Achievement icon: 500+ Total Assessments ">
                             <span class="we-font d-block">500+</span>
                             <p>Total Assessments</p>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6 compliance-item">
                             <img src="assets/images/svg_391889.png"
-                                alt="50+ Expert Privacy Advisors - Trusted expertise for practical data protection">
+                                alt="Achievement icon: 50+ Expert Privacy Advisors ">
                             <span class="we-font d-block">50+</span>
                             <p>Expert Privacy Advisors</p>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6 compliance-item">
                             <img src="assets/images/svg_372123.png"
-                                alt="100% Automated Privacy Tools - Efficient digital compliance and data management solutions">
+                                alt="Achievement icon: 100% Automated Privacy Tools ">
                             <span class="we-font d-block">100%</span>
                             <p>Automated Privacy Tools</p>
                         </div>
@@ -301,98 +300,96 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                             and Compliance
                             with</span> ease </h3>
                     <a class="learn-a" href="services.php">Learn more<img class="learn-img"
-                            src="./assets/images/our-service-arrow.png" alt="Dark blue right-facing arrow icon inside a white circle for navigation or next steps."></a>
+                            src="./assets/images/our-service-arrow.png"></a>
                 </div>
                 <div class="col-sm-7">
 
                     <div class="our-service-card">
                         <div class="left-contents">
                             <span class="our-service-icon"><img src="assets/images/dpdpa-act.png"
-                                    alt="Gap Assessment Review - Identifying privacy compliance gaps for DPDP Act readiness."></span>
+                                    alt="Our Compliance Management Consulting Services icon: Gap Assessment Review "></span>
                             <div class="content-wrapper">
-                                <span class="card-head"><a href="readiness-review.php">Gap Assessment Review</a></span>
+                                <span class="card-head">Gap Assessment Review</span>
                                 <p class="our-service-content">The Digital Personal Data Protection Act (DPDPA) requires
                                     organizations to be well-prepared. Our Gap Assessment Review offers a detailed
                                     evaluation and expert guidance to help your business meet compliance requirements
                                     with minimal disruption. Led by experienced professionals, we provide tailored
                                     recommendations to help you navigate DPDPA compliance and stay ready for evolving
-                                    regulations. </p>
+                                    regulations. <a href="readiness-review.php">Learn More</a></p>
                             </div>
                         </div>
-                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg" alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
+                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg"></button>
                     </div>
 
                     <div class="our-service-card">
                         <!-- Default Open -->
                         <div class="left-contents">
                             <span class="our-service-icon"><img src="./assets/images/compliance-assistance.png"
-                                    alt="Consulting, Advisory and Audit - Specialized privacy legal and technical audit services."></span>
+                                    alt="Our Compliance Management Consulting Services icon: Consulting, Advisory and Audit "></span>
                             <div class="content-wrapper">
-                                <span class="card-head"><a href="consulting-advisory-and-audit.php">Consulting, Advisory
-                                        and Audit</a></span>
+                                <span class="card-head">Consulting, Advisory and Audit</span>
                                 <p class="our-service-content">We provide complete support to help your business meet
                                     DPDPA requirements. Our expertise includes building strong privacy frameworks and
                                     creating customized policies to ensure legal compliance. Regular audits are key to
                                     demonstrating compliance and maintaining trust, while proactive organizational and
-                                    IT controls protect your business from penalties. </p>
+                                    IT controls protect your business from penalties. <a
+                                        href="consulting-advisory-and-audit.php">Learn More</a></p>
                             </div>
                         </div>
-                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg" alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
+                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg"></button>
                     </div>
 
                     <div class="our-service-card">
                         <div class="left-contents">
                             <span class="our-service-icon"><img src="./assets/images/data-protection-officer.png"
-                                    alt="Data Protection Officer as a Service - External DPO for ongoing DPDP Act compliance."></span>
+                                    alt="Our Compliance Management Consulting Services icon: Data Protection Officer as a Service "></span>
                             <div class="content-wrapper">
-                                <span class="card-head"><a href="data-protection-officer-as-a-service.php">Data
-                                        Protection Officer as a Service</a></span>
+                                <span class="card-head">Data Protection Officer as a Service</span>
                                 <p class="our-service-content">In today’s data-driven world, organizations face growing
                                     pressure to protect personal data. The Digital Personal Data Protection Act (DPDPA)
                                     requires appointing a Data Protection Officer (DPO), which goes beyond compliance—it
                                     strengthens corporate governance. Our DPO as a Service turns this requirement into a
                                     strategic advantage, enhancing your data protection framework and building
-                                    stakeholder trust.
+                                    stakeholder trust. <a href="data-protection-officer-as-a-service.php">Learn More</a>
                                 </p>
                             </div>
                         </div>
-                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg" alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
+                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg"></button>
                     </div>
 
                     <div class="our-service-card">
                         <div class="left-contents">
                             <span class="our-service-icon"><img src="./assets/images/dpdpa-act-training.png"
-                                    alt="Training Programs for DPDPA Compliance - Privacy education services by DPDP Consultants."></span>
+                                    alt="Our Compliance Management Consulting Services icon: Training Programs for DPDPA Compliance "></span>
                             <div class="content-wrapper">
-                                <span class="card-head"><a href="training-programs-for-DPDPA-compliance.php">Training
-                                        Programs for DPDPA Compliance</a></span>
+                                <span class="card-head">Training Programs for DPDPA Compliance</span>
                                 <p class="our-service-content">Our training program is customized to your organization’s
                                     needs, focusing on practical aspects of DPDP Act compliance. Key topics include
                                     personal data policies, grounds of processing, data principal rights, risk
                                     assessments, cross-border data transfer, third party compliance, security policies,
                                     and Data breach notifications, Do's and dont's for employees, assessment and
-                                    Employee Compliance agreement. </p>
+                                    Employee Compliance agreement. <a
+                                        href="training-programs-for-DPDPA-compliance.php">Learn More</a></p>
                             </div>
                         </div>
-                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg" alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
+                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg"></button>
                     </div>
 
                     <div class="our-service-card">
                         <div class="left-contents">
                             <span class="our-service-icon"><img src="./assets/images/contract-review-dpdp.png"
-                                    alt="Contract Review & Data Processing Agreements - Legal privacy compliance."></span>
+                                    alt="Our Compliance Management Consulting Services icon: Contract Review & Data Processing Agreements "></span>
                             <div class="content-wrapper">
-                                <span class="card-head"><a
-                                        href="contract-review-data-processing-agreements.php">Contract Review & Data
-                                        Processing Agreements</a></span>
+                                <span class="card-head">Contract Review & Data Processing Agreements</span>
                                 <p class="our-service-content">Our Contract Review and Data Processing Agreement
                                     services ensure your organization complies with the Digital Personal Data Protection
                                     Act (DPDP Act) when sharing personal data with third parties. We help draft and
                                     review agreements that include all required provisions to protect personal data and
-                                    uphold the rights of Data Principals. </p>
+                                    uphold the rights of Data Principals. <a
+                                        href="contract-review-data-processing-agreements.php">Learn More</a></p>
                             </div>
                         </div>
-                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg" alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
+                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg"></button>
                     </div>
 
                 </div>
@@ -440,40 +437,39 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                                     </video>
                                 </div>
                                 <div class="col-md-9">
-                                    <h5 class="tools"><strong><a href="dpcm.php" class="learn-more">Data Principal
-                                                Consent Management</a></strong></h5>
+                                    <h5 class="tools"><strong>DPCM</strong></h5>
                                     <p class="tools-para">DPCM is our solution to completely automate the management of
                                         Data Principals' consents. It is capable of handling legacy data, paper consent
                                         as well as live consents with equal ease.
                                     </p>
-
+                                    <a href="dpcm.php" class="learn-more">Learn more →</a>
                                 </div>
 
                                 <h6 class="mt-3 tools"><strong>Key Features:</strong></h6>
                                 <div class="benefits-container mt-3">
                                     <div class="benefit">
                                         <img src="./assets/images/tools-icon/147.png"
-                                            alt="Live Consent Acquisition Across Channels - Visual for Multi-channel DPDPA consent management.">
+                                            alt="Key Benefits of Data Principal Consent Manager Tool icon: Live Consent Acquisition Across Channels ">
                                         <p>Live Consent Acquisition Across Channels</p>
                                     </div>
                                     <div class="benefit">
                                         <img src="./assets/images/tools-icon/148.png"
-                                            alt="Advanced Consent Tracking & Management - Visual for Real-time DPDPA compliance monitoring.">
+                                            alt="Key Benefits of Data Principal Consent Manager Tool icon: Advanced Consent Tracking & Management ">
                                         <p>Advanced Consent Tracking & Management</p>
                                     </div>
                                     <div class="benefit">
                                         <img src="./assets/images/tools-icon/149.png"
-                                            alt="Seamless Compliance for Historical Data - Visual for DPDPA legacy data management.">
+                                            alt="Key Benefits of Data Principal Consent Manager Tool icon: Seamless Compliance for Historical Data ">
                                         <p>Seamless Compliance for Historical Data</p>
                                     </div>
                                     <div class="benefit">
                                         <img src="./assets/images/tools-icon/150.png"
-                                            alt="Customizable DPDPA Solutions - Visual for Privacy tools tailored to business requirements.">
+                                            alt="Key Benefits of Data Principal Consent Manager Tool icon: Customizable to Fit Business Requirements ">
                                         <p>Customizable to Fit Business Requirements</p>
                                     </div>
                                     <div class="benefit">
                                         <img src="./assets/images/tools-icon/151.png"
-                                            alt="Integrated Data Management Across Departments - Visual for Centralized DPDPA compliance.">
+                                            alt="Key Benefits of Data Principal Consent Manager Tool icon: Integrated Data Management Across Departments 5">
                                         <p>Integrated Data Management Across Departments</p>
                                     </div>
                                 </div>
@@ -497,48 +493,48 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
 
             <div class="owl-carousel owl-theme">
                 <div class="item"><img src="./assets/images/client-logo/hindalco.jpg"
-                        alt="Aditya Birla Hindalco Logo - Data Protection Compliance for the industrial manufacturing leader."></div>
+                        alt="Our clients: Hindalco Industries Limited"></div>
                 <div class="item"><img src="./assets\images/client-logo/tata-motos.jpg"
-                        alt="Tata Motors Logo - Data Protection Compliance for the automotive manufacturer Tata Motors."></div>
+                        alt="Our clients: Tata Motors Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/bajaj-finserv.jpg"
-                        alt="Bajaj Finserv Logo - Data Protection Compliance for the financial services company Bajaj Finserv."></div>
-                <div class="item"><img src="./assets/images/client-logo/apraava.png" alt="Apraava Energy Logo - Data Protection Compliance with colorful geometric shapes in the lettering.">
+                        alt="Our clients: Bajaj Finserv Limited"></div>
+                <div class="item"><img src="./assets/images/client-logo/apraava.png" alt="Our clients: Apraava Limited">
                 </div>
                 <div class="item"><img src="./assets/images/client-logo/art-house-financing.jpg"
-                        alt="ART Housing Finance Logo - Data Protection Compliance for ART Affordable Housing Finance."></div>
+                        alt="Our clients: Art House Financing Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/ashok-leyland-vector-logo1.png"
-                        alt="Ashok Leyland Logo - Data Protection Compliance for the automotive manufacturer Ashok Leyland.">
+                        alt="Our clients: Ashok Leyland Limited">
                 </div>
                 <div class="item"><img src="./assets/images/client-logo/eZee.png"
-                        alt="eZee Logo - Data Protection Compliance for eZee with three colorful crescent swooshes in a circular motif."></div>
+                        alt="Our clients: eZee Entertainment Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/infinite.png"
-                        alt="Infinite Logo - Data Protection Compliance for Infinite with a blue triangle and green swoosh visual."></div>
+                        alt="Our clients: Infinite Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/mamenta-logo.png"
-                        alt="Mamenta Logo - Data Protection Compliance for global commerce platform Mamenta with a colorful ribbon icon."></div>
+                        alt="Our clients: Mamenta Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/netradyne.png"
-                        alt="Netradyne Logo - Data Protection Compliance for Netradyne with a green geometric line-art icon."></div>
+                        alt="Our clients: Netradyne Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/quinnox-logo.jpg"
-                        alt="Quinnox Logo - Data Protection Compliance for Quinnox with the Accelerate Success tagline"></div>
+                        alt="Our clients: Quinnox Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/retarget-logo.png"
-                        alt="Retarget Spark Logo - Data Protection Compliance with a green target icon and company tagline."></div>
+                        alt="Our clients: Retarget Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/sk-finance1.png"
-                        alt="SK Finance Logo - Data Protection Compliance with a green s and purple k icon and company tagline."></div>
+                        alt="Our clients: SK Finance Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/trackwizz.png"
-                        alt="TrackWizz Logo - Data Protection Compliance with a blue circular track and arrow icon."></div>
-                <div class="item"><img src="./assets/images/client-logo/zebpay.jpg" alt="Zebpay Logo - Data Protection Compliance for the cryptocurrency exchange platform Zebpay.">
+                        alt="Our clients: Trackwizz Limited"></div>
+                <div class="item"><img src="./assets/images/client-logo/zebpay.jpg" alt="Our clients: Zebpay Limited">
                 </div>
                 <div class="item"><img src="./assets/images/client-logo/zeiss_logo.png"
-                        alt="ZEISS Logo - Data Protection Compliance for the technology leader ZEISS."></div>
+                        alt="Our clients: Zeiss Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/zyter-care.jpg"
-                        alt="Zyter TruCare Logo Data Protection Compliance for Zyter TruCare with a blue and purple ribbon icon."></div>
+                        alt="Our clients: Zyter Care Limited"></div>
                 <div class="item"><img src="./assets/images/client-logo/Griham.jpeg"
-                        alt="Grihum Housing Finance Logo - Data Protection Compliance with a red and blue interlocking G icon."></div>
+                        alt="Our clients: Apna ghar apni pehchan"></div>
                 <div class="item"><img src="./assets/images/client-logo/tat_motors_the.png"
                         alt="Our clients: Tata Autocomp"></div>
-                <div class="item"><img src="./assets/images/client-logo/TBSI.png" alt="JLR TBSI Logo - Data Protection Compliance for JLR TBSI in a minimalist grey font.">
+                <div class="item"><img src="./assets/images/client-logo/TBSI.png" alt="Our clients: Tata Autocomp">
                 </div>
 
-                <div class="item"><img src="./assets/images/client-logo/Emaar-Logo.png" alt="Emaar India Logo – Data Protection Compliance for the real estate developer Emaar India.">
+                <div class="item"><img src="./assets/images/client-logo/Emaar-Logo.png" alt="Our clients: Emaar">
                 </div>
             </div>
         </div>
@@ -569,7 +565,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-md-6">
                     <div class="section-box-one-step">
                         <img src="./assets/images/one-step1.png" class="icon-one-step"
-                            alt="Cost-effective DPDP compliance - High ROI data privacy consulting.">
+                            alt="Compliance Management & Privacy tools one stop solution benefits icon: Cost-Effectiveness">
                         <div>
                             <h5 class="fw-bold">Cost-Effectiveness</h5>
                             <p class="section-box-p">Reduce operational costs by eliminating multiple disjointed systems
@@ -580,7 +576,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     </div>
                     <div class="section-box-one-step">
                         <img src="./assets/images/one-step2.png" class="icon-one-step"
-                            alt="Continuous Compliance Monitoring - Icon for ongoing DPDPA performance tracking.">
+                            alt="Compliance Management & Privacy tools one stop solution benefits icon: Optimized Governance ">
                         <div>
                             <h5 class="fw-bold">Optimized Governance</h5>
                             <p class="section-box-p">Streamline <strong>compliance, security, and risk
@@ -591,7 +587,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     </div>
                     <div class="section-box-one-step">
                         <img src="./assets/images/one-step3.png" class="icon-one-step"
-                            alt="Fast & Efficient DPDPA Compliance - Stopwatch icon for rapid implementation.">
+                            alt="Compliance Management & Privacy tools one stop solution benefits icon: Faster Delivery ">
                         <div>
                             <h5 class="fw-bold">Faster Delivery</h5>
                             <p class="section-box-p">Accelerate implementation and execution with <strong>pre-configured
@@ -602,7 +598,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     </div>
                     <div class="section-box-one-step">
                         <img src="./assets/images/one-step4.png" class="icon-one-step"
-                            alt="Data Privacy Analytics & Reporting - Dashboard for tracking DPDPA compliance metrics.">
+                            alt="Compliance Management & Privacy tools one stop solution benefits icon: Greater Visibility & Coverage ">
                         <div class="one-step-h-p">
                             <h5 class="fw-bold">Greater Visibility & Coverage</h5>
                             <p class="section-box-p">Gain <strong>end-to-end monitoring and control</strong> over
@@ -612,7 +608,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     </div>
                     <div class="section-box-one-step">
                         <img src="./assets/images/one-step5.png" class="icon-one-step"
-                            alt="Scalable DPDPA Compliance - Growth-focused data privacy strategy and reporting.">
+                            alt="Compliance Management & Privacy tools one stop solution benefits icon: Scalability & Flexibility ">
                         <div>
                             <h5 class="fw-bold">Scalability & Flexibility</h5>
                             <p class="section-box-p">Adapt and grow effortlessly with a <strong>future-proof
@@ -706,7 +702,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/expertise.png" alt="Privacy Knowledge & Innovation - DPDPA strategic insight and intellectual compliance.">
+                            <img src="./assets/images/expertise.png" alt="Why to choose our compliance consulting & compliance management tools icon:  
+Expertise ">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">Expertise</h5>
@@ -717,7 +714,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/proprietary.png" alt="Automated Privacy Infrastructure - Digital DPDPA compliance systems visual.">
+                            <img src="./assets/images/proprietary.png" alt="Why to choose our compliance consulting & compliance management tools icon:  
+Proprietary Tools ">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">Proprietary Tools</h5>
@@ -729,7 +727,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/customized.png" alt="Integrated Privacy Technology - Gear and circuit graphic for DPDPA data protection.">
+                            <img src="./assets/images/customized.png" alt="Why to choose our compliance consulting & compliance management tools icon:  
+Customized Solutions  ">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">Customized Solutions</h5>
@@ -740,7 +739,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/efficient.png" alt="Automated Data Governance - DPDPA structured technical compliance management graphic.">
+                            <img src="./assets/images/efficient.png" alt="Why to choose our compliance consulting & compliance management tools icon:  
+Efficient Process ">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">Efficient Process</h5>
@@ -751,7 +751,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/end-to-end.png" alt="Cost-Efficiency & Time Management - Automated DPDPA financial and resource tracking.">
+                            <img src="./assets/images/end-to-end.png" alt="Why to choose our compliance consulting & compliance management tools icon:  
+End-to-End Support ">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">End-to-End Support</h5>
@@ -762,7 +763,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/proven.png" alt="Automated DPDPA Compliance - Scalable data protection and privacy management workflow.">
+                            <img src="./assets/images/proven.png" alt="Why to choose our compliance consulting & compliance management tools icon:  
+Proven Track Record ">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">Proven Track Record</h5>
@@ -1031,7 +1033,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     <div class="testimonial-card d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start p-3"
                         data-bs-toggle="modal" data-bs-target="#testimonialModal3">
                         <div class="ms-3">
-                            <h5>Rama Rao Salidi</h5>
+                            <h5>Pawan Rama Rao</h5>
                             <span class="company">Retarget Spark</span>
                             <p class="text-muted">Director</p>
                             <span class="stars">★★★★★</span>
@@ -1056,7 +1058,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                             <div class="modal-body text-center">
                                 <img src="./assets/images/client-logo/retarget-logo.png" alt="User"
                                     class="img-fluid mb-3">
-                                <h5>Rama Rao Salidi</h5>
+                                <h5>Pawan Rama Rao</h5>
                                 <span class="company">Retarget Spark</span>
                                 <p class="text-muted">Director</p>
                                 <span class="stars">★★★★★</span>
@@ -1162,7 +1164,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
 
                             <div class="carousel-item">
                                 <a href="https://www.dpdpconsultants.com/newsletter.php?id=47&title=DPDP"><img
-                                        src="./assets/images/newsletters_47_thumbnail.jpg" class="d-block" alt="DPDP Act Strengthens, Not Weakens, Right to Information: IT Ministry
+                                        src="./assets/images/newsletters_47_thumbnail.jpg" class="d-block"
+                                        alt="DPDP Act Strengthens, Not Weakens, Right to Information: IT Ministry
 "></a>
                             </div>
 
@@ -1317,33 +1320,33 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                                     </video>
                                 </div>
                                 <div class="col-md-9">
-                                    <h5 class="tools"><strong><a href="dpcm.php" class="learn-more">Data Principal Consent Management</a></strong></h5>
+                                    <h5 class="tools"><strong>DPCM</strong></h5>
                                     <p class="tools-para">DPCM is our solution to completely automate the
                                      management of Data Principals' consents. It is capable of handling legacy data,
                                       paper consent as well as live consents with equal ease.</p>
-    
+                                    <a href="dpcm.php" class="learn-more">Learn more →</a>
                                 </div>
 
                                 <h6 class="mt-3 tools"><strong>Key Features:</strong></h6>
                                 <div class="benefits-container mt-3">
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/147.png" alt="Live Consent Acquisition Across Channels - Visual for Multi-channel DPDPA consent management.">
+                                        <img src="./assets/images/tools-icon/147.png" alt="Benefit 1">
                                         <p>Live Consent Acquisition Across Channels</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/148.png" alt="Advanced Consent Tracking & Management - Visual for Real-time DPDPA compliance monitoring.">
+                                        <img src="./assets/images/tools-icon/148.png" alt="Benefit 2">
                                         <p>Advanced Consent Tracking & Management</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/149.png" alt="Seamless Compliance for Historical Data - Visual for DPDPA legacy data management.">
+                                        <img src="./assets/images/tools-icon/149.png" alt="Benefit 3">
                                         <p>Seamless Compliance for Historical Data</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/150.png" alt="Customizable DPDPA Solutions - Visual for Privacy tools tailored to business requirements.">
+                                        <img src="./assets/images/tools-icon/150.png" alt="Benefit 4">
                                         <p>Customizable to Fit Business Requirements</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/151.png" alt="Integrated Data Management Across Departments - Visual for Centralized DPDPA compliance.">
+                                        <img src="./assets/images/tools-icon/151.png" alt="Benefit 5">
                                         <p>Integrated Data Management Across Departments</p>
                                     </div>
                                 </div>
@@ -1359,33 +1362,33 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 </video>
                                 </div>
                                 <div class="col-md-9">
-                                    <h5 class="tools"><strong><a href="dpgr.php" class="learn-more">Data Principal Grievance Redressal</a></strong></h5>
+                                    <h5 class="tools"><strong>DPGR</strong></h5>
                                     <p class="tools-para">DPGR process is an essential part of any comprehensive
                                      data protection strategy. Our tool ensures that Data Principal’s rights are duly
                                       honored and providing a clear mechanism for addressing complaints.</p>
-                                    
+                                    <a href="dpgr.php" class="learn-more">Learn more →</a>
                                 </div>
 
                                 <h6 class="mt-3 tools"><strong>Key Features:</strong></h6>
                                 <div class="benefits-container mt-3">
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/159.png" alt="Automated Privacy Lifecycle - Graphic for continuous DPDPA compliance and data processing workflows.">
+                                        <img src="./assets/images/tools-icon/159.png" alt="Key Benefits of Data Principal Grievance Redressal Tool icon: Effortless Grievance Management for Data Fiduciaries ">
                                         <p>Effortless Grievance Management for Data Fiduciaries</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/160.png" alt="Risk & Incident Management - Visual for DPDPA data breach alerts and technical issue resolution.">
+                                        <img src="./assets/images/tools-icon/160.png" alt="Key Benefits of Data Principal Grievance Redressal Tool icon: Seamless Grievance Redressal Mechanism ">
                                         <p>Seamless Grievance Redressal Mechanism</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/161.png" alt="Privacy Risk Monitoring - Visual for DPDPA data breach detection and security threat observation.">
+                                        <img src="./assets/images/tools-icon/161.png" alt="Key Benefits of Data Principal Grievance Redressal Tool icon: Timely Response with Automated Acknowledgement ">
                                         <p>Timely Response with Automated Acknowledgement</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/162.png" alt="Automated Data Categorization - Visual for DPDPA structured technical compliance management.">
+                                        <img src="./assets/images/tools-icon/162.png" alt="Key Benefits of Data Principal Grievance Redressal Tool icon: Advanced Rights and Grievance Tracking & Management ">
                                         <p>Advanced Rights and Grievance Tracking & Management</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/163.png" alt="User Data Audit Analytics - Visual for DPDPA individual data processing and compliance auditing.">
+                                        <img src="./assets/images/tools-icon/163.png" alt="Key Benefits of Data Principal Grievance Redressal Tool icon: Seamless Integration with Your Digital Ecosystem ">
                                         <p>Seamless Integration with Your Digital Ecosystem</p>
                                     </div>
                                 </div>
@@ -1401,33 +1404,33 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 </video>
                                 </div>
                                 <div class="col-md-9">
-                                    <h5 class="tools"><strong><a href="dpap.php" class="learn-more">Data Principal Awareness Program</a></strong></h5>
+                                    <h5 class="tools"><strong>DPAP</strong></h5>
                                     <p class="tools-para">DPAP tool educates employees, stakeholders, and partners about 
                                     the importance of safeguarding personal and sensitive data, adhering to privacy laws,
                                      and implementing best practices.</p>
-                                   
+                                    <a href="dpap.php" class="learn-more">Learn more →</a>
                                 </div>
 
                                 <h6 class="mt-3 tools"><strong>Key Features:</strong></h6>
                                 <div class="benefits-container mt-3">
                                     <div class="benefit">
-                                        <img src="./assets/images/DPAP-Icons/191.png" alt="Privacy Training & Resources - Visual for DPDPA educational videos and compliance documentation.">
+                                        <img src="./assets/images/DPAP-Icons/191.png" alt="Key Benefits of Employees Compliance Training and Awareness Tool icon: Self-Paced Learning">
                                         <p>Self-Paced Learning</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/DPAP-Icons/192.png" alt="Privacy Knowledge & Innovation - Visual for DPDPA compliance learning and strategic idea generation.">
+                                        <img src="./assets/images/DPAP-Icons/192.png" alt="Key Benefits of Employees Compliance Training and Awareness Tool icon: End-of-Module Assessments ">
                                         <p>End-of-Module Assessments</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/DPAP-Icons/193.png" alt="User Compliance Audit - Visual for DPDPA performance tracking and regulatory checklist monitoring.">
+                                        <img src="./assets/images/DPAP-Icons/193.png" alt="Key Benefits of Employees Compliance Training and Awareness Tool icon: Scoring and Pass/Fail Criteria">
                                         <p>Scoring and Pass/Fail Criteria</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/DPAP-Icons/194.png" alt="Compliance Report Verified - Visual for DPDPA data audit completion and validated bar chart results.">
+                                        <img src="./assets/images/DPAP-Icons/194.png" alt="Key Benefits of Employees Compliance Training and Awareness Tool icon: Compliance Tracking and Reporting ">
                                         <p>Compliance Tracking and Reporting</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/DPAP-Icons/195.png" alt="Privacy Data Analysis - Document editing with bar and pie charts for DPDPA compliance reporting.">
+                                        <img src="./assets/images/DPAP-Icons/195.png" alt="Key Benefits of Employees Compliance Training and Awareness Tool icon: Employee Certificate Generation ">
                                         <p>Employee Certificate Generation</p>
                                     </div>
                                 </div>
@@ -1443,33 +1446,33 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 </video>
                                 </div>
                                 <div class="col-md-9">
-                                    <h5 class="tools"><strong><a href="dpia.php" class="learn-more">Data Protection Impact Assessment</a></strong></h5>
+                                    <h5 class="tools"><strong>DPIA</strong></h5>
                                     <p class="tools-para">DPIA tool helps build compliance with the DPDP Act 2023 whereby
                                      companies need to hold periodic DPIAs. DPIA tool infuses automation to the entire DPIA
                                       process.</p>
-                                   
+                                    <a href="dpia.php" class="learn-more">Learn more →</a>
                                 </div>
 
                                 <h6 class="mt-3 tools"><strong>Key Features:</strong></h6>
                                 <div class="benefits-container mt-3">
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/169.png" alt="Multimedia Privacy Engineering - Visual for DPDPA technical compliance across diverse file types.">
+                                        <img src="./assets/images/tools-icon/169.png" alt="Key Benefits of Data Protection Impact Assessment Tool icon: Streamlined Workflow and Efficiency ">
                                         <p>Streamlined Workflow and Efficiency</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/170.png" alt="Automated Data Processing - Gear connected to databases for DPDPA technical systems integration.">
+                                        <img src="./assets/images/tools-icon/170.png" alt="Key Benefits of Data Protection Impact Assessment Tool icon: Risk Assessment & Mitigation ">
                                         <p>Risk Assessment & Mitigation</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/171.png" alt="Verified Risk Audit - Magnifying glass with checkmark and warning triangle for DPDPA compliance.">
+                                        <img src="./assets/images/tools-icon/171.png" alt="Key Benefits of Data Protection Impact Assessment Tool icon: Risks tracking and management ">
                                         <p>Risks tracking and management</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/172.png" alt="Legal Compliance Checklist - Visual for DPDPA regulatory standards and verified data protocols.">
+                                        <img src="./assets/images/tools-icon/172.png" alt="Key Benefits of Data Protection Impact Assessment Tool icon: Comprehensive Reporting & Audit Trail ">
                                         <p>Comprehensive Reporting & Audit Trail</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/173.png" alt="Compliance Monitoring - Monitor with bar charts, clock, and calendar for DPDPA audit scheduling.">
+                                        <img src="./assets/images/tools-icon/173.png" alt="Key Benefits of Data Protection Impact Assessment Tool icon: Collaboration and Version Control ">
                                         <p>Collaboration and Version Control</p>
                                     </div>
                                 </div>
@@ -1485,32 +1488,32 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 </video>
                                 </div>
                                 <div class="col-md-9">
-                                    <h5 class="tools"><strong><a href="dptpa.php" class="learn-more">Data Protection Third Party Assessment and Compliance </a></strong></h5>
+                                    <h5 class="tools"><strong>DPTPA</strong></h5>
                                     <p class="tools-para">DPTAP tool ensures that the data fiduciary is regularly reviewing the compliance of third 
                                     parties or sub-processors and assessing risks in selecting a third party.</p>
-                                   
+                                    <a href="dptpa.php" class="learn-more">Learn more →</a>
                                 </div>
 
                                 <h6 class="mt-3 tools"><strong>Key Features:</strong></h6>
                                 <div class="benefits-container mt-3">
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/179.png" alt="Verified Compliance Document - Visual for Shield and document checkmarks for DPDPA security validation.">
+                                        <img src="./assets/images/tools-icon/179.png" alt="Key Benefits Data Protection Third Party Assessment and Compliance Tool: Third Party Due Diligence ">
                                         <p>Third Party Due Diligence</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/180.png" alt="Regulatory Compliance Review - Visual for Magnifying glass auditing documents for DPDPA data verification.">
+                                        <img src="./assets/images/tools-icon/180.png" alt="Key Benefits Data Protection Third Party Assessment and Compliance Tool: Configurable Assessments ">
                                         <p>Configurable Assessments</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/181.png" alt="Risk Mitigation - Visual for Warning triangle with downward arrows for DPDPA threat reduction visualization.">
+                                        <img src="./assets/images/tools-icon/181.png" alt="Key Benefits Data Protection Third Party Assessment and Compliance Tool: Third Party Risk Evaluation ">
                                         <p>Third Party Risk Evaluation</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/182.png" alt="User Privacy Rating - Visual for Person with five stars for DPDPA data principal trust and satisfaction.">
+                                        <img src="./assets/images/tools-icon/182.png" alt="Key Benefits Data Protection Third Party Assessment and Compliance Tool: Integrated Data Management Across Third parties ">
                                         <p>Integrated Data Management Across Third parties</p>
                                     </div>
                                     <div class="benefit">
-                                        <img src="./assets/images/tools-icon/183.png" alt="User Compliance Verification - Visual for Person with checklist for DPDPA individual data audit completion.">
+                                        <img src="./assets/images/tools-icon/183.png" alt="Key Benefits Data Protection Third Party Assessment and Compliance Tool: Third Party Consent Verification ">
                                         <p>Third Party Consent Verification</p>
                                     </div>
                                 </div>
@@ -1525,8 +1528,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
             });
         }
 
+        // swiper js start here
     </script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/Edu.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

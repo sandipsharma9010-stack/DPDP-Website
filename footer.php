@@ -7,7 +7,6 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about-us.php">About us</a></li>
-                    <li><a href="what-is-dpdpa.php">What’s DPDPA?</a></li>
                     <li><a href="compliance-tools.php">Compliance Tools</a></li>
                     <li><a href="services.php">Services</a></li>
                     <li><a href="#">Why us?</a></li>
@@ -62,8 +61,10 @@
                         style="background: linear-gradient(to right, #3a3dff, #001f3f);">
                         <div class="col-md-8">
                             <p class="footer-para">DPDP Consultants (Privacyium Tech Pvt. Ltd.)</p>
-                            <p class="footer-para"><img class="footer-icons me-2" src="./assets/images/phone.png">
-                                <a style="color: white;" href="tel:0120-6930999">0120-6930999</a>, <a style="color: white;" href="tel:1800-5711333">1800-5711333</a></p>
+                            <p class="footer-para"><img class="footer-icons me-2" src="./assets/images/phone.png" alt="White telephone handset icon for Contact Us or customer support on a dark background.">
+                                <a style="color: white;" href="tel:0120-6930999">0120-6930999</a>, <a
+                                    style="color: white;" href="tel:1800-5711333">1800-5711333</a>
+                            </p>
                             <p class="footer-para"><img class="footer-icons me-2" src="./assets/images/email-icon.png">
                                 <a href="mailto:info@dpdpconsultants.com"
                                     style="color: white;">info@dpdpconsultants.com</a>
@@ -76,16 +77,26 @@
                                 <a href="mailto:partners@dpdpconsultants.com"
                                     style="color: white;">partners@dpdpconsultants.com</a>
                             </p>
-                            <p class="footer-para"><img class="footer-icons me-2"
-                                    src="./assets/images/location-icon.png"> GM IT Park, 4th Floor, Plot no 32-33, Sector 142, Noida <span class="px-4">201305, Uttar Pradesh</span>
+                            <p class="footer-para">
+                                <img class="footer-icons" src="./assets/images/location-icon.png">
+                                <span class="footer-text">
+                                    GM IT Park, 4th Floor, Plot no 32-33, Sector 142, Noida 201305, Uttar Pradesh
+                                </span>
                             </p>
 
-                            <p class="footer-para"><img class="footer-icons me-2"
-                                    src="./assets/images/location-icon.png"> SJR Equinox, Velankanni Drive. Electronic City Phase 1, <span class="px-4">Bangalore, PIN code 560100</span>
+                            <p class="footer-para">
+                                <img class="footer-icons" src="./assets/images/location-icon.png">
+                                <span class="footer-text">
+                                    SJR Equinox, Velankanni Drive. Electronic City Phase 1, Bangalore, PIN code 560100
+                                </span>
                             </p>
 
-                            <p class="footer-para"><img class="footer-icons me-2"
-                                    src="./assets/images/location-icon.png"> B451, Orchid Corporate Park, Royal Palms, Aarey  <span class="px-4">Colony, Goregaon East, Mumbai, PIN code 400065</span>
+                            <p class="footer-para">
+                                <img class="footer-icons" src="./assets/images/location-icon.png">
+                                <span class="footer-text">
+                                    B451, Orchid Corporate Park, Royal Palms, Aarey Colony, Goregaon East, Mumbai, PIN
+                                    code 400065
+                                </span>
                             </p>
                         </div>
 
@@ -109,55 +120,99 @@
 </footer>
 
 <style>
-.business-hours {
-    background: white;
-    color: black;
-    padding: 15px;
-    max-width: 250px;
-    border-radius: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    position: relative;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Speech bubble tail */
-.business-hours::after {
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    left: 20px;
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 20px solid white;
-}
-
-.footer-para {
-    font-size: 13px;
-    /* text-align: justify; */
-}
-
-@media (max-width: 768px) {
-    .row {
-        text-align: center;
-    }
+   
 
     .business-hours {
-        margin-top: 15px;
+        background: white;
+        color: black;
+        padding: 15px;
+        max-width: 250px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        position: relative;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Speech bubble tail */
+    .business-hours::after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 20px;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 20px solid white;
+    }
+
+    .footer-para {
+        font-size: 13px;
+        
+    }
+
+     .footer-para {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        color: #fff;
+    }
+
+    .footer-icons {
+        width: 20px;
+        margin-top: 4px;
+        flex-shrink: 0;
+    }
+
+    .footer-text {
+        display: block;
+        line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+        .row {
+            text-align: center;
+        }
+
+        .business-hours {
+            margin-top: 15px;
+        }
+    }
+
+
+
+    /* ✅ Mobile Optimization */
+@media (max-width: 768px){
+    .footer-para{
+        font-size:14px;
+        gap:10px;
+    }
+
+    .footer-icons{
+        width:18px;
+        min-width:18px;
+        margin-top:3px;
+    }
+}
+
+@media (max-width: 480px){
+    .footer-para{
+        font-size:13.5px;
+        line-height:1.5;
     }
 }
 </style>
 
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS593L8D" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- // -->
 
 <script src="https://tech.portal-uat.dpdpconsultants.com/cookie/consent.js?client_id=6" defer></script>
 
-<script src="https://analytics.ahrefs.com/analytics.js" data-key="OYwY+ufg23+xpZwlJFuKdA" async></script>
+<!-- <script src="https://analytics.ahrefs.com/analytics.js" data-key="OYwY+ufg23+xpZwlJFuKdA" async></script> -->
 
 <!-- // -->
-
-

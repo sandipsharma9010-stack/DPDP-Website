@@ -17,6 +17,8 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -189,7 +191,7 @@
                 class="row info-section-dpo d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                 <div class="col-12 col-sm-2 d-flex flex-column align-items-center align-items-md-start mb-3 mb-md-0">
                     <img src="./assets/images/compliance-assistance.png"
-                        alt="Data protection compliance consulting services “Consulting, Advisory and Audit” icon "
+                        alt="Compliance Enforcement - DPDPA legal audits with checklist, shield, and gavel visual."
                         class="img-fluid" style="max-width: 150px;">
                 </div>
                 <div class="col-12 col-sm-10 d-flex flex-column align-items-center align-items-md-start">
@@ -305,7 +307,7 @@
                 <div class="col-md-6">
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/105.svg" class="icon-one-step"
-                            alt="Key benefits of Consulting, Advisory and Audit icon: Risk Reduction">
+                            alt="Risk Reduction - DPDPA threat mitigation with warning symbol and downward arrows visual.">
                         <div>
                             <h5>Risk Reduction</h5>
                             <p class="timeline-step-para">Identify and address compliance vulnerabilities before they result in regulatory
@@ -314,7 +316,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/106.svg" class="icon-one-step"
-                            alt="Key benefits of Consulting, Advisory and Audit icon: Streamlined Compliance Process">
+                            alt="Process Flow - DPDPA step-by-step compliance with sequential checklist boxes and arrows visual.">
                         <div>
                             <h5>Streamlined Compliance Process</h5>
                             <p class="timeline-step-para">Navigate complex regulatory requirements efficiently with expert guidance that eliminates
@@ -323,7 +325,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/107.svg" class="icon-one-step"
-                            alt="Key benefits of Consulting, Advisory and Audit icon: Resource Optimization">
+                            alt="Team Integration - DPDPA collective operations with person silhouettes and gear visual.">
                         <div>
                             <h5>Resource Optimization</h5>
                             <p class="timeline-step-para">Focus your internal resources on core business activities while leveraging our
@@ -332,7 +334,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/108.svg" class="icon-one-step"
-                            alt="Key benefits of Consulting, Advisory and Audit icon: Strategic Advantage">
+                            alt="Strategic Management - DPDPA operational strategy with hand, chess piece, and gear visual.">
                         <div class="one-step-h-p">
                             <h5>Strategic Advantage</h5>
                             <p class="timeline-step-para">Transform data protection from a regulatory burden into a competitive differentiator that
@@ -341,7 +343,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/109.svg" class="icon-one-step"
-                            alt="Key benefits of Consulting, Advisory and Audit icon: Sustainable Compliance">
+                            alt="Secure Protection - DPDPA data safety with cupped hands and a padlock shield visual.">
                         <div>
                             <h5>Sustainable Compliance</h5>
                             <p class="timeline-step-para"> Develop internal capabilities and frameworks that adapt to evolving regulations and
@@ -369,7 +371,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/126.svg"
-                            alt="Why to choose our Consulting, Advisory and Audit icon: Unmatched Expertise and Experience"
+                            alt="Career Milestone - DPDPA achievement with person on a rising arrow reaching for a star visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Unmatched Expertise and Experience</h5>
@@ -384,7 +386,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/127.svg"
-                            alt="Why to choose our Consulting, Advisory and Audit icon: Comprehensive Service Portfolio"
+                            alt="Business Support - DPDPA professional services with hand supporting a briefcase visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Comprehensive Service Portfolio</h5>
@@ -399,7 +401,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/128.svg"
-                            alt="Why to choose our Consulting, Advisory and Audit icon: Practical, Business-Focused Approach"
+                            alt="Strategic Innovation - DPDPA decision-making with lightbulb and directional arrows visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Practical, Business-Focused Approach</h5>
@@ -413,7 +415,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/129.svg"
-                            alt="Why to choose our Consulting, Advisory and Audit icon: Ongoing Support and Partnership"
+                            alt="Technical Integration - DPDPA digital infrastructure with gear and circuit nodes visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Ongoing Support and Partnership</h5>
@@ -427,7 +429,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/130.svg"
-                            alt="Why to choose our Consulting, Advisory and Audit icon: Demonstrated Results"
+                            alt="Targeted Insight - DPDPA focused strategy with arrow hitting a bullseye lightbulb visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Demonstrated Results</h5>

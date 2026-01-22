@@ -18,6 +18,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/readiness-review.php">
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -199,7 +201,7 @@
                 class="row info-section-dpcm d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                 <div class="col-12 col-sm-2 d-flex flex-column align-items-center align-items-md-start mb-3 mb-md-0">
                     <img src="./assets/images/dpdp-review.png"
-                        alt="Data protection compliance consulting services “gap assessment review” icon"
+                        alt="Continuous Security - DPDPA data protection lifecycle with shield and circular arrows visual."
                         class="img-fluid" style="max-width: 150px;">
                 </div>
                 <div class="col-12 col-sm-10 d-flex flex-column align-items-center align-items-md-start">
@@ -305,7 +307,7 @@
                 <div class="col-md-6">
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/94.svg" class="icon-one-step"
-                            alt="Key benefits of gap assessment review services icon: Comprehensive Data Processing Evaluation">
+                            alt="Compliance Score - DPDPA auditing excellence with A+ grade and checklist visual.">
                         <div>
                             <h5 class="fw-bold">Comprehensive Data Processing Evaluation</h5>
                             <p class="future-proof-m-para">We thoroughly examine your personal data handling practices against DPDP Act requirements
@@ -314,7 +316,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/95.svg" class="icon-one-step"
-                            alt="Key benefits of gap assessment review services icon: Gap Analysis and Risk Assessment">
+                            alt="Compliance Problem Solving - DPDPA gap analysis with puzzle pieces and magnifying glass visual.">
                         <div>
                             <h5 class="fw-bold">Gap Analysis and Risk Assessment</h5>
                             <p class="future-proof-m-para">Our team identifies compliance Gaps and vulnerabilities specific to your organization's
@@ -324,7 +326,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/96.svg" class="icon-one-step"
-                            alt="Key benefits of gap assessment review services icon: Strategic Implementation Roadmap">
+                            alt="Compliance Growth - DPDPA performance tracking with checklist and rising bar charts visual.">
                         <div>
                             <h5 class="fw-bold">Strategic Implementation Roadmap</h5>
                             <p class="future-proof-m-para">Receive a practical, prioritized action plan tailored to your business needs</p>
@@ -332,7 +334,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/97.svg" class="icon-one-step"
-                            alt="Key benefits of gap assessment review services icon: Expert Regulatory Guidance">
+                            alt="Intelligence & Innovation - DPDPA smart compliance solutions with brain in a lightbulb visual.">
                         <div class="one-step-h-p">
                             <h5 class="fw-bold">Expert Regulatory Guidance</h5>
                             <p class="future-proof-m-para">Stay informed with actionable insights on current and emerging privacy regulations</p>
@@ -340,7 +342,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/98.svg" class="icon-one-step"
-                            alt="Key benefits of gap assessment review services icon: Proactive Risk Mitigation ">
+                            alt="Risk Mitigation - DPDPA threat protection with umbrella shielding a gear and warning symbol.">
                         <div>
                             <h5 class="fw-bold">Proactive Risk Mitigation</h5>
                             <p class="future-proof-m-para"> Protect your organization from potential penalties through systematic compliance
@@ -351,7 +353,7 @@
 
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/99.svg" class="icon-one-step"
-                            alt="Key benefits of gap assessment review services icon: Ongoing Support ">
+                            alt="User Education - Hands holding a book with a person silhouette for DPDPA privacy training.">
                         <div>
                             <h5 class="fw-bold">Ongoing Support</h5>
                             <p class="future-proof-m-para"> We provide continuous guidance as you implement changes and as regulations evolve
@@ -378,7 +380,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/118.svg"
-                            alt="Why to choose our Gap Assessment icon: Extensive Industry Expertise "
+                            alt="Certified Expert - DPDPA compliance excellence with stars and a merit badge visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Extensive Industry Expertise</h5>
@@ -390,7 +392,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/119.svg"
-                            alt="Why to choose our Gap Assessment icon: Tailored Compliance Solutions "
+                            alt="Compliance Integration - DPDPA data management solutions with hand and puzzle pieces visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Tailored Compliance Solutions</h5>
@@ -402,7 +404,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/120.svg"
-                            alt="Why to choose our Gap Assessment icon: Beyond Problem Identification"
+                            alt="Risk Analysis - DPDPA threat detection with magnifying glass and warning symbol visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Beyond Problem Identification</h5>
@@ -415,7 +417,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/121.svg"
-                            alt="Why to choose our Gap Assessment icon: Efficiency Without Disruption "
+                            alt="Process Optimization - DPDPA operational efficiency with gear and rising growth chart visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Efficiency Without Disruption</h5>

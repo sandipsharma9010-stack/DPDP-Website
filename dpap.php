@@ -18,6 +18,9 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/dpap.php">
+
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -201,7 +204,7 @@
             <div class="col-sm-2 flex-column align-items-start">
                 <!-- <img src="./assets/images/dpap.jpg" alt="dpcm" class="img-fluid" style="max-width: 150px;"> -->
                 <video width="200" height="200" autoplay muted loop
-                    aria-label="Compliance Management Tool (CMP) Icon: Data Protection Awareness Program Tool ">
+                    aria-label="Data Protection Training and Awareness Program illustrator image.">
                     <source src="./assets/images/video/DPAP.mp4" type="video/mp4">
 
                     Your browser does not support the video tag.
@@ -256,7 +259,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/DPAP-Icons/191.png"
-                                alt="Key Features of Data Protection Awareness Program tool: Comprehensive Course Modules">
+                                alt="Privacy Training & Resources - Visual for DPDPA educational videos and compliance documentation.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Comprehensive Course Modules</h5>
@@ -269,7 +272,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/DPAP-Icons/192.png"
-                                alt="Key Features of Data Protection Awareness Program tool: Self-Paced Learning">
+                                alt="Privacy Knowledge & Innovation - Visual for DPDPA compliance learning and strategic idea generation.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Self-Paced Learning</h5>
@@ -281,7 +284,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/DPAP-Icons/193.png"
-                                alt="Key Features of Data Protection Awareness Program tool: End-of-Module Assessments">
+                                alt="User Compliance Audit - Visual for DPDPA performance tracking and regulatory checklist monitoring.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">End-of-Module Assessments</h5>
@@ -294,7 +297,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/DPAP-Icons/194.png"
-                                alt="Key Features of Data Protection Awareness Program tool: Scoring and Pass/Fail Criteria">
+                                alt="Compliance Report Verified - Visual for DPDPA data audit completion and validated bar chart results.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Scoring and Pass/Fail Criteria</h5>
@@ -307,7 +310,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/DPAP-Icons/195.png"
-                                alt="Key Features of Data Protection Awareness Program tool: Compliance Tracking and Reporting">
+                                alt="Privacy Data Analysis - Document editing with bar and pie charts for DPDPA compliance reporting.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Compliance Tracking and Reporting</h5>
@@ -320,7 +323,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/DPAP-Icons/196.png"
-                                alt="Key Features of Data Protection Awareness Program tool: Employee Certificate Generation">
+                                alt="Compliance Certification - Visual for DPDPA regulatory validation and official privacy accreditation.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Employee Certificate Generation</h5>
@@ -345,7 +348,7 @@
                     <div class="feature-box-1">
                         <div class="feature-icon-dpap">
                             <img src="./assets/images/DPAP-Icons/197.png"
-                                alt="Why Choose Our Data Protection Awareness Program tool icon: Adherening Data Protection Laws">
+                                alt="Legal Compliance Folder - Shield with scales for DPDPA regulatory data protection and legal audits.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Adherening Data Protection <br>Laws</h5>
@@ -358,7 +361,7 @@
                     <div class="feature-box-2">
                         <div class="feature-icon-dpap">
                             <img src="./assets/images/DPAP-Icons/198.png"
-                                alt="Why Choose Our Data Protection Awareness Program tool icon: Risk Reduction">
+                                alt="Data Risk Protection - Shield with warning triangle for DPDPA security and threat mitigation.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Risk Reduction</h5>
@@ -375,7 +378,7 @@
                     <div class="feature-box-4">
                         <div class="feature-icon-dpap">
                             <img src="./assets/images/DPAP-Icons/199.png"
-                                alt="Why Choose Our Data Protection Awareness Program tool icon: Enhanced Privacy Culture">
+                                alt="Data Privacy Security - Hand holding a padlock for DPDPA protected access and encryption visual.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Enhanced Privacy Culture</h5>
@@ -389,7 +392,7 @@
                     <div class="feature-box-5">
                         <div class="feature-icon-dpap">
                             <img src="./assets/images/DPAP-Icons/200.png"
-                                alt="Why Choose Our Data Protection Awareness Program tool icon: Audit-Ready Records">
+                                alt="Audit-Ready Records - DPDPA training data visualization for compliance verification.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Audit-Ready Records</h5>

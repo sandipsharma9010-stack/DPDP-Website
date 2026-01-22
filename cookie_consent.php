@@ -115,7 +115,7 @@
 </div>
 
 <!-- Floating Cookie Button -->
-<div id="cookieButton">🍪</div>
+<!-- <div id="cookieButton">🍪</div> -->
 
 <!-- Left Sidebar Cookie Settings -->
 <div id="cookieSidebar">
@@ -131,7 +131,7 @@
             Analytics cookies to help us understand how you interact with our site.</p>
     </div>
     <div>
-        <p>For more details, please visit our <a href="privacyium-cookies.php" target="_blank">Cookies page</a></p>
+        <!-- <p>For more details, please visit our <a href="privacyium-cookies.php" target="_blank">Cookies page</a></p> -->
     </div>
 
     <hr>

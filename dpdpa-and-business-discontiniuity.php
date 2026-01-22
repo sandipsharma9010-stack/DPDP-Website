@@ -25,6 +25,9 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="canonical" href="https://www.dpdpconsultants.com/dpdpa-and-business-discontiniuity.php">
 
+
+    <?php include_once('google-tag-manager.php'); ?>
+
    
     <style>
     .overlay-page {

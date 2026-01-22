@@ -18,6 +18,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/contract-review-data-processing-agreements.php">
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -194,7 +196,7 @@
                 class="row info-section-dpo d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                 <div class="col-12 col-sm-2 d-flex flex-column align-items-center align-items-md-start mb-3 mb-md-0">
                     <img src="./assets/images/service3.png"
-                        alt="Data protection compliance consulting services “Contract Review & Data Processing Agreements” icon "
+                        alt="Financial Audit - DPDPA compliance cost analysis with magnifying glass and dollar document."
                         class="img-fluid" style="max-width: 150px;">
                 </div>
                 <div class="col-12 col-sm-10 d-flex flex-column align-items-center align-items-md-start">
@@ -301,7 +303,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/101.svg" class="icon-one-step"
-                            alt="Key benefits of Contract Review & Data Processing Agreements icon: Resource Optimization">
+                            alt="Continuous Innovation - DPDPA management with lightbulb, gear, and circular clock arrows visual.">
                         <div>
                             <h5>Resource Optimization</h5>
                             <p class="timeline-step-para">Leverage our specialized expertise without expanding your internal legal team or
@@ -310,7 +312,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/102.svg" class="icon-one-step"
-                            alt="Key benefits of Contract Review & Data Processing Agreements icon: Enhanced Data Security">
+                            alt="Secure Documentation - DPDPA data privacy with a folder and padlock visual.">
                         <div>
                             <h5>Enhanced Data Security</h5>
                             <p class="timeline-step-para">Strengthen protection of personal data throughout your processor network through legally
@@ -319,7 +321,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/103.svg" class="icon-one-step"
-                            alt="Key benefits of Contract Review & Data Processing Agreements icon: Streamlined Vendor Management">
+                            alt="Workflow Coordination - DPDPA operational management with gear and person silhouettes visual.">
                         <div class="one-step-h-p">
                             <h5>Streamlined Vendor Management</h5>
                             <p class="timeline-step-para">Establish clear accountability and performance standards for all data processors,
@@ -328,7 +330,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/104.svg" class="icon-one-step"
-                            alt="Key benefits of Contract Review & Data Processing Agreements icon: Faster Time-to-Market">
+                            alt="Efficient Automation - DPDPA rapid processing with web interface and gear clock visual.">
                         <div>
                             <h5>Faster Time-to-Market</h5>
                             <p class="timeline-step-para"> Accelerate new business initiatives by having ready-to-deploy compliant contract
@@ -356,7 +358,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/122.svg"
-                            alt="Why to choose our Contract Review & Data Processing Agreements icon: Specialized Legal Expertise"
+                            alt="Legal Compliance - DPDPA regulatory adherence with scales of justice visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Specialized Legal Expertise</h5>
@@ -369,7 +371,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/123.svg"
-                            alt="Why to choose our Contract Review & Data Processing Agreements icon: Risk Mitigation Focus"
+                            alt="Proactive Protection - DPDPA risk management with hand, shield, and connection node visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Risk Mitigation Focus</h5>
@@ -382,7 +384,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/124.svg"
-                            alt="Why to choose our Contract Review & Data Processing Agreements icon: Efficiency and Precision"
+                            alt="Efficiency Gains - DPDPA process speed and accuracy with stopwatch and gear visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Efficiency and Precision</h5>
@@ -395,7 +397,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/125.svg"
-                            alt="Why to choose our Contract Review & Data Processing Agreements icon: Negotiation Leverage"
+                            alt="Verified Agreement - DPDPA compliant partnerships with handshake and checkmark visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Negotiation Leverage</h5>

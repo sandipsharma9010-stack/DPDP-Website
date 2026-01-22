@@ -22,20 +22,11 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
         integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Stylesheets -->
-    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
-    <link href="assets/css/flaticon.css" rel="stylesheet">
-    <link href="assets/css/owl.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
-    <link href="assets/css/color.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/notifications/css/lobibox.min.css" />
-    <script src="assets/js/jquery.js"></script>
-    <link rel="canonical" href="https://www.dpdpconsultants.com/administrative-fines-and-penalties.php">
+         <link href="assets/css/style.css" rel="stylesheet">
+    
+    <link rel="canonical" href="https://www.dpdpconsultants.com/administrative-fines-and-penalties.php"> 
+
+    <?php include_once('google-tag-manager.php'); ?>
    
     
     <style>

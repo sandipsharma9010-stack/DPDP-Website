@@ -18,6 +18,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/data-protection-officer-as-a-service.php">
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -199,7 +201,7 @@
                 class="row info-section-dpo d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                 <div class="col-12 col-sm-2 d-flex flex-column align-items-center align-items-md-start mb-3 mb-md-0">
                     <img src="./assets/images/data-protection-officer.png"
-                        alt="Data protection compliance consulting services “Data Protection Officer as a Service” icon "
+                        alt="Data Protection Officer - DPDPA data safeguarding with security official and padlock visual."
                         class="img-fluid" style="max-width: 150px;">
                 </div>
                 <div class="col-12 col-sm-10 d-flex flex-column align-items-center align-items-md-start">
@@ -295,7 +297,7 @@
                 <div class="col-md-6">
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/89.svg" class="icon-one-step"
-                            alt="Key benefits of Data Protection Officer as a Service icon: Immediate Compliance Readiness">
+                            alt="Collaborative Operations - DPDPA team-based workflows with gear and person silhouettes visual.">
                         <div>
                             <h5>Immediate Compliance Readiness</h5>
                             <p class="timeline-step-para">Deploy a qualified DPO instantly, ensuring your organization meets regulatory
@@ -304,7 +306,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/90.svg" class="icon-one-step"
-                            alt="Key benefits of Data Protection Officer as a Service icon: Comprehensive Expertise">
+                            alt="Certified Professional - DPDPA compliance expertise with stars and merit badge visual.">
                         <div>
                             <h5>Comprehensive Expertise</h5>
                             <p class="timeline-step-para">Access a team of specialists with cross-functional knowledge spanning legal, technical,
@@ -313,7 +315,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/91.svg" class="icon-one-step"
-                            alt="Key benefits of Data Protection Officer as a Service icon: Business Continuity Assurance">
+                            alt="Business Lifecycle - DPDPA operational continuity with briefcase and circular arrows visual.">
                         <div>
                             <h5>Business Continuity Assurance</h5>
                             <p class="timeline-step-para">Eliminate single points of failure with a team-based approach that ensures consistent
@@ -322,7 +324,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/92.svg" class="icon-one-step"
-                            alt="Key benefits of Data Protection Officer as a Service icon: Strategic Partnership">
+                            alt="Compliance Partnership - DPDPA stakeholder collaboration with handshake and team visual.">
                         <div class="one-step-h-p">
                             <h5>Strategic Partnership</h5>
                             <p class="timeline-step-para">Benefit from a trusted advisor who aligns data protection strategies with your business
@@ -331,7 +333,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/93.svg" class="icon-one-step"
-                            alt="Key benefits of Data Protection Officer as a Service icon: Continuous Knowledge Transfer">
+                            alt="Knowledge Transfer - DPDPA training and collaboration with heads, gears, and arrows visual.">
                         <div>
                             <h5>Continuous Knowledge Transfer</h5>
                             <p class="timeline-step-para"> Build internal capabilities through ongoing training and guidance, enhancing your
@@ -359,7 +361,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/115.svg"
-                            alt="Why to choose our Data Protection Officer as a Service icon: Cost-Effective Excellence"
+                            alt="Cost Reduction - DPDPA financial efficiency with hand catching a dollar coin and down arrows."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Cost-Effective Excellence</h5>
@@ -372,7 +374,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/116.svg"
-                            alt="Why to choose our Data Protection Officer as a Service icon: Objectivity and Independence"
+                            alt="Precision Targeting - DPDPA goal achievement with mouse cursor and bullseye target visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Objectivity and Independence</h5>
@@ -384,7 +386,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/117.svg"
-                            alt="Why to choose our Data Protection Officer as a Service icon: Scalability and Flexibility"
+                            alt="Performance Growth - DPDPA success metrics with rising 3D bar columns and upward arrow visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Scalability and Flexibility</h5>

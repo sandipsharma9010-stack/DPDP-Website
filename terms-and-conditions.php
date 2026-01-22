@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Terms & Conditions | DPDP Consultants</title>
+    <title>Digital Personal Data Protection consultants | Privacy Compliance Tools</title>
     <meta name="description"
-        content="Read terms for DPDP Consultants site, products and services including privacy, acceptable use and legal compliance.">
+        content="Get compliant with top data privacy consulting and best Privacy Compliance Tools. Explore Compliance Management Tools for Data Protection as per Data Privacy Act India">
     <meta name="keywords"
         content="Digital Personal Data Protection consultants, DPDP Act compliance, online privacy compliance tools, consent management platform, data privacy consulting, risk assessment tools, compliance management solutions">
     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
@@ -31,7 +31,7 @@
     <?php include_once('nav.php'); ?>
     <section>
         <div class="text-center my-5">
-            <h2>Terms & Conditions for DPDP Act Foundation Course </h2>
+            <h1>Terms & Conditions for DPDP Act Foundation Course </h1>
         </div>
         <div class="container">
             <div class="row">

@@ -19,6 +19,9 @@ include('contact-referer.php');
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/dpdp-act-foundation-course.php">
 
+
+    <?php include_once('google-tag-manager.php'); ?>
+
     <style>
     .hero-section {
         padding: 100px 36px 160px;
@@ -164,7 +167,8 @@ include('contact-referer.php');
 
     .sticky-img {
         position: fixed;
-        top: 75%;
+        top: 60%;
+        right: 2%;
         z-index: 10;
     }
 
@@ -903,7 +907,7 @@ color:white;
 
                 <!-- Image and Price -->
                 <div class="col-lg-7 col-md-12">
-                    <a href="#"><img src="./assets/images/education-pro/239.png" alt="Course Visual"
+                    <a href="#"><img src="./assets/images/education-pro/239.png" alt="E-Learning Success - DPDPA digital training with 3D lightbulb, laptop, and book visual."
                             class="course-img mt-5"></a>
                 </div>
             </div>
@@ -936,7 +940,7 @@ color:white;
                 <div class="col-md-6">
                     <div class="section-box-one-step-edu">
                         <img src="assets/images/education-pro/250.png" class="icon-one-step"
-                            alt="Key benefits of gap assessment review services icon: Comprehensive Data Processing Evaluation">
+                            alt="Advanced Learning - DPDPA expertise with graduation cap on a stack of books visual.">
                         <div>
                             <h5 class="fw-bold">Master the DPDPA Fundamentals </h5>
                             <p>Learn the essential skills of understanding and interpreting data protection regulations.
@@ -945,7 +949,7 @@ color:white;
                     </div>
                     <div class="section-box-one-step-edu">
                         <img src="assets/images/education-pro/251.png" class="icon-one-step"
-                            alt="Key benefits of gap assessment review services icon: Gap Analysis and Risk Assessment">
+                            alt="Data Analytics - DPDPA monitoring with magnifying glass and laptop bar chart visual.">
                         <div>
                             <h5 class="fw-bold">Gather Industry Insights</h5>
                             <p>Stay ahead of your peers and know the latest happenings on DPDP Act 2023 and its
@@ -964,7 +968,7 @@ color:white;
                     </div> -->
                     <div class="section-box-one-step-edu">
                         <img src="assets/images/education-pro/253.png" class="icon-one-step"
-                            alt="Key benefits of gap assessment review services icon: Expert Regulatory Guidance">
+                            alt="Regulatory Shield - DPDPA security standards with padlock shield and stars visual.">
                         <div class="one-step-h-p">
                             <h5 class="fw-bold">Understand Compliance Processes</h5>
                             <p>Gain a thorough understanding of data protection compliance procedures and best practices
@@ -973,7 +977,7 @@ color:white;
                     </div>
                     <div class="section-box-one-step-edu">
                         <img src="assets/images/education-pro/254.png" class="icon-one-step"
-                            alt="Key benefits of gap assessment review services icon: Proactive Risk Mitigation ">
+                            alt="Innovation Icon - A white lightbulb and gear graphic for technical ideas and solutions.">
                         <div>
                             <h5 class="fw-bold">Data protection career accelerator </h5>
                             <p> Stay ahead of the curve and become top applicant in data protection career opportunities
@@ -1057,7 +1061,7 @@ color:white;
                 <!-- <div class="share">🔗</div> -->
                 <div class="row align-items-center">
                     <div class="col-md-5 mb-3 mb-md-0 text-center">
-                        <img src="assets/images/education-pro/internship-program.png" alt="Internship Program"
+                        <img src="assets/images/education-pro/internship-program.png" alt="Privacy Data Protection - Illustration of digital security with padlocks and shields."
                             class="card-img">
                     </div>
                     <div class="col-md-7">
@@ -1087,7 +1091,7 @@ color:white;
                 <!-- <div class="share">🔗</div> -->
                 <div class="row align-items-center">
                     <div class="col-md-5 mb-3 mb-md-0 text-center">
-                        <img src="assets/images/education-pro/online-learning.svg" alt="Online Learning Module"
+                        <img src="assets/images/education-pro/online-learning.svg" alt="E-learning Illustration - Laptop and tablet with graduation cap, diploma, and certificate."
                             class="card-img">
                     </div>
                     <div class="col-md-7">
@@ -1113,7 +1117,7 @@ color:white;
                 <!-- <div class="share">🔗</div> -->
                 <div class="row align-items-center">
                     <div class="col-md-5 mb-3 mb-md-0 text-center">
-                        <img src="assets/images/education-pro/course-material.png" alt="Course Material"
+                        <img src="assets/images/education-pro/course-material.png" alt="Digital Learning - Colorful books next to a tablet displaying a certificate"
                             class="card-img">
                     </div>
                     <div class="col-md-7">
@@ -1140,7 +1144,7 @@ color:white;
                 <!-- <div class="share">🔗</div> -->
                 <div class="row align-items-center">
                     <div class="col-md-5 mb-3 mb-md-0 text-center">
-                        <img src="assets/images/education-pro/exclusive-webinar.png" alt="Webinars" class="card-img">
+                        <img src="assets/images/education-pro/exclusive-webinar.png" alt="Video Conference Illustration - Person on a laptop in a virtual meeting with a remote team." class="card-img">
                     </div>
                     <div class="col-md-7">
                         <h4>Exclusive Webinar Invitations <span style="font-size: 12px;">(top scorers)</span></h4>

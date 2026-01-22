@@ -411,6 +411,10 @@ body {
   color: white;
   border-color: #02092c;
 }
+
+.our-service-card.active .card-head a {
+  color: #ffffff;
+}
 .our-service-card .left-contents {
   display: flex;
   align-items: center;
@@ -429,7 +433,14 @@ body {
   font-size: 16px;
   flex-grow: 1;
   margin-left: 15px;
+ 
 }
+
+.card-head a {
+  color: #0f172a;        
+  text-decoration: none;
+}
+
 .our-service-card .our-btn-arrow {
   background: none;
   border: none;
@@ -1307,7 +1318,7 @@ h2 {
 .benefit img {
   width: 80px;
 }
-.tools {
+.tools a {
   color: black;
 }
 .tools-para {

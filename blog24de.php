@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-
-     <link rel="canonical" href="https://www.dpdpconsultants.com/events.php">
-
-     <?php include_once('google-tag-manager.php'); ?>
     <style>
+    .dpdp-img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        object-position: center;
+
+    }
+
+    .lineheight {
+        line-height: 28px;
+    }
+
     .blog {
         text-align: center;
         color: white;
@@ -38,6 +45,7 @@
         max-width: 700px;
         margin: 20px auto;
         font-size: 1rem;
+
     }
 
     .btns-primary {
@@ -157,12 +165,13 @@
         margin-top: 10px;
     }
 
-    .coming-img {
-        width: 100%;
-    }
-
-    .coming-img img {
-        width: 100%;
+    .dpdp-table {
+        background-color: #3294CD;
+        padding: 5px;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        font-weight: 14px;
     }
 
     @media (max-width: 768px) {
@@ -183,7 +192,18 @@
             font-size: 12px;
             text-align: left;
             margin: 0px 0px;
+        }
 
+        .list-unstyled {
+            font-size: 12px;
+        }
+
+        .lineheight {
+            line-height: 27px;
+        }
+        .MsoNormal{
+            font-size:12px;
+            text-align: left;
         }
 
         .btns-primary {
@@ -197,7 +217,56 @@
         .in-the-news {
             flex-direction: column;
         }
+
+        .blog-text img {
+            width: 100%;
+            height: auto;
+        }
+
+
     }
+
+
+    /* Base table styling */
+.MsoTableGrid {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Table container for scroll */
+.MsoTableGrid {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
+}
+
+/* Optional: keep header and cell styling consistent */
+.MsoTableGrid th,
+.MsoTableGrid td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Make sure no wrapping happens inside cells */
+.MsoTableGrid td,
+.MsoTableGrid th {
+  white-space: nowrap;
+}
+
+/* Optional improvement for better UX on small screens */
+@media (max-width: 768px) {
+  .MsoTableGrid {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+    
     </style>
 
 
@@ -205,21 +274,13 @@
     <?php require 'db.pgsql.php'; ?>
     <?php
 
-$section = 'events';
+$section = 'blogs';
 
 $tbl = 'dpdp'; // dpdp / pdpl / gdpr / priv
 
 $tblname = $section . '_' . $tbl;
 
 /* * */
-
-if (!isset($_GET['id'])) {
-
-    $stmt = $pdo->prepare("SELECT * FROM $tblname WHERE status = true ORDER BY recdate DESC LIMIT 1");
-    $stmt->execute();
-    $dbrec = $stmt->fetch();
-
-}
 
 if (isset($_GET['id'])) {
 
@@ -229,54 +290,41 @@ if (isset($_GET['id'])) {
     $stmt->execute(['recid' => $recid]);
     $dbrec = $stmt->fetch();
     if (!$dbrec) {
-        header('Location: events.php');
+        header('Location: blogs.php');
         exit;
     }
 
-}
+    $recid = $dbrec['id'];
+    $recstatus = $dbrec['status'];
+    $recdate = $dbrec['recdate'];
+    $recpub = $dbrec['recpub'];
+    $rectitle = $dbrec['rectitle'];
+    $recdesc = $dbrec['recdesc']; // htmlspecialchars_decode($dbrec['recdesc'], ENT_QUOTES);
+    $metadesc = $dbrec['metadesc'];
+    $metakeyw = $dbrec['metakeyw'];
+    $imgalt = $dbrec['imgalt'];
+    $recimg = $dbrec['recimg'];
+    $recfile = $dbrec['recfile'];
 
-$recid = $dbrec['id'];
-$recstatus = $dbrec['status'];
-$recdate = $dbrec['recdate'];
-$recpub = $dbrec['recpub'];
-$rectitle = $dbrec['rectitle'];
-$recdesc = $dbrec['recdesc']; // htmlspecialchars_decode($dbrec['recdesc'], ENT_QUOTES);
-$metadesc = $dbrec['metadesc'];
-$metakeyw = $dbrec['metakeyw'];
-$imgalt = $dbrec['imgalt'];
-$recimg = $dbrec['recimg'];
-$recfile = $dbrec['recfile'];
+}
 
 /* * */
 
 ?>
 
-<?php if($recid) { ?>
-
     <title><?php echo $rectitle; ?></title>
     <meta name="description" content="<?php echo $metadesc; ?>">
     <meta name="keywords" content="<?php echo $metakeyw; ?>">
 
-<?php } else { ?>
-
-    <title>Register for upcoming DPDP Act 2023 events </title>
-    <meta name="description"
-        content="Explore upcoming events and workshops on DPDPA compliance, data privacy, and governance to enhance your organization's knowledge and readiness.">
-    <meta name="keywords"
-        content="DPDP Act workshops, data privacy events, DPDP Act compliance training, data governance seminars, privacy awareness sessions, regulatory compliance events, data protection updates">
-
-<?php } ?>
-
 </head>
 
 <body>
-
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Your go-to hub for <span>Expert Insights,<br> Publications, and Information materials</span> on
+            <h2>Your go-to hub for <span>Expert Insights,<br> Publications, and Resources</span> on
                 <br><b>data privacy and compliance</b>
-            </h1>
+            </h2>
             <p>Our resources provide the essential tools, guides, and insights to help your business stay ahead of data
                 privacy regulations. From practical templates to expert articles, we ensure you have everything you need
                 to navigate compliance with confidence.</p>
@@ -287,72 +335,67 @@ $recfile = $dbrec['recfile'];
         </div>
         <?php include_once('navtab.php');?>
     </section>
-    <section class="">
-        <div class="container my-5 events p-5">
+
+    <?php
+
+$rectext = $recdesc;
+
+$pattern = '/<a\s+href="([^"]+)">([^<]+)<\/a>/i';
+
+$pattern = '/<a\s+[^>]*href="*#([^"]+)"[^>]*>([^<]+)<\/a>/i';
+
+$pattern = '/<a\s+[^>]*href="[^"]*#([^"]+)"[^>]*>(.*?)<\/a>/i';
+
+
+preg_match_all($pattern, $rectext, $matches, PREG_SET_ORDER);
+
+?>
+
+    <section class="mo-justify" name="blog-content">
+
+        <div class="container-fluid p-4">
             <div class="row">
-                <div class="col-sm-9">
-
-                    <h4><?php echo $rectitle; ?></h4>
-
-                    <div class="coming-img">
-                        <img src="<?php echo $recimg; ?>" alt="<?php echo $rectitle; ?>"
-                            title="<?php echo $rectitle; ?>" class="">
+                <!-- Table of Content -->
+                <div class="col-md-3">
+                    <div class="p-3 text-black rounded lineheight">
+                        <p class="dpdp-table">Table of content</p>
+                        <ul class="mt-3 text-start">
+                            <?php foreach ($matches as $match) { ?>
+                            <li><a
+                                    href="#<?php echo htmlspecialchars($match[1]); ?>"><?php echo htmlspecialchars($match[2]); ?></a>
+                            </li>
+                            <?php } ?>
+                        </ul>
                     </div>
-
-                    <h5 class="mt-2">About the Event</h5>
-
                 </div>
 
-                <div class="col-sm-3">
-                    <div class="">
-                        <div class="event-card">
-                            <h5>Date</h5>
-                            <p><?php echo $recdate; ?></p>
-                            <!--
-                            <h5>Time</h5>
-                            <p>05:30 PM - 06:30 PM IST</p>
-                            -->
-                            <h5>Venue</h5>
-                            <p>Online</p>
+                <!-- Main Content -->
+                <div class="col-md-6">
+                    <p class="text-muted">Last Updated: <?php echo $recdate; ?> ~ <b><?php echo $recpub; ?></b></p>
+                    <h3 class="text-dark"><?php echo $rectitle; ?></h3>
+                    <div class="row g-0">
+
+                        <div class="col-md-12">
+                            <!-- blog category -->
+                            <!-- <p class="text-end">~ Artificial Intelligence</p> -->
+                            <div class="dpdp">
+                                <img src="<?php echo $recimg; ?>" alt="<?php echo $imgalt; ?>"
+                                    title="<?php echo $rectitle; ?>" class="dpdp-img">
+                            </div>
                         </div>
-
-                        <form action="contact.php?act=events" method="post">
-                            <input type="hidden" name="act" value="events">
-                            <input type="hidden" name="message" value="<?php echo $recid; ?> - <?php echo $rectitle; ?>" />
-                            <div class="mb-3">
-                                <label for="fullName" class="form-label">Full Name</label>
-                                <input type="text" name="fullname" class="form-control" id="fullName" placeholder="Full Name">
-                            </div>
-                            <div class="mb-3">
-                                <label for="contact" class="form-label">Contact</label>
-                                <input type="text" name="phoneno" class="form-control" id="contact" placeholder="Contact">
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" name="emailadd" class="form-control" id="email" placeholder="Email">
-                            </div>
-                            <input name="submit" type="submit" class="btn btn-book" value="Book a Slot" />
-                        </form>
-
+                    </div>
+                    <div class="blog-text">
+                        <p class="mt-3">
+                            <?php echo $recdesc; ?>
+                        </p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p><?php echo $recdesc; ?></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section style="background-color: #02092c;">
-        <div class="container py-5">
-            <h2 class="text-white my-4">Upcoming Events</h2>
 
-<?php
+                <?php
 
 /* * */
 
-$stmt = $pdo->prepare("SELECT id, rectitle, recimg, recdate FROM $tblname WHERE status = true AND id NOT IN (:recid) ORDER BY recdate DESC LIMIT 4");
+$stmt = $pdo->prepare("SELECT id, rectitle, recimg FROM $tblname WHERE status = true AND id NOT IN (:recid) ORDER BY recdate DESC LIMIT 4");
 $stmt->bindValue(':recid', $recid, PDO::PARAM_INT);
 $stmt->execute();
 $dbrecs = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -361,30 +404,37 @@ $dbrecs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
 
-            <?php foreach ($dbrecs as $dbreci) { ?>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="event-card">
-                        <a href="events.php?id=<?php echo $dbreci['id']; ?>&title=<?php echo $dbreci['rectitle']; ?>">
-                            <p class="text-start"><?php echo $dbreci['rectitle']; ?></p>
-                            <img class="img-fluid" src="<?php echo $dbreci['recimg']; ?>" alt="<?php echo $dbreci['rectitle']; ?>">
-                        </a>
-                        <p><strong>Date:</strong> <?php echo $dbreci['recdate']; ?>
-                            <!-- &nbsp; | &nbsp; <strong>Time:</strong> 05:30 PM - 06:30 PM IST --> &nbsp; | &nbsp;
-                            <strong>Venue:</strong> Online
-                        </p>
+                <!-- Similar Read -->
+                <div class="col-md-3">
+                    <div class="p-3 bg-light rounded">
+                        <p class="dpdp-table">Similar Read</p>
+
+                        <?php
+                            foreach ($dbrecs as $dbreci) {
+                                $title = $dbreci['rectitle'];
+                                $slug = trim(preg_replace('/[^a-z0-9]+/i', '-', strtolower($title)), '-');
+                            ?>
+
+                        <div class="mt-3">
+                            <img src="<?php echo $dbreci['recimg']; ?>" alt="<?php echo $dbreci['rectitle']; ?>"
+                                title="<?php echo $dbreci['rectitle']; ?>" class="img-fluid">
+                            <p class="text-dark fw-bold text-start"><a
+                                    href="blog.php?id=<?php echo $dbreci['id']; ?>&title=<?php echo $slug; ?>"><?php echo $dbreci['rectitle']; ?></a>
+                            </p>
+                        </div>
+                        <?php } ?>
+
                     </div>
                 </div>
             </div>
-
-            <?php } ?>
-
         </div>
 
+
     </section>
+
+
     <?php include_once('footer.php');?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

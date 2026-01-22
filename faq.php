@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get answers to your frequently asked questions on DPDP Act</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>DPDP Act 2023 FAQs: Expert Answers to Your Compliance Questions</title>
+    <meta name="description"
+        content="Find clear answers to frequently asked questions about the DPDP Act 2023. Learn about data fiduciary obligations, individual rights, penalties, and compliance steps with DPDP Consultants.">
+    <meta name="keywords"
+        content="DPDP Act 2023 FAQs, India data protection law questions, data fiduciary obligations FAQ, rights of data principal DPDP, DPDP Act compliance guide, digital personal data protection act 2023 summary, data privacy law India help.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -78,7 +80,7 @@
 <body>
     <?php include 'nav.php'; ?>
     <div class="container mt-5">
-        <h2 class="faq-header">Frequently Asked Questions about the DPDP Act 2023</h2>
+        <h1 class="faq-header">Frequently Asked Questions about the DPDP Act 2023</h1>
         <div class="accordion" id="faqAccordion">
             <div class="accordion-item">
                 <h2 class="accordion-header">

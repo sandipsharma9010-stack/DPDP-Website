@@ -2,14 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<!--
-    <title>Data Privacy & Compliance Blogs | Insights & Tips on data protection</title>
-    <meta name="description"
-        content="Stay informed with expert blogs on data privacy, compliance trends, and best practices about DPDP Act. Get actionable insights to navigate evolving data regulations.">
-    <meta name="keywords"
-        content="data privacy blogs, compliance insights, DPDP Act updates, data protection tips, privacy compliance trends, expert data regulations advice, best practices for data protection">
--->    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -17,6 +10,8 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .dpdp-img {
         width: 100%;
@@ -27,7 +22,7 @@
     }
 
     .lineheight {
-        line-height: 35px;
+        line-height: 28px;
     }
 
     .blog {
@@ -306,6 +301,7 @@ if (isset($_GET['id'])) {
     $recdate = $dbrec['recdate'];
     $recpub = $dbrec['recpub'];
     $rectitle = $dbrec['rectitle'];
+    $recsummary = $dbrec['summary'];
     $recdesc = $dbrec['recdesc']; // htmlspecialchars_decode($dbrec['recdesc'], ENT_QUOTES);
     $metadesc = $dbrec['metadesc'];
     $metakeyw = $dbrec['metakeyw'];
@@ -319,7 +315,7 @@ if (isset($_GET['id'])) {
 
 ?>
 
-    <title><?php echo $rectitle; ?></title>
+    <title><?php echo $recsummary; ?></title>
     <meta name="description" content="<?php echo $metadesc; ?>">
     <meta name="keywords" content="<?php echo $metakeyw; ?>">
 
@@ -329,9 +325,9 @@ if (isset($_GET['id'])) {
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Your go-to hub for <span>Expert Insights,<br> Publications, and Resources</span> on
+            <h2>Your go-to hub for <span>Expert Insights,<br> Publications, and Resources</span> on
                 <br><b>data privacy and compliance</b>
-            </h1>
+            </h2>
             <p>Our resources provide the essential tools, guides, and insights to help your business stay ahead of data
                 privacy regulations. From practical templates to expert articles, we ensure you have everything you need
                 to navigate compliance with confidence.</p>
@@ -360,13 +356,13 @@ preg_match_all($pattern, $rectext, $matches, PREG_SET_ORDER);
 
     <section class="mo-justify" name="blog-content">
 
-        <div class="container p-4">
+        <div class="container-fluid p-4">
             <div class="row">
                 <!-- Table of Content -->
                 <div class="col-md-3">
                     <div class="p-3 text-black rounded lineheight">
                         <p class="dpdp-table">Table of content</p>
-                        <ul class="list-unstyled mt-3 fw-bold text-start">
+                        <ul class="mt-3 text-start">
                             <?php foreach ($matches as $match) { ?>
                             <li><a
                                     href="#<?php echo htmlspecialchars($match[1]); ?>"><?php echo htmlspecialchars($match[2]); ?></a>
@@ -379,7 +375,7 @@ preg_match_all($pattern, $rectext, $matches, PREG_SET_ORDER);
                 <!-- Main Content -->
                 <div class="col-md-6">
                     <p class="text-muted">Last Updated: <?php echo $recdate; ?> ~ <b><?php echo $recpub; ?></b></p>
-                    <h3 class="fw-bold text-dark"><?php echo $rectitle; ?></h3>
+                    <h1 class="text-dark"><?php echo $rectitle; ?></h1>
                     <div class="row g-0">
 
                         <div class="col-md-12">

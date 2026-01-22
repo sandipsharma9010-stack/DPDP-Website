@@ -1,4 +1,4 @@
-<?php 
+<?php
 define('BASE_URL', '/');  //for live
 ?>
 <?php
@@ -171,8 +171,9 @@ define('BASE_URL', '/');  //for live
                                                 href="<?= BASE_URL; ?>what-is-dpdpa.php">DPDP Act 2023
                                                 <span class="bi bi-chevron-down"></span></a>
                                             <ul>
-                                            <li><a class="navbold"
-                                                        href="<?php echo BASE_URL; ?>draft-dpdp-rules-2025.php">Draft DPDP Rules 2025</a></li>
+                                                <li><a class="navbold"
+                                                        href="<?php echo BASE_URL; ?>draft-dpdp-rules-2025.php">Draft
+                                                        DPDP Rules 2025</a></li>
                                                 <li><a class="navbold"
                                                         href="<?php echo BASE_URL; ?>administrative-fines-and-penalties.php">Administrative
                                                         Fines And Penalties</a></li>
@@ -319,13 +320,13 @@ define('BASE_URL', '/');  //for live
     </script>
 
     <style>
-    .navbar-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+        .navbar-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-    .logo-box {
-        margin-right: 20px;
-    }
+        .logo-box {
+            margin-right: 20px;
+        }
     </style>

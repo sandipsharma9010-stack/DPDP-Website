@@ -19,6 +19,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/cookie-consent-management.php">
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -214,7 +216,7 @@
     <div class="container mt-5">
         <div class="row info-section-dpcm d-flex flex-column flex-md-row align-items-start text-center text-md-start">
             <div class="col-sm-2 flex-column align-items-start">
-                <img src="./assets/images/cookie/dpdp-cookie.png" alt="Cookie consent management tool icon" class="img-fluid"
+                <img src="./assets/images/cookie/dpdp-cookie.png" alt="Cookie Consent Audit - DPDPA tracking removal and mobile privacy verification visual." class="img-fluid"
                     style="max-width: 150px;">
                 <!-- <video width="200" height="200" autoplay muted loop
                     aria-label="Compliance Management Tool (CMP) Icon: Data Principal Consent Manager Tool ">
@@ -274,7 +276,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/cookie/292.png"
-                                alt="Key Features of Data Principal consent management tool: Live Consent Acquisition Across Channels ">
+                                alt="Centralized Data Node - DPDPA database management and network connectivity protocols.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Automated Cookie Categorization</h5>
@@ -289,7 +291,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/cookie/293.png"
-                                alt="Key Features of Data Principal consent management tool: Advanced Consent Tracking & Management ">
+                                alt="Data Discovery - DPDPA technical mapping and auditing of connected data nodes visual.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Cookie Scanner & Auto Classification</h5>
@@ -304,7 +306,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/cookie/294.png"
-                                alt="Key Features of Data Principal consent management tool: Seamless Compliance for Historical Data ">
+                                alt="Technical Compliance Coding - DPDPA software implementation and secure web development.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Customisable Consent Banner & Pop-up</h5>
@@ -320,7 +322,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/cookie/295.png"
-                                alt="Key Features of Data Principal consent management tool: Customizable to Fit Business Requirements ">
+                                alt="System Maintenance - DPDPA technical support workflows and configuration updates visual.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Consent Preference Center</h5>
@@ -335,7 +337,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/cookie/296.png"
-                                alt="Key Features of Data Principal consent management tool: Integrated Data Management Across Departments ">
+                                alt="Web Interface Development - DPDPA software configuration and UI/UX implementation visual.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Cookie Blocking Before Consent</h5>
@@ -351,7 +353,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/cookie/297.png"
-                                alt="Key Features of Data Principal consent management tool: End-to-End Solution for Data Fiduciaries ">
+                                alt="Biometric Security - DPDPA data access authentication with padlock and circuit board visual.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Integrated with Consent Management Ecosystem
@@ -369,7 +371,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/cookie/298.png"
-                                alt="Key Features of Data Principal consent management tool: End-to-End Solution for Data Fiduciaries ">
+                                alt="Audit Inspection - DPDPA compliance and record verification with magnifying glass and clipboard.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Consent Logging & Audit Trail
@@ -398,7 +400,7 @@
                     <div class="feature-box-1">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/cookie/299.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: Ensure Compliance to DPDP Act ">
+                                alt="Data Organization - DPDPA file management, document grouping, and data categorization visual.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Automated Cookie <br> Categorization</h5>
@@ -411,7 +413,7 @@
                     <div class="feature-box-2">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/cookie/300.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: Real-Time Consent Monitoring ">
+                                alt="Software UI Development - DPDPA design with overlapping browser code and layout windows.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Customisable Consent <br> Banners</h5>
@@ -424,7 +426,7 @@
                     <div class="feature-box-3">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/cookie/301.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: Seamless System Integration ">
+                                alt="Cookie Deletion - DPDPA tracking prevention and web browser privacy verification visual.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Pre-Consent Cookie<br> Blocking</h5>
@@ -439,7 +441,7 @@
                     <div class="feature-box-4">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/cookie/302.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: Comprehensive Compliance Reporting ">
+                                alt="System Audit - DPDPA technical performance inspection with gears and magnifying glass.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Advanced Cookie<br> Scanner</h5>
@@ -452,7 +454,7 @@
                     <div class="feature-box-5">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/cookie/303.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: Authentic Consent, Stronger Trust ">
+                                alt="Compliance Dashboard - DPDPA analytics and reporting with line, bar, and pie charts.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Consent Preference,<br> Center</h5>
@@ -464,7 +466,7 @@
                     <div class="feature-box-5">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/cookie/304.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: User-friendly Dashboard ">
+                                alt="Data Insight Audit - DPDPA compliance report review with magnifying glass and eye symbol.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Comprehensive Audit Trail</h5>

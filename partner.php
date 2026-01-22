@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/partner.css">
-     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
+    <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
+
+    <title>Partner With Us | DPDP Act Compliance Partnership Program</title>
+    <meta name="description"
+        content="Join the DPDP Consultants partner network. Collaborate with India's leading experts to provide DPDP Act audits, training, and compliance services.">
+
+    <meta name="keywords"
+        content="DPDP Act partnership, become a DPDP consultant, data protection partner program India, DPDP compliance collaboration, DPDP audit partnership, data privacy consultant program, DPDP consultants associate program.">
 
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -16,6 +23,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/partner.php">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
 
     </style>
@@ -28,7 +36,7 @@
         <div class="partner-hero-container">
             <div class="partner-hero-row">
                 <div class="partner-hero-content">
-                    <h1>Let’s Build India’s Most Trusted Data Protection Ecosystem — Together</h1>
+                    <h1>DPDP Act Partnership Program</h1>
                     <p>
                         DPDP Consultants is India’s leading expert advisory and automation provider for Digital
                         Personal Data Protection (DPDP) compliance. As businesses across sectors prepare for full
@@ -41,7 +49,7 @@
                 </div>
 
                 <div class="partner-hero-image-wrapper">
-                    <img src="assets/images/partner/join-our-partner.png" alt="Join our partner"
+                    <img src="assets/images/partner/join-our-partner.png" alt="Teamwork Illustration for DPDPA Partnership - Top-down view of a business team joining hands in a circle."
                         class="partner-hero-image" />
                 </div>
             </div>
@@ -71,6 +79,7 @@
                 <div class="item"><img src="./assets/images/partner/varonis.png" alt="Our clients: Varonis Limited">
                 </div>
                 <div class="item"><img src="./assets/images/partner/vinca.png" alt="Our clients: Vinca Limited"></div>
+                <div class="item"><img src="./assets/images/partner/TCIL.svg" alt="Our clients: Vinca Limited"></div>
 
 
             </div>
@@ -97,7 +106,7 @@
                 <div class="col-sm-7">
                     <div class="leverage-img mx-auto">
                         <img src="./assets/images/partner/leverage.png" class="card-img-tops"
-                            alt="Compliance Management Software image of Data Principal Consent Management Tool dashboard ">
+                            alt="Data Analytics Illustration - People analyzing growth charts and data on a laptop.">
                     </div>
                 </div>
             </div>
@@ -119,7 +128,7 @@
                 <div class="col-md-6">
                     <div class="section-box-one-step">
                         <img src="assets/images/partner/expand.png" class="icon-one-step"
-                            alt="Compliance Management & Privacy tools one stop solution benefits icon: Cost-Effectiveness">
+                            alt="Briefcase Icon - A white minimalist briefcase graphic for professional work or business">
                         <div>
                             <h5 class="fw-bold">Expand Your Service Portfolio</h5>
                             <p class="section-box-p">Add a high-demand DPDP compliance offering to your existing
@@ -128,7 +137,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/partner/boost.png" class="icon-one-step"
-                            alt="Compliance Management & Privacy tools one stop solution benefits icon: Optimized Governance ">
+                            alt="Financial Growth Icon - White money bag and rising bar graph for financial success.">
                         <div>
                             <h5 class="fw-bold">Boost Your Revenue Stream</h5>
                             <p class="section-box-p">Earn recurring income through consulting engagements and
@@ -137,7 +146,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/partner/leverage1.png" class="icon-one-step"
-                            alt="Compliance Management & Privacy tools one stop solution benefits icon: Faster Delivery ">
+                            alt="Value Creation Icon - Hand holding a gear, dollar coin, and lightbulb graphic.">
                         <div>
                             <h5 class="fw-bold">Leverage Ready-to-Use Resources</h5>
                             <p class="section-box-p">Access plug-and-play toolkits, frameworks, and our DPDP automation
@@ -146,7 +155,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/partner/deliver.png" class="icon-one-step"
-                            alt="Compliance Management & Privacy tools one stop solution benefits icon: Greater Visibility & Coverage ">
+                            alt="Value Creation Icon - Hand holding a gear, dollar coin, and lightbulb graphic.">
                         <div class="one-step-h-p">
                             <h5 class="fw-bold">Deliver Complete Value to Clients</h5>
                             <p class="section-box-p">Combine legal expertise with technology-backed automation to offer
@@ -241,7 +250,7 @@
                 <div class="col-12 col-sm-6 col-lg-2">
 
                     <div class="dpdp-benefits-card">
-                        <img src="assets/images/partner/co-branded.png" class="icon-one-step" alt=" ">
+                        <img src="assets/images/partner/co-branded.png" class="icon-one-step" alt="Partnership Icon - Handshake graphic for Co-branded go-to-market assets.">
                         <p>Co-branded go-to-market assets</p>
                     </div>
                 </div>
@@ -249,7 +258,7 @@
                 <!-- Card 2 -->
                 <div class="col-12 col-sm-6 col-lg-2">
                     <div class="dpdp-benefits-card">
-                        <img src="assets/images/partner/partner.png" class="icon-one-step" alt=" ">
+                        <img src="assets/images/partner/partner.png" class="icon-one-step" alt="Training Icon - Graphic for Partner onboarding and sales training.">
                         <p>Partner onboarding and sales training</p>
                     </div>
                 </div>
@@ -257,7 +266,7 @@
                 <!-- Card 3 -->
                 <div class="col-12 col-sm-6 col-lg-2">
                     <div class="dpdp-benefits-card">
-                        <img src="assets/images/partner/readiness.png" class="icon-one-step" alt=" ">
+                        <img src="assets/images/partner/readiness.png" class="icon-one-step" alt="DPDP Readiness Icon - Computer monitor graphic for tools and templates access.">
                         <p>DPDP readiness tools & templates access</p>
                     </div>
                 </div>
@@ -265,7 +274,7 @@
                 <!-- Card 4 -->
                 <div class="col-12 col-sm-6 col-lg-2">
                     <div class="dpdp-benefits-card">
-                        <img src="assets/images/partner/dedicated.png" class="icon-one-step" alt=" ">
+                        <img src="assets/images/partner/dedicated.png" class="icon-one-step" alt="Partner Manager Icon - Businessman and gear graphic for Dedicated partner manager services.">
                         <p>Dedicated partner manager</p>
                     </div>
                 </div>
@@ -273,7 +282,7 @@
                 <!-- Card 5 -->
                 <div class="col-12 col-sm-6 col-lg-2">
                     <div class="dpdp-benefits-card">
-                        <img src="assets/images/partner/joint.png" class="icon-one-step" alt=" ">
+                        <img src="assets/images/partner/joint.png" class="icon-one-step" alt="Marketing Icon - Gear and megaphone graphic for Joint marketing and event participation.">
                         <p> Joint marketing and event participation</p>
                     </div>
                 </div>
@@ -288,7 +297,7 @@
 
                 <!-- ✅ MOBILE IMAGE (hidden on desktop) -->
                 <div class="col-12 dpdp-partner-mobile-img text-center">
-                    <img src="./assets/images/partner/partner-with.png" class="img-fluid" alt="DPDP Partner Mobile" />
+                    <img src="./assets/images/partner/partner-with.png" class="img-fluid" alt="Business Handshake - Close-up of a professional in a suit reaching out for a handshake." />
                 </div>
 
                 <!-- TEXT CONTENT -->

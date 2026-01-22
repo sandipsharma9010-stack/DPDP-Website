@@ -26,6 +26,9 @@
         integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+
+        <?php include_once('google-tag-manager.php'); ?>
+
     <style>
     .overlay-page {
         position: fixed;
@@ -72,9 +75,9 @@
 <body>
     <?php include_once('new-nav.php');?>
 
-    <h2 class="text-center draft-dPDP">Draft DPDP Rules 2025 - Ready
+    <h1 class="text-center draft-dPDP">Draft DPDP Rules 2025 - Ready
         Reckoner
-    </h2>
+    </h1>
     <div class="container-fluid my-5">
         <div class="table-responsive">
             <table class="table table-bordered table-striped table-hover">

@@ -18,6 +18,8 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .dpdp-img {
         width: 100%;
@@ -263,9 +265,9 @@ if (isset($_GET['id'])) {
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Your go-to hub for <span>Expert Insights,<br> Publications, and Resources</span> on
+            <h2>Your go-to hub for <span>Expert Insights,<br> Publications, and Resources</span> on
                 <br><b>data privacy and compliance</b>
-            </h1>
+            </h2>
             <p class="text-white">Our resources provide the essential tools, guides, and insights to help your business
                 stay ahead of data
                 privacy regulations. From practical templates to expert articles, we ensure you have everything you need
@@ -309,7 +311,7 @@ preg_match_all($pattern, $rectext, $matches, PREG_SET_ORDER);
             <!-- Main Content -->
             <div class="col-md-9">
                 <p class="text-muted">Last Updated: <?php echo $recdate; ?> ~ <b><?php echo $recpub; ?></b></p>
-                <h3 class="fw-bold text-dark"><?php echo $rectitle; ?></h3>
+                <h1 class="text-dark"><?php echo $rectitle; ?></h1>
                 <div class="row g-0">
 
                     <div class="col-md-12">

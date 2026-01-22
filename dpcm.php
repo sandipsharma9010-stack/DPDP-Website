@@ -19,6 +19,9 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/dpcm.php">
+
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -210,7 +213,7 @@
             <div class="col-sm-2 flex-column align-items-start">
                 <!-- <img src="./assets/images/dpcm.png" alt="dpcm" class="img-fluid" style="max-width: 150px;"> -->
                 <video width="200" height="200" autoplay muted loop
-                    aria-label="Compliance Management Tool (CMP) Icon: Data Principal Consent Manager Tool ">
+                    aria-label="Data Protection Consent Management software for DPDPA.">
                     <source src="./assets/images/video/DPCM.mp4" type="video/mp4">
 
                     Your browser does not support the video tag.
@@ -246,7 +249,7 @@
                 <div class="col-sm-7">
                     <div class="">
                         <img src="./assets/images/dpcm-tool.svg" class="card-img-top img-fluid"
-                            alt="Compliance Management Software image of Data Principal Consent Management Tool dashboard ">
+                            alt="DPCM Software Interface - Laptop display of DPDPA Data Principal Consent Management.">
                     </div>
                 </div>
             </div>
@@ -266,7 +269,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/tools-icon/147.png"
-                                alt="Key Features of Data Principal consent management tool: Live Consent Acquisition Across Channels ">
+                                alt="Automated Data Governance - DPDPA structured technical compliance management graphic.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Live Consent Acquisition Across Channels</h5>
@@ -281,7 +284,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/tools-icon/148.png"
-                                alt="Key Features of Data Principal consent management tool: Advanced Consent Tracking & Management ">
+                                alt="Team Compliance Verification - Collective DPDPA legal agreement and audit signing.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Advanced Consent Tracking & Management</h5>
@@ -296,7 +299,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/tools-icon/149.png"
-                                alt="Key Features of Data Principal consent management tool: Seamless Compliance for Historical Data ">
+                                alt="Integrated Privacy Technology - Gear and circuit graphic for DPDPA data protection.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Seamless Compliance for Historical Data</h5>
@@ -310,7 +313,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/tools-icon/150.png"
-                                alt="Key Features of Data Principal consent management tool: Customizable to Fit Business Requirements ">
+                                alt="Centralized Data Infrastructure - DPDPA technical server and systems management graphic.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Customizable to Fit Business Requirements</h5>
@@ -324,7 +327,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/tools-icon/151.png"
-                                alt="Key Features of Data Principal consent management tool: Integrated Data Management Across Departments ">
+                                alt="Regulatory User Checklist - Visual for DPDPA personal data processing and auditing.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Integrated Data Management Across Departments</h5>
@@ -338,7 +341,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
                             <img src="./assets/images/tools-icon/152.png"
-                                alt="Key Features of Data Principal consent management tool: End-to-End Solution for Data Fiduciaries ">
+                                alt="Document Review & Audit - Magnifying glass over a scroll for DPDPA legal verification.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">End-to-End Solution for Data Fiduciaries
@@ -365,7 +368,7 @@
                     <div class="feature-box-1">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/tools-icon/153.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: Ensure Compliance to DPDP Act ">
+                                alt="Secure Data Communication - DPDPA encrypted messaging and technical privacy protection.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Ensure Compliance<br> to DPDP Act</h5>
@@ -379,7 +382,7 @@
                     <div class="feature-box-2">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/tools-icon/154.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: Real-Time Consent Monitoring ">
+                                alt="DPCM Software Interface - Laptop display of DPDPA Data Principal Consent Management.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Real-Time Consent<br> Monitoring</h5>
@@ -392,7 +395,7 @@
                     <div class="feature-box-3">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/tools-icon/155.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: Seamless System Integration ">
+                                alt="Cost-Efficient Privacy Management - Visual for DPDPA resource-saving compliance.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Seamless System<br> Integration</h5>
@@ -407,7 +410,7 @@
                     <div class="feature-box-4">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/tools-icon/156.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: Comprehensive Compliance Reporting ">
+                                alt="Privacy Partnership & Trust - DPDPA stakeholder collaboration and professional agreement visual.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Comprehensive<br> Compliance Reporting</h5>
@@ -420,7 +423,7 @@
                     <div class="feature-box-5">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/tools-icon/157.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: Authentic Consent, Stronger Trust ">
+                                alt="Compliance Data Analytics - DPDPA performance monitoring and audit insights graphic.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Authentic Consent,<br> Stronger Trust</h5>
@@ -433,7 +436,7 @@
                     <div class="feature-box-5">
                         <div class="feature-icon-dpcm">
                             <img src="./assets/images/tools-icon/158.png"
-                                alt="Why Choose Our Data Principal Consent Management Tool icon: User-friendly Dashboard ">
+                                alt="DPCM Software Interface - Laptop display of DPDPA Data Principal Consent Management.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">User-friendly Dashboard</h5>

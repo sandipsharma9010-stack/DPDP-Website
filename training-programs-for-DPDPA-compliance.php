@@ -17,6 +17,9 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -189,7 +192,7 @@
                 class="row info-section-dpo d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                 <div class="col-12 col-sm-2 d-flex flex-column align-items-center align-items-md-start mb-3 mb-md-0">
                     <img src="./assets/images/training-program.png"
-                        alt="Data protection compliance consulting services “Training Programs for DPDP Act, 2023 Compliance” icon "
+                        alt="Growth Presentation - DPDPA performance training with presenter and bar chart visual."
                         class="img-fluid" style="max-width: 150px;">
                 </div>
                 <div class="col-12 col-sm-10 d-flex flex-column align-items-center align-items-md-start">
@@ -269,7 +272,7 @@
                 <div class="col-md-6">
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/110.svg" class="icon-one-step"
-                            alt="Key benefits of Training Programs for DPDP Act, 2023 Compliance icon: Reduced Compliance Risk">
+                            alt="Process Optimization - DPDPA resource reduction with wrench, gears, and down arrow visual.">
                         <div>
                             <h5>Reduced Compliance Risk</h5>
                             <p class="timeline-step-para">Well-trained staff significantly decrease the likelihood of inadvertent violations that
@@ -278,7 +281,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/111.svg" class="icon-one-step"
-                            alt="Key benefits of Training Programs for DPDP Act, 2023 Compliance icon: Improved Operational Efficiency">
+                            alt="Operational Growth - DPDPA process scalability with gears, bar chart, and circular arrows visual.">
                         <div>
                             <h5>Improved Operational Efficiency</h5>
                             <p class="timeline-step-para">Employees who understand compliance requirements can integrate them into workflows
@@ -287,7 +290,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/112.svg" class="icon-one-step"
-                            alt="Key benefits of Training Programs for DPDP Act, 2023 Compliance icon: Enhanced Data Protection Culture">
+                            alt="Success Milestone - DPDPA performance tracking with rising bar chart, gear, and flag visual.">
                         <div>
                             <h5>Enhanced Data Protection Culture</h5>
                             <p class="timeline-step-para">Regular training reinforces the importance of data protection, fostering a culture where
@@ -296,7 +299,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/113.svg" class="icon-one-step"
-                            alt="Key benefits of Training Programs for DPDP Act, 2023 Compliance icon: Demonstrated Due Diligence">
+                            alt="Global Expertise - DPDPA international data standards with gear globe head silhouette visual.">
                         <div class="one-step-h-p">
                             <h5>Demonstrated Due Diligence</h5>
                             <p class="timeline-step-para">Comprehensive training records provide evidence of your commitment to compliance, which
@@ -305,7 +308,7 @@
                     </div>
                     <div class="section-box-one-step">
                         <img src="assets/images/services-icon/114.svg" class="icon-one-step"
-                            alt="Key benefits of Training Programs for DPDP Act, 2023 Compliance icon: Increased Customer Trust">
+                            alt="Verified Identity - DPDPA user validation with person silhouette and checkmark visual.">
                         <div>
                             <h5>Increased Customer Trust</h5>
                             <p class="timeline-step-para"> Organizations with robust training programs demonstrate their commitment to responsible
@@ -333,7 +336,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/131.svg"
-                            alt="Why to choose our Training Programs for DPDP Act, 2023 Compliance icon: Industry-Specific Content"
+                            alt="Quality Audit - DPDPA verification with magnifying glass, checklist, and star visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Industry-Specific Content</h5>
@@ -345,7 +348,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/132.svg"
-                            alt="Why to choose our Training Programs for DPDP Act, 2023 Compliance icon: Certified Instructors"
+                            alt="Educational Training - DPDPA awareness with person giving a presentation visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Certified Instructors</h5>
@@ -358,7 +361,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/133.svg"
-                            alt="Why to choose our Training Programs for DPDP Act, 2023 Compliance icon: Flexible Delivery Options"
+                            alt="Educational Training - DPDPA awareness with person giving a presentation visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Flexible Delivery Options</h5>
@@ -371,7 +374,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/134.svg"
-                            alt="Why to choose our Training Programs for DPDP Act, 2023 Compliance icon: Continuous Program Updates"
+                            alt="Continuous Learning - DPDPA education with open book, cap, and circular arrows visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Continuous Program Updates</h5>
@@ -384,7 +387,7 @@
                 <div class="col-12 col-md-6">
                     <div class="custom-card-DPO d-flex flex-column flex-md-row p-3 h-100">
                         <img src="assets/images/services-icon/135.svg"
-                            alt="Why to choose our Training Programs for DPDP Act, 2023 Compliance icon: Measurable Learning Outcomes"
+                            alt="Compliance Profile - DPDPA user records with person silhouette and verified checklist visual."
                             class="card-image-uniques">
                         <div class="card-content-unique">
                             <h5 class="text-primary">Measurable Learning Outcomes</h5>

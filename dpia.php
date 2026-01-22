@@ -18,6 +18,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/dpia.php">
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -175,7 +177,7 @@
             <div class="col-sm-2 flex-column align-items-start">
                 <!-- <img src="./assets/images/DPIA.jpg" alt="dpcm" class="img-fluid" style="max-width: 150px;"> -->
                 <video width="200" height="200" autoplay muted loop
-                    aria-label="Compliance Management Tool (CMP) Icon: Data Protection Impact Assessment Tool ">
+                    aria-label="Data Protection Impact Assessment software - Visual for DPDPA data audit results and privacy performance charts.">
                     <source src="./assets/images/video/DPIA.mp4" type="video/mp4">
 
                     Your browser does not support the video tag.
@@ -231,7 +233,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/169.png"
-                                alt="Key Features of Data Protection Impact Assessment Tool: Streamlined Workflow and Efficiency">
+                                alt="Multimedia Privacy Engineering - Visual for DPDPA technical compliance across diverse file types.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Streamlined Workflow and Efficiency</h5>
@@ -244,7 +246,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/170.png"
-                                alt="Key Features of Data Protection Impact Assessment Tool: Risk Assessment & Mitigation">
+                                alt="Automated Data Processing - Gear connected to databases for DPDPA technical systems integration.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Risk Assessment & Mitigation</h5>
@@ -257,7 +259,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/171.png"
-                                alt="Key Features of Data Protection Impact Assessment Tool: Risks tracking and management">
+                                alt="Verified Risk Audit - Magnifying glass with checkmark and warning triangle for DPDPA compliance.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Risks tracking and management</h5>
@@ -270,7 +272,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/172.png"
-                                alt="Key Features of Data Protection Impact Assessment Tool: Comprehensive Reporting & Audit Trail">
+                                alt="Legal Compliance Checklist - Visual for DPDPA regulatory standards and verified data protocols.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Comprehensive Reporting & Audit Trail</h5>
@@ -283,7 +285,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/173.png"
-                                alt="Key Features of Data Protection Impact Assessment Tool: Collaboration and Version Control">
+                                alt="Compliance Monitoring - Monitor with bar charts, clock, and calendar for DPDPA audit scheduling.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Collaboration and Version Control</h5>
@@ -297,7 +299,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/174.png"
-                                alt="Key Features of Data Protection Impact Assessment Tool: Audit and Documentation">
+                                alt="Cloud Data Infrastructure - Visual for DPDPA cloud storage security and network integration.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles">Audit and Documentation</h5>
@@ -322,7 +324,7 @@
                     <div class="feature-box-1">
                         <div class="feature-icon-dpia">
                             <img src="./assets/images/tools-icon/175.png"
-                                alt="Why Choose Our Data Protection Impact Assessment Tool icon: Simplified DPIA Management">
+                                alt="Compliance Analytics Report - Document with pie and bar charts for DPDPA data processing results.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Simplified DPIA Management</h5>
@@ -337,7 +339,7 @@
                     <div class="feature-box-2">
                         <div class="feature-icon-dpia">
                             <img src="./assets/images/tools-icon/176.png"
-                                alt="Why Choose Our Data Protection Impact Assessment Tool icon: Smart Risk Assessment & Mitigation">
+                                alt="Privacy Team Collaboration - Visual for DPDPA team workflows and compliance checklist management.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Smart Risk Assessment &<br> Mitigation</h5>
@@ -354,7 +356,7 @@
                     <div class="feature-box-4">
                         <div class="feature-icon-dpia">
                             <img src="./assets/images/tools-icon/177.png"
-                                alt="Why Choose Our Data Protection Impact Assessment Tool icon:User-Friendly & Time-Saving">
+                                alt="Sustainable Privacy Practices - Person at laptop with leaf for DPDPA green data lifecycle.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">User-Friendly & Time-Saving</h5>
@@ -368,7 +370,7 @@
                     <div class="feature-box-5">
                         <div class="feature-icon-dpia">
                             <img src="./assets/images/tools-icon/178.png"
-                                alt="Why Choose Our Data Protection Impact Assessment Tool icon: Comprehensive Reporting & Insights">
+                                alt="Process Optimization - Gear with rising bar chart for DPDPA compliance performance tracking.">
                         </div>
                         <div>
                             <h5 class="highlight-acc">Comprehensive Reporting & <br>Insights</h5>

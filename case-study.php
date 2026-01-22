@@ -29,6 +29,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <link rel="canonical" href="https://www.dpdpconsultants.com/case-study.php">
 
+
+        <?php include_once('google-tag-manager.php'); ?>
+
     <style>
     .overlay-page {
         position: fixed;

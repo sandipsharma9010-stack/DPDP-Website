@@ -16,6 +16,8 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -251,10 +253,14 @@ $totalPages = ceil($totalRecords / $limit);
     <div class="container my-5">
         <div class="row">
 
-            <?php foreach ($dbrecords as $dbrec): ?>
+            <?php
+            foreach ($dbrecords as $dbrec):
+                $title = $dbrec['rectitle'];
+                $slug = trim(preg_replace('/[^a-z0-9]+/i', '-', strtolower($title)), '-');
+            ?>
 
             <div class="col-md-4 my-3">
-                <a href="newsletter.php?id=<?php echo $dbrec['id']; ?>&title=<?php echo $dbrec['rectitle']; ?>">
+                <a href="newsletter.php?id=<?php echo $dbrec['id']; ?>&title=<?php echo $slug; ?>">
                     <img class="card-img-top" src="<?php echo $dbrec['recimg']; ?>"
                         alt="<?php echo $dbrec['rectitle']; ?>" title="<?php echo $dbrec['rectitle']; ?>">
                 </a>

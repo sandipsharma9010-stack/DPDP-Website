@@ -1,191 +1,237 @@
 <style>
-/* Top Bar (Desktop Only) */
-.top-bar {
-    background-color: #02092C;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 8px 20px;
-    font-size: 14px;
-    gap: 15px;
-}
-
-.top-bar a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.top-bar a:hover {
-    text-decoration: underline;
-}
-
-.right-top {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-}
-
-/* Navbar */
-.custom-navbar {
-    background-color: white;
-    border-radius: 50px;
-    padding: 0px 20px;
-    margin: 10px auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 84%;
-    z-index: 1000;
-}
-
-.nav-link {
-    color: black;
-    font-size: 16px;
-}
-
-.nav-link:hover {
-    color: #000;
-}
-
-.contact-btn {
-    background-color: #02092C;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.contact-btn:hover {
-    background-color: #030c45;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-}
-
-/* Mobile View */
-@media (max-width: 992px) {
+    /* Top Bar (Desktop Only) */
     .top-bar {
-        /* display: none; */
-    }
-
-    .custom-navbar {
-        width: 100%;
-        top: -11px;
-        left: 0;
-        transform: none;
-        border-radius: 0;
-        box-shadow: none;
-        padding: 0;
-    }
-
-    .mobile-header {
+        background-color: #02092C;
+        color: white;
         display: flex;
+        justify-content: flex-end;
         align-items: center;
-        justify-content: space-between;
-        padding: 12px 16px;
-        background-color: #fff;
+        padding: 8px 20px;
+        font-size: 14px;
+        gap: 15px;
     }
 
-    .mobile-header img {
-        height: 36px;
-    }
-
-    .mobile-header .close-btn {
-        font-size: 24px;
-        font-weight: bold;
-        color: #000;
-        background: none;
-        border: none;
-    }
-
-    .mobile-menu-item {
-        background: #f8f9fc;
-        width: 100%;
-        text-align: left;
-        padding: 14px 20px;
-        font-weight: bold;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 16px;
-        border-top: 1px solid #e3e3e3;
-    }
-
-    .mobile-menu-item a {
-        color: black;
-    }
-
-    .mobile-submenu {
-        display: none;
-        padding: 0 20px 10px;
-        background-color: white;
-        text-align: left;
-    }
-
-    .mobile-submenu a {
-        display: block;
-        padding: 6px 0;
-        color: #333;
+    .top-bar a {
+        color: white;
         text-decoration: none;
+        font-weight: 500;
     }
 
-    .mobile-submenu a:hover {
+    .top-bar a:hover {
         text-decoration: underline;
     }
 
-    .toggle-icon {
-        font-size: 20px;
-        color: #0043d0;
-        font-weight: bold;
+    .right-top {
+        display: flex;
+        align-items: center;
+        gap: 7px;
     }
 
-    .mobile-follow-bar {
-        background-color: #02092C;
-        padding: 10px 20px;
-        width: 100%;
-        position: relative;
-        margin-top: 20px;
+    /* Navbar */
+    .custom-navbar {
+        background-color: white;
+        border-radius: 50px;
+        padding: 0px 20px;
+        margin: 10px auto;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 84%;
+        z-index: 1000;
     }
 
-    .mobile-bottom-bar {
-        justify-content: center;
-        font-size: 13px;
+    .nav-link {
+        color: black;
+        font-size: 16px;
     }
 
-    .mobile-bottom-bar .right-top {
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-}
-
-@media (min-width: 768px) {
-    .cnt-btn {
-        display: none;
-    }
-
-    .mobile-bottom-bar {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    .contact-btnd {
-        display: none;
+    .nav-link:hover {
+        color: #000;
     }
 
     .contact-btn {
-        padding: 5px 7px;
-        font-size: 12px;
-        margin-left: 109px;
+        background-color: #02092C;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .contact-btn:hover {
+        background-color: #030c45;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    /* Mobile View */
+    @media (max-width: 992px) {
+        .top-bar {
+            /* display: none; */
+        }
+
+        .custom-navbar {
+            width: 100%;
+            top: -11px;
+            left: 0;
+            transform: none;
+            border-radius: 0;
+            box-shadow: none;
+            padding: 0;
+        }
+
+        .mobile-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            background-color: #fff;
+        }
+
+        .mobile-header img {
+            height: 36px;
+        }
+
+        .mobile-header .close-btn {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+            background: none;
+            border: none;
+        }
+
+        .mobile-menu-item {
+            background: #f8f9fc;
+            width: 100%;
+            text-align: left;
+            padding: 14px 20px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 16px;
+            border-top: 1px solid #e3e3e3;
+        }
+
+        .mobile-menu-item a {
+            color: black;
+        }
+
+        .mobile-submenu {
+            display: none;
+            padding: 0 20px 10px;
+            background-color: white;
+            text-align: left;
+        }
+
+        .mobile-submenu a {
+            display: block;
+            padding: 6px 0;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .mobile-submenu a:hover {
+            text-decoration: underline;
+        }
+
+        .toggle-icon {
+            font-size: 20px;
+            color: #0043d0;
+            font-weight: bold;
+        }
+
+        .mobile-follow-bar {
+            background-color: #02092C;
+            padding: 10px 20px;
+            width: 100%;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .mobile-bottom-bar {
+            justify-content: center;
+            font-size: 13px;
+        }
+
+        .mobile-bottom-bar .right-top {
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+    }
+
+
+
+
+    /* FIX: Ensure collapse behaves properly on tablet/mobile */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background: #fff;
+        padding-bottom: 20px;
     }
 }
+
+/* FIX: Make mobile menu buttons clickable fully */
+.mobile-menu-item {
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* FIX: Prevent anchor clicks from breaking accordion */
+.mobile-menu-item a {
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+/* FIX: Smooth accordion animation */
+.mobile-submenu {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+    @media (min-width: 768px) {
+        .cnt-btn {
+            display: none;
+        }
+
+        .mobile-bottom-bar {
+            display: none;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .contact-btnd {
+            display: none;
+        }
+
+        .contact-btn {
+            padding: 5px 7px;
+            font-size: 12px;
+            margin-left: 109px;
+        }
+    }
+
+
+    @media (min-width: 1100px) and (max-width: 1400px){
+    .custom-navbar{
+        width: 98%;
+    }
+
+    .contact-btn{
+        padding: 8px 18px;
+        font-size: 14px;
+        min-width: 130px;
+        border-radius: 22px;
+    }
+}
+
 </style>
 
 
@@ -308,10 +354,10 @@
                         <li><a class="dropdown-item" href="dpdp-act-foundation-course.php">DPDP Act Foundation
                                 Course</a></li>
                 </li>
-                
+
             </ul>
             </li>
-             <li class="nav-item"><a class="nav-link" href="partner.php">Partner with us</a></li>
+            <li class="nav-item"><a class="nav-link" href="partner.php">Partner with us</a></li>
             </ul>
             <!-- Mobile Bottom Follow Us -->
             <div class="mobile-follow-bar">
@@ -347,10 +393,10 @@
                 </button>
                 <div class="mobile-submenu">
                     <a href="about-us.php#whoweare">Who we are</a>
-                    <a href="#">Mission and Vision</a>
-                    <a href="#">Our Team</a>
-                    <a href="#">What we do</a>
-                    <a href="#">Awards & Certifications</a>
+                    <a href="about-us.php#missionandvision">Mission and Vision</a>
+                    <a href="about-us.php#ourteam">Our Team</a>
+                    <a href="about-us.php#whatwedo">What we do</a>
+                    <a href="about-us.php#awardsandcertifications">Awards & Certifications</a>
                 </div>
 
                 <button class="mobile-menu-item" type="button">
@@ -424,20 +470,38 @@
 </nav>
 
 <script>
-// Accordion-like toggle for mobile submenu
-document.querySelectorAll('.mobile-menu-item').forEach((btn) => {
-    btn.addEventListener('click', () => {
-        const submenu = btn.nextElementSibling;
-        const icon = btn.querySelector('.toggle-icon');
-        const isOpen = submenu.style.display === 'block';
+document.addEventListener("DOMContentLoaded", function () {
 
-        // Close all others
-        document.querySelectorAll('.mobile-submenu').forEach(sm => sm.style.display = 'none');
-        document.querySelectorAll('.toggle-icon').forEach(ic => ic.textContent = '+');
+    // ONLY toggle when + icon is clicked
+    document.querySelectorAll(".toggle-icon").forEach((icon) => {
 
-        // Toggle current
-        submenu.style.display = isOpen ? 'none' : 'block';
-        icon.textContent = isOpen ? '+' : '−';
+        icon.addEventListener("click", function (e) {
+            e.stopPropagation(); // button click block
+            e.preventDefault();
+
+            const btn = icon.closest(".mobile-menu-item");
+            const submenu = btn.nextElementSibling;
+
+            if (!submenu || !submenu.classList.contains("mobile-submenu")) return;
+
+            const isOpen = submenu.style.display === "block";
+
+            // Close all others
+            document.querySelectorAll(".mobile-submenu").forEach(sm => {
+                sm.style.display = "none";
+            });
+            document.querySelectorAll(".toggle-icon").forEach(ic => {
+                ic.textContent = "+";
+            });
+
+            // Toggle current
+            if (!isOpen) {
+                submenu.style.display = "block";
+                icon.textContent = "−";
+            }
+        });
     });
+
 });
 </script>
+

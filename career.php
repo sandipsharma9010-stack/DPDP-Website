@@ -18,6 +18,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/career.php">
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
         body {
             background-color: #02092c;
@@ -80,11 +81,118 @@
     <?php include 'new-nav.php'; ?>
     <div class="container mt-5 ">
         <div class="p-5 text-center carrer-features-hero">
-            <h2>Join Our Team of Privacy Experts</h2>
+            <h1>Join Our Team of Privacy Experts</h1>
             <p>Join us and be part of a supportive community where your talents are nurtured, ideas are celebrated, and
                 success is shared.</p>
         </div>
+
+
         <div class="mt-5">
+            <div class="job-listing-card p-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="job-listing-header"><a class="" href="DPDPA-Specialists.php">DPDPA Specialists</a></h5>
+                    <span class="job-listing-open-role">1 Open Role</span>
+                </div>
+                <p><strong>
+                        Team:
+                    </strong> Product</p>
+                <p><strong>
+                        Location:
+                    </strong>Noida</p>
+                <p><strong>Work Schedule:</strong> Full-Time</p>
+                <p><strong>Work Mode: </strong>On-site</p>
+                <p><strong>Experience: </strong>1 to 3 years (DPDPA Specialists)</p>
+                <div class="job-listing-details">
+
+
+                    <p>We are hiring skilled DPDPA Specialists to join our organization. The Data Protection Specialist
+                        will be responsible for ensuring compliance with DPDP Act, developing and implementing data
+                        protection policies and procedures, and conducting risk assessments to identify potential
+                        vulnerabilities.
+                        To apply, mail us your resume at career@dpdpconsultants.com
+
+                    </p>
+                    <!-- <p>The role involves working on a one-master-at-a-time replication model, ensuring seamless master
+                        rotation every six months, and maintaining synchronization between the data centers even during
+                        internet or network interruptions.</p> -->
+
+                    <h5>Key Responsibilities:
+                    </h5>
+                    <ul>
+                        <li>Develop and implement data protection policies and procedures
+                        </li>
+                        <li>Conduct risk assessments, Business Activity Assessments to identify potential privacy gaps.
+                        </li>
+                        <li>Work Closely with Client stakeholders to assess Privacy posture, identify gaps and provide
+                            remediations.
+                        </li>
+                        <li>Monitor data processing activities to ensure compliance with data protection laws and
+                            regulations.
+                        </li>
+                        <li>Provide training to employees on data protection best practices.
+                        </li>
+                        <li>Design and Implement Data principal rights management process and tools.</li>
+                        <li>Work with tech and compliance teams to ensure compliance with data protection laws such as
+                            GDPR and DPDPA.</li>
+                        <li>Stay up-to-date on data protection laws and regulations and make recommendations for updates
+                            to policies and procedures.
+                        </li>
+
+
+                    </ul>
+                    <h5>Required Skills & Qualifications
+                    </h5>
+                    <ul>
+                        <li>Experience in information technology , data protection or information security or relevant
+                            domain.
+                        </li>
+                        <li>Good understanding of data protection laws and regulations
+                        </li>
+                        <li>Good understanding of business process and Privacy Controls
+                        </li>
+                        <li>Excellent communication and interpersonal skills</li>
+                        <li>Ability to work independently and as part of a team</li>
+                        <li>Detail-oriented and able to handle confidential information with discretion</li>
+
+
+                    </ul>
+
+                    <h5>Open to Travel
+                    </h5>
+                    <ul>
+                        <li>These positions are based in HQ (Sector-142, Noida) and is Work from office only</strong>
+                        </li>
+                        <li>If you are a dedicated and knowledgeable Data Protection Specialist looking to join a
+                            dynamic team, we encourage you to apply for this position.</li>
+                        <!-- <li>Prior work with Python Flask or web applications connecting to PostgreSQL backends.</li>
+                        <li>Knowledge of PostgreSQL replication conflict resolution and logical decoding.</li> -->
+                    </ul>
+
+                    <!-- <h5>Key Environment Details
+                    </h5>
+                    <ul>
+                        <li>Deployment Model: On-Premise</li>
+                        <li>Data Centers: DC1, DC2 (active replication)</li>
+                        <li>Replication Type: Logical (one master active)</li>
+                        <li>Failover Behavior: Auto start on network recovery, auto sync after downtime</li>
+                        <li>Master Rotation: Scheduled every 6 months</li>
+                    </ul> -->
+
+                    <!-- <a target="_blank" href="contact.php?act=careers&job=DPDPA Specialists "
+                        class="btn btn-primary">Apply Now</a> -->
+                        <form action="contact.php?act=careers" method="post">
+                            <input type="hidden" name="job" value="DPDPA Specialists">
+                            <button type="submit" class="btn btn-primary">Apply Now</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <div class="mt-5">
             <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
                 <div class="d-flex justify-content-between align-items-center">
                     <h5 class="job-listing-header">PostgreSQL Database Administrator (On-Premise, Multi–Data Center
@@ -181,100 +289,20 @@
                         <li>Master Rotation: Scheduled every 6 months</li>
                     </ul>
 
-                    <a target="_blank" href="contact.php?act=careers&job=PostgreSQL Database Administrator"
-                        class="btn btn-primary">Apply Now</a>
+                  
+
+                         <form action="contact.php?act=careers" method="post">
+                            <input type="hidden" name="job" value="PostgreSQL Database Administrator">
+                            <button type="submit" class="btn btn-primary">Apply Now</button>
+                        </form>
                 </div>
             </div>
-        </div>
-
-
-        <div class="mt-5">
-            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
-                <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header">HR & Marketing Executive</h5>
-                    <span class="job-listing-open-role">1 Open Role</span>
-                </div>
-                <p><strong>
-                        Team:
-                    </strong> Management</p>
-                <p><strong>
-                        Location:
-                    </strong>Noida</p>
-                <p><strong>Work Schedule:</strong> Full-time</p>
-                <p><strong>Work Mode: </strong>On-site</p>
-                <div class="job-listing-details">
-
-                    <h5>Key Responsibilities:
-                    </h5>
-                    <ul>
-                        <li>Manage end-to-end recruitment cycle: sourcing, screening, interviewing, and onboarding.
-                        </li>
-                        <li>Build and maintain candidate pipelines through job portals, LinkedIn, referrals, and campus
-                            drives.
-                        </li>
-                        <li>Coordinate with hiring managers to understand manpower requirements and define job
-                            specifications.
-                        </li>
-                        <li>Develop attractive job descriptions and recruitment marketing material.
-                        </li>
-                        <li>Maintain HR records and support employee engagement activities.
-                        </li>
-
-
-                    </ul>
-                    <h5>Marketing Support (Secondary):
-                    </h5>
-                    <ul>
-                        <li>Create impactful PPT presentations, proposals, and pitch decks for internal and external
-                            stakeholders.
-                        </li>
-                        <li>Support employer branding and recruitment marketing campaigns.
-                        </li>
-                        <li>Assist in developing marketing collaterals, digital content, and event coordination.
-                        </li>
-
-                    </ul>
-
-                    <h5>Key Skills & Competencies
-                    </h5>
-                    <ul>
-                        <li>Strong expertise in <strong>Recruitment & Talent Acquisition.</strong>
-                        </li>
-                        <li><strong>Excellent PowerPoint (PPT) skills –</strong> ability to design and deliver
-                            high-quality,
-                            engaging presentations.</li>
-                        <li>Good communication and interpersonal skills.</li>
-                        <li>Ability to multitask and manage deadlines.</li>
-                        <li>Basic understanding of digital marketing / employer branding will be an added advantage.
-                        </li>
-                    </ul>
-
-
-                    <h5>Qualifications:
-                    </h5>
-                    <ul>
-                        <li>Graduate / Postgraduate in HR, Business Administration, or related field.</li>
-                        <li>1–3 years of relevant experience in recruitment and HR operations.</li>
-                        <li>Proficiency in MS Office (especially PowerPoint, Excel, Word).</li>
-                    </ul>
-
-                    <h5>What We Offer:
-                    </h5>
-                    <ul>
-                        <li>Opportunity to work in a dynamic and growing organization.</li>
-                        <li>Exposure to both HR and Marketing domains.</li>
-                        <li>Learning and growth opportunities with direct impact on business success.</li>
-                    </ul>
-                    <a target="_blank" href="contact.php?act=careers&job=HR and Marketing Executive"
-                        class="btn btn-primary">Apply Now</a>
-                </div>
-            </div>
-        </div>
+        </div> -->
 
 
 
 
-        <div class="mt-5">
+          <div class="mt-5">
             <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
                 <div class="d-flex justify-content-between align-items-center">
                     <h5 class="job-listing-header">Senior Python Engineer</h5>
@@ -375,11 +403,106 @@
                     <p>Bachelor’s degree in Computer Science, Engineering, or a related field is Mandatory.
 
                     </p>
-                    <a target="_blank" href="contact.php?act=careers&job=Senior Python Engineer"
-                        class="btn btn-primary">Apply Now</a>
+                    <!-- <a target="_blank" href="contact.php?act=careers&job=Senior Python Engineer"
+                        class="btn btn-primary">Apply Now</a> -->
+                         <form action="contact.php?act=careers" method="post">
+                            <input type="hidden" name="job" value="Senior Python Engineer">
+                            <button type="submit" class="btn btn-primary">Apply Now</button>
+                        </form>
                 </div>
             </div>
         </div>
+        <div class="mt-5">
+            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="job-listing-header">HR & Marketing Executive</h5>
+                    <span class="job-listing-open-role">1 Open Role</span>
+                </div>
+                <p><strong>
+                        Team:
+                    </strong> Management</p>
+                <p><strong>
+                        Location:
+                    </strong>Noida</p>
+                <p><strong>Work Schedule:</strong> Full-time</p>
+                <p><strong>Work Mode: </strong>On-site</p>
+                <div class="job-listing-details">
+
+                    <h5>Key Responsibilities:
+                    </h5>
+                    <ul>
+                        <li>Manage end-to-end recruitment cycle: sourcing, screening, interviewing, and onboarding.
+                        </li>
+                        <li>Build and maintain candidate pipelines through job portals, LinkedIn, referrals, and campus
+                            drives.
+                        </li>
+                        <li>Coordinate with hiring managers to understand manpower requirements and define job
+                            specifications.
+                        </li>
+                        <li>Develop attractive job descriptions and recruitment marketing material.
+                        </li>
+                        <li>Maintain HR records and support employee engagement activities.
+                        </li>
+
+
+                    </ul>
+                    <h5>Marketing Support (Secondary):
+                    </h5>
+                    <ul>
+                        <li>Create impactful PPT presentations, proposals, and pitch decks for internal and external
+                            stakeholders.
+                        </li>
+                        <li>Support employer branding and recruitment marketing campaigns.
+                        </li>
+                        <li>Assist in developing marketing collaterals, digital content, and event coordination.
+                        </li>
+
+                    </ul>
+
+                    <h5>Key Skills & Competencies
+                    </h5>
+                    <ul>
+                        <li>Strong expertise in <strong>Recruitment & Talent Acquisition.</strong>
+                        </li>
+                        <li><strong>Excellent PowerPoint (PPT) skills –</strong> ability to design and deliver
+                            high-quality,
+                            engaging presentations.</li>
+                        <li>Good communication and interpersonal skills.</li>
+                        <li>Ability to multitask and manage deadlines.</li>
+                        <li>Basic understanding of digital marketing / employer branding will be an added advantage.
+                        </li>
+                    </ul>
+
+
+                    <h5>Qualifications:
+                    </h5>
+                    <ul>
+                        <li>Graduate / Postgraduate in HR, Business Administration, or related field.</li>
+                        <li>1–3 years of relevant experience in recruitment and HR operations.</li>
+                        <li>Proficiency in MS Office (especially PowerPoint, Excel, Word).</li>
+                    </ul>
+
+                    <h5>What We Offer:
+                    </h5>
+                    <ul>
+                        <li>Opportunity to work in a dynamic and growing organization.</li>
+                        <li>Exposure to both HR and Marketing domains.</li>
+                        <li>Learning and growth opportunities with direct impact on business success.</li>
+                    </ul>
+                    <!-- <a target="_blank" href="contact.php?act=careers&job=HR and Marketing Executive"
+                        class="btn btn-primary">Apply Now</a> -->
+                         <form action="contact.php?act=careers" method="post">
+                            <input type="hidden" name="job" value="HR and Marketing Executive">
+                            <button type="submit" class="btn btn-primary">Apply Now</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+      
 
 
         <div class="mt-5">
@@ -477,8 +600,12 @@
                         <li>Demonstrated leadership and people management skills.
                         </li>
                     </ul>
-                    <a target="_blank" href="contact.php?act=careers&job=Chief Compliance Officer"
-                        class="btn btn-primary">Apply Now</a>
+                    <!-- <a target="_blank" href="contact.php?act=careers&job=Chief Compliance Officer"
+                        class="btn btn-primary">Apply Now</a> -->
+                         <form action="contact.php?act=careers" method="post">
+                            <input type="hidden" name="job" value="Chief Compliance Officer">
+                            <button type="submit" class="btn btn-primary">Apply Now</button>
+                        </form>
 
                     <!-- <p>Work Mode <br>Full Time</p> -->
                     <!-- <p>Location: <strong>Bangalore</strong></p> -->
@@ -486,7 +613,7 @@
             </div>
         </div>
 
-        <div class="mt-5">
+        <!-- <div class="mt-5">
             <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
                 <div class="d-flex justify-content-between align-items-center">
                     <h5 class="job-listing-header">Odoo Senior Developer</h5>
@@ -500,7 +627,7 @@
                     </strong>Noida</p>
                 <p><strong>Work Schedule:</strong> Full-time</p>
                 <p><strong>Work Mode: </strong>On-site</p>
-                <!-- <p> <strong>Position:</strong> Oddo Senior Developer</p> -->
+               
                 <div class="job-listing-details">
                     <p><strong>Job Description:</strong> We are seeking a hands-on Odoo Developer with over 3 years of
                         experience in Python and the Odoo platform. The ideal candidate will have excellent
@@ -571,12 +698,10 @@
                     <a target="_blank" href="contact.php?act=careers&job=Odoo Senior Developer"
                         class="btn btn-primary">Apply
                         Now</a>
-                    <!-- <p>Position: <strong>Content Marketing Manager</strong></p>
-                    <p>Work Mode <br>Full Time</p>
-                    <p>Location: <strong>Bangalore</strong></p> -->
+                   
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="mt-5">
             <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
@@ -699,8 +824,11 @@
                         <li>Relevant certifications such as [e.g., PMP, ITIL, specific software certifications].
                         </li>
                     </ul>
-                    <a target="_blank" href="contact.php?act=careers&job=Senior Functional Implementation Consultant"
-                        class="btn btn-primary">Apply Now</a>
+                    
+                         <form action="contact.php?act=careers" method="post">
+                            <input type="hidden" name="job" value="Senior Functional Implementation Consultant">
+                            <button type="submit" class="btn btn-primary">Apply Now</button>
+                        </form>
 
 
                 </div>
@@ -868,13 +996,18 @@
                         <li>Prior experience in SaaS, legal tech, or compliance solutions is a plus.
                         </li>
                     </ul>
-                    <a target="_blank" href="contact.php?act=careers&job=Compliance Sales Associate"
-                        class="btn btn-primary">Apply Now</a>
+                    <!-- <a target="_blank" href="contact.php?act=careers&job=Compliance Sales Associate"
+                        class="btn btn-primary">Apply Now</a> -->
+
+                         <form action="contact.php?act=careers" method="post">
+                            <input type="hidden" name="job" value="Compliance Sales Associate">
+                            <button type="submit" class="btn btn-primary">Apply Now</button>
+                        </form>
                 </div>
             </div>
         </div>
 
-        <div class="mt-5">
+        <!-- <div class="mt-5">
             <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
                 <div class="d-flex justify-content-between align-items-center">
                     <h5 class="job-listing-header">API Integration Specialist</h5>
@@ -952,13 +1085,16 @@
                         </li>
 
                     </ul>
-                    <a target="_blank" href="contact.php?act=careers&job=API Integration Specialist"
-                        class="btn btn-primary">Apply Now</a>
+                    
+                         <form action="contact.php?act=careers" method="post">
+                            <input type="hidden" name="job" value="API Integration Specialist">
+                            <button type="submit" class="btn btn-primary">Apply Now</button>
+                        </form>
 
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="mt-5">
             <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
@@ -1238,8 +1374,12 @@
                     <p>Bachelor’s degree in Computer Science, Engineering, or a related field is Mandatory.
 
                     </p>
-                    <a target="_blank" href="contact.php?act=careers&job=Senior Python Engineer"
-                        class="btn btn-primary">Apply Now</a>
+                    <!-- <a target="_blank" href="contact.php?act=careers&job=Senior Python Engineer"
+                        class="btn btn-primary">Apply Now</a> -->
+                         <form action="contact.php?act=careers" method="post">
+                            <input type="hidden" name="job" value="Senior Python Engineer">
+                            <button type="submit" class="btn btn-primary">Apply Now</button>
+                        </form>
                 </div>
             </div>
         </div>
@@ -1255,11 +1395,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
         integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./assets/js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script> -->
 </body>
 
 </html>

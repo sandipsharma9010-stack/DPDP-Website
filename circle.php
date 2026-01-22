@@ -415,56 +415,56 @@
 
                     <!-- Icons -->
                     <div class="circle1">
-                        <img src="assets/images/224.png" alt="Consent Management Framework Services icon " class="icon-btns" data-id="1">
+                        <img src="assets/images/224.png" alt="User Privacy Profile Management - Graphic for DPDPA personal data management." class="icon-btns" data-id="1">
                     </div>
                     <div class="circle2">
-                        <img src="assets/images/363.png" alt="DPDP Act compliance Risk and Mitigation Services icon " class="icon-btns" data-id="2">
+                        <img src="assets/images/363.png" alt="Risk Management & Mitigation - Proactive DPDPA compliance and threat reduction." class="icon-btns" data-id="2">
                     </div>
                     <div class="circle3">
-                        <img src="assets/images/362.png" alt="Processing Activity Assessments Services icon" class="icon-btns" data-id="3">
+                        <img src="assets/images/362.png" alt="Automated Data Subject Rights Management - Streamlined DPDPA compliance workflow." class="icon-btns" data-id="3">
                     </div>
                     <div class="circle4">
-                        <img src="assets/images/364.png" alt="Policy & Privacy Notice Framework services icon" class="icon-btns" data-id="4">
+                        <img src="assets/images/364.png" alt="Automated Privacy Audit Workflow - Continuous DPDPA compliance verification." class="icon-btns" data-id="4">
                     </div>
                     <div class="circle5">
-                        <img src="assets/images/229.png" alt="DPIA Methodology services icon" class="icon-btns" data-id="5">
+                        <img src="assets/images/229.png" alt="AI-driven Privacy Compliance - Automated DPDPA assessment and smart validation." class="icon-btns" data-id="5">
                     </div>
                     <div class="circle6">
-                        <img src="assets/images/228.png" alt="Principal Rights Management Procedure icon" class="icon-btns" data-id="6">
+                        <img src="assets/images/228.png" alt="Automated Privacy Decision Making - Human-in-the-loop DPDPA compliance visual" class="icon-btns" data-id="6">
                     </div>
                     <div class="circle7">
-                        <img src="assets/images/230.png" alt="DPDPA Employee Awareness Training Icon" class="icon-btns" data-id="7">
+                        <img src="assets/images/230.png" alt="Automated Data Privacy Training - Interactive DPDPA compliance education visual." class="icon-btns" data-id="7">
                     </div>
                     <div class="circle8">
-                        <img src="assets/images/231.png" alt="Principal Rights Management Forms and Templates Services Icon" class="icon-btns" data-id="8">
+                        <img src="assets/images/231.png" alt="Automated Legal Compliance Review - DPDPA document verification visual." class="icon-btns" data-id="8">
                     </div>
                     <div class="circle9">
-                        <img src="assets/images/224.1.png" alt="Employee Compliance Agreement Services Icon" class="icon-btns" data-id="9">
+                        <img src="assets/images/224.1.png" alt="Regulatory Compliance Verification - Validated DPDPA legal documentation review." class="icon-btns" data-id="9">
                     </div>
                     <div class="circle10">
-                        <img src="assets/images/232.png" alt="Data Processing Agreement services icon" class="icon-btns" data-id="10">
+                        <img src="assets/images/232.png" alt="Verified DPDPA Data Processing Agreement - Finalized legal privacy contracts visual." class="icon-btns" data-id="10">
                     </div>
                     <div class="circle11">
-                        <img src="assets/images/233.1.png" alt="Third-Party Consent Sharing and Rights Fulfilment services icon" class="icon-btns" data-id="11">
+                        <img src="assets/images/233.1.png" alt="Centralized User Data Network - Interconnected DPDPA personal data management." class="icon-btns" data-id="11">
                     </div>
                     <div class="circle12">
-                        <img src="assets/images/DPCM.1.png" alt="Consent management platform icon" data-id="12" class="icon-btns dpgr-icon">
+                        <img src="assets/images/DPCM.1.png" alt="DPCM Privacy Tool - Data Protection Consent Management software for DPDPA." data-id="12" class="icon-btns dpgr-icon">
                         <div class="icons-dpcm m-none">DPCM</div>
                     </div>
                     <div class="circle13 icon-wrapper">
-                        <img src="assets/images/DPGR.1.png" alt="Data subject rights management tool icon" data-id="13" class="icon-btns dpgr-icon">
+                        <img src="assets/images/DPGR.1.png" alt="DPGR Privacy Tool - Data Protection Grievance Redressal software for DPDPA compliance." data-id="13" class="icon-btns dpgr-icon">
                         <div class="icon-label m-none">DPGR</div>
                     </div>
                     <div class="circle14">
-                        <img src="assets/images/DPAP.1.png" alt="DPDPA compliance training platform icon" class="icon-btns dpgr-icon" data-id="14">
+                        <img src="assets/images/DPAP.1.png" alt="DPAP Privacy Tool - Data Protection Awareness Program for DPDPA strategic compliance." class="icon-btns dpgr-icon" data-id="14">
                         <div class="icons-dpap m-none">DPAP</div>
                     </div>
                     <div class="circle15">
-                        <img src="assets/images/DPIA.1.png" alt="Data protection impact assessment tool icon " class="icon-btns dpgr-icon" data-id="15">
+                        <img src="assets/images/DPIA.1.png" alt="DPIA Privacy Tool - Data Protection Impact Assessment reporting for DPDPA." class="icon-btns dpgr-icon" data-id="15">
                         <div class="icons-dpia m-none">DPIA</div>
                     </div>
                     <div class="circle16">
-                        <img src="assets/images/DPTPA.1.png" alt="DPDPA Third party risk assessment software icon" class="icon-btns dpgr-icon" data-id="16">
+                        <img src="assets/images/DPTPA.1.png" alt="DPTPA Privacy Tool - Data Protection Third Party Assessment software for DPDPA." class="icon-btns dpgr-icon" data-id="16">
                         <div class="icons-dptpa m-none">DPTPA</div>
                     </div>
 
@@ -704,7 +704,7 @@
                 <div id="content-12" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/DPCM.1.png" alt="Consent management platform icon2">
+                            <img src="assets/images/DPCM.1.png" alt="DPCM Privacy Tool - Data Protection Consent Management software for DPDPA.">
                         </div>
                         <h5>Data Principal Consent Management Tool</h5>
                         <p>Our tool facilitates seamless collection, management, and tracking of data principal consents
@@ -726,7 +726,7 @@
                 <div id="content-13" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/DPGR.1.png" alt="Data subject rights management tool icon">
+                            <img src="assets/images/DPGR.1.png" alt="DPGR Privacy Tool - Data Protection Grievance Redressal software for DPDPA compliance.">
                         </div>
                         <h5>Data Principal Grievance Redressal Tool</h5>
                         <p>Our tool streamlines the process of managing and resolving grievances raised by data
@@ -751,7 +751,7 @@
                 <div id="content-14" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/DPAP.1.png" alt="DPDPA compliance training platform icon2">
+                            <img src="assets/images/DPAP.1.png" alt="DPAP Privacy Tool - Data Protection Awareness Program for DPDPA strategic compliance.">
                         </div>
                         <h5>Data Protection Awareness Program Tool</h5>
                         <p>Our tool delivers customized training, assessments, and compliance modules to enhance data
@@ -776,7 +776,7 @@
                 <div id="content-15" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/DPIA.1.png" alt="Data protection impact assessment tool icon">
+                            <img src="assets/images/DPIA.1.png" alt="DPIA Privacy Tool - Data Protection Impact Assessment reporting for DPDPA.">
                         </div>
                         <h5>Data Protection Impact Assessment (DPIA) Tool</h5>
                         <p>Our tool streamlines the identification, assessment, and mitigation of data protection risks,
@@ -797,7 +797,7 @@
                 <div id="content-16" class="icon-content">
                     <div class="dpa-card">
                         <div class="badge-icon">
-                            <img src="assets/images/DPTPA.1.png" alt="DPDPA Third party risk assessment software icon2">
+                            <img src="assets/images/DPTPA.1.png" alt="DPTPA Privacy Tool - Data Protection Third Party Assessment software for DPDPA.">
                         </div>
                         <h5>Data Protection Third party Assessment Tool</h5>
                         <p>Our tool evaluates and monitors third party vendors to ensure their data processing

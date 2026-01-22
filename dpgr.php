@@ -18,6 +18,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.dpdpconsultants.com/dpgr.php">
+    <?php include_once('google-tag-manager.php'); ?>
     <style>
     .blog {
         text-align: center;
@@ -197,7 +198,7 @@
             <div class="col-sm-2 flex-column align-items-start">
                 <!-- <img src="./assets/images/dpgr.jpg" alt="dpcm" class="img-fluid" style="max-width: 150px;"> -->
                 <video width="200" height="200" autoplay muted loop
-                    aria-label="Compliance Management Tool (CMP) Icon: Data Principal Grievance Redressal  Tool ">
+                    aria-label="Data Protection Grievance Redressal Software illustrator image.">
                     <source src="./assets/images/video/DPGR.mp4" type="video/mp4">
 
                     Your browser does not support the video tag.
@@ -253,7 +254,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/159.png"
-                                alt="Key Features of Data Principal Grievance Redressal tool: Effortless Grievance Management for Data Fiduciaries ">
+                                alt="Automated Privacy Lifecycle - Graphic for continuous DPDPA compliance and data processing workflows.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Effortless Grievance Management for Data Fiduciaries
@@ -270,7 +271,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/160.png"
-                                alt="Key Features of Data Principal Grievance Redressal tool: Seamless Grievance Redressal Mechanism">
+                                alt="Risk & Incident Management - Visual for DPDPA data breach alerts and technical issue resolution.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Seamless Grievance Redressal Mechanism</h5>
@@ -284,7 +285,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/161.png"
-                                alt="Key Features of Data Principal Grievance Redressal tool: Timely Response with Clear communication">
+                                alt="Privacy Risk Monitoring - Visual for DPDPA data breach detection and security threat observation.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Timely Response with Clear communication</h5>
@@ -298,7 +299,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/162.png"
-                                alt="Key Features of Data Principal Grievance Redressal tool: Advanced Rights and Grievance Tracking & Management">
+                                alt="Automated Data Categorization - Visual for DPDPA structured technical compliance management.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Advanced Rights and Grievance Tracking & Management
@@ -313,7 +314,7 @@
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container">
                             <img src="./assets/images/tools-icon/163.png"
-                                alt="Key Features of Data Principal Grievance Redressal tool: Seamless Integration with Your Digital Ecosystem">
+                                alt="User Data Audit Analytics - Visual for DPDPA individual data processing and compliance auditing.">
                         </div>
                         <div class="px-3 heading-clrbss">
                             <h5 class="card-titles heading-clrbs">Seamless Integration with Your Digital Ecosystem</h5>
@@ -345,7 +346,7 @@
                     <div class="feature-box-1">
                         <div class="feature-icon-dpgr">
                             <img src="./assets/images/tools-icon/164.png"
-                                alt="Why Choose Our Data Principal Grievance Redressal tool icon:Enhanced Efficiency">
+                                alt="Automated Privacy Engineering - Visual for technical DPDPA compliance and secure code integration.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Enhanced Efficiency</h5>
@@ -359,7 +360,7 @@
                     <div class="feature-box-2">
                         <div class="feature-icon-dpgr">
                             <img src="./assets/images/tools-icon/165.png"
-                                alt="Why Choose Our Data Principal Grievance Redressal tool icon: Regulatory Compliance">
+                                alt="Automated Document Audit - Visual for continuous DPDPA legal review and compliance verification.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Regulatory<br> Compliance</h5>
@@ -373,7 +374,7 @@
                     <div class="feature-box-3">
                         <div class="feature-icon-dpgr">
                             <img src="./assets/images/tools-icon/166.png"
-                                alt="Why Choose Our Data Principal Grievance Redressal tool icon: Increased Transparency">
+                                alt="Technical Compliance Audit - Magnifying glass with checkmark in gear for DPDPA systems verification.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Increased Transparency</h5>
@@ -389,7 +390,7 @@
                     <div class="feature-box-4">
                         <div class="feature-icon-dpgr">
                             <img src="./assets/images/tools-icon/167.png"
-                                alt="Why Choose Our Data Principal Grievance Redressal tool icon: Risk Mitigation">
+                                alt="Centralized Privacy Engineering - Monitor with gear for DPDPA technical compliance management.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Risk Mitigation</h5>
@@ -404,7 +405,7 @@
                     <div class="feature-box-5">
                         <div class="feature-icon-dpgr">
                             <img src="./assets/images/tools-icon/168.png"
-                                alt="Why Choose Our Data Principal Grievance Redressal tool icon: Improved Customer Trust">
+                                alt="User Feedback & Complaints - Visual for DPDPA grievance redressal and dispute resolution.">
                         </div>
                         <div class="px-3">
                             <h5 class="highlight-acc">Improved Customer Trust</h5>
