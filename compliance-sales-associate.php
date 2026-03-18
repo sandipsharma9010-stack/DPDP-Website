@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>compliance-sales-associate</title>
+    <title>Compliance Sales Associate Job in Noida | Data Privacy Sales | DPDP Consultants</title>
     <meta name="description"
-        content="Simplify DPDP Act compliance with our grievance redressal software that manages user complaints efficiently and ensures timely resolutions.">
+        content="DPDP Consultants is hiring a Compliance Sales Associate in Noida. Drive sales for DPDPA, GDPR, and CCPA solutions. 1-3 years sales experience. Full-time, on-site. Apply now!">
     <meta name="keywords"
-        content="Grievance redressal tool, complaint management portal, dispute resolution platform, grievance redressal system, complaint handling software, DPGR compliance, secure grievance portal">
+        content="Compliance Sales jobs Noida, Data Privacy Business Development, DPDPA Sales Associate, Legal Tech Sales careers, GDPR Compliance Sales, SaaS Sales jobs Noida, Business Development Associate Noida.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
@@ -118,7 +118,7 @@
         }
 
         .job-listing-details {
-            display: none;
+            display: block;
             margin-top: 20px;
             border-top: 1px solid #e5e7eb;
             padding-top: 20px;
@@ -259,8 +259,9 @@
                     <!-- <a target="_blank" href="contact.php?act=careers&job=Compliance Sales Associate"
                         class="btn btn-primary">Apply Now</a> -->
 
-                         <form action="contact.php?act=careers" method="post">
-                            <input type="hidden" name="job" value="Compliance Sales Associate">
+                         <form action="contact.php?act=careers" method="get" class="apply-btn">
+                             <input type="hidden" name="job" value="Compliance Sales Associate">
+                             <input type="hidden" name="act" value="careers">
                             <button type="submit" class="btn btn-primary">Apply Now</button>
                         </form>
                 </div>

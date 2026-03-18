@@ -158,9 +158,10 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Impact Assessment Tool for Risk <br>Management, <span class="highlight-acc">Compliance, and Informed<br>
+            <h1>Data Protection Impact <span class="highlight-acc"><br>Assessment Tool</span></h1>
+            <!-- <h1>Impact Assessment Tool for Risk <br>Management, <span class="highlight-acc">Compliance, and Informed<br>
                     Decisions</span>
-            </h1>
+            </h1> -->
             <p class="text-white">Our solution simplifies impact assessment while ensuring compliance, risk mitigation,
                 and informed
                 decision-making.

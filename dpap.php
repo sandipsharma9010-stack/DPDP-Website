@@ -185,9 +185,10 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Data Protection Awareness Program for <br> <span class="highlight-acc">Driving Compliance, Fostering
+            <h1>Data Protection Awareness <span class="highlight-acc"><br>Program Tool</span></h1>
+            <!-- <h1>Data Protection Awareness Program for <br> <span class="highlight-acc">Driving Compliance, Fostering
                     Awareness, and<br> Protecting Sensitive Information</span>
-            </h1>
+            </h1> -->
             <p class="text-white">Our solution promotes data protection awareness among employees while ensuring
                 compliance, mitigating
                 risks, and safeguarding sensitive information.

@@ -173,8 +173,7 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1><span class="highlight-acc">DPDP Act Employee Awareness Training: </span><br> Empowering Your Team for
-                Effective<br> Data Protection
+            <h1>Training Programs for DPDP Act, <span class="highlight-acc"><br>2023 Compliance</span>
             </h1>
             <p class="text-white">Our DPDP Act, 2023 Compliance Training Programs offer a structured approach with
                 expert guidance, interactive learning, and real-world case studies, equipping your team to navigate data

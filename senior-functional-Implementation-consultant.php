@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>senior-functional-Implementation-consultant</title>
+    <title>Senior Functional Consultant Job in Noida | 4+ Yrs Exp | DPDP Consultants</title>
     <meta name="description"
-        content="Simplify DPDP Act compliance with our grievance redressal software that manages user complaints efficiently and ensures timely resolutions.">
+        content="DPDP Consultants is hiring a Senior Functional Consultant in Noida. 4+ years’ experience in product implementation, client demos, and Canva presentations. 100% on-site role with travel. Apply now!">
     <meta name="keywords"
-        content="Grievance redressal tool, complaint management portal, dispute resolution platform, grievance redressal system, complaint handling software, DPGR compliance, secure grievance portal">
+        content="Senior Functional Consultant Noida, Product Implementation Lead jobs, Business Process Consultant, Software Implementation Specialist, Client Delivery Manager roles, Canva Presentation Specialist jobs, IT Consultant careers Noida.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
@@ -118,7 +118,7 @@
         }
 
         .job-listing-details {
-            display: none;
+            display: block;
             margin-top: 20px;
             border-top: 1px solid #e5e7eb;
             padding-top: 20px;
@@ -318,8 +318,9 @@
                         </li>
                     </ul>
                     
-                         <form action="contact.php?act=careers" method="post">
-                            <input type="hidden" name="job" value="Senior Functional Implementation Consultant">
+                         <form action="contact.php?act=careers" method="get" class="apply-btn">
+                             <input type="hidden" name="job" value="Senior Functional Implementation Consultant">
+                             <input type="hidden" name="act" value="careers">
                             <button type="submit" class="btn btn-primary">Apply Now</button>
                         </form>
 

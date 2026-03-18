@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Sales Manager</title>
+    <title>Sales Manager Job in Noida | 5+ Yrs Exp | DPDP Consultants</title>
     <meta name="description"
-        content="Simplify DPDP Act compliance with our grievance redressal software that manages user complaints efficiently and ensures timely resolutions.">
+        content="DPDP Consultants is hiring a Sales Manager in Noida. Lead enterprise sales for ISO & DPDP compliance services. 5+ years’ experience & MBA required. Full-time, on-site role. Apply now!">
     <meta name="keywords"
-        content="Grievance redressal tool, complaint management portal, dispute resolution platform, grievance redressal system, complaint handling software, DPGR compliance, secure grievance portal">
+        content="Sales Manager Noida, Enterprise Sales jobs India, ISO Certification Sales, Compliance Product Sales, Business Development Manager Noida, DPDP Act Sales, B2B Sales Management roles.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
@@ -118,7 +118,7 @@
         }
 
         .job-listing-details {
-            display: none;
+            display: block;
             margin-top: 20px;
             border-top: 1px solid #e5e7eb;
             padding-top: 20px;
@@ -238,8 +238,13 @@
                             quantitative and qualitative data Self-starter, able to work with minimal supervision.</li>
 
                     </ul>
-                    <a target="_blank" href="contact.php?act=careers&job=Sales Manager" class="btn btn-primary">Apply
-                        Now</a>
+
+                    <form action="contact.php?act=careers&job=Sales Manager" method="get" class="apply-btn">
+                        <input type="hidden" name="job" value="Sales Manager">
+                        <input type="hidden" name="act" value="careers">
+                        <button type="submit" class="btn btn-primary">Apply Now</button>
+                    <!-- <a target="_blank" href="contact.php?act=careers&job=Sales Manager" class="btn btn-primary">Apply
+                        Now</a> -->
 
                 </div>
             </div>

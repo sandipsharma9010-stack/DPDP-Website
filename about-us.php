@@ -975,11 +975,10 @@
     </div>
 
 
-    <div class="modal fade" id="profileModal20" tabindex="-1" aria-hidden="true">
+    <!-- <div class="modal fade" id="profileModal20" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <!-- <h5 class="modal-title">About</h5> -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
@@ -1012,7 +1011,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <section id="ourteam">
@@ -1172,7 +1171,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-2 mt-2">
+                <!-- <div class="col-sm-2 mt-2">
                     <div class="profile-cards small-card">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal20">
                             <img src="assets/images/out-team/jagveer.jpg" alt="Senior Consultant - Implementation: “Jagveer Singh”">
@@ -1182,7 +1181,7 @@
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

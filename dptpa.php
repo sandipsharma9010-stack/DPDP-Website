@@ -154,10 +154,11 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Third Party Evaluation for <br> <span class="highlight-acc">Risk Mitigation, Compliance, and
+            <h1>Data Protection Third Party Assessment<span class="highlight-acc"><br>and Compliance Tool</span> </h1>
+            <!-- <h1>Third Party Evaluation for <br> <span class="highlight-acc">Risk Mitigation, Compliance, and
                     Trust<br> Building
                 </span>
-            </h1>
+            </h1> -->
             <p class="text-white">Our system simplifies Third Party assessments while ensuring compliance, reducing
                 risks, and improving oversight.
             </p>

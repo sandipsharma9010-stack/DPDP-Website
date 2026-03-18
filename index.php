@@ -301,7 +301,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                             and Compliance
                             with</span> ease </h3>
                     <a class="learn-a" href="services.php">Learn more<img class="learn-img"
-                            src="./assets/images/our-service-arrow.png" alt="Dark blue right-facing arrow icon inside a white circle for navigation or next steps."></a>
+                            src="./assets/images/our-service-arrow.png"
+                            alt="Dark blue right-facing arrow icon inside a white circle for navigation or next steps."></a>
                 </div>
                 <div class="col-sm-7">
 
@@ -319,7 +320,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                                     regulations. </p>
                             </div>
                         </div>
-                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg" alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
+                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg"
+                                alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
                     </div>
 
                     <div class="our-service-card">
@@ -337,7 +339,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                                     IT controls protect your business from penalties. </p>
                             </div>
                         </div>
-                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg" alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
+                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg"
+                                alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
                     </div>
 
                     <div class="our-service-card">
@@ -356,7 +359,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                                 </p>
                             </div>
                         </div>
-                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg" alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
+                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg"
+                                alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
                     </div>
 
                     <div class="our-service-card">
@@ -374,7 +378,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                                     Employee Compliance agreement. </p>
                             </div>
                         </div>
-                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg" alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
+                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg"
+                                alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
                     </div>
 
                     <div class="our-service-card">
@@ -392,7 +397,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                                     uphold the rights of Data Principals. </p>
                             </div>
                         </div>
-                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg" alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
+                        <button class="our-btn-arrow mx-2"><img src="./assets/SVG-Icons/svg_315634.svg"
+                                alt="Black downward arrow icon inside a square frame for dropdown menus or scrolling."></button>
                     </div>
 
                 </div>
@@ -492,53 +498,77 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
     <section class="news-section sec-pad">
         <div class="container">
             <div class="sec-title section-title-two2">
-                <h5 class="section-title-two1 text-center">People who <span class="text-trust">Trust</span> us</h5>
+                <h5 class="section-title-two1 text-center">Brand who <span class="text-trust">Trust</span> us</h5>
             </div>
 
             <div class="owl-carousel owl-theme">
                 <div class="item"><img src="./assets/images/client-logo/hindalco.jpg"
-                        alt="Aditya Birla Hindalco Logo - Data Protection Compliance for the industrial manufacturing leader."></div>
-                <div class="item"><img src="./assets\images/client-logo/tata-motos.jpg"
-                        alt="Tata Motors Logo - Data Protection Compliance for the automotive manufacturer Tata Motors."></div>
+                        alt="Aditya Birla Hindalco Logo - Data Protection Compliance for the industrial manufacturing leader.">
+                </div>
+                <div class="item"><img src="./assets/images/client-logo/tata-motos.svg"
+                        alt="Tata Motors Logo - Data Protection Compliance for the automotive manufacturer Tata Motors.">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/bajaj-finserv.jpg"
-                        alt="Bajaj Finserv Logo - Data Protection Compliance for the financial services company Bajaj Finserv."></div>
-                <div class="item"><img src="./assets/images/client-logo/apraava.png" alt="Apraava Energy Logo - Data Protection Compliance with colorful geometric shapes in the lettering.">
+                        alt="Our clients: Bajaj Finserv Limited"></div>
+                <div class="item"><img src="./assets/images/client-logo/apraava.png"
+                        alt="Apraava Energy Logo - Data Protection Compliance with colorful geometric shapes in the lettering.">
                 </div>
                 <div class="item"><img src="./assets/images/client-logo/art-house-financing.jpg"
-                        alt="ART Housing Finance Logo - Data Protection Compliance for ART Affordable Housing Finance."></div>
+                        alt="ART Housing Finance Logo - Data Protection Compliance for ART Affordable Housing Finance.">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/ashok-leyland-vector-logo1.png"
                         alt="Ashok Leyland Logo - Data Protection Compliance for the automotive manufacturer Ashok Leyland.">
                 </div>
                 <div class="item"><img src="./assets/images/client-logo/eZee.png"
-                        alt="eZee Logo - Data Protection Compliance for eZee with three colorful crescent swooshes in a circular motif."></div>
+                        alt="eZee Logo - Data Protection Compliance for eZee with three colorful crescent swooshes in a circular motif.">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/infinite.png"
-                        alt="Infinite Logo - Data Protection Compliance for Infinite with a blue triangle and green swoosh visual."></div>
+                        alt="Infinite Logo - Data Protection Compliance for Infinite with a blue triangle and green swoosh visual.">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/mamenta-logo.png"
-                        alt="Mamenta Logo - Data Protection Compliance for global commerce platform Mamenta with a colorful ribbon icon."></div>
+                        alt="Mamenta Logo - Data Protection Compliance for global commerce platform Mamenta with a colorful ribbon icon.">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/netradyne.png"
-                        alt="Netradyne Logo - Data Protection Compliance for Netradyne with a green geometric line-art icon."></div>
+                        alt="Netradyne Logo - Data Protection Compliance for Netradyne with a green geometric line-art icon.">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/quinnox-logo.jpg"
-                        alt="Quinnox Logo - Data Protection Compliance for Quinnox with the Accelerate Success tagline"></div>
+                        alt="Quinnox Logo - Data Protection Compliance for Quinnox with the Accelerate Success tagline">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/retarget-logo.png"
-                        alt="Retarget Spark Logo - Data Protection Compliance with a green target icon and company tagline."></div>
+                        alt="Retarget Spark Logo - Data Protection Compliance with a green target icon and company tagline.">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/sk-finance1.png"
-                        alt="SK Finance Logo - Data Protection Compliance with a green s and purple k icon and company tagline."></div>
+                        alt="SK Finance Logo - Data Protection Compliance with a green s and purple k icon and company tagline.">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/trackwizz.png"
-                        alt="TrackWizz Logo - Data Protection Compliance with a blue circular track and arrow icon."></div>
-                <div class="item"><img src="./assets/images/client-logo/zebpay.jpg" alt="Zebpay Logo - Data Protection Compliance for the cryptocurrency exchange platform Zebpay.">
+                        alt="TrackWizz Logo - Data Protection Compliance with a blue circular track and arrow icon.">
+                </div>
+                <div class="item"><img src="./assets/images/client-logo/zebpay.jpg"
+                        alt="Zebpay Logo - Data Protection Compliance for the cryptocurrency exchange platform Zebpay.">
                 </div>
                 <div class="item"><img src="./assets/images/client-logo/zeiss_logo.png"
                         alt="ZEISS Logo - Data Protection Compliance for the technology leader ZEISS."></div>
                 <div class="item"><img src="./assets/images/client-logo/zyter-care.jpg"
-                        alt="Zyter TruCare Logo Data Protection Compliance for Zyter TruCare with a blue and purple ribbon icon."></div>
+                        alt="Zyter TruCare Logo Data Protection Compliance for Zyter TruCare with a blue and purple ribbon icon.">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/Griham.jpeg"
-                        alt="Grihum Housing Finance Logo - Data Protection Compliance with a red and blue interlocking G icon."></div>
+                        alt="Grihum Housing Finance Logo - Data Protection Compliance with a red and blue interlocking G icon.">
+                </div>
                 <div class="item"><img src="./assets/images/client-logo/tat_motors_the.png"
                         alt="Our clients: Tata Autocomp"></div>
-                <div class="item"><img src="./assets/images/client-logo/TBSI.png" alt="JLR TBSI Logo - Data Protection Compliance for JLR TBSI in a minimalist grey font.">
+                <div class="item"><img src="./assets/images/client-logo/TBSI.png"
+                        alt="JLR TBSI Logo - Data Protection Compliance for JLR TBSI in a minimalist grey font.">
                 </div>
 
-                <div class="item"><img src="./assets/images/client-logo/Emaar-Logo.png" alt="Emaar India Logo – Data Protection Compliance for the real estate developer Emaar India.">
+                <div class="item"><img src="./assets/images/client-logo/Emaar-Logo.png"
+                        alt="Emaar India Logo – Data Protection Compliance for the real estate developer Emaar India.">
+                </div>
+
+                <div class="item"><img src="./assets/images/client-logo/applo.svg"
+                        alt="Emaar India Logo – Data Protection Compliance for the real estate developer Emaar India.">
+                </div>
+                <div class="item"><img src="./assets/images/client-logo/trident-group.png"
+                        alt="Emaar India Logo – Data Protection Compliance for the real estate developer Emaar India.">
                 </div>
             </div>
         </div>
@@ -706,7 +736,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/expertise.png" alt="Privacy Knowledge & Innovation - DPDPA strategic insight and intellectual compliance.">
+                            <img src="./assets/images/expertise.png"
+                                alt="Privacy Knowledge & Innovation - DPDPA strategic insight and intellectual compliance.">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">Expertise</h5>
@@ -717,7 +748,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/proprietary.png" alt="Automated Privacy Infrastructure - Digital DPDPA compliance systems visual.">
+                            <img src="./assets/images/proprietary.png"
+                                alt="Automated Privacy Infrastructure - Digital DPDPA compliance systems visual.">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">Proprietary Tools</h5>
@@ -729,7 +761,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/customized.png" alt="Integrated Privacy Technology - Gear and circuit graphic for DPDPA data protection.">
+                            <img src="./assets/images/customized.png"
+                                alt="Integrated Privacy Technology - Gear and circuit graphic for DPDPA data protection.">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">Customized Solutions</h5>
@@ -740,7 +773,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/efficient.png" alt="Automated Data Governance - DPDPA structured technical compliance management graphic.">
+                            <img src="./assets/images/efficient.png"
+                                alt="Automated Data Governance - DPDPA structured technical compliance management graphic.">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">Efficient Process</h5>
@@ -751,7 +785,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/end-to-end.png" alt="Cost-Efficiency & Time Management - Automated DPDPA financial and resource tracking.">
+                            <img src="./assets/images/end-to-end.png"
+                                alt="Cost-Efficiency & Time Management - Automated DPDPA financial and resource tracking.">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">End-to-End Support</h5>
@@ -762,7 +797,8 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <div class="col-sm-4">
                     <div class="card-custom">
                         <div class="icon-box">
-                            <img src="./assets/images/proven.png" alt="Automated DPDPA Compliance - Scalable data protection and privacy management workflow.">
+                            <img src="./assets/images/proven.png"
+                                alt="Automated DPDPA Compliance - Scalable data protection and privacy management workflow.">
                         </div>
                         <div class="contents">
                             <h5 class="fw-bold">Proven Track Record</h5>
@@ -1122,6 +1158,67 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
+                <!-- <div class="col-md-4 col-lg-4 my-3">
+                    <div class="testimonial-card d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start p-3"
+                        data-bs-toggle="modal" data-bs-target="#testimonialModal5">
+                        <div class="ms-3">
+                            <h5>Divyansh Sharma</h5>
+                            <span class="company">Bajaj Housing Finance Ltd.</span>
+                            <p class="text-muted">Senior Lead Data Protection</p>
+                            <span class="stars">★★★★★</span>
+                            <p class="mt-2 test-para">Want to take a moment to appreciate the DPDP consultant team for
+                                their extraordinary work at Bajaj Housing finance limited. Special mention to Kumar and
+
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Bootstrap Modal -->
+                <!-- <div class="modal fade" id="testimonialModal5" tabindex="-1" aria-labelledby="testimonialModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="./assets/images/client-logo/Bajaj-Housing-Finance.svg" alt="User" class="img-fluid mb-3">
+                                <h5>Divyansh Sharma</h5>
+                                <span class="company">Bajaj Housing Finance Ltd.</span>
+                                <p class="text-muted">Senior Lead Data Protection</p>
+                                <span class="stars">★★★★★</span>
+                                <p class="mt-2">"Want to take a moment to appreciate the DPDP consultant team for their
+                                    extraordinary work at Bajaj Housing finance limited. Special mention to Kumar and
+                                    his team for the dedication and commitment. DPDP Consultants supported us in our
+                                    compliance initiative under the Digital Personal Data Protection (DPDP) Act with a
+                                    high level of professionalism and expertise. Their team demonstrated a strong
+                                    understanding of data protection requirements within highly regulated environments
+                                    and provided guidance that was practical, risk-aware, and aligned with our
+                                    governance framework. The engagement was executed in a structured and disciplined
+                                    manner, with clear planning, timely delivery of key milestones, and close
+                                    collaboration with our internal stakeholders. DPDP Consultants ensured that data
+                                    protection requirements were effectively integrated into our existing compliance and
+                                    operational processes without disruption. We have strong confidence in DPDP
+                                    Consultants’ expertise and approach and regard them as a trusted partner for data
+                                    privacy initiatives. We would recommend DPDP Consultants to any organization seeking
+                                    dependable and knowledgeable support in this domain. Looking forward for the same
+                                    delivery and commitment in the coming future."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </div>
     </section>

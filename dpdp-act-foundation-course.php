@@ -316,7 +316,7 @@ include('contact-referer.php');
         }
 
         .sticky-img {
-            top: 95%;
+            top: 60%;
             right: 5%;
         }
 

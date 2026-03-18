@@ -184,7 +184,7 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Tailored Advice for <span class="highlight-acc">Seamless <br>DPDP Act Gap Assessment Review</span></h1>
+            <h1>Gap Assessment  <span class="highlight-acc"><br>Review</span></h1>
             <p>Our specialized compliance framework delivers comprehensive DPDP Act Gap Assessment Review through a
                 methodical approach that encompasses complete data mapping, gap analysis, strategic remediation, and
                 sustainable compliance practices.

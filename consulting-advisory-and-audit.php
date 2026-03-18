@@ -173,7 +173,7 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Expert Consulting and Audits for <span class="highlight-acc">Seamless<br> DPDPA Compliance</span></h1>
+            <h1>Consulting, Advisory <span class="highlight-acc"><br> and Audit</span></h1>
             <p class="text-white">We provide expert consulting, strategic advisory, and thorough audits to strengthen
                 your privacy
                 framework, mitigate risks, and ensure seamless DPDPA compliance—safeguarding your business from

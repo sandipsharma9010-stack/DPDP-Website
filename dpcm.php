@@ -195,9 +195,11 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>The Ultimate Solution for Seamless<br> <span class="highlight-acc">Compliance, Risk Management, and Data
+            <!-- <h1>The Ultimate Solution for Seamless<br> <span class="highlight-acc">Compliance, Risk Management, and Data
                     <br>Protection</span>
-            </h1>
+            </h1> -->
+
+            <h1>Data Principal Consent <span class="highlight-acc"><br>Management Tool</span></h1>
             <p class="text-white">Our solution empowers user privacy while ensuring seamless compliance with regulations
                 and transparency.
             </p>

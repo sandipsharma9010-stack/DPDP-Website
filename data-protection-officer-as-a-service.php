@@ -182,9 +182,7 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Data Protection Officer as a Service: <span class="highlight-acc">Your <br>Strategic Partner for DPDP
-                    Act
-                    Compliance</span></h1>
+            <h1>Data Protection Officer <span class="highlight-acc"><br>as a Service</span></h1>
             <p class="text-white">Our specialized DPO as a Service framework ensures comprehensive data protection and
                 regulatory compliance through a structured approach, including risk assessment, policy implementation,
                 compliance monitoring, and ongoing advisory support, safeguarding your organization’s data governance.

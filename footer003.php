@@ -1,3 +1,9 @@
+<?php
+if (strpos($_SERVER['REQUEST_URI'], 'gap-assessment-form.php') === false) {
+    include_once('gap_assessment_score.php');
+}
+?>
+
 <footer class="footer footer-bg">
     <div class="container">
         <div class="row">

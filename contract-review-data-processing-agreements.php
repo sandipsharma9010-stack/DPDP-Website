@@ -178,8 +178,7 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Expert Contract Review: Identifying Privacy Risks<br> <span class="highlight-acc">and Strengthening Your
-                    Data Processing Agreements</span></h1>
+            <h1>Contract Review & Data <br> <span class="highlight-acc">Processing Agreements</span></h1>
             <p class="text-white">Our specialized contract review framework ensures comprehensive risk mitigation
                 through a structured approach, including detailed contract analysis, track obligations, compliance
                 alignment, and legal protection strategies

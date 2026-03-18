@@ -217,8 +217,7 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1 class="servies">Comprehensive Compliance with <br>Industry-Specific <span class="highlight-acc">Digital
-                    Personal & <br>Data Protection Act (DPDPA)</span>
+            <h1 class="servies">DPDP Compliance Management  <span class="highlight-acc"><br>Services</span>
             </h1>
             <p class="text-white">Achieve Full Compliance with Industry-Specific Digital Personal Data Protection Act
                 (DPDPA), while ensuring Secure Data Handling, Regulatory Adherence, and Enhanced User Privacy Across All

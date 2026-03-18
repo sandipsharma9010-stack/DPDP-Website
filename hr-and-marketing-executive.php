@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>HR & Marketing Executive</title>
+    <title>HR & Marketing Executive Job in Noida | Recruitment & Branding Role</title>
     <meta name="description"
-        content="Simplify DPDP Act compliance with our grievance redressal software that manages user complaints efficiently and ensures timely resolutions.">
+        content="DPDP Consultants is hiring an HR & Marketing Executive in Noida. Lead end-to-end recruitment and create impactful marketing pitch decks. 1-3 years exp. Apply today!">
     <meta name="keywords"
-        content="Grievance redressal tool, complaint management portal, dispute resolution platform, grievance redressal system, complaint handling software, DPGR compliance, secure grievance portal">
+        content="HR and Marketing Executive jobs, Recruitment Executive Noida, Talent Acquisition roles Noida, HR Generalist and Branding jobs, Recruitment Marketing jobs, HR PPT Specialist, DPDP Consultants careers.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
@@ -118,7 +118,7 @@
         }
 
         .job-listing-details {
-            display: none;
+            display: block;
             margin-top: 20px;
             border-top: 1px solid #e5e7eb;
             padding-top: 20px;
@@ -275,8 +275,9 @@
                     </ul>
                     <!-- <a target="_blank" href="contact.php?act=careers&job=HR and Marketing Executive"
                         class="btn btn-primary">Apply Now</a> -->
-                         <form action="contact.php?act=careers" method="post">
+                         <form action="contact.php?act=careers" method="get" class="apply-btn">
                             <input type="hidden" name="job" value="HR and Marketing Executive">
+                            <input type="hidden" name="act" value="careers">
                             <button type="submit" class="btn btn-primary">Apply Now</button>
                         </form>
                 </div>

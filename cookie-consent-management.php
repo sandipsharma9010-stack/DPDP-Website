@@ -200,9 +200,10 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Driving Consent Transparency,<br> <span class="highlight-acc">Mitigating Risk, and Safeguarding Digital
+            <h1>Cookie Consent Management <span class="highlight-acc"><br>(CCM) Tool</span></h1>
+            <!-- <h1>Driving Consent Transparency,<br> <span class="highlight-acc">Mitigating Risk, and Safeguarding Digital
                     <br>Trust</span>
-            </h1>
+            </h1> -->
             <p class="text-white">The solution puts users in control of their data, delivering privacy, compliance, and
                 transparency in one seamless experience.
             </p>

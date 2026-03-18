@@ -1,6 +1,8 @@
-<!DOCTYPE html>
+<?php session_start();
+date_default_timezone_set('Asia/Kolkata');
+include('contact-referer.php');
+?><!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -206,7 +208,7 @@
 
 /* Score */
 .dpdpa-scorecard-percentage{
-    font-size:86px;
+    font-size:45px;
     font-weight:700;
     color:#2f80ed;
     margin-bottom:30px;
@@ -245,6 +247,31 @@
     </section>
 
 
+<?php
+session_start();
+
+include_once('gap-assessment-code.php');
+
+/* -----------------------------
+   4. Score Calculation
+-------------------------------- */
+if ($_SESSION['current'] >= $totalQuestions) {
+    $score = 0;
+    foreach ($_SESSION['answers'] as $qno => $ans) {
+        if ($ans === $questions[$qno]['correct']) {
+            // $score++;
+        }
+        $score += $questions[$qno]['options'][$ans]['score'];
+    }
+
+}
+
+// print_r($questions);
+// print_r($answers);
+
+?>
+
+
     <secttion>
 
     <div class="dpdpa-scorecard-wrapper">
@@ -255,7 +282,18 @@
         </div>
 
         <div class="dpdpa-scorecard-percentage">
-            45%
+
+
+            <?php echo $percentage = round(($score / $totalQuestions) * 10); ?>%
+
+            <?php // echo "$score / $totalQuestions"; ?>
+
+           <?php if ($percentage >= 90) { ?>
+    <p style="color:green; font-weight:bold;">Compliant</p>
+<?php } else { ?>
+    <p style="color:red; font-weight:bold;">Non-Compliant</p>
+<?php } ?>
+
         </div>
 
         <div class="dpdpa-scorecard-result">

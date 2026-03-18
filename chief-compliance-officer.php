@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Chief Compliance Officer</title>
+    <title>Chief Compliance Officer Job in Noida | 12+ Yrs Exp | DPDP Consultants</title>
     <meta name="description"
-        content="Simplify DPDP Act compliance with our grievance redressal software that manages user complaints efficiently and ensures timely resolutions.">
+        content="DPDP Consultants is hiring a Chief Compliance Officer (CCO) in Noida. Lead our compliance program, risk mitigation, and DPDP Act strategy. Minimum 12+ years’ experience. Full-time, on-site role.">
     <meta name="keywords"
-        content="Grievance redressal tool, complaint management portal, dispute resolution platform, grievance redressal system, complaint handling software, DPGR compliance, secure grievance portal">
+        content="Chief Compliance Officer Noida, CCO job openings India, Data Privacy Compliance Leadership, DPDP Act regulatory jobs, Corporate Compliance Officer roles, Risk Management Executive Noida, Legal and Compliance careers.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
@@ -118,7 +118,7 @@
         }
 
         .job-listing-details {
-            display: none;
+            display: block;
             margin-top: 20px;
             border-top: 1px solid #e5e7eb;
             padding-top: 20px;
@@ -293,8 +293,9 @@
                     </ul>
                     <!-- <a target="_blank" href="contact.php?act=careers&job=Chief Compliance Officer"
                         class="btn btn-primary">Apply Now</a> -->
-                         <form action="contact.php?act=careers" method="post">
+                         <form action="contact.php?act=careers" method="get" class="apply-btn">
                             <input type="hidden" name="job" value="Chief Compliance Officer">
+                            <input type="hidden" name="act" value="careers">
                             <button type="submit" class="btn btn-primary">Apply Now</button>
                         </form>
 

@@ -358,23 +358,27 @@ include('cpanel/admin.functions.php');
 
 /* * */
 
+unset($_SESSION['answers']);
+$_SESSION['answers'] = [];
+$_SESSION['answers'] = '';
+
 /* * */
 
 /* * */
 
 $messagerror = "";
-$language = @trim(stripslashes($_POST['hiddenLanguage']));
-$fullname = @trim(stripslashes($_POST['fullname']));
-$emailadd = @trim(stripslashes($_POST['emailadd']));
-$phoneno = @trim(stripslashes($_POST['phoneno']));
-$subject = @trim(stripslashes($_POST['subject']));
-$message = @trim(stripslashes($_POST['message']));
-$reqsrc = @trim(stripslashes($_POST['reqsrc']));
-$calldt = @trim(stripslashes($_POST['calldt']));
+$_SESSION['language'] = $language = @trim(stripslashes($_POST['hiddenLanguage']));
+$_SESSION['fullname'] = $fullname = @trim(stripslashes($_POST['fullname']));
+$_SESSION['emailadd'] = $emailadd = @trim(stripslashes($_POST['emailadd']));
+$_SESSION['phoneno'] = $phoneno = @trim(stripslashes($_POST['phoneno']));
+$_SESSION['subject'] = $subject = @trim(stripslashes($_POST['subject']));
+$_SESSION['message'] = $message = @trim(stripslashes($_POST['message']));
+$_SESSION['reqsrc'] = $reqsrc = @trim(stripslashes($_POST['reqsrc']));
+$_SESSION['calldt'] = $calldt = @trim(stripslashes($_POST['calldt']));
 
-$designation = @trim(stripslashes($_POST['designation']));
+$_SESSION['designation'] = $designation = @trim(stripslashes($_POST['designation']));
 
-$contact_topic = @trim(stripslashes($_POST['contact_topic']));
+$_SESSION['contact_topic'] = $contact_topic = @trim(stripslashes($_POST['contact_topic']));
 
 $otp = @trim(stripslashes($_POST['otp']));
 
@@ -421,6 +425,7 @@ if($_POST) {
 
         include_once('contact-mail.php');
 
+        // echo"<script>document.location.href=\"thanks.php?act=$act&proceed=$proceed\";</script>";
         echo"<script>document.location.href=\"gap-assessment-questions.php?act=$act&proceed=$proceed\";</script>";
 
     }
@@ -550,7 +555,7 @@ if($_POST) {
                         <?php } else { ?>
 
                         <div class="col-12 text-center">
-                            <input type="submit" name="submit" id="submitbtn" value="Submit" class="btn btn-submit" />
+                            <input type="submit" name="submit" id="submitbtn" value="Start Assessment" class="btn btn-submit" />
                         </div>
 
                         <?php } ?>

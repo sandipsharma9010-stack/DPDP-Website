@@ -1,3 +1,8 @@
+ <?php
+if (strpos($_SERVER['REQUEST_URI'], 'gap-assessment-form.php') === false) {
+    include_once('gap_assessment_score.php');
+}
+?>
 <footer tabindex="-1" aria-hidden="true" class="footer footer-bg">
     <div class="container">
         <div class="row">
@@ -114,7 +119,7 @@
         </div>
 
         <div class="footer-bottom text-center">
-            <p>Copyright © 2025 DPDP Consultants (Privacyium Tech Pvt. Ltd.) - All Rights Reserved.</p>
+            <p>Copyright © 2026 DPDP Consultants (Privacyium Tech Pvt. Ltd.) - All Rights Reserved.</p>
         </div>
     </div>
 </footer>
@@ -210,8 +215,9 @@
 <!-- End Google Tag Manager (noscript) -->
 
 <!-- // -->
-
+ 
 <script src="https://tech.portal-uat.dpdpconsultants.com/cookie/consent.js?client_id=6" defer></script>
+
 
 <!-- <script src="https://analytics.ahrefs.com/analytics.js" data-key="OYwY+ufg23+xpZwlJFuKdA" async></script> -->
 

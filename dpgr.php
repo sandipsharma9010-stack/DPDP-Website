@@ -178,10 +178,11 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Comprehensive Grievance Redressal for<br> <span class="highlight-acc">Compliance, Accountability, and
+             <h1>Data Principal Rights and Grievance <span class="highlight-acc"><br>Management Tool</span></h1>
+            <!-- <h1>Comprehensive Grievance Redressal for<br> <span class="highlight-acc">Compliance, Accountability, and
                     User
                     <br>Confidence</span>
-            </h1>
+            </h1> -->
             <p class="text-white">Our solution streamlines grievance redressal while upholding<br> compliance,
                 transparency, and user
                 satisfaction.

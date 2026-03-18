@@ -30,7 +30,6 @@
             border-radius: 10px;
             padding: 15px;
             margin-bottom: 20px;
-            cursor: pointer;
             /* background-color: #0A0F24; */
             color: white;
         }
@@ -90,7 +89,7 @@
         <div class="mt-5">
             <div class="job-listing-card p-3">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header"><a class="" href="DPDPA-Specialists.php">DPDPA Specialists</a></h5>
+                    <h5 class="job-listing-header"><a class="" href="dpdpa-Specialists.php">DPDPA Specialists</a></h5>
                     <span class="job-listing-open-role">1 Open Role</span>
                 </div>
                 <p><strong>
@@ -192,11 +191,11 @@
 
 
 
-        <!-- <div class="mt-5">
-            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+        <div class="mt-5">
+            <div class="job-listing-card p-3">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header">PostgreSQL Database Administrator (On-Premise, Multi–Data Center
-                        Replication)</h5>
+                    <h5 class="job-listing-header"><a href="postgreSQL-database-administrator.php">PostgreSQL Database Administrator (On-Premise, Multi–Data Center
+                        Replication)</a></h5>
                     <span class="job-listing-open-role">1 Open Role</span>
                 </div>
                 <p><strong>
@@ -297,15 +296,15 @@
                         </form>
                 </div>
             </div>
-        </div> -->
+        </div>
 
 
 
 
           <div class="mt-5">
-            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+            <div class="job-listing-card p-3" >
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header">Senior Python Engineer</h5>
+                    <h5 class="job-listing-header"><a href="senior-python-engineer.php">Senior Python Engineer</a></h5>
                     <span class="job-listing-open-role">1 Open Role</span>
                 </div>
                 <p><strong>
@@ -413,9 +412,9 @@
             </div>
         </div>
         <div class="mt-5">
-            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+            <div class="job-listing-card p-3">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header">HR & Marketing Executive</h5>
+                    <h5 class="job-listing-header"><a href="hr-and-marketing-executive.php">HR & Marketing Executive</a></h5>
                     <span class="job-listing-open-role">1 Open Role</span>
                 </div>
                 <p><strong>
@@ -506,9 +505,9 @@
 
 
         <div class="mt-5">
-            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+            <div class="job-listing-card p-3">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header">Chief Compliance Officer</h5>
+                    <h5 class="job-listing-header"><a href="chief-compliance-officer.php">Chief Compliance Officer</a></h5>
                     <span class="job-listing-open-role">1 Open Role</span>
                 </div>
                 <p><strong>
@@ -704,9 +703,9 @@
         </div> -->
 
         <div class="mt-5">
-            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+            <div class="job-listing-card p-3" >
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header">Senior Functional / Implementation Consultant</h5>
+                    <h5 class="job-listing-header"><a href="senior-functional-Implementation-consultant.php">Senior Functional / Implementation Consultant</a></h5>
                     <span class="job-listing-open-role">1 Open Role</span>
                 </div>
                 <p><strong>
@@ -937,9 +936,9 @@
         </div> -->
 
         <div class="mt-5">
-            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+            <div class="job-listing-card p-3" >
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header">Compliance Sales Associate</h5>
+                    <h5 class="job-listing-header"><a href="compliance-sales-associate.php">Compliance Sales Associate</a></h5>
                     <span class="job-listing-open-role">1 Open Role</span>
                 </div>
                 <p><strong>
@@ -1007,10 +1006,10 @@
             </div>
         </div>
 
-        <!-- <div class="mt-5">
-            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+        <div class="mt-5">
+            <div class="job-listing-card p-3">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header">API Integration Specialist</h5>
+                    <h5 class="job-listing-header"><a href="api-integration-specialist.php">API Integration Specialist</a></h5>
                     <span class="job-listing-open-role">1 Open Role</span>
                 </div>
                 <p><strong>
@@ -1094,12 +1093,12 @@
 
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <div class="mt-5">
-            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+            <div class="job-listing-card p-3">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header">Sales Manager</h5>
+                    <h5 class="job-listing-header"><a href="sales-manager.php">Sales Manager</a></h5>
                     <span class="job-listing-open-role">1 Open Role</span>
                 </div>
                 <p><strong>
@@ -1274,9 +1273,9 @@
         </div> -->
 
         <div class="mt-5">
-            <div class="job-listing-card p-3" onclick="toggleJobDetails(this)">
+            <div class="job-listing-card p-3">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="job-listing-header">Senior Python Engineer</h5>
+                    <h5 class="job-listing-header"><a href="senior-python-engineer.php">Senior Python Engineer</a></h5>
                     <span class="job-listing-open-role">1 Open Role</span>
                 </div>
                 <p><strong>

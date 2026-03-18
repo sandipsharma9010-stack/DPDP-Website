@@ -20,12 +20,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
+    <?php include_once('google-tag-manager.php'); ?>
+
 
 </head>
 <!-- page wrapper -->
 
 <body style="background-color: #02092c; color:white;">
-    <?php include_once('nav.php');?>
+    <?php include_once('nav.php'); ?>
     <!-- The Modal start Get In Touch-->
 
     <section class="latest-new">
@@ -33,7 +35,7 @@
         <div class="container mt-5">
             <div class="row mr0">
                 <div class="col-lg-9 mt00">
-                    <h1> Privacyium Privacy Notice </h1>
+                    <h1> Our Commitment to Protecting Your Personal Data </h1>
                 </div>
                 <!-- <div class="col-sm-3 col-lg-3">
                     <p class="mt-4">Updated on September 2024</p>
@@ -45,166 +47,334 @@
 
 
     <!-- news-section -->
-    <section>
+    <section class="my-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-xl-12 mt-5">
 
                     <h2>PRIVACY NOTICE</h2>
-                    <p class="my-2">DPDP Consultants (“DPDP Consultants,” “we,” “us,” or “our”) respects and understands
-                        the importance of your privacy – and is therefore committed to affording complete protection of
-                        your personal information. It is in recognition of this need for security, our commitment to the
-                        DPDP Act 2023, and secured management of any information received/collected by us that DPDP
-                        Consultants has established this Privacy Notice. </p>
-                    <p class="my-2">This Privacy Notice (“Privacy Notice”) explains how we collect, use, protect, and
-                        disclose your personal information when you use the DPDP Consultants websites (the “Websites”)
-                        and/or DPDP Consultants products, solutions and services (collectively with the Websites, the
-                        “Services”). This Privacy Notice also explains how you can manage your information preferences.
+                    <p class="my-2">DPDP Consultants (hereinafter referred to as “DPDP Consultants”, “company”, “we”,
+                        “us”, or “our”) respects your privacy and recognises the importance of protecting personal data
+                        entrusted to us. </p>
+                    <p class="my-2">In compliance with the Digital Personal Data Protection Act, 2023 (“DPDP Act”), we
+                        are committed to ensuring the lawful, fair, and transparent processing of personal data and to
+                        safeguarding such information through appropriate technical and organisational measures.
+                        This Privacy Notice sets out how DPDP Consultants collects, uses, stores, shares, and protects
+                        personal data when you interact with our websites, products, solutions, services, and marketing
+                        initiatives (collectively referred to as the “Services”). It also explains how individuals may
+                        exercise their rights and maintain meaningful control over their personal data.
+
                     </p>
-                    <p class="my-2">This Privacy Notice applies to our websites – <a
-                            href="www.dpdpconsultants.com">(www.dpdpconsultants.com)</a>, products & solutions and our
-                        marketing practices. We ensure total transparency in all our interactions with data principals.
-                        Data Privacy is important to us, and we strive to be transparent in our data collection and use
-                        practices. </p>
-                    <p class="my-2">Please note that this website is not designed for children under the age of 18, and
-                        we do not intentionally gather information about minors. </p>
-                    <h3 class="my-3">Effective Date: 27-02-2025</h3>
-                    <h5 class="my-3">How does DPDP Consultants ensure the protection of your personal information? </h5>
-                    <p class="my-2">DPDP Consultants is dedicated to ensuring the security of your personal data
-                        through: </p>
-                    <ul class="disc">
-                        <li>Compliance with applicable legal requirements and internal privacy policies. </li>
-                        <li>Implementation of technical and organizational measures to prevent unauthorized processing,
-                            accidental loss, alteration, disclosure, access, or destruction of data. </li>
+                    <h2>Scope </h2>
+                    <p>This Notice applies to:</p>
+                    <ul>
+                        <li>Personal data collected within India.</li>
+                        <li>Personal data processed outside India for the purpose of offering goods or services to
+                            individuals in India, in digital form or in non-digital form that is subsequently digitized.
+                        </li>
                     </ul>
-                    <h5 class="my-3">Which categories of personal data do we collect and how do we process such
-                        personal data? How do we use the information collected? </h5>
-                    <ul class="disc">
-                        <li>At DPDP Consultants, we collect and process personal data from various stakeholders,
-                            including employees, job applicants, clients, suppliers, business contacts, shareholders,
-                            and website users. The legal basis for processing may vary, including legitimate interests
-                            or user consent, always ensuring compliance with privacy regulations. </li>
-                        <!-- <li>Automatically Collected Information: When you visit our website, we automatically collect
-                            certain data, such as your device’s IP address, accessed pages, and visit timestamps.
-                            Additionally, we use website analytics as detailed in our Cookie Policy</li> -->
+                    <p class="my-2">This Notice is effective from the date of publication as below which governs the
+                        processing of your personal data from that date onwards, in accordance with the Digital Personal
+                        Data Protection Act, 2023. </p>
+                    <h2>Purpose and Lawful Basis for Processing Personal Data </h2>
+
+                    <p class="my-2">DPDP Consultants collects and processes your personal data either:</p>
+                    <ul>
+                        <li>With your <strong>explicit consent,</strong> or</li>
+                        <li>Under <strong>legitimate uses</strong> permitted by Section 7 of the DPDP Act. </li>
                     </ul>
-                    <p class="my-2">The following table outlines the categories of personal data we collect, the types
-                        of information captured under each category, the purposes for processing, and the corresponding
-                        legal basis.
+                    <p>DPDP Consultants collects personal data directly from individuals or through their interactions
+                        with our website, digital platforms, services and training programs. This data may be processed
+                        in the course of the Company’s operations, including providing data privacy advisory services,
+                        supporting DPDP and other data protection compliance requirements, conducting assessments,
+                        delivering training, and offering compliance-related tools and solutions. </p>
+
+                    <h3 class="my-3">Personal Data collected via DPDP Consultants</h3>
+
+                    <p class="my-2">Under the Digital Personal Data Protection Act, 2023 (“DPDP Act”), personal data
+                        refers to any data about an individual who is identifiable by or in relation to such data. When
+                        you interact with company’s websites, applications, or services, we may collect personal data
+                        that can identify, contact, or locate you. This includes information such as your name, address,
+                        phone number, email ID, IP address, location data, and device-related information. </p>
+                    <h5 class="my-3">Personal data may be collected at various touchpoints, including when:</h5>
+                    <ul class="disc">
+                        <li>you register on or access our websites.</li>
+                        <li>you access, use, or enquire about services related to data privacy advisory and offering
+                            compliance-related tools and solutions. </li>
+                        <li>you interact with our digital platforms for product, business, or technical information;
+                        </li>
+                        <li>you contact us for enquiries, service-related requests, or customer support.</li>
+                    </ul>
+
+                    <p class="my-2">DPDP Consultants acts as a Data Fiduciary where personal data is directly requested
+                        and collected through its platforms. In situations where you voluntarily choose to share
+                        personal data with third parties through our platforms or otherwise, those third parties act as
+                        independent Data Fiduciaries. They are responsible for ensuring compliance with applicable data
+                        protection laws, including obtaining valid consent from the concerned Data Principals.
+                    </p>
+                    <p>In addition, not all personal data processed by us is collected directly from you. In certain
+                        cases, we may receive personal data from our business partners or service providers as part of
+                        service delivery or operational requirements. We ensure that all such personal data is processed
+                        lawfully, securely, and in accordance with the DPDP Act.</p>
+                    <p>The sections below provide an overview of the categories of personal data processed, the
+                        related business activities and purposes, and the applicable lawful grounds.
+                        The following list shows the various processing purposes for personal data here at DPDP
+                        Consultants.
                     </p>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped table-hover">
-                            <tr>
-                                <th>Sr. No.</th>
-                                <th>Category of Personal Data</th>
-                                <th>Types of personal information collected by category</th>
-                                <th>Purpose</th>
-                                <th>Lawful Grounds </th>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Sr. No.</th>
+                                    <th>Categories of Personal Data Collected</th>
+                                    <th>Lawful Grounds of Processing</th>
+                                    <th>Platform / Source of Collection</th>
+                                    <th>Purpose for Collection</th>
+                                </tr>
+                            </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Personal Information from Website Visitors </td>
-                                    <td>Name, email, phone number (via "Contact Us" forms or job applications) </td>
-                                    <td>To respond to inquiries, process job applications, or provide requested
-                                        information
+                                    <td><strong>Website Interaction & Event Registration Data</strong> (Name, Email,
+                                        Contact Number, Designation, Organization Name)</td>
+                                    <td>The processing of your data is based on your explicit consent in accordance with
+                                        Section 6 of the DPDP Act.</td>
+                                    <td>Website forms, events, webinars, podcasts, resource downloads</td>
+                                    <td>
+                                        <strong>Website Interaction & Event Registration Data</strong>
+                                        <ul>
+                                            <li>Register and manage participation in events.</li>
+                                            <li>Share resources and event materials.</li>
+                                            <li>Respond to contact requests.</li>
+                                        </ul>
                                     </td>
-                                    <td>Consent (Section 6 of DPDPA) </td>
                                 </tr>
+
                                 <tr>
                                     <td>2</td>
-                                    <td>Support and Maintenance Information </td>
-                                    <td>Name, email, phone number, payment details, eligibility information </td>
-                                    <td>To provide support and maintain products or services </td>
-                                    <td>Consent (Section 6 of DPDPA)
+                                    <td><strong>Recruitment & Applicant Data</strong> (Name, Email, Contact Number,
+                                        Resume)</td>
+                                    <td>The lawful basis for processing this data is your consent under Section 6 of the
+                                        DPDP Act.</td>
+                                    <td>Careers page on websites, job portals, referrals, emails, social media platforms
+                                    </td>
+                                    <td>
+                                        <strong>Recruitment & Role Evaluation:</strong>
+                                        <ul>
+                                            <li>To assess qualifications, skills, and experience for relevant job
+                                                openings and determine suitability for the applied or future roles.</li>
+                                            <p><strong>Talent Management & Workforce Planning:</strong></p>
+                                            <li>To build and maintain a talent pipeline for current and anticipated
+                                                organizational needs, including internal mobility or succession
+                                                planning.</li>
+                                            <p><strong>HR & Legal Compliance:</strong></p>
+                                            <li>To comply with applicable labor, equal opportunity, and record-keeping
+                                                regulations during the hiring process and background verification.</li>
+                                            <p><strong>Candidate Communication & Interview Coordination:</strong></p>
+                                            <li>To contact applicants regarding their application status, conduct
+                                                interviews, and coordinate next steps in the selection process.</li>
+                                        </ul>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>3</td>
-                                    <td>Usage Information (Online Products & Applications) </td>
-                                    <td>IP address, device type, browser details, search terms </td>
-                                    <td>For website functionality, analytics, and service improvements </td>
-                                    <td>Consent
-                                        (Section 6 of DPDPA)
+                                    <td><strong>Website & Digital Interaction Data</strong> (e.g., enquiry details, IP
+                                        address, device data, cookies)</td>
+                                    <td>The processing of your data is based on your explicit consent in accordance with
+                                        Section 6 of the DPDP Act.</td>
+                                    <td>For website functionality, analytics, and service improvements</td>
+                                    <td>
+                                        <strong>Website Operations & Enquiries:</strong>
+                                        <ul>
+                                            <li>To respond to queries, manage website communications, and improve user
+                                                experience.</li>
+                                            <p><strong>AAnalytics & Performance:</strong></p>
+                                            <li>To understand website usage and optimise digital platforms.</li>
+                                            <li>Detect fraud and secure systems.</li>
+                                        </ul>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>4</td>
-                                    <td>Marketing Campaign Emails </td>
-                                    <td>Email activity data (email opened, links clicked) </td>
-                                    <td>To improve marketing strategies and engagement </td>
-                                    <td>Consent (Section 6 of DPDPA)
+                                    <td><strong>Marketing & Communication Preferences</strong> (marketing preferences,
+                                        newsletter subscriptions)</td>
+                                    <td>The processing of your data is based on your explicit consent in accordance with
+                                        Section 6 of the DPDP Act.</td>
+                                    <td>Email campaigns, newsletter subscription forms</td>
+                                    <td>
+                                        <strong>Marketing & Engagement:</strong>
+                                        <ul>
+                                            <li>Send newsletters and updates.</li>
+                                            <li>Personalise communications.</li>
+                                            <li>Improve marketing strategies.</li>
+                                        </ul>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>5</td>
-                                    <td>Social Media Interactions </td>
-                                    <td>Information about interactions with buttons or tools, browser data </td>
-                                    <td>To understand user engagement and improve user experience
-                                    </td>
-                                    <td>Consent (Section 6 of DPDPA)
+                                    <td><strong>Training & Certification Data</strong> (Name, Email, Organisation,
+                                        Mobile number, Address)</td>
+                                    <td>The processing of your data is based on your explicit consent in accordance with
+                                        Section 6 of the DPDP Act.</td>
+                                    <td>Website foundation course registrations</td>
+                                    <td>
+                                        <strong>Training & Certification Management:</strong>
+                                        <ul>
+                                            <li>Conduct training sessions.</li>
+                                            <li>Issue participation certificates.</li>
+                                            <li>Track attendance and feedback.</li>
+                                        </ul>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>6</td>
-                                    <td>Job Applications </td>
-                                    <td>Resume data, contact details</td>
-                                    <td>To process job applications</td>
-                                    <td>Consent
-                                        (Section 6 of DPDPA)
-
+                                    <td><strong>Visitor Management and In-premise Surveillance Data</strong> (e.g.,
+                                        name, phone number, CCTV footage)</td>
+                                    <td>The lawful basis for processing this data is your consent under Section 6 of the
+                                        DPDP Act, along with legitimate use as permitted under Section 7 of the Act.
+                                    </td>
+                                    <td>Visitor Management System, CCTV systems</td>
+                                    <td>
+                                        <strong>Physical Security & Safety Compliance:</strong>
+                                        <ul>
+                                            <li>To manage visitor access.</li>
+                                            <li>To monitor premises for ensuring physical security, support incident
+                                                investigations, and maintain compliance with applicable safety and
+                                                regulatory requirements.</li>
+                                        </ul>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>7</td>
-                                    <td>Hosted Services (Third party Service Providers) </td>
-                                    <td>Data processed by technology services (e.g., web hosting, analytics) </td>
-                                    <td>To provide technology services and maintain product offerings </td>
-                                    <td>Consent (Section 6 of DPDPA) </td>
+                                    <td><strong>Vendor & Third-Party Sharing Data</strong> (Name, Phone Number, Email
+                                        Address shared with authorized processors)</td>
+                                    <td>The processing of your data is based on your explicit consent in accordance with
+                                        Section 6 of the DPDP Act.</td>
+                                    <td>IT service providers</td>
+                                    <td>
+                                        <strong>Operational Support & Service Delivery:</strong>
+                                        <ul>
+                                            <li>Enable hosting, analytics, and infrastructure support.</li>
+                                            <li>Ensure secure processing under contractual safeguards.</li>
+                                        </ul>
+                                    </td>
                                 </tr>
+
                                 <tr>
                                     <td>8</td>
-                                    <td>Customisation and contact information for Newsletter</td>
-                                    <td>Name, Email Address </td>
-                                    <td>To provide personalization of newsletters, newsletters updates and Managing
-                                        subscriptions </td>
-                                    <td>Consent (Section 6 of DPDPA) </td>
+                                    <td><strong>Vendor & Business Partner Data</strong> (Representative name, firm name,
+                                        designation, contact details, PAN, GST, bank details)</td>
+                                    <td>The processing of your data is based on your explicit consent in accordance with
+                                        Section 6 of the DPDP Act.</td>
+                                    <td>emails, contracts</td>
+                                    <td>
+                                        <strong>Partner Coordination:</strong>
+                                        <ul>
+                                            <li>Vendor onboarding, verification, procurement, sourcing, RFQs, contract
+                                                management operations.</li>
+                                            <p><strong>Commercial & Financial Processing:</strong></p>
+                                            <li>Enable invoicing, payments, compliance checks, audits, and statutory
+                                                reporting.</li>
+                                            <p><strong>Operational Continuity:</strong></p>
+                                            <li>Facilitate coordination with partners, auditors, consultants, and
+                                                outsourced vendors.</li>
+                                        </ul>
+                                    </td>
                                 </tr>
+
                                 <tr>
                                     <td>9</td>
-                                    <td>Legal Obligations </td>
-                                    <td>PI required by court orders or legal processes </td>
-                                    <td>Legal compliance </td>
-                                    <td>Legitimate use (Section 7 of DPDPA) </td>
-
+                                    <td><strong>Financial & Regulatory Compliance</strong> (e.g., PAN, Aadhaar, bank
+                                        details, GST details, invoices, tax records)</td>
+                                    <td>The processing of your data is based on your explicit consent in accordance with
+                                        Section 6 of the DPDP Act</td>
+                                    <td>Email, statutory filings</td>
+                                    <td>
+                                        <strong>Financial Operations and other regulatory Compliance:</strong>
+                                        <ul>
+                                            <li>Processing payments, audits, taxation, statutory reporting, and
+                                                regulatory obligations under labor laws, tax laws, industry
+                                                regulations.</li>
+                                            <li>Supporting internal and external audits and financial disclosures,
+                                                regulations, and statutory audits.</li>
+                                        </ul>
+                                    </td>
                                 </tr>
-
-                                <tr>
-                                    <td>10</td>
-                                    <td>Mergers and Acquisitions </td>
-                                    <td>Customer PI (if transferred) </td>
-                                    <td>Continuity of service during company mergers or acquisitions </td>
-                                    <td>Legitimate use (Section 7 of DPDPA) </td>
-
-                                </tr>
+                            </tbody>
                         </table>
                     </div>
-                    <h3 class="my-2">Data Retention Policy</h3>
-                    <p class="my-2">DPDP Consultants retains personal data only for as long as necessary. Our records
-                        management and retention policies ensure timely deletion of data based on the following
-                        criteria: </p>
-                    <ul class="disc">
+                    <h3 class="my-2">Personal Data collected and processed by third parties</h3>
+                    <p class="my-2">As a Data Fiduciary under the Digital Personal Data Protection Act, 2023, DPDP
+                        Consultants engages authorised third parties (“Data Processors”) who process personal data
+                        strictly on our instructions. These partners are contractually obligated to maintain
+                        confidentiality, implement appropriate security controls, and process personal data only for the
+                        specific purposes defined by us. </p>
+                    <p class="my-2">We may share your personal data with different categories of processors to support
+                        our operations. Your personal data may be shared strictly for the purposes described in this
+                        Privacy Notice. </p>
+
+
+                    <!-- <ul class="disc">
                         <li>Data is retained for the duration of specified processing Activity our ongoing relationship
                             with you. </li>
                         <li>We store your information as long as required to deliver services. </li>
                         <li>Data may be retained to fulfil legal and regulatory obligations where applicable. </li>
-                    </ul>
-                    <h4 class="my-2">Where do we store this data? </h4>
+                    </ul> -->
+                    <h4 class="my-2">Your Rights as a Data Principal</h4>
+                    <p>As a Data Principal, you have the following rights in relation to your personal data processed by
+                        DPDP Consultants:</p>
+
+                    <h4 class="my-2">1. Right to Access Information</h4>
+                    <p>You may request a summary of the personal data processed by us, including the categories of data,
+                        the purpose of processing, and details of third parties with whom the data has been shared. A
+                        copy of your personal data may be provided in electronic form, subject to applicable legal
+                        requirements and exceptions under the DPDP Act.</p>
+
+
+                    <h4 class="my-2">2. Right to Correction and Erasure</h4>
+                    <p>You have the right to request correction of inaccurate or incomplete personal data and to request
+                        erasure of personal data that is no longer required for the purpose for which it was collected,
+                        unless retention is required under applicable law.</p>
+
+
+
+
+                    <h4 class="my-2">3. Grievance Redressal</h4>
+
+                    <p>You may raise grievances relating to the processing of your personal data or the exercise of your
+                        rights under the DPDP Act. DPDP Consultants has established a grievance redressal mechanism to
+                        address such concerns in a timely manner, in accordance with applicable law. </p>
+
+
+
+                    <h4 class="my-2">Right to Rectification </h4>
+                    <p>You may request the correction of inaccurate or incomplete personal data held by us, ensuring it
+                        remains accurate and current. Please inform us if your personal data changes during your
+                        association with us. </p>
+                    <h4 class="my-2">4. Right to Nominate</h4>
+                    <p>You have the right to nominate an individual to exercise your rights on your behalf in the event
+                        of death or incapacity, in accordance with the DPDP Act. </p>
+
+                    <p>We will respond to data principal rights requests in accordance with the timelines prescribed
+                        under the DPDP Act, 2023. </p>
+                    <p>For security purposes, identity verification may be required before processing any request. Where
+                        a request cannot be fulfilled, a reasoned response will be provided.</p>
+                    <p>For any queries or to exercise your rights, you may contact DPDP Consultant’s Data Protection
+                        Officer at <a href="mailto:dpo@dpdpconsultants.com">dpo@dpdpconsultants.com</a></p>
+
+
+                    <h4 class="my-2">Storage of Personal Data</h4>
                     <p>Information and data files are stored on our servers and the servers of companies we hire to
                         provide services to us. We use AWS Cloud, infrastructure to store such data, and the data is
-                        stored with strict security measures. We do not share, sell, or lease any kind of information
-                        collected to any third parties. </p>
-                    <h4 class="my-2">How do we secure the information collected? </h4>
+                        stored with strict security measures. </p>
+
+                    <h4 class="my-2">Implementation of Reasonable Security Safeguards</h4>
+
                     <p>We understand that the security of your information is vital and have in place strong
                         administrative, technical, and physical security controls and measures to keep data safe and
                         secure. Our privacy practices are designed to provide protection for your personal information,
@@ -222,93 +392,87 @@
                         such a message claiming to be from DPPD Consultants, then please do not reply to it and
                         immediately bring it to our attention by contacting us at <a
                             href="mailto:dpo@dpdpconsultants.com">dpo@dpdpconsultants.com</a>. DPDP
-                        Consultants also recognizes the receipt, transmission, or distribution of spam emails
-                        (unsolicited bulk emails) as a major concern and has taken reasonable measures, to minimize the
-                        transmission and effect of spam emails in its computing environment. </p>
-                    <h4 class="my-2">Can this information be reviewed? </h4>
-                    <p>In some cases, and at our discretion this information may be accessed by respective organizations
-                        to correct any mistake in that information, and to delete any information we no longer have
-                        business reasons for retaining. You can do this by sending us an email. DPDP Consultants strives
-                        to comply with all applicable laws around the globe that are designed to protect your privacy
-                        and information, no matter where that information is collected, transferred, or retained.
-                        Although legal requirements may vary from country to country, we intend to adhere to the
-                        principles set forth in this Privacy Notice even if information is transferred from your country
-                        to other countries that may not require an adequate level of protection for your information.
+                        Consultants also recognizes the receipt, transmission, or distribution of spam emails </p>
+
+                    <h4 class="my-2">Retention and Deletion</h4>
+                    <p>We ensure that your Personal Data is accurate, up to date, and retained only for as long as
+                        necessary to fulfil the purposes for which it is collected, including providing access to and
+                        use of the website. Personal Data may also be retained as required to comply with applicable
+                        laws, regulations, legal obligations, resolve disputes, enforce agreements, or to establish,
+                        exercise, or defend legal claims. </p>
+                    <p>Retention periods may vary depending on the nature of the Personal Data and the purpose of
+                        processing, and are determined in accordance with applicable statutory requirements,
+                        organisational retention policies, and limitation periods.</p>
+                    <p>Once the relevant purpose has been fulfilled and the applicable retention period has expired, the
+                        Personal Data is securely deleted or anonymised in a systematic manner. Even after deletion from
+                        active systems, certain data may be retained in backup or archival systems for audit, legal,
+                        tax, or regulatory purposes, as permitted under applicable law.</p>
+
+                    <h4 class="my-2">Data Transfer Outside India </h4>
+                    <p>DPDP Consultants primarily processes Personal Data within India. In the normal course of
+                        business, Personal Data is not transferred outside India. Where cross-border access or transfer
+                        is required in limited and specific circumstances, it is undertaken strictly in accordance with
+                        the Digital Personal Data Protection Act, 2023, and applicable directions issued by the Central
+                        Government.
                     </p>
-                    <h4 class="my-2">International Data Transfers </h4>
-                    <p>DPDP Consultants does not transfer personal data outside India. We ensure that all data collected
-                        and processed remains within the country's jurisdiction, in compliance with the provisions of
-                        the Digital Personal Data Protection Act, 2023, while maintaining stringent security measures to
-                        protect your information. </p>
-                    <h4 class="my-2">Rights over your personal data </h4>
-                    <p>Under certain circumstances, by law, you have the right to:</p>
-                    <h4 class="my-2">Right to Rectification </h4>
-                    <p>You may request the correction of inaccurate or incomplete personal data held by us, ensuring it
-                        remains accurate and current. Please inform us if your personal data changes during your
-                        association with us. </p>
-                    <h4 class="my-2">Right to Erasure </h4>
-                    <p>You can request the deletion of personal data where you believe there are no lawful grounds for
-                        its continued processing. </p>
-                    <h4>Right to Access </h4>
-                    <p>Requests for access to or copies of your personal data must be submitted in writing. We will
-                        endeavour to respond within a reasonable timeframe, typically within one month, in compliance
-                        with Data Protection Legislation. This information will be provided free of charge unless the
-                        request is manifestly unfounded or excessive. </p>
-                    <h4 class="my-2">Right to Nomination </h4>
-                    <p>You may nominate an individual who, in the event of your death or incapacity, can exercise your
-                        data rights on your behalf. </p>
-                    <h4 class="my-2">Right to Grievance Redressal </h4>
-                    <p>You have the right to access grievance redressal mechanisms provided by data fiduciaries or
-                        consent managers, ensuring prompt responses within specified timeframes. If your grievance
-                        remains unresolved after exhausting these mechanisms, you have the right to file a complaint
-                        with the Data Protection Board. </p>
-                    <h4 class="my-2">Contact Us </h4>
-                    <p>To ensure your privacy and security, we may take reasonable measures to confirm your identity
-                        before processing any request. To exercise your Data Protection rights, please visit our <a
-                            target="_blank" href="https://tech.portal-uat.dpdpconsultants.com/dpgr_form?_gl=1">
-                            Principal rights page </a>
-                    </p>
-                    <p>If you have additional queries – reach out to  dpo@dpdpconsultants.com </p>
-                    <p>If you feel that your data privacy rights have been compromised despite our efforts, we encourage
-                        you to approach DPDP Consultants first to resolve the issue. You may also choose to file a
-                        complaint with the relevant Data Protection Board or pursue legal action in a competent court
-                        within your country of residence, workplace, or where the alleged violation took place. </p>
-                    <p>To request data erasure, rectification, or access as a job applicant, please contact us directly.
-                        For any other rights, feel free to reach out using the contact information provided. </p>
-                    <h4 class="my-2">Minors and Service Usage </h4>
+                    <p>Limited cross-border transfers may occur in connection with interactions involving overseas group
+                        entities, joint ventures, customers, vendors, or travel and logistics service providers, and
+                        only to the extent necessary for business purposes.</p>
+
+
+
+
+
+
+                    <p>In all such cases, DPDP Consultants implements appropriate safeguards, including:</p>
+
                     <ul>
-                        <li>As stated earlier, we do not intentionally gather or request personal information from
-                            individuals below the age of 18. </li>
-                        <li>If you are under 18, please refrain from registering for our services or sharing any
-                            personal information with us. </li>
-                        <li>In the event we become aware that we have obtained personal data from someone under 18, we
-                            will take immediate steps to delete that information. </li>
-                        <li>If you suspect that a child under the age of 18 has shared personal information with us,
-                            please contact us at <a href="mailto:dpo@dpdpconsultants.com">dpo@dpdpconsultants.com</a>.
+                        <li>compliance with restrictions and conditions notified by the Central Government for
+                            international data transfers; </li>
+                        <li>adherence to applicable requirements prescribed by the Data Protection Board of India; </li>
+                        <li>execution of suitable contractual, technical, and organisational safeguards; and</li>
+                        <li>periodic review and monitoring of cross-border data protection requirements.
                         </li>
                     </ul>
-                    <h4 class="my-2">Updates to Privacy Notice </h4>
-                    <p>We’re constantly trying to improve our Websites and Services, so we may need to change this
-                        Privacy Notice from time to time as well. We will inform you regarding material changes, for
-                        example, placing a notice on our websites when we are required to do so by applicable law. You
-                        can see when this Privacy Notice was last updated by checking the date at the top of this page.
-                        You are responsible for periodically reviewing this Privacy Notice. </p>
-                    <h4>Right to Complain to the Data Protection Board of India </h4>
-                    <p>You may contact the Data Protection Board of India if you have any concerns about how DPDP
-                        Consultants has handled your personal data and you also have the right to make a complaint at
-                        any time to the Data Protection board of India, the Indian enforcement authority for data
-                        protection issues if DPDP Consultants has not been able to provide reasonable and timely
-                        resolution to your request or grievances. </p>
-                    <h4 class="my-2">Notification of Changes </h4>
-                    <p>If we decide to change our Privacy Notice, we will post those changes on this page, so our users
-                        are always aware of the information we collect and how we use it. If at any point we decide to
-                        use personally identifiable information in a manner different from that stated at the time it
-                        was collected, we will notify users by way of an email. Users will have a choice as to whether
-                        we use their information in this different manner. We will use information in accordance with
-                        the Privacy Notice under which the information was collected. Where links are provided to other
-                        websites it should be noted that they are not and cannot be governed by our Privacy Notice. We
-                        cannot guarantee your privacy when you access other websites through any link provided on this
-                        website. </p>
+                    <p>DPDP Consultants maintains transparency in its international data processing activities and
+                        undertakes cross-border transfers only where legally permitted and operationally necessary.
+                        For queries relating to cross-border data processing, you may contact the Data Protection
+                        Officer at <a href="mailto:dpo@dpdpconsultants.com">dpo@dpdpconsultants.com</a>.
+                    </p>
+                    <h4 class="my-2">Changes to this Privacy Notice </h4>
+                    <p>This Privacy Notice is subject to modification in response to changes in our privacy practices or
+                        upon notification from governmental authorities. In the event of any amendments, the revised
+                        notice will be published on this website. Should there be significant changes affecting the
+                        processing of your personal data, we will notify you via email or through any other available
+                        communication channels. </p>
+
+                    <h4>Link to other Websites</h4>
+                    <p>Your websites may feature buttons or tools that link to services provided by other companies. We
+                        encourage you to review the privacy policies of these external sites, as they may have their own
+                        privacy notices in place. Please note that we cannot be held responsible for the privacy
+                        practices of these external sites. </p>
+                    <h4 class="my-2">How to Exercise Your Rights </h4>
+
+                    <p>You may exercise these rights by contacting our Data Protection Officer through the following
+                        means:
+                        Kindly login your request to access, correction and erasure, redressal and nomination through
+                        the principal rights page of our website <a
+                            href="https://tech.portal-uat.dpdpconsultants.com/dpgr_form?_gl=1">Data Principals Rights
+                        </a>
+                    </p>
+                    <p class="text-center my-2">alternatively</p>
+                    <p class="my-2">Contact our DPO: dpo@dpdpconsultants.com<br>
+
+                        Address: 4th floor, Plot no 32-33, Sector 142, Noida, Uttar Pradesh 201304, India
+                    </p>
+                    <p>
+                        We will respond within 90 working days or as prescribed under the DPDP Act. You may also
+                        approach the Data Protection Board of India if you are not satisfied with our response.
+                    </p>
+                    <p><strong>Date of Publication: </strong> 02/03/2026</p>
+                    <p><strong>Disclaimer</strong></p>
+                    <p>Individuals who are 18 years of age or older and possess the legal capacity are authorized to
+                        access our website and applications. </p>
 
                 </div>
             </div>

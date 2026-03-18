@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Senior Python Engineer</title>
+    <title>Senior Python Engineer Job in Noida | Python Flask & React.js | DPDP Consultants</title>
     <meta name="description"
-        content="Simplify DPDP Act compliance with our grievance redressal software that manages user complaints efficiently and ensures timely resolutions.">
+        content="DPDP Consultants is hiring a Senior Python Engineer in Noida. Expertise in Python Flask, React.js, and PostgreSQL required. Build cutting-edge privacy tech. Full-time, on-site. ">
     <meta name="keywords"
-        content="Grievance redressal tool, complaint management portal, dispute resolution platform, grievance redressal system, complaint handling software, DPGR compliance, secure grievance portal">
+        content="Senior Python Engineer Noida, Python Flask Developer jobs, Full Stack Python React Developer, Web Developer jobs in Noida Sector 142, Backend API Developer roles, DPDP Consultants careers, Python PostgreSQL jobs Noida.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
@@ -118,7 +118,7 @@
         }
 
         .job-listing-details {
-            display: none;
+            display: block;
             margin-top: 20px;
             border-top: 1px solid #e5e7eb;
             padding-top: 20px;
@@ -298,8 +298,9 @@
                     </p>
                     <!-- <a target="_blank" href="contact.php?act=careers&job=Senior Python Engineer"
                         class="btn btn-primary">Apply Now</a> -->
-                         <form action="contact.php?act=careers" method="post">
+                         <form action="contact.php?act=careers" method="get" class="apply-btn">
                             <input type="hidden" name="job" value="Senior Python Engineer">
+                            <input type="hidden" name="act" value="careers">
                             <button type="submit" class="btn btn-primary">Apply Now</button>
                         </form>
                 </div>

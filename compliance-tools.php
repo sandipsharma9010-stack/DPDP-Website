@@ -239,10 +239,8 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php'); ?>
         <div class="container hero-section">
-            <h1 class="servies">Safeguard User Privacy, Strengthen Data<br> Protection, and Ensure Seamless<br>
-                Compliance
-                with
-                <span class="highlight-acc">Trusted Compliance Tools</span>
+            <h1 class="servies">DPDP Compliance Privacy Automation <br>
+                <span class="highlight-acc">Tools Suite</span>
             </h1>
             <p class="text-white">Our solution empowers user privacy while ensuring seamless compliance with regulations
                 and transparency
