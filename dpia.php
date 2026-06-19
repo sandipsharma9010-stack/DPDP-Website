@@ -28,7 +28,7 @@
     }
 
     .hero-section {
-        padding: 100px 36px 135px;
+        padding: 144px 36px 190px;
     }
 
     .hero-section h1 {
@@ -158,7 +158,7 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Data Protection Impact <span class="highlight-acc"><br>Assessment Tool</span></h1>
+            <h1>Data Protection Impact <span class="highlight-acc">Assessment Tool</span></h1>
             <!-- <h1>Impact Assessment Tool for Risk <br>Management, <span class="highlight-acc">Compliance, and Informed<br>
                     Decisions</span>
             </h1> -->
@@ -186,7 +186,7 @@
                 <!-- <p class="mt-2 text-center tools-clr">Data Protection Impact<br> Assessment</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Data Protection Impact Assessment Tool</h6>
+                <h2 class="dpcm-heading">DPDPA Data Protection Impact Assessment (DPIA) Tool – Identify & Mitigate Privacy Risks</h2>
                 <p class="card-text dpcm-para">Our advanced, highly customizable DPIA platform simplifies and automates the entire
                     Data Protection Impact Assessment (DPIA) process across various processing activities and functions.
                     It enables organizations handling sensitive, large, and high-risk data to proactively identify,
@@ -201,9 +201,9 @@
             <div class="row align-items-center">
                 <div class="col-sm-5 d-flex flex-column justify-content-center">
                     <div class="the-tool-featuresdpcm">
-                        <p>The Tool</p>
-                        <h5 class="dpcm-head">Streamlined Impact Assessment, <br><span class="highlight-acc">Ensuring
-                                Compliance and Risk<br> Control</span></h5>
+                       <h3 class="how-it-works">The Tool</h3>
+                        <h2 class="dpcm-head">Streamlined Impact Assessment, <br><span class="highlight-acc">Ensuring
+                                Compliance and Risk<br> Control</span></h2>
                         <p class="card-text">A comprehensive solution for impact assessment, ensuring compliance and
                             fostering
                             accountability</p>
@@ -224,9 +224,9 @@
     <section>
         <div class="container mt-5">
             <div class="text-center">
-                <p>Key Features</p>
-                <h5 class="dpcm-head card-text">Drive compliance and operational efficiency<br> with <span
-                        class="highlight-acc">our streamlined impact assessment<br> solution</span></h5>
+                 <h3 class="how-it-works">Key Features</h3>
+                <h2 class="dpcm-head card-text">Drive compliance and operational efficiency<br> with <span
+                        class="highlight-acc">our streamlined impact assessment<br> solution</span></h2>
             </div>
             <div class="row justify-content-center my-5">
                 <div class="col-md-10">
@@ -317,9 +317,10 @@
         <div class="container text-white py-5">
             <div class="row">
                 <div class="text-center">
-                    <h4 class="dpcm-head my-4 text-white">Why Choose Our <span class="highlight-acc">Impact
+                   <h3 class="how-it-works">Why Us?</h3>
+                    <h2 class="dpcm-head my-4 text-white">Why Choose Our <span class="highlight-acc">Impact
                             Assessment<br>
-                            tools?</span></h4>
+                            tools?</span></h2>
                 </div>
                 <div class="col-md-6">
                     <div class="feature-box-1">
@@ -390,10 +391,11 @@
         <div class="container">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
+                    <h3 class="how-it-works">More Tools</h3>
+                    <h2 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
                             Data
                             Protection</span>
-                    </h3>
+                    </h2>
                 </div>
                 <div class="row g-4 my-5 compl-tools">
                     <div class="col-lg-4 col-md-6 col-sm-12">

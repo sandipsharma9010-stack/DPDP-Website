@@ -29,7 +29,7 @@
     }
 
     .hero-section {
-        padding: 100px 36px 135px;
+        padding: 144px 36px 190px;
     }
 
     .hero-section h1 {
@@ -183,7 +183,7 @@
                     Compliance</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Data Protection Third Party Assessment and Compliance Tool</h6>
+                <h2 class="dpcm-heading">DPDPA Third-Party Vendor Risk Assessment & Compliance Management Tool</h2>
                 <p class="card-text dpcm-para">Our Data Protection and Third Party Assessment (DPTPA) Solution empowers
                     organizations to seamlessly
                     manage vendor compliance by issuing clear instructions, monitoring vendor actions, and receiving
@@ -198,9 +198,9 @@
             <div class="row align-items-center">
                 <div class="col-sm-5 d-flex flex-column justify-content-center">
                     <div class="the-tool-featuresdpcm">
-                        <p>The Tool</p>
-                        <h5 class="dpcm-head">Proactive Third Party <br>Assessment, <span
-                                class="highlight-acc">Ensuring<br> Compliance and Risk Mitigation</span></h5>
+                       <h3 class="how-it-works">The Tool</h3>
+                        <h2 class="dpcm-head">Proactive Third Party <br>Assessment, <span
+                                class="highlight-acc">Ensuring<br> Compliance and Risk Mitigation</span></h2>
                         <p class="card-text">An advanced solution for Third Party assessment, promoting compliance and
                             safeguarding
                             operations</p>
@@ -220,10 +220,10 @@
     <section>
         <div class="container mt-5">
             <div class="text-center">
-                <p>Key Features</p>
-                <h5 class="dpcm-head card-text">Ensure compliance and foster trust<br> with <span
+                 <h3 class="how-it-works">Key Features</h3>
+                <h2 class="dpcm-head card-text">Ensure compliance and foster trust<br> with <span
                         class="highlight-acc">our
-                        advanced Third Party <br>assessment solution</span></h5>
+                        advanced Third Party <br>assessment solution</span></h2>
             </div>
             <div class="row justify-content-center my-5">
                 <div class="col-md-10">
@@ -312,9 +312,10 @@
         <div class="container text-white py-5">
             <div class="row">
                 <div class="text-center">
-                    <h4 class="dpcm-head my-4 text-white">Why Choose Our Data Protection <span
+                   <h3 class="how-it-works">Why Us?</h3>
+                    <h2 class="dpcm-head my-4 text-white">Why Choose Our Data Protection <span
                             class="highlight-acc">Third <br>
-                            Party Assessment and Compliance?</span></h4>
+                            Party Assessment and Compliance?</span></h2>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-box-1">
@@ -407,10 +408,11 @@
         <div class="container">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
+                    <h3 class="how-it-works">More Tools</h3>
+                    <h2 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
                             Data
                             Protection</span>
-                    </h3>
+                    </h2>
                 </div>
                 <div class="row g-4 my-5 compl-tools">
                     <div class="col-lg-4 col-md-6 col-sm-12">

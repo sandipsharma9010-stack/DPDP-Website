@@ -29,7 +29,7 @@
     }
 
     .hero-section {
-        padding: 112px 36px 135px;
+        padding: 144px 36px 190px;
     }
 
     .hero-section h1 {
@@ -200,7 +200,7 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Cookie Consent Management <span class="highlight-acc"><br>(CCM) Tool</span></h1>
+            <h1>Cookie Consent Management <span class="highlight-acc">(CCM) Tool</span></h1>
             <!-- <h1>Driving Consent Transparency,<br> <span class="highlight-acc">Mitigating Risk, and Safeguarding Digital
                     <br>Trust</span>
             </h1> -->
@@ -228,7 +228,7 @@
                 <!-- <p class="mt-2 text-center tools-clr">Cookie Consent Management (CCM)</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Cookie Consent Management (CCM) Tool</h6>
+                <h2 class="dpcm-heading">DPDPA Cookie Consent Management (CCM) Tool – Achieve Lawful, Auditable Web Consent</h2>
                 <p class="dpcm-para card-text">Our Cookie Consent Manager (CCM) Tool provides an intuitive, automated
                     solution for capturing and managing user consent for website cookies. Fully
                     compliant with global privacy laws including the GDPR, ePrivacy Directive, CCPA/CPRA, and India’s
@@ -244,10 +244,10 @@
             <div class="row align-items-center">
                 <div class="col-sm-5 d-flex flex-column justify-content-center">
                     <div class="the-tool-featuresdpcm">
-                        <p>The Tool</p>
-                        <h5 class="dpcm-head heading-clrbs">Seamless Cookie Consent Management, Trusted Compliance
+                       <h3 class="how-it-works">The Tool</h3>
+                        <h2 class="dpcm-head heading-clrbs">Seamless Cookie Consent Management, Trusted Compliance
                             <br> for a <span class="highlight-acc">Privacy-First Future</span>
-                        </h5>
+                        </h2>
                         <p class="card-text">Designed to respect user choice, our Cookie Consent Manager ensures
                             transparent consent management and effortless compliance.</p>
                         <a href="contact.php?act=schedule" class="btn dpcm-btn">Schedule a demo</a>
@@ -266,10 +266,10 @@
     <section>
         <div class="container mt-5">
             <div class="text-center">
-                <p>Key Features</p>
-                <h5 class="dpcm-head mb-4 heading-clrbs">Our Cookie Consent Manager enhances user <br>trust by providing
+                 <h3 class="how-it-works">Key Features</h3>
+                <h2 class="dpcm-head mb-4 heading-clrbs">Our Cookie Consent Manager enhances user <br>trust by providing
                     clear consent <span class="highlight-acc">controls and maintaining compliance<br> with data
-                        protection laws.</span></h5>
+                        protection laws.</span></h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-10">
@@ -302,7 +302,7 @@
                                 cookies to correct categories, ensuring full visibility and compliance.</p>
                         </div>
                     </div>
-
+''
                     <div
                         class="card-feature mb-3 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                         <div class="icon-container mb-3 mb-md-0">
@@ -393,9 +393,10 @@
         <div class="container text-white py-5">
             <div class="row">
                 <div class="text-center">
-                    <h4 class="dpcm-head my-4 text-white">Why to choose our <span class="highlight-acc">cookie<br>
+                   <h3 class="how-it-works">Why Us?</h3>
+                    <h2 class="dpcm-head my-4 text-white">Why to choose our <span class="highlight-acc">cookie<br>
                             consent
-                            management tool</span></h4>
+                            management tool</span></h2>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-box-1">
@@ -484,10 +485,11 @@
         <div class="container">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
+                    <h3 class="how-it-works">More Tools</h3>
+                    <h2 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
                             Data
                             Protection</span>
-                    </h3>
+                    </h2>
                 </div>
                 <div class="row g-4 my-5 compl-tools">
                     <div class="col-lg-4 col-md-6 col-sm-12">

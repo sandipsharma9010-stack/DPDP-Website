@@ -27,7 +27,7 @@
 <!-- page wrapper -->
 
 <body style="background-color: #02092c; color:white;">
-    <?php include_once('nav.php'); ?>
+    <?php include_once('new-nav.php'); ?>
     <!-- The Modal start Get In Touch-->
 
     <section class="latest-new">

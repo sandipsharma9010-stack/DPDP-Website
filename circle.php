@@ -403,9 +403,9 @@
 
 <section>
     <div class="container my-5">
-        <div class="text-center mt-5 unleashs">
-            <h3>All-in-One, Stress-Free 360° Solutions Backed by<br> <span class="text-Innovative">Cutting-Edge
-                    Proprietary Tools!</span></h3>
+        <div class="text-center my-5 unleashs">
+            <h2>All-in-One, Stress-Free 360° Solutions Backed by<br> <span class="text-Innovative">Cutting-Edge
+                    Proprietary Tools!</span></h2>
         </div>
         <div class="row">
             <!-- Left side with image and icons -->

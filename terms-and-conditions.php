@@ -27,10 +27,12 @@
 </head>
 
 <body>
-    <?php include_once('cookie_consent.php'); ?>
-    <?php include_once('nav.php'); ?>
-    <section>
-        <div class="text-center my-5">
+    
+    <?php include_once('new-nav.php'); ?>
+
+
+    <section class="mt-5">
+        <div class="text-center">
             <h1>Terms & Conditions for DPDP Act Foundation Course </h1>
         </div>
         <div class="container">

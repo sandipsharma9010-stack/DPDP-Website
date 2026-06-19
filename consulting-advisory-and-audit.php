@@ -195,7 +195,7 @@
                         class="img-fluid" style="max-width: 150px;">
                 </div>
                 <div class="col-12 col-sm-10 d-flex flex-column align-items-center align-items-md-start">
-                    <h6 class="fw-bold">Consulting, Advisory and Audit</h6>
+                    <h2 class="fw-bold gap-readiness">Consulting, Advisory and Audit</h2>
                     <p class="dpdp-readiness-p text-center text-md-start">
                         Achieve seamless DPDP Act compliance with our expert support. We provide tailored policies,
                         privacy impact assessment, internal audit frameworks, regular compliance audits, demonstrable
@@ -214,7 +214,7 @@
             <div class="row">
                 <div class="col-sm-5">
                     <div class="d-flex justify-content-center flex-column h-100">
-                        <h6 class="text-muted">Our Services</h6>
+                        <h3 class="text-muted how-it-works">Our Services</h3>
                         <h2 class="fw-bold scalable-readiness">Comprehensive <span class="text-primary">Consulting and
                                 Audit Framework</span> for Data Security</h2>
                         <div class="">
@@ -296,7 +296,7 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-md-6 left-content-one-step">
-                    <p>Key Benefits</p>
+                    <h3>Key Benefits</h3>
                     <h2 class="future-proof-m">Enhance Data Governance and Compliance with <span
                             class="highlight-one-step">Expert Consulting and Audit Services</span></h2>
                     <p class="timeline-step-para">Achieve Regulatory Alignment, Mitigate Data Risks, and Stay Audit-Ready with Our Consulting and
@@ -360,11 +360,11 @@
     <section>
         <div class="container">
             <div class="text-center mt-4">
-                <p>Why Choose Our Data Consulting Service?</p>
-                <h5 class="Privacy-tools fw-bold">
+                <h3 class="how-it-works">Why Choose Our Data Consulting Service?</h3>
+                <h2 class="Privacy-tools fw-bold">
                     Strengthen Data Governance and
                     <span class="highlight-acc">DPDP Act Compliance<br> with Expert Consulting</span>
-                </h5>
+                </h2>
                 <!-- <button class="btn olop-btn">Schedule a demo</button> -->
             </div>
             <div class="row g-4 my-4">

@@ -890,12 +890,12 @@ color:white;
                 <!-- Text Content -->
                 <div class="col-lg-5 col-md-12 mt-5">
                     <div class="smalls">
-                        <p class="text-muted ">About the course</p>
+                        <h3 class="text-muted ">About the course</h3>
                     </div>
-                    <h4 class="online-cerifi">Online Certification Course on DPDP Act, 2023:
+                    <h2 class="online-cerifi">Online Certification Course on DPDP Act, 2023:
                         <span class="data-pr">Understanding the Law and its Techno-Legal Implementation in
                             Organisations’</span>
-                    </h4>
+                    </h2>
                     <p class="mb-1">
                         Get certified in the DPDP Act, 2023 with a course built for law students, business grads, and
                         young professionals. <br>
@@ -1047,7 +1047,7 @@ color:white;
 
         <div class="container py-4">
             <div class="header">
-                <p>Course Offerings</p>
+                <h3>Course Offerings</h3>
                 <h2>Everything You Need to Launch Your<br> Career in <span style="color:#3294CD;">Data Protection
                     </span></h2>
             </div>
@@ -1169,10 +1169,10 @@ color:white;
     <section class="" style="background-color: #02092c; padding:72px 20px;">
         <div class="container">
             <div class="section-header text-center">
-                <p class="section-subtitle">Designed for Curious Minds and Ambitious Professionals</p>
-                <div class="section-highlight text-white">
+                <h3 class="section-subtitle">Designed for Curious Minds and Ambitious Professionals</h3>
+                <h2 class="section-highlight text-white">
                     Your Trusted Guide to <span>Mastering Data <br>Protection</span> with Precision and Insight
-                </div>
+                    </h2>
             </div>
 
             <div class="row section-cards g-4 justify-content-center">

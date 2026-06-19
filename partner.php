@@ -118,7 +118,7 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-md-6 ">
-                    <p class="left-content-one-steps">Partnership Opportunity</p>
+                    <h3 class="left-content-one-steps">Partnership Opportunity</h3>
                     <h2 class="m-threesixty">Why Partner <span class="highlight-one-step">with Us?
                         </span></h2>
                     <p class="">Empower your business to grow, earn, and<br> deliver complete data protection
@@ -177,7 +177,7 @@
 
     <section class="dpdp-partner-section container">
         <div class="dpdp-partner-header">
-            <span class="dpdp-partner-subtitle">Who Can Partner With Us?</span>
+            <h3 class="dpdp-partner-subtitle">Who Can Partner With Us?</h3>
             <h2 class="dpdp-partner-title">
                 We have customized programs for <br>
                 different partner types
@@ -238,7 +238,7 @@
 
     <section class="dpdp-benefits-section container-fluid">
         <div class="dpdp-benefits-header mb-5">
-            <small>What You Get as a Partner</small>
+            <h3>What You Get as a Partner</h3>
             <h2>
                 Empowering your success with <span>tools,<br> training,</span> and <span>trusted expertise</span>
             </h2>
@@ -303,11 +303,11 @@
                 <!-- TEXT CONTENT -->
                 <div class="col-sm-6 dpdp-partner-content">
                     <div class="the-tool-featuresdpcm">
-                        <p>Collaboration</p>
-                        <h5 class="dpcm-head heading-clrbs">
+                        <h3>Collaboration</h3>
+                        <h2 class="dpcm-head heading-clrbs">
                             Partner with Confidence —
                             <span class="highlight-acc">with India’s DPDP Experts</span>
-                        </h5>
+                        </h2>
                         <p>
                             Our consultants and product teams have worked on many privacy and compliance projects
                             across industries.

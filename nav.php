@@ -187,7 +187,7 @@ li {
                     <li><a class="dropdown-item" href="blogs.php">Blogs</a></li>
                     <li><a class="dropdown-item" href="whitepapers.php">Whitepapers</a></li>
                     <li><a class="dropdown-item" href="newsletters.php">Newsletters</a></li>
-                    <li><a class="dropdown-item" href="research.php">Reasearch Reports</a></li>
+                    <li><a class="dropdown-item" href="research.php">Research Reports</a></li>
                     <li><a class="dropdown-item" href="inthenews.php">In the News</a></li>
                     <li><a class="dropdown-item" href="webinars.php">Webinars</a></li>
                     <li><a class="dropdown-item" href="events.php">Upcoming Events</a></li>

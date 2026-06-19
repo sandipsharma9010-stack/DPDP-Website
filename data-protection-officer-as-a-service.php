@@ -203,7 +203,7 @@
                         class="img-fluid" style="max-width: 150px;">
                 </div>
                 <div class="col-12 col-sm-10 d-flex flex-column align-items-center align-items-md-start">
-                    <h6 class="fw-bold">Data Protection Officer as a Service</h6>
+                    <h2 class="fw-bold how-it-works">Data Protection Officer as a Service</h2>
                     <p class="dpdp-readiness-p text-center text-md-start">
                         In today’s data-driven world, organizations face growing pressure to protect personal data. The
                         Digital Personal Data Protection Act (DPDP Act) requires appointing a Data Protection Officer
@@ -222,7 +222,7 @@
             <div class="row">
                 <div class="col-sm-5">
                     <div class="d-flex justify-content-center flex-column h-100">
-                        <h6 class="text-muted">Our Services</h6>
+                        <h3 class="text-muted how-it-works">Our Services</h3>
                         <h2 class="fw-bold scalable-readiness">DPO as a Service <span class="text-primary">for
                                 Regulatory Compliance</span><br> and Data Privacy</h2>
                         <div class="">
@@ -283,7 +283,7 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-md-6 left-content-one-step">
-                    <p>Key Benefits</p>
+                    <h3>Key Benefits</h3>
                     <h2 class="future-proof-m">Strengthen Data Governance and Compliance with<span
                             class="highlight-one-step">Expert DPO
                             Services</span></h2>
@@ -343,16 +343,16 @@
             </div>
         </div>
     </section>
-
+    
 
     <section>
         <div class="container">
             <div class="text-center mt-4">
-                <p>Why Choose Our DPO as a Service?</p>
-                <h5 class="Privacy-tools fw-bold">
+                <h3 class="how-it-works">Why Choose Our DPO as a Service?</h3>
+                <h2 class="Privacy-tools fw-bold">
                     Strengthening your data governance and compliance<br> framework with
                     <span class="highlight-acc">dedicated DPO expertise</span>
-                </h5>
+                </h2>
                 <a href="contact.php?act=schedule" class="btn olop-btn">Schedule a demo</a>
             </div>
             <div class="row g-4 my-4">

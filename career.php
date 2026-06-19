@@ -86,6 +86,29 @@
         </div>
 
 
+ <div class="mt-5">
+            <div class="job-listing-card p-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="job-listing-header"><a class="" href="senior-technical-consultant-architect.php">Senior Technical Consultant / Architect</a></h5>
+                    <span class="job-listing-open-role">1 Open Role</span>
+                </div>
+                <p><strong>
+                        Team:
+                    </strong> Product</p>
+                <p><strong>
+                        Location:
+                    </strong>Noida</p>
+                <p><strong>Work Schedule:</strong> Full-Time</p>
+                <p><strong>Work Mode: </strong>On-site</p>
+                <p><strong>Experience: </strong>15+ years (Senior Technical Consultant / Architect)</p>
+                
+            </div>
+        </div>
+
+
+
+
+
         <div class="mt-5">
             <div class="job-listing-card p-3">
                 <div class="d-flex justify-content-between align-items-center">

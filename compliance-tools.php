@@ -190,7 +190,12 @@
         }
 
         .tools-content h5 {
-            font-size: 1rem;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+        .tools-content h3 {
+            font-size: 16px;
             line-height: 26px;
         }
 
@@ -319,12 +324,12 @@
     </section>
     <section class="container tools-section">
         <div class="tools-content">
-            <h6>Our Tools</h6>
-            <h5 class="Privacy-tools heading-clrbs">
+            <h3 class="how-it-works">Our Tools</h3>
+            <h2 class="Privacy-tools heading-clrbs">
                 Our <span class="highlight-acc">Privacy Automation Suite</span> of Products are designed to automate and
                 manage
                 privacy compliance
-            </h5>
+            </h2>
             <a href="contact.php?act=schedule" class="btn btn-demo text-white">Schedule a demo</a>
         </div>
         <div class="privacy-img">
@@ -334,12 +339,12 @@
     </section>
     <section class="my-5 m-tools">
         <div class="container">
-            <p class="text-center text-muted">The Tools</p>
-            <h5 class="text-center Privacy-tools fw-bold">Powerful Compliance Tools for Secure Data<br> Protection,
+            <h3 class="text-center text-muted how-it-works">The Tools</h3>
+            <h2 class="text-center Privacy-tools fw-bold">Powerful Compliance Tools for Secure Data<br> Protection,
                 <span class="highlight-acc">Seamless Regulation
                     Adherence, and<br> Enhanced User
                     Privacy</span>
-            </h5>
+            </h2>
             <div class="row g-4 my-3">
                 <div class="col-12 col-md-6 equal-height">
                     <div class="custom-card-unique d-flex">
@@ -458,13 +463,13 @@
     </section>
     <section style="background-color: #02092c;">
         <div class="container">
-            <p class="text-center text-white pt-5">Key Features and Benefits</p>
-            <h5 class="text-center text-white pb-3">
+            <h3 class="text-center text-white pt-5 how-it-works">Key Features and Benefits</h3>
+            <h2 class="text-center text-white pb-3">
                 <span class="text-center Privacy-tools fw-bold text-white">Integrated Data Discovery with Consent
                     <br>Manager and
                     <span class="highlight-acc">Principal
                         Rights enhances data<br> governance, compliance, and security</span>
-            </h5>
+            </h2>
             <div class="row justify-content-center">
 
                 <!-- Card 1 -->
@@ -580,10 +585,10 @@
     <section>
         <div class="container">
             <div class="text-center mt-4">
-                <p>OLOP</p>
-                <h5 class="Privacy-tools"><span class="highlight-acc">ONE License ONE Data Principal</span>,
+                <h6>OLOP</h6>
+                <h4 class="Privacy-tools"><span class="highlight-acc">ONE License ONE Data Principal</span>,
                     Maximizing<br>
-                    value at minimal cost</h5>
+                    value at minimal cost</h4>
                 <a href="contact.php?act=schedule" class="btn olop-btn">Schedule a demo</a>
             </div>
             <div class="row g-4 my-4">

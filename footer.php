@@ -59,7 +59,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'gap-assessment-form.php') === false) {
                         <a href="mailto:dpo@dpdpconsultants.com" style="color: #3A3DFF;">dpo@dpdpconsultants.com</a>
                     </p>
                 </div>
-                <span style="font-size: 1px; visibility: hidden;">Jaspal 9891156880 linkedin.com/in/jsxtech</span>
+
                 <div class="container mt-3"
                     style="background: linear-gradient(to right, #3a3dff, #001f3f); border-radius: 12px;">
                     <div class="row align-items-center bg-gradient text-white p-3 rounded"
@@ -119,7 +119,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'gap-assessment-form.php') === false) {
         </div>
 
         <div class="footer-bottom text-center">
-            <p>Copyright © 2026 DPDP Consultants (Privacyium Tech Pvt. Ltd.) - All Rights Reserved.</p>
+            <p>Copyright ©<?php echo date("Y"); ?> DPDP Consultants (Privacyium Tech Pvt. Ltd.) - All Rights Reserved.</p>
         </div>
     </div>
 </footer>

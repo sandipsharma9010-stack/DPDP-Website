@@ -29,7 +29,7 @@
     }
 
     .hero-section {
-        padding: 100px 36px 135px;
+        padding: 144px 36px 190px;
     }
 
     .hero-section h1 {
@@ -185,7 +185,7 @@
     <section class="blog" style="background-color: #02092c;">
         <?php include_once('new-nav.php');?>
         <div class="container hero-section">
-            <h1>Data Protection Awareness <span class="highlight-acc"><br>Program Tool</span></h1>
+            <h1>Data Protection Awareness <span class="highlight-acc">Program Tool</span></h1>
             <!-- <h1>Data Protection Awareness Program for <br> <span class="highlight-acc">Driving Compliance, Fostering
                     Awareness, and<br> Protecting Sensitive Information</span>
             </h1> -->
@@ -213,7 +213,7 @@
                 <!-- <p class="mt-2 text-center fw-bold tools-clr">Data Protection<br> Awareness Program</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Data Protection Awareness Program Tool</h6>
+                <h2 class="dpcm-heading">DPDPA Compliance Awareness & Training Tool – Build a Data Privacy-First Organization</h2>
                 <p class="dpcm-para card-text">Our Data Protection Awareness Program is a comprehensive Learning Management System
                     (LMS) designed to provide online training on data privacy in line with the Digital Personal Data
                     Protection Act, 2023 (DPDP Act). The training modules are tailored to educate both employees and
@@ -227,10 +227,10 @@
             <div class="row align-items-center">
                 <div class="col-sm-5 d-flex flex-column justify-content-center">
                     <div class="the-tool-featuresdpcm">
-                        <p>The Tool</p>
-                        <h5 class="dpcm-head">Empowering Data Protection <br>Awareness:<span
+                       <h3 class="how-it-works">The Tool</h3>
+                        <h2 class="dpcm-head">Empowering Data Protection <br>Awareness:<span
                                 class="highlight-acc">Strengthening<br> Compliance and<br> Organizational Trust</span>
-                        </h5>
+                        </h2>
                         <p class="card-text">A streamlined solution for data protection training, ensuring compliance
                             and empowering
                             employees</p>
@@ -250,9 +250,9 @@
     <section>
         <div class="container mt-5">
             <div class="text-center">
-                <p>Key Features</p>
-                <h5 class="dpcm-head card-text">Boost Compliance and Enhance Data<br> Security with <span
-                        class="highlight-acc">Our Cutting-Edge Employee<br> Awareness Program</span></h5>
+                 <h3 class="how-it-works">Key Features</h3>
+                <h2 class="dpcm-head card-text">Boost Compliance and Enhance Data<br> Security with <span
+                        class="highlight-acc">Our Cutting-Edge Employee<br> Awareness Program</span></h2>
             </div>
             <div class="row justify-content-center my-5">
                 <div class="col-md-10">
@@ -342,8 +342,9 @@
         <div class="container text-white py-5">
             <div class="row">
                 <div class="text-center">
-                    <h4 class="dpcm-head my-4 text-white">Why Choose Our <span class="highlight-acc">Data protection<br>
-                            Awareness Program?</span></h4>
+                   <h3 class="how-it-works">Why Us?</h3>
+                    <h2 class="dpcm-head my-4 text-white">Why Choose Our <span class="highlight-acc">Data protection<br>
+                            Awareness Program?</span></h2>
                 </div>
                 <div class="col-md-6">
                     <div class="feature-box-1">
@@ -410,10 +411,11 @@
         <div class="container">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
+                    <h3 class="how-it-works">More Tools</h3>
+                    <h2 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
                             Data
                             Protection</span>
-                    </h3>
+                    </h2>
                 </div>
                 <div class="row g-4 my-5 compl-tools">
                     <div class="col-lg-4 col-md-6 col-sm-12">

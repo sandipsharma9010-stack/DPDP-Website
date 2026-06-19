@@ -11,7 +11,7 @@
         content="Consent management tool, top consent management platform India, online consent management system, consent monitoring system, user consent tracking, DPDP Act compliance solutions, DPCM">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-     <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
+    <link rel="icon" href="assets/images/fav-icon-logo.png" type="image/webp">
 
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -23,183 +23,189 @@
 
     <?php include_once('google-tag-manager.php'); ?>
     <style>
-    .blog {
-        text-align: center;
-        color: white;
-        position: relative;
-    }
-
-    .hero-section {
-        padding: 112px 36px 135px;
-    }
-
-    .hero-section h1 {
-        font-size: 2.5rem;
-        font-weight: bold;
-    }
-
-    .hero-section span {
-        color: #3CA6E0;
-    }
-
-    .hero-section p {
-        max-width: 700px;
-        margin: 20px auto;
-        font-size: 1rem;
-        color: #B0B3C3;
-    }
-
-    .btns-primary {
-        background-color: #3CA6E0;
-        border: none;
-        padding: 10px 20px;
-        font-size: 1rem;
-        border-radius: 20px;
-    }
-
-    .btn-outline-light {
-        border-radius: 20px;
-        padding: 10px 20px;
-        font-size: 1rem;
-    }
-
-    .tools-para {
-        font-size: 13px !important;
-        color: white;
-
-    }
-
-    @media (max-width: 768px) {
-        br {
-            display: none;
+        .blog {
+            text-align: center;
+            color: white;
+            position: relative;
         }
 
         .hero-section {
-            padding: 54px 6px 160px;
-        }
-
-        .hero-section br {
-            display: none;
+            padding: 144px 36px 190px;
         }
 
         .hero-section h1 {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            line-height: 30px;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
 
+        .hero-section span {
+            color: #3CA6E0;
         }
 
         .hero-section p {
-            font-size: 12px;
-            margin-top: -5px;
-            text-align: left;
+            max-width: 700px;
+            margin: 20px auto;
+            font-size: 1rem;
+            color: #B0B3C3;
         }
 
-        .btns-primary,
+        .btns-primary {
+            background-color: #3CA6E0;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 20px;
+        }
+
         .btn-outline-light {
-            font-size: 0.9rem;
-            padding: 8px 15px;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
         }
 
-        .dpcm-head {
-            font-size: 1.2rem;
-            line-height: 24px;
+        .tools-para {
+            font-size: 13px !important;
+            color: white;
+
         }
 
-        .card-img-top {
-            margin-top: 15px;
-        }
+        @media (max-width: 768px) {
+            br {
+                display: none;
+            }
 
-        .card-feature {
-            flex-direction: row !important;
-            
-        }
-        .heading-clrbss {
-            text-align: left !important;
-            padding-right:0px !important;
-            padding-right:0px !important; ;
-            
-        }
+            .hero-section {
+                padding: 54px 6px 160px;
+            }
 
-        .feature-box-1,
-        .feature-box-2,
-        .feature-box-3,
-        .feature-box-4,
-        .feature-box-5 {
-            /* flex-direction: column; */
-            text-align: left;
-        }
+            .hero-section br {
+                display: none;
+            }
 
-        .feature-icon-dpcm img {
-            width: 100px;
-        }
+            .hero-section h1 {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 30px;
 
-        .card-text {
-            /* font-size: 12px !important; */
-        }
+            }
 
-        .compl-tools {
-            margin-top: 0px !important;
-            margin-bottom: 0px !important;
+            .hero-section p {
+                font-size: 12px;
+                margin-top: -5px;
+                text-align: left;
+            }
+
+            .btns-primary,
+            .btn-outline-light {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+            }
+
+            .dpcm-head {
+                font-size: 1.2rem;
+                line-height: 24px;
+            }
+
+            .card-img-top {
+                margin-top: 15px;
+            }
+
+            .card-feature {
+                flex-direction: row !important;
+
+            }
+
+            .heading-clrbss {
+                text-align: left !important;
+                padding-right: 0px !important;
+                padding-right: 0px !important;
+                ;
+
+            }
+
+            .feature-box-1,
+            .feature-box-2,
+            .feature-box-3,
+            .feature-box-4,
+            .feature-box-5 {
+                /* flex-direction: column; */
+                text-align: left;
+            }
+
+            .feature-icon-dpcm img {
+                width: 100px;
+            }
+
+            .card-text {
+                /* font-size: 12px !important; */
+            }
+
+            .compl-tools {
+                margin-top: 0px !important;
+                margin-bottom: 0px !important;
+            }
+
+            .card-custom-data {
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+
+            }
+
+            .card-custom-data video {
+                padding: 20px;
+            }
+
+            .all-tools-features {
+                display: block;
+                text-align: left;
+            }
+
+            .the-tool-featuresdpcm {
+                /* margin-top: 30px; */
+            }
+
         }
 
         .card-custom-data {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 1.1);
+            padding: 100px;
+            background-color: white;
+            height: 100%;
             text-align: center;
-        display: flex;
-        flex-direction: row;
-       
+
         }
-        .card-custom-data video{
-            padding:20px;
+
+        .card-title-data {
+            font-weight: bold;
+            margin-top: 10px;
         }
-        .all-tools-features{
-        display: block;
-        text-align: left;
-    }
-    .the-tool-featuresdpcm{
-        /* margin-top: 30px; */
-    }
 
-    }
+        .card-logo-data {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
 
-    .card-custom-data {
-        border: none;
-        border-radius: 15px;
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 1.1);
-        padding: 100px;
-        background-color: white;
-        height: 100%;
-        text-align: center;
-        
-    }
-   
-    .card-title-data {
-        font-weight: bold;
-        margin-top: 10px;
-    }
-
-    .card-logo-data {
-        width: 100px;
-        height: 100px;
-        object-fit: contain;
-        margin-bottom: 10px;
-    }
-    .tools-para{
-        font-size: 12px!important;
-    }
+        .tools-para {
+            font-size: 12px !important;
+        }
     </style>
 </head>
 
 <body>
 
     <section class="blog" style="background-color: #02092c;">
-        <?php include_once('new-nav.php');?>
+        <?php include_once('new-nav.php'); ?>
         <div class="container hero-section">
             <!-- <h1>The Ultimate Solution for Seamless<br> <span class="highlight-acc">Compliance, Risk Management, and Data
                     <br>Protection</span>
             </h1> -->
 
-            <h1>Data Principal Consent <span class="highlight-acc"><br>Management Tool</span></h1>
+            <h1>Data Principal Consent <span class="highlight-acc">Management Tool</span></h1>
             <p class="text-white">Our solution empowers user privacy while ensuring seamless compliance with regulations
                 and transparency.
             </p>
@@ -223,7 +229,8 @@
                 <!-- <p class="mt-2 text-center tools-clr">Data Principal Consent<br> Management</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Data Principal Consent Management Tool</h6>
+                <h2 class="dpcm-heading">DPDPA Consent Management Platform – Collect, Store & Withdraw Data Principal
+                    Consent</h2>
                 <p class="dpcm-para card-text">Our Consent Manager ensures that consent is specific, freely given,
                     informed, and affirmatively indicated through clear action, as mandated by the Digital Personal Data
                     Protection Act, 2023. Data Principals retain complete control through easily accessible consent
@@ -240,9 +247,9 @@
             <div class="row align-items-center">
                 <div class="col-sm-5 d-flex flex-column justify-content-center">
                     <div class="the-tool-featuresdpcm">
-                        <p>The Tool</p>
-                        <h5 class="dpcm-head heading-clrbs">Seamless Consent Management,<br> Trusted Compliance for
-                            a<br> <span class="highlight-acc">Privacy-First Future</span></h5>
+                        <h3 class="how-it-works">The Tool</h3>
+                        <h2 class="dpcm-head heading-clrbs">Seamless Consent Management,<br> Trusted Compliance for
+                            a<br> <span class="highlight-acc">Privacy-First Future</span></h2>
                         <p class="card-text">A tool that simplifies consent management while ensuring compliance and
                             user privacy</p>
                         <a href="contact.php?act=schedule" class="btn dpcm-btn">Schedule a demo</a>
@@ -261,9 +268,9 @@
     <section>
         <div class="container mt-5">
             <div class="text-center">
-                <p>Key Features</p>
-                <h5 class="dpcm-head mb-4 heading-clrbs">Ensure compliance and enhance user <br>trust with our <span
-                        class="highlight-acc">state-of-the-art consent<br> management solution</span></h5>
+                <h3 class="how-it-works">Key Features</h3>
+                <h2 class="dpcm-head mb-4 heading-clrbs">Ensure compliance and enhance user <br>trust with our <span
+                        class="highlight-acc">state-of-the-art consent<br> management solution</span></h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-10">
@@ -362,9 +369,10 @@
         <div class="container text-white py-5">
             <div class="row">
                 <div class="text-center">
-                    <h4 class="dpcm-head my-4 text-white">Why Choose Our <span class="highlight-acc">Consent<br>
+                    <h3 class="how-it-works">Why Us?</h3>
+                    <h2 class="dpcm-head my-4 text-white">Why Choose Our <span class="highlight-acc">Consent<br>
                             Management
-                            Solution?</span></h4>
+                            Solution?</span></h2>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-box-1">
@@ -456,10 +464,11 @@
         <div class="container">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
+                    <h3 class="how-it-works">More Tools</h3>
+                    <h2 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
                             Data
                             Protection</span>
-                    </h3>
+                    </h2>
                 </div>
                 <div class="row g-4 my-5 compl-tools">
                     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -471,11 +480,14 @@
                                 Your browser does not support the video tag.
                             </video>
                             <div class="all-tools-features">
-                            <h5 class="card-title-data"><a href="dpgr.php">Data Principal Grievance Redressal</a></h5>
-                            <p class="card-text">DPGR process is an essential part of any comprehensive data protection
-                                strategy. Our tool ensures that Data Principal’s rights are duly honored and providing a
-                                clear mechanism for addressing complaints.</p>
-                        </div>
+                                <h5 class="card-title-data"><a href="dpgr.php">Data Principal Grievance Redressal</a>
+                                </h5>
+                                <p class="card-text">DPGR process is an essential part of any comprehensive data
+                                    protection
+                                    strategy. Our tool ensures that Data Principal’s rights are duly honored and
+                                    providing a
+                                    clear mechanism for addressing complaints.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -487,11 +499,13 @@
                                 Your browser does not support the video tag.
                             </video>
                             <div class="all-tools-features">
-                            <h5 class="card-title-data"><a href="dpia.php">Data Protection Impact Assessment</a></h5>
-                            <p class="card-text">DPIA tool helps build compliance with the DPDP Act 2023 whereby
-                                companies
-                                need to hold periodic DPIAs. DPIA tool infuses automation to the entire DPIA process.
-                            </p>
+                                <h5 class="card-title-data"><a href="dpia.php">Data Protection Impact Assessment</a>
+                                </h5>
+                                <p class="card-text">DPIA tool helps build compliance with the DPDP Act 2023 whereby
+                                    companies
+                                    need to hold periodic DPIAs. DPIA tool infuses automation to the entire DPIA
+                                    process.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -504,11 +518,13 @@
                                 Your browser does not support the video tag.
                             </video>
                             <div class="all-tools-features">
-                            <h5 class="card-title-data"><a href="dpap.php"> Data Protection Awareness Program</a></h5>
-                            <p class="card-text">DPAP tool educates employees, stakeholders, and partners about the
-                                importance of safeguarding personal and sensitive data, adhering to privacy laws, and
-                                implementing best practices.</p>
-                        </div>
+                                <h5 class="card-title-data"><a href="dpap.php"> Data Protection Awareness Program</a>
+                                </h5>
+                                <p class="card-text">DPAP tool educates employees, stakeholders, and partners about the
+                                    importance of safeguarding personal and sensitive data, adhering to privacy laws,
+                                    and
+                                    implementing best practices.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -520,17 +536,21 @@
                                 Your browser does not support the video tag.
                             </video>
                             <div class="all-tools-features">
-                            <h5 class="card-title-data"><a href="dptpa.php">Data Protection Third Party Assessment</a>
-                            </h5>
-                            <p class="card-text">DPTPA tool ensures that the data fiduciary is regularly reviewing the
-                                compliance of third parties or sub-processors and assessing risks in selecting a third
-                                party.</p>
-                                </div>
+                                <h5 class="card-title-data"><a href="dptpa.php">Data Protection Third Party
+                                        Assessment</a>
+                                </h5>
+                                <p class="card-text">DPTPA tool ensures that the data fiduciary is regularly reviewing
+                                    the
+                                    compliance of third parties or sub-processors and assessing risks in selecting a
+                                    third
+                                    party.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="card-custom-data p-2">
-                            <img src="./assets/images/cookie/dpdp-cookie.png" alt="Cookie consent management tool icon" style="max-width: 150px;">
+                            <img src="./assets/images/cookie/dpdp-cookie.png" alt="Cookie consent management tool icon"
+                                style="max-width: 150px;">
                             <div class="all-tools-features">
                                 <h5 class="card-title-data"><a href="dptpa.php">Cookie Consent Management (CCM)</a>
                                 </h5>

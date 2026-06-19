@@ -270,11 +270,11 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="d-flex flex-column justify-content-center h-100">
-                        <p>Compliance Journey Roadmap</p>
-                        <h3 class="a-smooth">A Smooth, Stress-<br>Free, and <span class="highlights">Efficient<br> Path
+                        <h3 class="how-it-works">Compliance Journey Roadmap</h3>
+                        <h2 class="a-smooth">A Smooth, Stress-<br>Free, and <span class="highlights">Efficient<br> Path
                                 to
                                 Compliance</span>
-                        </h3>
+                        </h2>
                     </div>
                 </div>
                 <div class="col-sm-8">
@@ -381,7 +381,7 @@
     <section style="background-color: #02092c; padding:20px;" class="my-5">
         <div class="container text-white ">
             <div class="text-center industries-mt mt-5">
-                <h6>Industries we serve</h6>
+                <h3 class="how-it-works">Industries we serve</h3>
                 <h2 class="industries-m"><strong>From custom compliance frameworks<br> to <span
                             class="text-primary">industry-specific
                             guidance</span></strong></h2>
@@ -760,7 +760,7 @@
 
         <div class="container workflow-container">
             <div class="text-center">
-                <p class="text-muted">How it works</p>
+                <h3 class="text-muted how-it-works">How it works</h3>
                 <h2 class="workflow-title">Streamline compliance and build user<br> trust with <span>our seamless,
                         transparent<br>
                         service workflow</span></h2>

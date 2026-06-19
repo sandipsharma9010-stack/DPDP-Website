@@ -27,7 +27,7 @@
     }
 
     .hero-section {
-        padding: 100px 36px 135px;
+        padding: 144px 36px 190px;
     }
 
     .hero-section h1 {
@@ -207,8 +207,8 @@
                 <!-- <p class="mt-2 text-center fw-bold tools-clr">Data Principal Rights<br> and Grievance<br> Management</p> -->
             </div>
             <div class="col-sm-9  d-flex flex-column align-items-start">
-                <h6 class="dpcm-heading">Data Principal Rights and Grievance Management Tool
-                </h6>
+                <h2 class="dpcm-heading">DPDPA Data Principal Rights Management Tool – Handle Access, Correction, Erasure & Grievance Redressal
+                </h2>
                 <p class="dpcm-para card-text">Our Grievance Redressal Management (DPGR) Tool simplifies grievance
                     handling by providing a user-friendly, automated platform that ensures compliance with the Digital
                     Personal Data Protection Act, 2023(DPDP Act). It empowers Data Fiduciaries to efficiently manage,
@@ -223,9 +223,9 @@
             <div class="row align-items-center">
                 <div class="col-sm-5 d-flex flex-column justify-content-center">
                     <div class="the-tool-featuresdpcm">
-                        <p>The Tool</p>
-                        <h5 class="dpcm-head heading-clrbs">Efficient Grievance Redressal,<br><span
-                                class="highlight-acc">Strengthening Compliance and<br> Trust</span></h5>
+                       <h3 class="how-it-works">The Tool</h3>
+                        <h2 class="dpcm-head heading-clrbs">Efficient Grievance Redressal,<br><span
+                                class="highlight-acc">Strengthening Compliance and<br> Trust</span></h2>
                         <p class="card-text">An efficient solution for grievance redressal, ensuring compliance and
                             building user
                             confidence</p>
@@ -245,9 +245,9 @@
     <section>
         <div class="container mt-5">
             <div class="text-center">
-                <p>Key Features</p>
-                <h5 class="dpcm-head mb-4 heading-clrbs">Achieve compliance and foster<br> transparency with <span
-                        class="highlight-acc">our innovative grievance<br> management solution</span></h5>
+                 <h3 class="how-it-works">Key Features</h3>
+                <h2 class="dpcm-head mb-4 heading-clrbs">Achieve compliance and foster<br> transparency with <span
+                        class="highlight-acc">our innovative grievance<br> management solution</span></h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-10">
@@ -340,8 +340,9 @@
         <div class="container text-white py-5">
             <div class="row">
                 <div class="text-center">
-                    <h4 class="dpcm-head my-4 text-white">Why Choose Our <span class="highlight-acc">Grievance<br>
-                            Redressal Tool?</span></h4>
+                   <h3 class="how-it-works">Why Us?</h3>
+                    <h2 class="dpcm-head my-4 text-white">Why Choose Our <span class="highlight-acc">Grievance<br>
+                            Redressal Tool?</span></h2>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-box-1">
@@ -424,10 +425,11 @@
         <div class="container">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
+                    <h3 class="how-it-works">More Tools</h3>
+                    <h2 class="card-text">Tools to Strengthen Compliance and<br><span class="highlight-acc"> Enhance
                             Data
                             Protection</span>
-                    </h3>
+                    </h2>
                 </div>
                 <div class="row g-4 my-5 compl-tools">
                     <div class="col-lg-4 col-md-6 col-sm-12">

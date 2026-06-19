@@ -224,6 +224,54 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 display: none;
             }
         }
+
+        .client-card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 20px;
+            height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #f1f1f1;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+            transition: all 0.35s ease;
+            overflow: hidden;
+        }
+
+        .client-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .client-card img {
+            width: 100%;
+            max-width: 120px;
+            max-height: 101px;
+            object-fit: contain;
+            transition: all 0.3s ease;
+
+            /* Remove grayscale */
+            filter: none;
+            opacity: 1;
+        }
+
+        .client-card:hover img {
+            transform: scale(1.08);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 576px) {
+            .client-card {
+                height: 110px;
+                padding: 15px;
+            }
+
+            .client-card img {
+                max-width: 90px;
+                max-height: 50px;
+            }
+        }
     </style>
 </head>
 
@@ -296,10 +344,10 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 align-self-center">
-                    <h6 class="service-h">Our Services</h6>
-                    <h3 class="service-para">Helping businesses to<br> navigate <span class="data-pr">Data Privacy
+                    <h3 class="service-h">Our Services</h3>
+                    <h2 class="service-para">Helping businesses to<br> navigate <span class="data-pr">Data Privacy
                             and Compliance
-                            with</span> ease </h3>
+                            with</span> ease </h2>
                     <a class="learn-a" href="services.php">Learn more<img class="learn-img"
                             src="./assets/images/our-service-arrow.png"
                             alt="Dark blue right-facing arrow icon inside a white circle for navigation or next steps."></a>
@@ -495,81 +543,393 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
         </div>
     </section>
 
-    <section class="news-section sec-pad">
+    <section class="news-section sec-pad py-5">
         <div class="container">
-            <div class="sec-title section-title-two2">
-                <h5 class="section-title-two1 text-center">Brand who <span class="text-trust">Trust</span> us</h5>
+
+            <div class="sec-title section-title-two2 mb-5">
+                <h5 class="section-title-two1 text-center">
+                    Some of <span class="text-trust">Our</span> Clients 
+                </h5>
             </div>
 
-            <div class="owl-carousel owl-theme">
-                <div class="item"><img src="./assets/images/client-logo/hindalco.jpg"
-                        alt="Aditya Birla Hindalco Logo - Data Protection Compliance for the industrial manufacturing leader.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/tata-motos.svg"
-                        alt="Tata Motors Logo - Data Protection Compliance for the automotive manufacturer Tata Motors.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/bajaj-finserv.jpg"
-                        alt="Our clients: Bajaj Finserv Limited"></div>
-                <div class="item"><img src="./assets/images/client-logo/apraava.png"
-                        alt="Apraava Energy Logo - Data Protection Compliance with colorful geometric shapes in the lettering.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/art-house-financing.jpg"
-                        alt="ART Housing Finance Logo - Data Protection Compliance for ART Affordable Housing Finance.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/ashok-leyland-vector-logo1.png"
-                        alt="Ashok Leyland Logo - Data Protection Compliance for the automotive manufacturer Ashok Leyland.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/eZee.png"
-                        alt="eZee Logo - Data Protection Compliance for eZee with three colorful crescent swooshes in a circular motif.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/infinite.png"
-                        alt="Infinite Logo - Data Protection Compliance for Infinite with a blue triangle and green swoosh visual.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/mamenta-logo.png"
-                        alt="Mamenta Logo - Data Protection Compliance for global commerce platform Mamenta with a colorful ribbon icon.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/netradyne.png"
-                        alt="Netradyne Logo - Data Protection Compliance for Netradyne with a green geometric line-art icon.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/quinnox-logo.jpg"
-                        alt="Quinnox Logo - Data Protection Compliance for Quinnox with the Accelerate Success tagline">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/retarget-logo.png"
-                        alt="Retarget Spark Logo - Data Protection Compliance with a green target icon and company tagline.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/sk-finance1.png"
-                        alt="SK Finance Logo - Data Protection Compliance with a green s and purple k icon and company tagline.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/trackwizz.png"
-                        alt="TrackWizz Logo - Data Protection Compliance with a blue circular track and arrow icon.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/zebpay.jpg"
-                        alt="Zebpay Logo - Data Protection Compliance for the cryptocurrency exchange platform Zebpay.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/zeiss_logo.png"
-                        alt="ZEISS Logo - Data Protection Compliance for the technology leader ZEISS."></div>
-                <div class="item"><img src="./assets/images/client-logo/zyter-care.jpg"
-                        alt="Zyter TruCare Logo Data Protection Compliance for Zyter TruCare with a blue and purple ribbon icon.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/Griham.jpeg"
-                        alt="Grihum Housing Finance Logo - Data Protection Compliance with a red and blue interlocking G icon.">
-                </div>
-                <div class="item"><img src="./assets/images/client-logo/tat_motors_the.png"
-                        alt="Our clients: Tata Autocomp"></div>
-                <div class="item"><img src="./assets/images/client-logo/TBSI.png"
-                        alt="JLR TBSI Logo - Data Protection Compliance for JLR TBSI in a minimalist grey font.">
+            <div class="row g-4">
+
+             <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/National_Health_Authority_of_India.svg" alt="National Health Authority of India Logo">
+                    </div>
                 </div>
 
-                <div class="item"><img src="./assets/images/client-logo/Emaar-Logo.png"
-                        alt="Emaar India Logo – Data Protection Compliance for the real estate developer Emaar India.">
+                 <!-- Tata Motors -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/tata-motos.svg" alt="Tata Motors Logo">
+                    </div>
                 </div>
 
-                <div class="item"><img src="./assets/images/client-logo/applo.svg"
-                        alt="Emaar India Logo – Data Protection Compliance for the real estate developer Emaar India.">
+
+                  <!-- Bajaj Finserv -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/bajaj-finserv.jpg" alt="Bajaj Finserv Logo">
+                    </div>
                 </div>
-                <div class="item"><img src="./assets/images/client-logo/trident-group.png"
-                        alt="Emaar India Logo – Data Protection Compliance for the real estate developer Emaar India.">
+
+
+             <!-- Ashok Leyland -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/ashok-leyland-vector-logo1.png" alt="Ashok Leyland Logo">
+                    </div>
                 </div>
+
+
+
+                
+                <!-- Relaxo -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Relaxo_Logo.svg" alt="Relaxo Logo">
+                    </div>
+                </div>
+
+
+                 <!-- Apollo -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/applo.svg" alt="Apollo Logo">
+                    </div>
+                </div>
+
+
+
+                  <!-- Trident -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/trident-group.png" alt="Trident Group Logo">
+                    </div>
+                </div>
+
+
+                  <!-- Emaar -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Emaar-Logo.png" alt="Emaar India Logo">
+                    </div>
+                </div>
+
+
+
+                
+                <!-- ZEISS -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/zeiss_logo.png" alt="ZEISS Logo">
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
+
+
+
+            
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Health_Glow.svg" alt="Health Glow Logo">
+                    </div>
+                </div>
+
+
+
+                 <!-- Signature Global -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Signature_Global_Logo.svg" alt="Signature Global Logo">
+                    </div>
+                </div>
+                
+                <!-- TBSI -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/TBSI.png" alt="JLR TBSI Logo">
+                    </div>
+                </div>
+
+                 <!-- Ajanta Pharma -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Ajanta_Pharma_Logo.svg" alt="Ajanta Pharma Logo">
+                    </div>
+                </div>
+
+
+
+                 <!-- SK Finance -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/sk-finance1.png" alt="SK Finance Logo">
+                    </div>
+                </div>
+
+
+                 <!-- KEI -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/KEI_Cables_Logo.svg" alt="KEI Cables Logo">
+                    </div>
+                </div>
+
+                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Jaguar_landrover.svg" alt="Jaguar Land Rover Logo">
+                    </div>
+                </div>
+
+                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Cumi_Murgappa.svg" alt="Cumi Murgappa Logo">
+                    </div>
+                </div>
+
+               
+
+
+
+                <!-- Hindalco -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/hindalco.jpg" alt="Aditya Birla Hindalco Logo">
+                    </div>
+                </div>
+
+               
+              
+ 
+
+              
+
+                <!-- ART Housing -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Art-House-Finance.svg" alt="ART Housing Finance Logo">
+                    </div>
+                </div>
+
+                <!-- Apraava -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/apraava.png" alt="Apraava Energy Logo">
+                    </div>
+                </div>
+
+
+                <!-- Xcelion -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/motors_xcelion.png" alt="Tata Motors Xcelion Logo">
+                    </div>
+                </div>
+
+                <!-- TICM -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/TI-Clean-Mobility.svg" alt="TICM Logo">
+                    </div>
+                </div>
+
+
+
+               
+
+                <!-- Nuziveedu -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Nuziveedu_Seeds_Logo.svg" alt="Nuziveedu Seeds Logo">
+                    </div>
+                </div>
+
+                <!-- Tata Autocomp -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/tat_motors_the.png" alt="Tata Autocomp Logo">
+                    </div>
+                </div>
+
+
+                <!-- Griham -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Griham.jpeg" alt="Grihum Housing Finance Logo">
+                    </div>
+                </div>
+
+                <!-- Kanpur Plastic -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Kanpur_Plastic_Pack_Limited.svg"
+                            alt="Kanpur Plastic Pack Limited Logo">
+                    </div>
+                </div>
+
+               
+
+
+                <!-- eZee -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/eZee.png" alt="eZee Logo">
+                    </div>
+                </div>
+
+                <!-- Infinite -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/infinite.png" alt="Infinite Logo">
+                    </div>
+                </div>
+
+                <!-- Mamenta -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/mamenta-logo.png" alt="Mamenta Logo">
+                    </div>
+                </div>
+
+                <!-- Netradyne -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/netradyne.png" alt="Netradyne Logo">
+                    </div>
+                </div>
+
+                <!-- Quinnox -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/quinnox-logo.jpg" alt="Quinnox Logo">
+                    </div>
+                </div>
+
+                <!-- Retarget -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/retarget-logo.png" alt="Retarget Spark Logo">
+                    </div>
+                </div>
+
+                <!-- TrackWizz -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/trackwizz.png" alt="TrackWizz Logo">
+                    </div>
+                </div>
+
+                <!-- Zebpay -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/zebpay.jpg" alt="Zebpay Logo">
+                    </div>
+                </div>
+
+                <!-- Zyter -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/zyter-care.jpg" alt="Zyter TruCare Logo">
+                    </div>
+                </div>
+
+
+
+                <!-- Zyter -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/WWStay-Logo.svg" alt="Zyter TruCare Logo">
+                    </div>
+                </div>
+
+                <!-- Zyter -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Magic-EdTech-Logo.svg" alt="Zyter TruCare Logo">
+                    </div>
+                </div>
+
+
+                <!-- Zyter -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Mindforce-research-logo.svg" alt="Zyter TruCare Logo">
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Digilytics.svg" alt="Digilytics Logo">
+                    </div>
+                </div>
+
+                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/EG_Software.svg" alt="EG Software Logo">
+                    </div>
+                </div>
+
+
+                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/avaso.svg" alt="Avaso Logo">
+                    </div>
+                </div>
+
+                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/droom.svg" alt="Droom Logo">
+                    </div>
+                </div>
+
+                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/netsub.svg" alt="Netsub Logo">
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/samplejunction.svg" alt="Samplejunction Logo">
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Insight_Assist.svg" alt="Samplejunction Logo">
+                    </div>
+                </div>
+
+                 <!-- <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Jaguar_landrover.svg" alt="Jaguar Land Rover Logo">
+                    </div>
+                </div> -->
+
             </div>
         </div>
     </section>
@@ -584,7 +944,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-md-6 left-content-one-step">
-                    <p>One-stop solution</p>
+                    <h3>One-stop solution</h3>
                     <h2 class="m-threesixty">A 360° approach transforms <span class="highlight-one-step">complexity into
                             simplicity,<br>
                             driving
@@ -660,7 +1020,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
 
     <section>
         <div class="container mt-5">
-            <h6 class="text-center">How it works</h6>
+            <h3 class="text-center how-it-works">How it works</h3>
             <h2 class="section-title-work">Ensure compliance and enhance user<br> trust with our <span
                     class="highlight-work">expert consulting and<br> advisory solutions</span></h2>
 
@@ -728,9 +1088,9 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
     <section class="home-why mt-5">
         <div class="container why-spa">
             <div class="text-Why text-center">
-                <h6>Why Us?</h6>
-                <h3>Your trusted partner in <span class="text-Navigating">Navigating Data<br> Privacy</span> with
-                    expertise and precision</h3>
+                <h3 class="how-it-works">Why Us?</h3>
+                <h2>Your trusted partner in <span class="text-Navigating">Navigating Data<br> Privacy</span> with
+                    expertise and precision</h2>
             </div>
             <div class="row">
                 <div class="col-sm-4">
@@ -828,9 +1188,9 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     </div>
                     <div class="contents-pan text-end ">
                         <h6 class="text-end mr-end">Pan India Presence</h6>
-                        <h2><strong>Seamless Compliance with</strong> <span class="text-primary"><strong
-                                    class="local-mr1">Automated Privacy Tools
-                                </strong></span></h2>
+                        <h4 class="seamless-compliance"><strong>Seamless Compliance with</strong> <span
+                                class="text-primary"><strong class="local-mr1">Automated Privacy Tools
+                                </strong></span></h4>
                         <p class="contents-pan-p">Your trusted partner in data protection, ensuring<br> privacy &
                             security across every corner.
                         </p>
@@ -848,28 +1208,27 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
         <div class="container">
             <div class="row">
                 <div class="text-center">
-                    <h5 class="text-updates text-center text-white">Our Blogs</h5>
-                    <h3 class="text-blog"><span class="text-our">Insights, updates, and expert advice</span> <span
+                    <h6 class="text-updates text-center text-white">Our Blogs</h6>
+                    <h4 class="text-blog"><span class="text-our">Insights, updates, and expert advice</span> <span
                             class="text-white">on<br>
-                            navigating the ever-evolving world of data<br> privacy and compliance</span></h3>
+                            navigating the ever-evolving world of data<br> privacy and compliance</span></h4>
                 </div>
                 <div class="custom-carousel-wrapper position-relative overflow-hidden">
                     <div class="custom-carousel d-flex transition" id="customCarousel">
                         <div class="col-md-4">
                             <div class="custom-card carousel-img">
                                 <div class="card-header c-header">
-                                    <img src="./assets/images/blogs_46_thumbnail.jpg" alt="Data
-                                            Protection Officer as a Service (DPOaaS): The Complete Guide for Businesses
-                                            in 2025">
+                                    <img src="./assets/images/blogs_76_thumbnail.jpg"
+                                        alt="Data Impact of DPDP Act on Healthcare Sector">
 
                                 </div>
                                 <div class="card-body c-body">
-                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=37&title=June">Data
-                                            Protection Officer as a Service (DPOaaS): The Complete Guide for Businesses
-                                            in 2025</a>
+                                    <h6><a
+                                            href="https://www.dpdpconsultants.com/blog.php?id=76&title=impact-of-dpdp-act-on-healthcare-sector">Data
+                                            Impact of DPDP Act on Healthcare Sector</a>
                                     </h6>
-                                    <p>DPOaaS helps businesses ensure GDPR & DPDP compliance with cost-effective,
-                                        scalable privacy expertise. Gain trusted data...</p>
+                                    <p>How India's landmark data protection law is rewriting the rules of patient
+                                        privacy, hospital compliance, and digital health.</p>
 
                                 </div>
                             </div>
@@ -877,17 +1236,19 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                         <div class="col-md-4">
                             <div class="custom-card carousel-img">
                                 <div class="card-header c-header">
-                                    <img src="./assets/images/blogs_47_thumbnail.jpg" alt="Best
-                                            Practices and Tools for DPDP-Ready Data Handling (2025 Guide)">
+                                    <img src="./assets/images/blogs_75_thumbnail.jpg"
+                                        alt="Best DPDP Act for EdTech: What Happens to Student Data Organizations Have Been Collecting">
 
                                 </div>
                                 <div class="card-body c-body">
-                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=36&title=Cookie"> Best
-                                            Practices and Tools for DPDP-Ready Data Handling (2025 Guide)
+                                    <h6><a
+                                            href="https://www.dpdpconsultants.com/blog.php?id=75&title=dpdp-act-for-edtech-what-happens-to-all-that-student-data-organizations-have-been-collecting">
+                                            Best
+                                            DPDP Act for EdTech: What Happens to All That Student Data Organizations
+                                            Have Been Collecting?
                                         </a>
                                     </h6>
-                                    <p>Get DPDP-ready with best practices & tools. From consent & rights to DPIAs &
-                                        vendor risk, learn how DPCM, DPGR, DPAP, DP...</p>
+                                    <p>DPDP Act & EdTech: What Happens to Student Data Now?...</p>
 
                                 </div>
                             </div>
@@ -895,16 +1256,15 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                         <div class="col-md-4">
                             <div class="custom-card carousel-img">
                                 <div class="card-header c-header">
-                                    <img src="./assets/images/blogs_41_thumbnail.jpg" alt="AI and DPDP:
-                                            Ethical and Compliance Concerns Around AI-Driven Data Handling">
+                                    <img src="./assets/images/blogs_74_thumbnail.png"
+                                        alt="DPDP Compliance for HR: Enabling Employee Data Protection in India">
 
                                 </div>
                                 <div class="card-body c-body">
-                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=35&title=DPDP">AI and DPDP:
-                                            Ethical and Compliance Concerns Around AI-Driven Data Handling</a>
+                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=35&title=DPDP">DPDP
+                                            Compliance for HR: Enabling Employee Data Protection in India</a>
                                     </h6>
-                                    <p>Explore the ethical and compliance challenges AI faces under India's DPDP Act,
-                                        from consent issues to bias risks, and di...</p>
+                                    <p>DPDP Compliance for HR: Protecting Employee Data in India...</p>
 
                                 </div>
                             </div>
@@ -912,16 +1272,15 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                         <div class="col-md-4">
                             <div class="custom-card carousel-img">
                                 <div class="card-header c-header">
-                                    <img src="./assets/images/blogs_40_thumbnail.jpg" alt="Why Digital
-                                            Consent Management is No Longer Optional in India's DPDP Act Era">
+                                    <img src="./assets/images/blogs_73_thumbnail.jpg"
+                                        alt="Does the DPDPA Take Over the RTI Act">
 
                                 </div>
                                 <div class="card-body c-body">
-                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=34&title=Data"> Why Digital
-                                            Consent Management is No Longer Optional in India's DPDP Act Era</a>
+                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=34&title=Data"> Does the
+                                            DPDPA Take Over the RTI Act?</a>
                                     </h6>
-                                    <p>Digital consent management is essential under India's DPDP Act, ensuring
-                                        compliance, trust, and efficiency. Manual metho...</p>
+                                    <p>DPDPA vs RTI Act: Privacy and Transparency Debate...</p>
 
                                 </div>
                             </div>
@@ -929,16 +1288,16 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                         <div class="col-md-4">
                             <div class="custom-card carousel-img">
                                 <div class="card-header c-header">
-                                    <img src="./assets/images/blogs_39_thumbnail.jpg" alt="Global
-                                            Data Breaches in 2025: Key Lessons for India’s Digital Privacy Ecosystem">
+                                    <img src="./assets/images/blogs_72_thumbnail.jpg"
+                                        alt="Implications of the DPDP Act, 2023 on Corporate Social Responsibility (CSR) Activities">
 
                                 </div>
                                 <div class="card-body c-body">
-                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=33&title=Valid"> Global
-                                            Data Breaches in 2025: Key Lessons for India’s Digital Privacy Ecosystem</a>
+                                    <h6><a href="https://www.dpdpconsultants.com/blog.php?id=33&title=Valid">
+                                            Implications of the DPDP Act, 2023 on Corporate Social Responsibility (CSR)
+                                            Activities</a>
                                     </h6>
-                                    <p>Global data breaches in 2025 highlight urgent lessons for India. With DPDPA
-                                        enforcement underway, India must strengthen ...</p>
+                                    <p>DPDP Act & CSR Photography Compliance Guide...</p>
 
                                 </div>
                             </div>
@@ -960,9 +1319,9 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
         <div class="container my-5 testimon">
             <div class="row">
                 <div class="text-Testim text-center">
-                    <h5 class="text-monials">Testimonials</h5>
-                    <h2 class="testimonials-head">Voices of <span class="text-Success">Success,
-                            Stories</span><br> that Inspire</h2>
+                    <h6 class="text-monials">Testimonials</h6>
+                    <h4 class="testimonials-head">Voices of <span class="text-Success">Success,
+                            Stories</span><br> that Inspire</h4>
                 </div>
 
                 <div class="col-md-4 col-lg-4 g-3">
@@ -1127,6 +1486,24 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     </div>
                 </div>
 
+
+
+                <div class="col-md-4 col-lg-4 my-3">
+                    <div class="testimonial-card d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start p-3"
+                        data-bs-toggle="modal" data-bs-target="#testimonialModal5">
+                        <div class="ms-3">
+                            <h5>Ajay Wadhwa</h5>
+                            <span class="company">Tata Motors Xcelion</span>
+                            <p class="text-muted">Chief Executive Officer</p>
+                            <span class="stars">★★★★★</span>
+                            <p class="mt-2 test-para">“We are pleased to acknowledge the valuable support provided by
+                                <strong>PRIVACYIUM TECH PRIVATE LIMITED – DPDP Consultants</strong> during Tata Motors
+                                Xcelion’s Digital
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Bootstrap Modal -->
                 <div class="modal fade" id="testimonialModal4" tabindex="-1" aria-labelledby="testimonialModalLabel"
                     aria-hidden="true">
@@ -1154,6 +1531,39 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                                     compliance without any disruption. We have full confidence in DPDP Consultants’
                                     expertise and highly recommend them to any organization seeking a trusted partner in
                                     data privacy and regulatory compliance"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Bootstrap Modal -->
+                <div class="modal fade" id="testimonialModal5" tabindex="-1" aria-labelledby="testimonialModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="./assets/images/client-logo/motors_xcelion.png" alt="tata motors xcelion"
+                                    class="img-fluid mb-3">
+                                <h5>Ajay Wadhwa</h5>
+                                <span class="company">Tata Motors Xcelion</span>
+                                <p class="text-muted">Chief Executive Officer</p>
+                                <span class="stars">★★★★★</span>
+                                <p class="mt-2">“We are pleased to acknowledge the valuable support provided by
+                                    <strong>PRIVACYIUM TECH PRIVATE LIMITED – DPDP Consultants</strong> during Tata
+                                    Motors Xcelion’s
+                                    <strong>Digital Personal Data Protection Act (DPDPA) assessment.</strong> Their
+                                    structured approach
+                                    and practical inputs supported an effective review and alignment with DPDPA
+                                    requirements. We appreciate their professionalism, responsiveness, and commitment
+                                    throughout the engagement.”
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1230,10 +1640,10 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
 
                     <div class="my-4">
                         <h6>Newsletters</h6>
-                        <h3 class="newsletter-title">Stay informed and ahead of the curve with
+                        <h4 class="newsletter-title">Stay informed and ahead of the curve with
                             <span>latest
                                 insights, updates, and expert advice</span> on data privacy and compliance
-                        </h3>
+                        </h4>
                     </div>
                     <a href="contact.php?act=newsletter" class="subscribe-btn my-4">Subscribe</a>
 
@@ -1242,31 +1652,37 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     <div id="newsletterCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=50&title=Attorney"><img
-                                        src="./assets/images/newsletters_50_thumbnail.jpg" class="d-block"
-                                        alt="Attorney General Defends DPDP Amid Concerns of Diluted RTI"></a>
+                                <a
+                                    href="https://www.dpdpconsultants.com/newsletter.php?id=60&title=india-s-gccs-lag-behind-on-dpdp-compliance-as-deadline-looms"><img
+                                        src="./assets/images/newsletters_60_thumbnail.jpg" class="d-block"
+                                        alt="India's GCCs Lag Behind on DPDP Compliance as Deadline Looms"></a>
                             </div>
                             <div class="carousel-item">
-                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=49&title=DPDP"><img
-                                        src="./assets/images/newsletters_49_thumbnail.jpg" class="d-block"
-                                        alt="DPDP Rules to Be Notified Before Winter Session, Confirms IT Minister Ashwini Vaishnaw"></a>
+                                <a
+                                    href="https://www.dpdpconsultants.com/newsletter.php?id=59&title=supreme-court-sends-strong-message-to-tech-giants-privacy-is-not-negotiable"><img
+                                        src="./assets/images/newsletters_59_thumbnail.jpg" class="d-block"
+                                        alt="Supreme Court Sends Strong Message to Tech Giants: Privacy Is Not Negotiable"></a>
                             </div>
                             <div class="carousel-item">
-                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=48&title=Phone"><img
-                                        src="./assets/images/newsletters_48_thumbnail.jpg" class="d-block"
-                                        alt="Phone Numbers at Billing Counter? A Common Practice Now a Compliance Risk Under DPDP Act"></a>
-                            </div>
-
-                            <div class="carousel-item">
-                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=47&title=DPDP"><img
-                                        src="./assets/images/newsletters_47_thumbnail.jpg" class="d-block" alt="DPDP Act Strengthens, Not Weakens, Right to Information: IT Ministry
-"></a>
+                                <a
+                                    href="https://www.dpdpconsultants.com/newsletter.php?id=58&title=who-is-actually-exempt-from-dpdp-compliance-the-question-every-indian-business-asks"><img
+                                        src="./assets/images/newsletters_58_thumbnail.jpg" class="d-block"
+                                        alt="Who Is Actually Exempt from DPDP Compliance? The Question Every Indian Business Asks"></a>
                             </div>
 
                             <div class="carousel-item">
-                                <a href="https://www.dpdpconsultants.com/newsletter.php?id=46&title=Punjab"><img
-                                        src="./assets/images/newsletters_46_thumbnail.jpg" class="d-block"
-                                        alt="Punjab Government Terminates BJP's Welfare Outreach Amid Data Security Concerns"></a>
+                                <a
+                                    href="https://www.dpdpconsultants.com/newsletter.php?id=57&title=uidai-to-ban-aadhaar-photocopies-and-require-registration-for-verifiers"><img
+                                        src="./assets/images/newsletters_57_thumbnail.jpg" class="d-block"
+                                        alt="UIDAI to Ban Aadhaar Photocopies and Require Registration for Verifiers"></a>
+
+                            </div>
+
+                            <div class="carousel-item">
+                                <a
+                                    href="https://www.dpdpconsultants.com/newsletter.php?id=56&title=india-mandates-preinstallation-of-state-cybersecurity-app-on-all-mobile-phones"><img
+                                        src="./assets/images/newsletters_56_thumbnail.jpg" class="d-block"
+                                        alt="India Mandates Preinstallation of State Cybersecurity App on All Mobile Phones"></a>
                             </div>
                         </div>
 

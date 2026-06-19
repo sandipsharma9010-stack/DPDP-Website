@@ -64,28 +64,181 @@
         }
 
 
-        .profile-card {
-            cursor: pointer;
-            text-align: center;
-            padding: 10px;
-            border-radius: 10px;
-            background-color: white;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        /* .profile-cards {
+            height: 100%;
+            border-radius: 15px;
+            overflow: hidden;
+            background: #fff;
+            transition: all 0.3s ease;
         }
 
-        .profile-card img {
+        .profile-cards img {
             width: 100%;
-            border-radius: 10px;
+            height: 280px;
+            object-fit: cover;
         }
 
-        .profile-card h4 {
-            margin-top: 10px;
-            font-weight: bold;
+        .profile-infos {
+            padding: 15px;
+            text-align: center;
         }
 
-        .profile-card p {
-            color: #6c757d;
+        .profile-infos h6 {
+            margin-bottom: 5px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .profile-infos p {
+            margin: 0;
+            font-size: 13px;
+            color: #666;
+        }
+
+        .profile-cards:hover {
+            transform: translateY(-5px);
+        } */
+
+
+
+        /* Team Section */
+        #ourteam {
+            padding: 38px 0;
+        }
+
+        #ourteam .container {
+            margin-bottom: 30px;
+        }
+
+        .profile-cards {
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        .profile-cards img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .profile-infos {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 20px 15px;
+            text-align: center;
+            background: linear-gradient(to top,
+                    rgba(2, 9, 44, 0.95),
+                    rgba(2, 9, 44, 0.75),
+                    transparent);
+            z-index: 2;
+        }
+
+        .profile-infos h6,
+        .profile-infos h5 {
+            color: #fff !important;
+            font-size: 19px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .profile-infos p {
+            color: #fff !important;
             font-size: 14px;
+            margin: 0;
+            opacity: 0.95;
+            line-height: 1.4;
+        }
+
+        /* Tablet */
+        @media (max-width: 991px) {
+            #ourteam {
+                padding: 40px 0;
+            }
+
+            .profile-cards img {
+                height: 260px;
+            }
+
+            .profile-infos {
+                min-height: 90px;
+                padding: 15px 10px;
+            }
+
+            .profile-infos h6 {
+                font-size: 15px;
+            }
+
+            .profile-infos p {
+                font-size: 12px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 767px) {
+
+            .team-texts {
+                display: block !important;
+                margin-bottom: 25px;
+            }
+
+            .team-texts h2 {
+                font-size: 24px;
+                line-height: 1.3;
+                padding: 0;
+            }
+
+            .team-texts p {
+                font-size: 14px;
+            }
+
+            .profile-cards {
+                border-radius: 14px;
+            }
+
+            .profile-cards img {
+                height: 220px;
+            }
+
+            .profile-infos {
+                padding: 12px 8px;
+                min-height: 85px;
+            }
+
+            .profile-infos h6 {
+                font-size: 14px;
+                margin-bottom: 4px;
+            }
+
+            .profile-infos p {
+                font-size: 11px;
+                line-height: 1.4;
+            }
+
+            /* Reduce space between rows */
+            .row.g-4 {
+                --bs-gutter-y: 1rem;
+                --bs-gutter-x: 1rem;
+            }
+        }
+
+        /* Small Mobile */
+        @media (max-width: 480px) {
+            .profile-cards img {
+                height: 180px;
+            }
+
+            .profile-infos h6 {
+                font-size: 13px;
+            }
+
+            .profile-infos p {
+                font-size: 10px;
+            }
         }
 
         .modal-dialog {
@@ -398,6 +551,8 @@
             z-index: 2;
         }
 
+
+
         .carousel-control-prev {
             left: 0;
         }
@@ -497,10 +652,10 @@
     <div class="container mt-5 p-5" id="whoweare">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <h6>Who we are</h6>
-                <h4 class="about-who-ar">Empowering Businesses to<br> Seamlessly Navigate <span
+                <h3 class="how-it-works">Who we are</h3>
+                <h2 class="about-who-ar">Empowering Businesses to<br> Seamlessly Navigate <span
                         class="highlights-text">Data
-                        Protection Compliance</span></h4>
+                        Protection Compliance</span></h2>
                 <p class="whoarewe-p">By prioritizing data protection and privacy, businesses can strengthen compliance
                     and build trust
                     with customers and stakeholders.
@@ -524,10 +679,10 @@
     </div>
     <section style="background-color: #02092c;" id="missionandvision">
         <div class="container">
-            <p class="text-center text-white pt-5">Mission and vision</p>
-            <h4 class="text-center text-white text-mission">Transforming the Complex World of <span
-                    style="color: #3294CD;">Data<br> Protection</span> into a <span style="color: #3294CD;">Seamless
-                    Journey </span> for<br> Organizations Privacy and Compliance.</h4>
+            <h3 class="text-center text-white pt-5">Mission and vision</h3>
+            <h2 class="text-center text-white text-mission">Transforming the Complex World of Data Protection into a
+                Seamless
+                Journey for<br> Organizations Privacy and Compliance.</h2>
             <div class="row mt-5">
 
                 <div class="col-12 col-md-6 mb-4">
@@ -694,7 +849,7 @@
                             class="profile-img">
                         <div class="name-container">
                             <h4 class="mt-2">Bhavna Narula</h4>
-                            <p class="text-muted">VP Product</p>
+                            <p class="text-muted">Vice President - Technology & Product</p>
                         </div>
                     </div>
                     <div>
@@ -736,7 +891,7 @@
                             class="profile-img">
                         <div class="name-container">
                             <h4 class="mt-2">Jaspal Singh</h4>
-                            <p class="text-muted">Associate Director - Technology & Products</p>
+                            <p class="text-muted">Director - Technology & Product</p>
                         </div>
                     </div>
                     <div>
@@ -751,7 +906,7 @@
                             objectives.
                         </div>
                         <div class="mb-3 modal-p">
-                            As Associate Director – Technology & Products, Jaspal specializes in leading
+                            As Director – Technology & Products, Jaspal specializes in leading
                             cross-functional teams to architect and deliver end-to-end technology platforms. His areas
                             of expertise include Cybersecurity, DevOps automation, CI/CD pipeline implementation, AWS
                             cloud infrastructure, containerized deployments using Docker and Kubernetes, and building
@@ -762,6 +917,56 @@
                             delivery while fostering a culture of continuous improvement and collaboration. He has
                             played a pivotal role in modernizing legacy systems, enhancing product security, and driving
                             cloud-native development for scalable SaaS platforms.
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal41 -->
+    <div class="modal fade" id="profileModal41" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title">About</h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <img src="assets/images/out-team/piush.png" alt="Founder/Principal: “Piush Kumar”"
+                            class="profile-img">
+                        <div class="name-container">
+                            <h4 class="mt-2">Piush Kumar</h4>
+                            <p class="text-muted">Associate Director - Technology & Products</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold">About</h5>
+                        <p class="modal-p">
+
+                        <div class="mb-3 modal-p">
+                            Technology leader with Over 14 years of experience delivering large-scale projects across
+                            technologies and domains (BFSI, Fintech, Retail, E-commerce etc) in distributed engineering
+                            organizations.
+                        </div>
+                        <div class="mb-3 modal-p">
+                            Proven expertise in driving cross-functional technical initiatives involving secure
+                            microservices architecture, cloud-native systems, enterprise integrations, API ecosystems.
+                        </div>
+                        <div class="modal-p">
+                            Expertise in Engineering/Technical Project management practices, stakeholder management,
+                            early risk identification and mitigation, deck prioritization, matrix driven execution,
+                            timelines, improving operational excellence, driving architecture discussions, managing
+                            dependencies across teams and cloud-native applications. Actively leverage AI-assisted
+                            development and tools to accelerate engineering productivity, improve decision-making, and
+                            enhance solution design.
+                        </div>
+
+                        <div class="modal-p">
+                            Engaged in CSR and community development initiatives, while maintaining personal creativity
+                            and well-being through music, fitness regimes and sports.
                         </div>
                         </p>
                     </div>
@@ -807,6 +1012,90 @@
         </div>
     </div>
 
+    <!-- Modal6.1 -->
+    <!-- <div class="modal fade" id="profileModal6.1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <img src="assets/images/out-team/vrinda-khemariya.png"
+                            alt="Founder/Principal: “Vrinda Khemariya”" class="profile-img">
+                        <div class="name-container">
+                            <h4 class="mt-2">Vrinda Khemariya </h4>
+                            <p class="text-muted">Senior Consultant- Data Protection</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold">About</h5>
+                        <p class="modal-p">
+                            Vrinda Khemariya is a Corporate Lawyer and Global Data Privacy Specialist with over three
+                            years of experience at the intersection of data privacy, regulatory compliance, and
+                            corporate law. She specialises in GDPR, DPDP Act 2023, and CCPA — having independently led
+                            and executed multiple end-to-end privacy programs for organisations across industries,
+                            designing robust frameworks, conducting audits, and embedding privacy-by-design principles
+                            into the core of business operations. Her practice spans the drafting and negotiation of
+                            DPAs, SCCs, NDAs, MSAs, DPIAs, and PIAs, while advising global clients on cross-border data
+                            transfers, regulatory strategy, and risk mitigation. Prior to her current practice, she
+                            built a strong foundation in litigation and advisory work at Gandhi & Associates, handling
+                            complex copyright infringement matters, M&A transactions, and intellectual property
+                            disputes. A certified ISO 27701 PIMS Lead Auditor and BBA LL.B. graduate (2023), Vrinda
+                            brings a rare techno-legal perspective — bridging law, business, and technology — empowering
+                            organisations to achieve rigorous compliance while staying aligned with their strategic
+                            ambitions in an ever-evolving privacy landscape.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- Modal6.2 -->
+    <!-- <div class="modal fade" id="profileModal6.2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <img src="assets/images/out-team/Mohini.png" alt="Founder/Principal: “Vrinda Khemariya”"
+                            class="profile-img">
+                        <div class="name-container">
+                            <h4 class="mt-2">Mohini Singla </h4>
+                            <p class="text-muted">Senior Consultant – Data Protection</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold">About</h5>
+                        <p class="modal-p">
+                            Mohini Singla is a Data Privacy Specialist and Legal Professional with over five years of
+                            experience in privacy governance, regulatory compliance, corporate litigation, and risk
+                            management. Her career uniquely bridges courtroom advocacy and boardroom advisory. </p>
+
+                        <p class="modal-p">As a Senior Data Protection Consultant, she has independently led multiple
+                            end-to-end compliance engagements under GDPR, DPDP Act 2023, and CCPA across healthcare,
+                            financial services, automotive, real estate, NBFCs, and FMCG sectors. Her work covers the
+                            full compliance lifecycle including DPIAs, ROPAs, DPAs, consent frameworks, vendor risk
+                            assessments, privacy documentation, and privacy-by-design implementation, supported by
+                            internal audits and monitoring programs. She holds the ISO/IEC 27701 PIMS Lead Auditor
+                            certification.</p>
+
+                        <p class="modal-p">Beyond privacy, she drafts and negotiates commercial agreements (MSAs, SOWs)
+                            and has represented clients before the Delhi High Court, Punjab & Haryana High Court, NCLT,
+                            NCLAT, and NCDRC. Early roles at HDFC ERGO, AZB & Partners, and the Ministry of Railways
+                            grounded her in corporate and regulatory law. She holds a BA LLB (with distinction) from
+                            Army Institute of Law, Mohali.</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
     <!-- Modal6 -->
     <div class="modal fade" id="profileModal6" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -840,8 +1129,52 @@
         </div>
     </div>
 
+
     <!-- Modal7 -->
     <div class="modal fade" id="profileModal7" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title">About</h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <img src="assets/images/out-team/sunil_khanna.png" alt="Founder/Principal: “Sunil Khanna”"
+                            class="profile-img">
+                        <div class="name-container">
+                            <h4 class="mt-2">Sunil Khanna</h4>
+                            <p class="text-muted">Sr. Vice President - Product & Technology</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold">About</h5>
+                        <p class="modal-p">
+                            “An accomplished IT Service Delivery and Global Leader with over 30 years of experience,
+                            Sunil specializes in orchestrating complex IT Application and Infrastructure operations to
+                            align with global business objectives. He brings a proven commitment to operational
+                            excellence, robust governance, and the leadership of high-performing, cross-functional teams
+                            within highly demanding environments.
+                        </p>
+                        <p class="modal-p">
+                            Throughout his distinguished career, Sunil has successfully blended legacy expertise with
+                            forward-thinking digital strategy. His tenure includes key leadership roles at premier
+                            global multinational corporations, including Standard Chartered Bank, Barclays, Intel,
+                            Accenture, IBM, Steria, and HCL. In these roles, he has consistently managed large-scale
+                            technology landscapes (across IT Applications and Infrastructure towers), streamlined
+                            delivery lifecycles, and elevated service delivery maturity.
+                            On a personal note, Sunil is married to Shalini, who is a dedicated educator. Outside of his
+                            professional endeavors, he is an avid movie enthusiast and loves traveling and exploring new
+                            destinations with his friends and family.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal121 -->
+    <div class="modal fade" id="profileModal121" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -853,7 +1186,7 @@
                         <img src="assets/images/out-team/riju_pic.jpg" alt="Riju Ghosh" class="profile-img">
                         <div class="name-container">
                             <h4 class="mt-2">Riju Ghosh</h4>
-                            <p class="text-muted">Senior Consultant – Data Protection</p>
+                            <p class="text-muted">Manager- Consulting and Advisory</p>
                         </div>
                     </div>
                     <div>
@@ -1015,83 +1348,120 @@
 
 
     <section id="ourteam">
-        <div class="col-lg-6 text-center team-text-m mt-4">
-            <p class="">Our Team</p>
-            <h2 class="driven-ms">Driven <span class="highlights">by<br> expertise, powered by</span>
-                innovation</h2>
-            <p class="driven-m">Our team ensures your data privacy journey is<br> seamless and secure.</p>
-        </div>
-        <div class="container team-sections">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="profile-grids">
-                        <div class="profile-cards large-cards">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal">
-                                <img src="assets/images/out-team/shilendra-sharma.webp"
-                                    alt="Founder/Principal: “Shilendra Sharma”">
-                                <div class="profile-infos">
-                                    <h5>Shilendra Sharma</h5>
-                                    <p>Founder/Principal</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="profile-cards small-card">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal1">
-                                <img src="assets/images/out-team/kumarpriyank.webp"
-                                    alt="Founder/Principal: “Kumar Priyank”">
-                                <div class="profile-infos">
-                                    <h6>Kumar Priyank</h6>
-                                    <p>C.E.O & Chief Privacy Officer</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="profile-cards small-card">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal2">
-                                <img src="assets/images/out-team/abhishek-vinod.webp"
-                                    alt="Founder/Principal: “Abhishek Vinod Singh”">
-                                <div class="profile-infos">
-                                    <h6>Abhishek Vinod Singh</h6>
-                                    <p>Advisor – Technology</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="profile-cards small-card">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal3">
-                                <img src="assets/images/out-team/bhavna.png" alt="Founder/Principal: “Bhavna Narula”">
-                                <div class="profile-infos">
-                                    <h6>Bhavna Narula</h6>
-                                    <p>VP Product</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="profile-cards small-card">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal4">
-                                <img src="assets/images/out-team/jaspal.png" alt="Founder/Principal: “Jaspal Singh”">
-                                <div class="profile-infos">
-                                    <h6>Jaspal Singh</h6>
-                                    <p>Associate Director - Technology & Products</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 team-texts text-end">
-                    <p class="text-end">Our Team</p>
-                    <h2>Driven <span class="highlights">by<br> expertise, powered by</span>
-                        innovation</h2>
-                    <p>Our team ensures your data privacy journey is<br> seamless and secure.</p>
-                </div>
+        <div>
+
+            <div class="team-texts text-center">
+                <p class="text-center">Our Team</p>
+                <h2>Driven by<span class="highlights"><br> expertise, powered by</span>
+                    innovation</h2>
+                <p>Our team ensures your data privacy journey is<br> seamless and secure.</p>
             </div>
         </div>
 
-    </section>
-
-    <section>
         <div class="container">
-            <div class="row">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
+
+                <!-- Shilendra Sharma -->
+                <div class="col">
+                    <div class="profile-cards">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal">
+                            <img src="assets/images/out-team/shilendra-sharma.webp" alt="Shilendra Sharma"
+                                class="img-fluid">
+                            <div class="profile-infos">
+                                <h6>Shilendra Sharma</h6>
+                                <p>Founder/Principal</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Kumar Priyank -->
+                <div class="col">
+                    <div class="profile-cards">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal1">
+                            <img src="assets/images/out-team/kumarpriyank.webp" alt="Kumar Priyank" class="img-fluid">
+                            <div class="profile-infos">
+                                <h6>Kumar Priyank</h6>
+                                <p>Co-Founder & C.E.O</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Abhishek Vinod Singh -->
+                <div class="col">
+                    <div class="profile-cards">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal2">
+                            <img src="assets/images/out-team/abhishek-vinod.webp" alt="Abhishek Vinod Singh"
+                                class="img-fluid">
+                            <div class="profile-infos">
+                                <h6>Abhishek Vinod Singh</h6>
+                                <p>Advisor – Technology</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Sunil Khanna -->
+                <div class="col">
+                    <div class="profile-cards">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal7">
+                            <img src="assets/images/out-team/sunil_khanna.png" alt="Sunil Khanna" class="img-fluid">
+                            <div class="profile-infos">
+                                <h6>Sunil Khanna</h6>
+                                <p>Senior Vice President – Technology & Product</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Bhavna Narula-->
+                <div class="col">
+                    <div class="profile-cards">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal3">
+                            <img src="assets/images/out-team/bhavna.png" alt="Founder/Principal: “Bhavna Narula”">
+                            <div class="profile-infos">
+                                <h6>Bhavna Narula</h6>
+                                <p>Vice President - Technology & Product</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
 
-                <div class="col-sm-2">
+        <div class="container">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
+                <!-- Jaspal Singh -->
+                <div class="col">
+                    <div class="profile-cards small-card">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal4">
+                            <img src="assets/images/out-team/jaspal.png"
+                                alt="Director and Technology Specialist: “Jaspal Singh”">
+                            <div class="profile-infos">
+                                <h6>Jaspal Singh</h6>
+                                <p>Director - Technology & Product</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="profile-cards small-card">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal41">
+                            <img src="assets/images/out-team/piush.png" alt="Associate Director: “Piush Kumar”">
+                            <div class="profile-infos">
+                                <h6>Piush Kumar</h6>
+                                <p>Associate Director - Technology & Product</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Audrey Saralin -->
+                <div class="col">
                     <div class="profile-cards small-card">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal6">
                             <img src="assets/images/out-team/audrey1.jpg" alt="Founder/Principal: “Audrey Saralin”">
@@ -1102,30 +1472,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="profile-cards small-card">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal7">
-                            <img src="assets/images/out-team/riju_pic.jpg" alt="Riju Ghosh">
-                            <div class="profile-infos">
-                                <h6>Riju Ghosh</h6>
-                                <p>Senior Consultant – Data Protection</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-2">
-                    <div class="profile-cards small-card">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal8">
-                            <img src="assets/images/out-team/Gargi-Rawat.webp" alt="Founder/Principal: “Gargi Rawat”">
-                            <div class="profile-infos">
-                                <h6>Gargi Rawat</h6>
-                                <p>Director – Human Resources</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-2">
+                <!-- Dr. Sanyam Agarwal -->
+                <div class="col">
                     <div class="profile-cards small-card">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal9">
                             <img src="assets/images/out-team/dr-sanyam-agarwal.jpg"
@@ -1137,21 +1485,42 @@
                         </a>
                     </div>
                 </div>
-                <!-- <div class="col-sm-2">
+
+                <!-- Gargi Rawat -->
+                <div class="col">
                     <div class="profile-cards small-card">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal4">
-                            <img src="assets/images/out-team/jaspal.png" alt="Team Member">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal8">
+                            <img src="assets/images/out-team/Gargi-Rawat.webp" alt="Founder/Principal: “Gargi Rawat”">
                             <div class="profile-infos">
-                                <h6>Jaspal Singh</h6>
-                                <p>Senior Manager - Products</p>
+                                <h6>Gargi Rawat</h6>
+                                <p>Director – Human Resources</p>
                             </div>
                         </a>
                     </div>
-                </div> -->
-                <div class="col-sm-2">
+                </div>
+
+                <!-- Riju Ghosh-->
+                <div class="col">
+                    <div class="profile-cards small-card">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal121">
+                            <img src="assets/images/out-team/riju_pic.jpg" alt="Riju Ghosh">
+                            <div class="profile-infos">
+                                <h6>Riju Ghosh</h6>
+                                <p>Manager- Consulting and Advisory</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- Pawan Mishra-->
+                <div class="col">
                     <div class="profile-cards small-card">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal77">
-                            <img src="assets/images/out-team/pawan.png" alt="Sanjay Dinkar">
+                            <img src="assets/images/out-team/pawan.png" alt="Pawan Mishra">
                             <div class="profile-infos">
                                 <h6>Pawan Mishra</h6>
                                 <p>Head of Marketing</p>
@@ -1159,38 +1528,26 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="profile-cards small-card">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal5">
-                            <img src="assets/images/out-team/Osama.png" alt="Founder/Principal: “Akansha Bhatt”">
-                            <div class="profile-infos">
-                                <h6>Osama</h6>
-                                <p>Senior Functional Consultant - Technology & Products</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
 
-                <!-- <div class="col-sm-2 mt-2">
-                    <div class="profile-cards small-card">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal20">
-                            <img src="assets/images/out-team/jagveer.jpg" alt="Senior Consultant - Implementation: “Jagveer Singh”">
-                            <div class="profile-infos">
-                                <h6>Jagveer Singh</h6>
-                                <p>Senior Consultant - Implementation</p>
-                            </div>
-                        </a>
-                    </div>
-                </div> -->
+
+
             </div>
         </div>
+
+
+        </div>
+
+    </section>
+
+    <section>
+
     </section>
 
     <section style=" background-color: #02092C;" id="whatwedo">
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-7 text-white d-flex flex-column justify-content-center ">
-                    <p>What we do</p>
+                    <h3>What we do</h3>
                     <h2 class="text-white m-enabling">Enabling Secure and <br>Compliant Data Practices<br> with <span
                             class="highlight-acc">Innovative
                             Compliance<br>
@@ -1326,15 +1683,16 @@
 
     </section> -->
 
-    <section class="mt-3">
+    <section class="mt-5">
         <div class="container">
             <div class="my-4 text-center">
 
                 <h6>Awards & Certifications</h6>
                 <div class="team-text-certificate">
-                    <h2 class="m-recognized">Recognized for <span>excellence,</span> <span class="highlights">certified
+                    <h4 class="seamless-compliance">Recognized for <span>excellence,</span> <span
+                            class="highlights">certified
                             for
-                            your<br> trust</span></h2>
+                            your<br> trust</span></h4>
                 </div>
                 <p>Our team is proud to hold a range of industry-recognized awards and certifications that<br>
                     demonstrate our commitment to excellence in<br> data privacy and compliance.</p>

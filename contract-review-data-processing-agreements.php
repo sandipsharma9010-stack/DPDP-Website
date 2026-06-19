@@ -199,7 +199,7 @@
                         class="img-fluid" style="max-width: 150px;">
                 </div>
                 <div class="col-12 col-sm-10 d-flex flex-column align-items-center align-items-md-start">
-                    <h6 class="fw-bold">Contract Review & Data Processing Agreements</h6>
+                    <h2 class="fw-bold gap-readiness">Contract Review & Data Processing Agreements</h2>
                     <p class="dpdp-readiness-p text-center text-md-start">
                         Our Contract Review and Data Processing Agreement services ensure your organization complies
                         with the Digital Personal Data Protection Act (DPDP Act) when sharing personal data with third
@@ -217,7 +217,7 @@
             <div class="row">
                 <div class="col-sm-5">
                     <div class="d-flex justify-content-center flex-column h-100">
-                        <h6 class="text-muted">Our Services</h6>
+                        <h3 class="text-muted how-it-works">Our Services</h3>
                         <h2 class="fw-bold scalable-readiness">Thorough & Adaptive <br><span
                                 class="text-primary">Contract Review Strategy</span> for Risk-Free Agreements</h2>
                         <div class="">
@@ -281,7 +281,7 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-md-6 left-content-one-step">
-                    <p>Key Benefits</p>
+                    <h3>Key Benefits</h3>
                     <h2 class="future-proof-m">Ensure Secure, Compliant Agreements with <span
                             class="highlight-one-step">Proactive Contract
                             Reviews</span></h2>
@@ -346,11 +346,11 @@
     <section>
         <div class="container">
             <div class="text-center mt-4">
-                <p>Why to choose our Contract Review Services?</p>
-                <h5 class="Privacy-tools fw-bold">
+                <h3 class="how-it-works">Why to choose our Contract Review Services?</h3>
+                <h2 class="Privacy-tools fw-bold">
                     Your partner in mitigating risks and strengthening<br>
                     <span class="highlight-acc">contracts with expert review</span>
-                </h5>
+                </h2>
                 <!-- <button class="btn olop-btn">Schedule a demo</button> -->
             </div>
             <div class="row g-4 my-4">

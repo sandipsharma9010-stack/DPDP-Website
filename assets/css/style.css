@@ -279,6 +279,7 @@ body {
   color: #02092c;
   line-height: 20px;
   letter-spacing: 2px;
+  font-size:16px;
 }
 
 .service-para {
@@ -1318,7 +1319,7 @@ h2 {
 .benefit img {
   width: 80px;
 }
-.tools a {
+.tools {
   color: black;
 }
 .tools-para {
@@ -1768,6 +1769,12 @@ label {
 
 .dpcm-heading {
   color: #3294cd;
+  font-size:1.2rem;
+  letter-spacing: 1px !important;
+}
+
+.gap-readiness{
+  font-size:1rem;
 }
 
 .dpcm-btn {
@@ -2291,6 +2298,20 @@ img {
 }
 .left-content-one-step h2 {
   /* font-size:28px; */
+}
+.left-content-one-step h3{
+  font-size:16px !important;
+
+}
+
+.seamless-compliance{
+  font-size:36px !important;
+}
+.one-step-h-p{
+  font-size:16px;
+}
+.how-it-works{
+  font-size:16px;
 }
 
 .one-step-h-p,

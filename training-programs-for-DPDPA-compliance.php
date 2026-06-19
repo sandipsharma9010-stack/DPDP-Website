@@ -195,7 +195,7 @@
                         class="img-fluid" style="max-width: 150px;">
                 </div>
                 <div class="col-12 col-sm-10 d-flex flex-column align-items-center align-items-md-start">
-                    <h6 class="fw-bold">Training Programs for DPDP Act, 2023 Compliance</h6>
+                    <h2 class="fw-bold gap-readiness">Training Programs for DPDP Act, 2023 Compliance</h2>
                     <p class="dpdp-readiness-p text-center text-md-start">
                         Our training program is customized to your organization’s needs, focusing on practical aspects
                         of DPDP Act, 2023 compliance. Key topics include personal data policies, data principal
@@ -213,7 +213,7 @@
             <div class="row">
                 <div class="col-sm-5">
                     <div class="d-flex justify-content-center flex-column h-100">
-                        <h6 class="text-muted">Our Services</h6>
+                        <h3 class="text-muted how-it-works">Our Services</h3>
                         <h2 class="fw-bold scalable-readiness">Expert-Led <span class="text-primary">DPDP Act, 2023
                                 Training</span> for Effective Compliance and Data Security</h2>
                         <div class="">
@@ -259,7 +259,7 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-md-6 left-content-one-step">
-                    <p>Key Benefits</p>
+                    <h3>Key Benefits</h3>
                     <h2 class="future-proof-m">Enhance Data Protection and Regulatory Compliance with <span
                             class="highlight-one-step">Expert
                             DPDP Act, 2023 Training</span></h2>
@@ -324,11 +324,11 @@
     <section>
         <div class="container">
             <div class="text-center mt-4">
-                <p>Why Choose Our Training Programs for DPDPA?</p>
-                <h5 class="Privacy-tools fw-bold">
+                <h3 class="how-it-works">Why Choose Our Training Programs for DPDPA?</h3>
+                <h2 class="Privacy-tools fw-bold">
                     Your partner in mitigating risks and<br> strengthening
                     <span class="highlight-acc">contracts with expert review</span>
-                </h5>
+                </h2>
                 <!-- <button class="btn olop-btn">Schedule a demo</button> -->
             </div>
             <div class="row g-4 my-4">

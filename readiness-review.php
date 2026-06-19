@@ -205,7 +205,7 @@
                         class="img-fluid" style="max-width: 150px;">
                 </div>
                 <div class="col-12 col-sm-10 d-flex flex-column align-items-center align-items-md-start">
-                    <h6 class="fw-bold">Gap assessment review</h6>
+                    <h2 class="fw-bold gap-readiness">Gap assessment review</h2>
                     <p class="dpdp-readiness-p text-center text-md-start">
                         The Digital Personal Data Protection Act (DPDPA) requires organizations to be well-prepared. Our
                         Gap Assessment Review offers a detailed evaluation and expert guidance to help your business
@@ -224,7 +224,7 @@
             <div class="row">
                 <div class="col-sm-5">
                     <div class="d-flex justify-content-center flex-column h-100">
-                        <h6 class="text-muted">Our Services</h6>
+                        <h3 class="text-muted how-it-works">Our Services</h3>
                         <h2 class="fw-bold scalable-readiness">Clear! Secure! Confident! <br><span
                                 class="text-primary">Gap Assessment Reviews</span>
                             You Can Trust</h2>
@@ -295,7 +295,7 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-md-6 left-content-one-step">
-                    <p>Key Benefits</p>
+                    <h3>Key Benefits</h3>
                     <h2 class="future-proof-m">Future-Proof Your Business with<br><span
                             class="highlight-one-step">Expert Gap Assessment
                             <br>Reviews</span></h2>
@@ -369,11 +369,11 @@
     <section>
         <div class="container">
             <div class="text-center mt-4">
-                <p>Why to choose our Gap Assessment?</p>
-                <h5 class="Privacy-tools fw-bold">
+                <h3 class="how-it-works">Why to choose our Gap Assessment?</h3>
+                <h2 class="Privacy-tools fw-bold">
                     Identifying and closing <br>
                     <span class="highlight-acc">compliance gaps for regulatory success</span>
-                </h5>
+                </h2>
                 <a href="contact.php?act=schedule" class="btn olop-btn">Schedule a demo</a>
             </div>
             <div class="row g-4 my-4">
