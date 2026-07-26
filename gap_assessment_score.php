@@ -2,7 +2,7 @@
     .sticky-img1 {
         position: fixed;
         top: 90%;
-        left: 2%;
+        left: 84%;
         z-index: 10;
     }
 
@@ -19,7 +19,7 @@
         .sticky-img1 {
             position: fixed;
             top: 80%;
-            left: 2%;
+            left: 69%;
             z-index: 10;
         }
 

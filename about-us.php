@@ -1213,6 +1213,46 @@
         </div>
     </div>
 
+
+    <!-- Modal121 -->
+    <div class="modal fade" id="profileModal122" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title">About</h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <img src="assets/images/out-team/muskan_singhi.jpg" alt="Muskan Singhi" class="profile-img">
+                        <div class="name-container">
+                            <h4 class="mt-2">Muskan Singhi</h4>
+                            <p class="text-muted">Senior Executive HR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold">About</h5>
+                        <p class="modal-p">
+                            Muskan serves as the Senior HR Executive at Privacyium Tech Pvt. Ltd., where she
+                            single-handedly manages the complete human resources function for an organization of over 80
+                            employees. Her role spans the full employee lifecycle, from campus recruitment and
+                            onboarding to performance management, employee relations, and policy implementation, all
+                            driven through carefully structured manual processes in the absence of an HRMS.
+
+                            She holds an MBA in Human Resources and Marketing, along with a Bachelor's degree (Honours)
+                            in Psychology, both from Jamia Millia Islamia. This academic grounding in organizational
+                            behavior and human psychology informs her approach to people management, particularly in
+                            handling employee grievances, conducting skip-level meetings, and fostering a transparent
+                            workplace culture. She brings a thoughtful, people-first approach to HR, balancing
+                            operational rigor with genuine care for employee well-being, making her a steady point of
+                            contact for the organization's workforce.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Modal77 -->
     <div class="modal fade" id="profileModal77" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -1498,6 +1538,22 @@
                         </a>
                     </div>
                 </div>
+
+
+                <!-- Muskan Singhi-->
+                <div class="col">
+                    <div class="profile-cards small-card">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#profileModal122">
+                            <img src="assets/images/out-team/muskan_singhi.jpg" alt="Muskan Singhi">
+                            <div class="profile-infos">
+                                <h6>Muskan Singhi</h6>
+                                <p>Senior Executive HR</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
 
                 <!-- Riju Ghosh-->
                 <div class="col">

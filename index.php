@@ -597,7 +597,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                  <!-- Apollo -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/applo.svg" alt="Apollo Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/applo.svg" alt="Apollo Logo">
                     </div>
                 </div>
 
@@ -606,7 +606,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                   <!-- Trident -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/trident-group.png" alt="Trident Group Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/trident-group.png" alt="Trident Group Logo">
                     </div>
                 </div>
 
@@ -628,32 +628,18 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     </div>
                 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               
-
-
-
             
+
+                <!-- <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/Health_Glow.svg" alt="Health Glow Logo">
+                    </div>
+                </div> -->
+
 
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/Health_Glow.svg" alt="Health Glow Logo">
+                        <img src="./assets/images/client-logo/GULF_OIL.svg" alt="Gulf Oil Logo">
                     </div>
                 </div>
 
@@ -662,7 +648,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                  <!-- Signature Global -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/Signature_Global_Logo.svg" alt="Signature Global Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/Signature_Global_Logo.svg" alt="Signature Global Logo">
                     </div>
                 </div>
                 
@@ -685,7 +671,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                  <!-- SK Finance -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/sk-finance1.png" alt="SK Finance Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/sk-finance1.png" alt="SK Finance Logo">
                     </div>
                 </div>
 
@@ -699,18 +685,15 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
 
                  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/Jaguar_landrover.svg" alt="Jaguar Land Rover Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/Jaguar_landrover.svg" alt="Jaguar Land Rover Logo">
                     </div>
                 </div>
 
                  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/Cumi_Murgappa.svg" alt="Cumi Murgappa Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/Cumi_Murgappa.svg" alt="Cumi Murgappa Logo">
                     </div>
                 </div>
-
-               
-
 
 
                 <!-- Hindalco -->
@@ -720,23 +703,18 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                     </div>
                 </div>
 
-               
-              
- 
-
-              
 
                 <!-- ART Housing -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/Art-House-Finance.svg" alt="ART Housing Finance Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/Art-House-Finance.svg" alt="ART Housing Finance Logo">
                     </div>
                 </div>
 
                 <!-- Apraava -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/apraava.png" alt="Apraava Energy Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/apraava.png" alt="Apraava Energy Logo">
                     </div>
                 </div>
 
@@ -767,9 +745,12 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 </div>
 
                 <!-- Tata Autocomp -->
+                
+
+
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/tat_motors_the.png" alt="Tata Autocomp Logo">
+                        <img src="./assets/images/client-logo/Health_Glow.svg" alt="Health Glow Logo">
                     </div>
                 </div>
 
@@ -777,15 +758,47 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <!-- Griham -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/Griham.jpeg" alt="Grihum Housing Finance Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/Griham.jpeg" alt="Grihum Housing Finance Logo">
                     </div>
                 </div>
 
                 <!-- Kanpur Plastic -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/Kanpur_Plastic_Pack_Limited.svg"
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/Kanpur_Plastic_Pack_Limited.svg"
                             alt="Kanpur Plastic Pack Limited Logo">
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/Sharda_Hospital.svg" alt="Sharda Hospital Logo">
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/Sharda_Healthcity.svg" alt="Sharda Hospital Logo">
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/montra.png" alt="Montra Logo">
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/cotton.svg" alt="Cotton Logo">
+                    </div>
+                </div>
+
+                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/gocl.svg" alt="Gocl Logo">
                     </div>
                 </div>
 
@@ -809,14 +822,14 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <!-- Mamenta -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/mamenta-logo.png" alt="Mamenta Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/mamenta-logo.png" alt="Mamenta Logo">
                     </div>
                 </div>
 
                 <!-- Netradyne -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/netradyne.png" alt="Netradyne Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/netradyne.png" alt="Netradyne Logo">
                     </div>
                 </div>
 
@@ -837,14 +850,14 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <!-- TrackWizz -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/trackwizz.png" alt="TrackWizz Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/trackwizz.png" alt="TrackWizz Logo">
                     </div>
                 </div>
 
                 <!-- Zebpay -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/zebpay.jpg" alt="Zebpay Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/zebpay.jpg" alt="Zebpay Logo">
                     </div>
                 </div>
 
@@ -875,7 +888,7 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
                 <!-- Zyter -->
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/Mindforce-research-logo.svg" alt="Zyter TruCare Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/Mindforce-research-logo.svg" alt="Zyter TruCare Logo">
                     </div>
                 </div>
 
@@ -913,14 +926,20 @@ setcookie("_dp_curr_", "curr", time() + (60 * 60 * 24 * 90));
 
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/samplejunction.svg" alt="Samplejunction Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/samplejunction.svg" alt="Samplejunction Logo">
                     </div>
                 </div>
 
 
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="client-card">
-                        <img src="./assets/images/client-logo/Insight_Assist.svg" alt="Samplejunction Logo">
+                        <img style="transform: scale(1.4); transform-origin: center;" src="./assets/images/client-logo/Insight_Assist.svg" alt="Samplejunction Logo">
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="client-card">
+                        <img src="./assets/images/client-logo/ECU.svg" alt="Samplejunction Logo">
                     </div>
                 </div>
 
